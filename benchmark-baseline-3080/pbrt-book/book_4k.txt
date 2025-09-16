@@ -1,0 +1,1748 @@
+pbrt version 4 (built Sep 16 2025 at 11:35:55)
+Copyright (c)1998-2021 Matt Pharr, Wenzel Jakob, and Greg Humphreys.
+The source code to pbrt (but *not* the book contents) is covered by the Apache 2.0 License.
+See the file LICENSE.txt for the conditions of the license.
+[1m[31mWarning[0m: Both --gpu and --wavefront were specified; --gpu takes precedence.
+[ tid 21953 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21953 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21957 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21957 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21955 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21956 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21954 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21955 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21954 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21956 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21951 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21951 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21952 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21952 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21959 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21959 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21958 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21958 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21961 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21961 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21960 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21960 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21963 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21963 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21962 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21962 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21965 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21965 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21928 @     0.000s gpu/util.cpp:40 ] GPU CUDA driver 12.8, CUDA runtime 12.6
+[ tid 21964 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 21964 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 21928 @     0.002s gpu/util.cpp:57 ] CUDA device 0 (NVIDIA GeForce RTX 3080 Laptop GPU) with 15993.125 MiB, 48 SMs running at 1545 MHz with shader model 8.6
+[ tid 21928 @     0.002s gpu/util.cpp:73 ] Selecting GPU device 0
+[ tid 21928 @     0.004s gpu/util.cpp:89 ] Reset stack size to 8192
+[ tid 21928 @     0.015s parser.cpp:610 ] Started parsing /home/jan/workspace/pbrt-v4-scenes/pbrt-book/book_4k.pbrt
+[ tid 21928 @     0.016s cameras.cpp:56 ] World-space position: [ 0, 2.1088, 13.574 ]
+[ tid 21928 @     0.016s scene.cpp:748 ] Starting to create filter and film
+[1m[31mWarning[0m: /home/jan/workspace/pbrt-v4-scenes/pbrt-book/book_4k.pbrt:3:0: Output filename supplied on command line, "benchmark-baseline-3080/pbrt-book/book_4k.exr" will override filename provided in scene description file, "book.exr".
+[ tid 21928 @     0.017s util/error.cpp:52 ] [1m[31mWarning[0m: /home/jan/workspace/pbrt-v4-scenes/pbrt-book/book_4k.pbrt:3:0: Output filename supplied on command line, "benchmark-baseline-3080/pbrt-book/book_4k.exr" will override filename provided in scene description file, "book.exr".
+[ tid 21928 @     0.017s film.h:195 ] Created film with full resolution [ 3840, 2160 ], pixelBounds [ [ 0, 0 ] - [ 3840, 2160 ] ]
+[ tid 21928 @     0.194s scene.cpp:765 ] Finished creating filter and film
+[ tid 21963 @     0.194s scene.cpp:769 ] Starting to create sampler
+[ tid 21965 @     0.194s scene.cpp:778 ] Starting to create camera
+[ tid 21965 @     0.194s cameras.cpp:202 ] Camera min pos differentials: [ 0, 0, 0 ], [ 0, 0, 0 ]
+[ tid 21965 @     0.194s cameras.cpp:204 ] Camera min dir differentials: [ 0.00018176455, -0.000008273762, 0 ], [ -0.000008278822, 0.0001918783, 0 ]
+[ tid 21965 @     0.194s scene.cpp:784 ] Finished creating camera
+[ tid 21928 @     0.194s parser.cpp:640 ] Finished parsing /home/jan/workspace/pbrt-v4-scenes/pbrt-book/book_4k.pbrt
+[ tid 21928 @     0.194s wavefront/integrator.cpp:114 ] Starting to create textures
+[ tid 21928 @     0.194s scene.cpp:1180 ] Starting to consume texture futures
+[ tid 21928 @     0.497s scene.cpp:1192 ] Finished consuming texture futures
+[ tid 21928 @     0.497s scene.cpp:1194 ] Starting to create remaining textures
+[ tid 21928 @     0.497s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/pbrt-book/texture/book_pbrt.png in RGB tex array cache!
+[ tid 21928 @     0.497s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/pbrt-book/texture/book_pbrt.png in RGB tex array cache!
+[ tid 21928 @     0.497s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/pbrt-book/texture/book_pages.png in luminance tex array cache!
+[ tid 21928 @     0.497s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/pbrt-book/texture/book_pages.png in luminance tex array cache!
+[ tid 21928 @     0.497s scene.cpp:1250 ] Done creating textures
+[ tid 21928 @     0.497s wavefront/integrator.cpp:116 ] Done creating textures
+[ tid 21928 @     0.497s wavefront/integrator.cpp:118 ] Starting to create lights
+[ tid 21928 @     0.497s scene.cpp:1289 ] Starting area lights
+[ tid 21928 @     0.497s scene.cpp:1341 ] Finished area lights
+[ tid 21928 @     0.497s scene.cpp:1343 ] Starting to consume non-area light futures
+[ tid 21928 @     0.497s scene.cpp:1347 ] Finished consuming non-area light futures
+[ tid 21928 @     0.497s wavefront/integrator.cpp:131 ] Done creating lights
+[ tid 21928 @     0.497s wavefront/integrator.cpp:133 ] Starting to create materials
+[ tid 21928 @     0.497s scene.cpp:1113 ] Starting to consume 0 normal map futures
+[ tid 21928 @     0.497s scene.cpp:1120 ] Finished consuming normal map futures
+[ tid 21928 @     0.497s wavefront/integrator.cpp:147 ] Finished creating materials
+[ tid 21928 @     0.497s scene.h:290 ] Retrieved Camera from future
+[ tid 21928 @     0.497s scene.h:302 ] Retrieved Sampler from future
+[ tid 21928 @     0.499s gpu/optix/aggregate.cpp:1219 ] Starting OptiX initialization
+[ tid 21928 @     0.573s gpu/optix/aggregate.cpp:1233 ] Optix version 7.6.0 successfully initialized
+[ tid 21928 @     0.589s gpu/optix/aggregate.cpp:1308 ] Warning: use of OPTIX_EXCEPTION_FLAG_DEBUG is deprecated. Use OPTIX_DEVICE_CONTEXT_VALIDATION_MODE_ALL instead.
+Info: Pipeline statistics
+	module(s)                            :     1
+	entry function(s)                    :    19
+	trace call(s)                        :     4
+	continuation callable call(s)        :     0
+	direct callable call(s)              :     0
+	basic block(s) in entry functions    :  3364
+	instruction(s) in entry functions    : 57908
+	non-entry function(s)                :     0
+	basic block(s) in non-entry functions:     0
+	instruction(s) in non-entry functions:     0
+	debug information                    :    no
+
+[ tid 21928 @     0.589s gpu/optix/aggregate.cpp:1364 ] Finished OptiX initialization
+[ tid 21928 @     0.589s gpu/optix/aggregate.cpp:1376 ] Starting to create shapes and acceleration structures
+[ tid 21928 @     0.589s gpu/optix/aggregate.cpp:1384 ] Starting to read PLY meshes
+[ tid 21928 @     0.596s gpu/optix/aggregate.cpp:1387 ] Finished reading PLY meshes
+[ tid 21928 @     0.596s gpu/optix/aggregate.cpp:1434 ] Starting to create IASes for 0 instance definitions
+[ tid 21928 @     0.596s gpu/optix/aggregate.cpp:1493 ] Finished creating IASes for instance definitions
+[ tid 21928 @     0.596s gpu/optix/aggregate.cpp:1497 ] Starting to create 0 OptixInstances
+[ tid 21928 @     0.596s gpu/optix/aggregate.cpp:1537 ] Starting to consume top-level GAS futures
+[ tid 21928 @     0.599s gpu/optix/aggregate.cpp:1548 ] Finished consuming top-level GAS futures
+[ tid 21928 @     0.599s gpu/optix/aggregate.cpp:1614 ] Finished creating OptixInstances
+[ tid 21928 @     0.599s gpu/optix/aggregate.cpp:1618 ] Starting to build top-level IAS
+[ tid 21928 @     0.599s gpu/optix/aggregate.cpp:1628 ] Finished building top-level IAS
+[ tid 21928 @     0.599s gpu/optix/aggregate.cpp:1630 ] Finished creating shapes and acceleration structures
+[ tid 21928 @     0.599s wavefront/integrator.cpp:181 ] Starting to create light sampler
+[ tid 21928 @     0.599s wavefront/integrator.cpp:187 ] Finished creating light sampler
+[ tid 21928 @     0.599s wavefront/integrator.cpp:258 ] bytesOfOneSampleInAllQueues 1428
+[ tid 21928 @     0.599s wavefront/integrator.cpp:269 ] maxQueueSize 1036800
+[ tid 21928 @     0.599s wavefront/integrator.cpp:270 ] Will render in 8 passes 270 scanlines per pass
+
+[ tid 21928 @     0.604s wavefront/integrator.cpp:320 ] pathIntegratorBytes 1460870552
+[ tid 21928 @     0.605s wavefront/integrator.cpp:321 ] bytes per accumulated queue entry is 1409
+[ tid 21928 @     0.605s gpu/memory.cpp:61 ] Prefetching 1263 allocations to GPU memory
+[ tid 21928 @     0.688s gpu/memory.cpp:69 ] Done prefetching: 2002433720 bytes total
+[ tid 21928 @     0.689s wavefront/integrator.cpp:390 ] Starting to submit work for sample 0
+
+Rendering: [                                           ] [ tid 21928 @     0.689s gpu/util.h:70 ] [Reset ray queue]: block size 768
+[ tid 21928 @     0.690s gpu/util.h:70 ] [Generate camera rays]: block size 512
+[ tid 21928 @     0.690s gpu/util.h:70 ] [Update camera ray stats]: block size 768
+[ tid 21928 @     0.690s gpu/util.h:70 ] [Reset queues before tracing rays]: block size 768
+[ tid 21928 @     0.690s gpu/util.h:70 ] [Generate ray samples - HaltonSampler]: block size 576
+[ tid 21928 @     0.691s gpu/util.h:70 ] [Handle emitters hit by indirect rays]: block size 512
+[ tid 21928 @     0.696s gpu/util.h:70 ] [CoatedDiffuseMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 21928 @     0.696s gpu/util.h:70 ] [DiffuseMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 21928 @     0.696s gpu/util.h:70 ] [Reset shadowRayQueue]: block size 768
+[ tid 21928 @     0.696s gpu/util.h:70 ] [Update indirect ray stats]: block size 768
+[ tid 21928 @     0.697s gpu/util.h:70 ] [Update film]: block size 512
+
+Rendering: [                                           ]  (0.1s|?s)  [ tid 21928 @     0.758s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1
+
+Rendering: [                                           ]  (0.1s|?s)  
+Rendering: [                                           ]  (0.2s|154.5s)  
+Rendering: [                                           ]  (0.2s|205.8s)  [ tid 21928 @     0.905s wavefront/integrator.cpp:390 ] Starting to submit work for sample 2
+
+Rendering: [                                           ]  (0.3s|257.0s)  
+Rendering: [                                           ]  (0.3s|154.0s)  
+Rendering: [                                           ]  (0.4s|179.6s)  [ tid 21928 @     1.053s wavefront/integrator.cpp:390 ] Starting to submit work for sample 3
+
+Rendering: [                                           ]  (0.4s|205.2s)  
+Rendering: [                                           ]  (0.5s|153.7s)  
+Rendering: [                                           ]  (0.5s|170.8s)  [ tid 21928 @     1.201s wavefront/integrator.cpp:390 ] Starting to submit work for sample 4
+
+Rendering: [                                           ]  (0.6s|153.5s)  [ tid 21928 @     1.349s wavefront/integrator.cpp:390 ] Starting to submit work for sample 5
+
+Rendering: [                                           ]  (0.7s|179.0s)  
+Rendering: [                                           ]  (0.8s|163.5s)  [ tid 21928 @     1.497s wavefront/integrator.cpp:390 ] Starting to submit work for sample 6
+
+Rendering: [                                           ]  (0.9s|153.1s)  [ tid 21928 @     1.647s wavefront/integrator.cpp:390 ] Starting to submit work for sample 7
+
+Rendering: [                                           ]  (1.0s|170.1s)  
+Rendering: [                                           ]  (1.1s|160.2s)  [ tid 21928 @     1.797s wavefront/integrator.cpp:390 ] Starting to submit work for sample 8
+
+Rendering: [                                           ]  (1.2s|152.7s)  [ tid 21928 @     1.946s wavefront/integrator.cpp:390 ] Starting to submit work for sample 9
+
+Rendering: [                                           ]  (1.3s|165.4s)  
+Rendering: [                                           ]  (1.4s|158.2s)  [ tid 21928 @     2.094s wavefront/integrator.cpp:390 ] Starting to submit work for sample 10
+
+Rendering: [                                           ]  (1.5s|152.4s)  [ tid 21928 @     2.242s wavefront/integrator.cpp:390 ] Starting to submit work for sample 11
+
+Rendering: [                                           ]  (1.6s|162.5s)  [ tid 21928 @     2.390s wavefront/integrator.cpp:390 ] Starting to submit work for sample 12
+
+Rendering: [                                           ]  (1.7s|156.8s)  
+Rendering: [+                                          ]  (1.8s|152.1s)  [ tid 21928 @     2.539s wavefront/integrator.cpp:390 ] Starting to submit work for sample 13
+
+Rendering: [+                                          ]  (1.9s|160.5s)  [ tid 21928 @     2.689s wavefront/integrator.cpp:390 ] Starting to submit work for sample 14
+
+Rendering: [+                                          ]  (2.0s|155.8s)  
+Rendering: [+                                          ]  (2.1s|151.7s)  [ tid 21928 @     2.838s wavefront/integrator.cpp:390 ] Starting to submit work for sample 15
+
+Rendering: [+                                          ]  (2.2s|159.0s)  [ tid 21928 @     2.986s wavefront/integrator.cpp:390 ] Starting to submit work for sample 16
+
+Rendering: [+                                          ]  (2.3s|155.0s)  
+Rendering: [+                                          ]  (2.4s|151.4s)  [ tid 21928 @     3.135s wavefront/integrator.cpp:390 ] Starting to submit work for sample 17
+
+Rendering: [+                                          ]  (2.5s|157.7s)  [ tid 21928 @     3.283s wavefront/integrator.cpp:390 ] Starting to submit work for sample 18
+
+Rendering: [+                                          ]  (2.6s|154.2s)  
+Rendering: [+                                          ]  (2.7s|151.1s)  [ tid 21928 @     3.431s wavefront/integrator.cpp:390 ] Starting to submit work for sample 19
+
+Rendering: [+                                          ]  (2.8s|156.7s)  [ tid 21928 @     3.580s wavefront/integrator.cpp:390 ] Starting to submit work for sample 20
+
+Rendering: [+                                          ]  (2.9s|153.6s)  
+Rendering: [+                                          ]  (3.0s|150.8s)  [ tid 21928 @     3.730s wavefront/integrator.cpp:390 ] Starting to submit work for sample 21
+
+Rendering: [+                                          ]  (3.1s|155.8s)  [ tid 21928 @     3.879s wavefront/integrator.cpp:390 ] Starting to submit work for sample 22
+
+Rendering: [+                                          ]  (3.2s|153.1s)  
+Rendering: [+                                          ]  (3.3s|150.5s)  [ tid 21928 @     4.027s wavefront/integrator.cpp:390 ] Starting to submit work for sample 23
+
+Rendering: [+                                          ]  (3.4s|155.1s)  [ tid 21928 @     4.176s wavefront/integrator.cpp:390 ] Starting to submit work for sample 24
+
+Rendering: [+                                          ]  (3.5s|152.5s)  
+Rendering: [+                                          ]  (3.6s|150.2s)  [ tid 21928 @     4.324s wavefront/integrator.cpp:390 ] Starting to submit work for sample 25
+
+Rendering: [+                                          ]  (3.7s|154.4s)  [ tid 21928 @     4.473s wavefront/integrator.cpp:390 ] Starting to submit work for sample 26
+
+Rendering: [+                                          ]  (3.8s|152.1s)  
+Rendering: [+                                          ]  (3.9s|149.9s)  [ tid 21928 @     4.622s wavefront/integrator.cpp:390 ] Starting to submit work for sample 27
+
+Rendering: [+                                          ]  (4.0s|153.7s)  [ tid 21928 @     4.772s wavefront/integrator.cpp:390 ] Starting to submit work for sample 28
+
+Rendering: [+                                          ]  (4.1s|151.6s)  
+Rendering: [+                                          ]  (4.2s|149.6s)  [ tid 21928 @     4.920s wavefront/integrator.cpp:390 ] Starting to submit work for sample 29
+
+Rendering: [+                                          ]  (4.3s|153.2s)  [ tid 21928 @     5.068s wavefront/integrator.cpp:390 ] Starting to submit work for sample 30
+
+Rendering: [+                                          ]  (4.4s|151.2s)  
+Rendering: [+                                          ]  (4.5s|149.3s)  [ tid 21928 @     5.217s wavefront/integrator.cpp:390 ] Starting to submit work for sample 31
+
+Rendering: [+                                          ]  (4.6s|152.6s)  [ tid 21928 @     5.365s wavefront/integrator.cpp:390 ] Starting to submit work for sample 32
+
+Rendering: [+                                          ]  (4.7s|150.7s)  
+Rendering: [+                                          ]  (4.8s|149.0s)  [ tid 21928 @     5.514s wavefront/integrator.cpp:390 ] Starting to submit work for sample 33
+
+Rendering: [+                                          ]  (4.9s|152.1s)  [ tid 21928 @     5.663s wavefront/integrator.cpp:390 ] Starting to submit work for sample 34
+
+Rendering: [+                                          ]  (5.0s|150.3s)  
+Rendering: [+                                          ]  (5.1s|148.7s)  [ tid 21928 @     5.812s wavefront/integrator.cpp:390 ] Starting to submit work for sample 35
+
+Rendering: [+                                          ]  (5.2s|147.1s)  [ tid 21928 @     5.961s wavefront/integrator.cpp:390 ] Starting to submit work for sample 36
+
+Rendering: [+                                          ]  (5.3s|150.0s)  
+Rendering: [++                                         ]  (5.4s|148.4s)  [ tid 21928 @     6.110s wavefront/integrator.cpp:390 ] Starting to submit work for sample 37
+
+Rendering: [++                                         ]  (5.5s|146.9s)  [ tid 21928 @     6.258s wavefront/integrator.cpp:390 ] Starting to submit work for sample 38
+
+Rendering: [++                                         ]  (5.6s|149.6s)  
+Rendering: [++                                         ]  (5.7s|148.1s)  [ tid 21928 @     6.407s wavefront/integrator.cpp:390 ] Starting to submit work for sample 39
+
+Rendering: [++                                         ]  (5.8s|146.7s)  [ tid 21928 @     6.556s wavefront/integrator.cpp:390 ] Starting to submit work for sample 40
+
+Rendering: [++                                         ]  (5.9s|149.2s)  
+Rendering: [++                                         ]  (6.0s|147.8s)  [ tid 21928 @     6.705s wavefront/integrator.cpp:390 ] Starting to submit work for sample 41
+
+Rendering: [++                                         ]  (6.1s|146.4s)  [ tid 21928 @     6.855s wavefront/integrator.cpp:390 ] Starting to submit work for sample 42
+
+Rendering: [++                                         ]  (6.2s|148.8s)  
+Rendering: [++                                         ]  (6.3s|147.5s)  [ tid 21928 @     7.003s wavefront/integrator.cpp:390 ] Starting to submit work for sample 43
+
+Rendering: [++                                         ]  (6.4s|146.2s)  [ tid 21928 @     7.152s wavefront/integrator.cpp:390 ] Starting to submit work for sample 44
+
+Rendering: [++                                         ]  (6.5s|148.5s)  [ tid 21928 @     7.300s wavefront/integrator.cpp:390 ] Starting to submit work for sample 45
+
+Rendering: [++                                         ]  (6.7s|145.9s)  [ tid 21928 @     7.449s wavefront/integrator.cpp:390 ] Starting to submit work for sample 46
+
+Rendering: [++                                         ]  (6.9s|146.9s)  [ tid 21928 @     7.598s wavefront/integrator.cpp:390 ] Starting to submit work for sample 47
+[ tid 21928 @     7.747s wavefront/integrator.cpp:390 ] Starting to submit work for sample 48
+
+Rendering: [++                                         ]  (7.1s|147.8s)  [ tid 21928 @     7.896s wavefront/integrator.cpp:390 ] Starting to submit work for sample 49
+
+Rendering: [++                                         ]  (7.3s|145.4s)  [ tid 21928 @     8.045s wavefront/integrator.cpp:390 ] Starting to submit work for sample 50
+[ tid 21928 @     8.194s wavefront/integrator.cpp:390 ] Starting to submit work for sample 51
+
+Rendering: [++                                         ]  (7.5s|146.3s)  [ tid 21928 @     8.343s wavefront/integrator.cpp:390 ] Starting to submit work for sample 52
+
+Rendering: [++                                         ]  (7.7s|147.1s)  [ tid 21928 @     8.492s wavefront/integrator.cpp:390 ] Starting to submit work for sample 53
+
+Rendering: [++                                         ]  (7.9s|144.9s)  [ tid 21928 @     8.641s wavefront/integrator.cpp:390 ] Starting to submit work for sample 54
+[ tid 21928 @     8.790s wavefront/integrator.cpp:390 ] Starting to submit work for sample 55
+
+Rendering: [++                                         ]  (8.1s|145.7s)  [ tid 21928 @     8.940s wavefront/integrator.cpp:390 ] Starting to submit work for sample 56
+
+Rendering: [++                                         ]  (8.3s|146.4s)  [ tid 21928 @     9.088s wavefront/integrator.cpp:390 ] Starting to submit work for sample 57
+
+Rendering: [++                                         ]  (8.5s|144.4s)  [ tid 21928 @     9.238s wavefront/integrator.cpp:390 ] Starting to submit work for sample 58
+[ tid 21928 @     9.387s wavefront/integrator.cpp:390 ] Starting to submit work for sample 59
+
+Rendering: [++                                         ]  (8.7s|145.1s)  [ tid 21928 @     9.536s wavefront/integrator.cpp:390 ] Starting to submit work for sample 60
+
+Rendering: [++                                         ]  (8.9s|145.7s)  [ tid 21928 @     9.685s wavefront/integrator.cpp:390 ] Starting to submit work for sample 61
+
+Rendering: [+++                                        ]  (9.1s|143.8s)  [ tid 21928 @     9.835s wavefront/integrator.cpp:390 ] Starting to submit work for sample 62
+[ tid 21928 @     9.984s wavefront/integrator.cpp:390 ] Starting to submit work for sample 63
+
+Rendering: [+++                                        ]  (9.3s|144.5s)  [ tid 21928 @    10.133s wavefront/integrator.cpp:390 ] Starting to submit work for sample 64
+
+Rendering: [+++                                        ]  (9.5s|145.1s)  [ tid 21928 @    10.282s wavefront/integrator.cpp:390 ] Starting to submit work for sample 65
+
+Rendering: [+++                                        ]  (9.7s|143.3s)  [ tid 21928 @    10.431s wavefront/integrator.cpp:390 ] Starting to submit work for sample 66
+[ tid 21928 @    10.580s wavefront/integrator.cpp:390 ] Starting to submit work for sample 67
+
+Rendering: [+++                                        ]  (9.9s|143.8s)  [ tid 21928 @    10.729s wavefront/integrator.cpp:390 ] Starting to submit work for sample 68
+
+Rendering: [+++                                        ]  (10.1s|144.4s)  [ tid 21928 @    10.878s wavefront/integrator.cpp:390 ] Starting to submit work for sample 69
+
+Rendering: [+++                                        ]  (10.3s|142.7s)  [ tid 21928 @    11.028s wavefront/integrator.cpp:390 ] Starting to submit work for sample 70
+[ tid 21928 @    11.176s wavefront/integrator.cpp:390 ] Starting to submit work for sample 71
+
+Rendering: [+++                                        ]  (10.5s|143.2s)  [ tid 21928 @    11.326s wavefront/integrator.cpp:390 ] Starting to submit work for sample 72
+
+Rendering: [+++                                        ]  (10.7s|143.8s)  [ tid 21928 @    11.475s wavefront/integrator.cpp:390 ] Starting to submit work for sample 73
+
+Rendering: [+++                                        ]  (10.9s|142.1s)  [ tid 21928 @    11.624s wavefront/integrator.cpp:390 ] Starting to submit work for sample 74
+[ tid 21928 @    11.773s wavefront/integrator.cpp:390 ] Starting to submit work for sample 75
+
+Rendering: [+++                                        ]  (11.1s|142.6s)  [ tid 21928 @    11.922s wavefront/integrator.cpp:390 ] Starting to submit work for sample 76
+
+Rendering: [+++                                        ]  (11.3s|143.1s)  [ tid 21928 @    12.071s wavefront/integrator.cpp:390 ] Starting to submit work for sample 77
+
+Rendering: [+++                                        ]  (11.5s|141.6s)  [ tid 21928 @    12.220s wavefront/integrator.cpp:390 ] Starting to submit work for sample 78
+[ tid 21928 @    12.369s wavefront/integrator.cpp:390 ] Starting to submit work for sample 79
+
+Rendering: [+++                                        ]  (11.7s|142.0s)  [ tid 21928 @    12.518s wavefront/integrator.cpp:390 ] Starting to submit work for sample 80
+
+Rendering: [+++                                        ]  (11.9s|140.6s)  [ tid 21928 @    12.667s wavefront/integrator.cpp:390 ] Starting to submit work for sample 81
+
+Rendering: [+++                                        ]  (12.1s|141.0s)  [ tid 21928 @    12.816s wavefront/integrator.cpp:390 ] Starting to submit work for sample 82
+[ tid 21928 @    12.966s wavefront/integrator.cpp:390 ] Starting to submit work for sample 83
+
+Rendering: [+++                                        ]  (12.3s|141.4s)  [ tid 21928 @    13.115s wavefront/integrator.cpp:390 ] Starting to submit work for sample 84
+
+Rendering: [++++                                       ]  (12.5s|140.0s)  [ tid 21928 @    13.264s wavefront/integrator.cpp:390 ] Starting to submit work for sample 85
+
+Rendering: [++++                                       ]  (12.7s|140.4s)  [ tid 21928 @    13.412s wavefront/integrator.cpp:390 ] Starting to submit work for sample 86
+[ tid 21928 @    13.562s wavefront/integrator.cpp:390 ] Starting to submit work for sample 87
+
+Rendering: [++++                                       ]  (12.9s|140.8s)  [ tid 21928 @    13.712s wavefront/integrator.cpp:390 ] Starting to submit work for sample 88
+
+Rendering: [++++                                       ]  (13.1s|139.5s)  [ tid 21928 @    13.861s wavefront/integrator.cpp:390 ] Starting to submit work for sample 89
+
+Rendering: [++++                                       ]  (13.3s|139.9s)  [ tid 21928 @    14.010s wavefront/integrator.cpp:390 ] Starting to submit work for sample 90
+[ tid 21928 @    14.159s wavefront/integrator.cpp:390 ] Starting to submit work for sample 91
+
+Rendering: [++++                                       ]  (13.5s|140.2s)  [ tid 21928 @    14.308s wavefront/integrator.cpp:390 ] Starting to submit work for sample 92
+
+Rendering: [++++                                       ]  (13.7s|138.9s)  [ tid 21928 @    14.458s wavefront/integrator.cpp:390 ] Starting to submit work for sample 93
+
+Rendering: [++++                                       ]  (13.9s|139.3s)  [ tid 21928 @    14.607s wavefront/integrator.cpp:390 ] Starting to submit work for sample 94
+[ tid 21928 @    14.756s wavefront/integrator.cpp:390 ] Starting to submit work for sample 95
+
+Rendering: [++++                                       ]  (14.1s|139.6s)  [ tid 21928 @    14.905s wavefront/integrator.cpp:390 ] Starting to submit work for sample 96
+
+Rendering: [++++                                       ]  (14.3s|138.4s)  [ tid 21928 @    15.054s wavefront/integrator.cpp:390 ] Starting to submit work for sample 97
+
+Rendering: [++++                                       ]  (14.5s|138.7s)  [ tid 21928 @    15.202s wavefront/integrator.cpp:390 ] Starting to submit work for sample 98
+[ tid 21928 @    15.352s wavefront/integrator.cpp:390 ] Starting to submit work for sample 99
+
+Rendering: [++++                                       ]  (14.7s|139.0s)  [ tid 21928 @    15.501s wavefront/integrator.cpp:390 ] Starting to submit work for sample 100
+
+Rendering: [++++                                       ]  (14.9s|137.8s)  [ tid 21928 @    15.650s wavefront/integrator.cpp:390 ] Starting to submit work for sample 101
+[ tid 21928 @    15.800s wavefront/integrator.cpp:390 ] Starting to submit work for sample 102
+
+Rendering: [++++                                       ]  (15.1s|138.1s)  [ tid 21928 @    15.949s wavefront/integrator.cpp:390 ] Starting to submit work for sample 103
+
+Rendering: [++++                                       ]  (15.3s|138.4s)  [ tid 21928 @    16.097s wavefront/integrator.cpp:390 ] Starting to submit work for sample 104
+
+Rendering: [++++                                       ]  (15.5s|137.2s)  [ tid 21928 @    16.246s wavefront/integrator.cpp:390 ] Starting to submit work for sample 105
+[ tid 21928 @    16.395s wavefront/integrator.cpp:390 ] Starting to submit work for sample 106
+
+Rendering: [++++                                       ]  (15.7s|137.5s)  [ tid 21928 @    16.544s wavefront/integrator.cpp:390 ] Starting to submit work for sample 107
+
+Rendering: [++++                                       ]  (15.9s|137.8s)  [ tid 21928 @    16.693s wavefront/integrator.cpp:390 ] Starting to submit work for sample 108
+
+Rendering: [+++++                                      ]  (16.1s|136.7s)  [ tid 21928 @    16.843s wavefront/integrator.cpp:390 ] Starting to submit work for sample 109
+[ tid 21928 @    16.992s wavefront/integrator.cpp:390 ] Starting to submit work for sample 110
+
+Rendering: [+++++                                      ]  (16.3s|136.9s)  [ tid 21928 @    17.141s wavefront/integrator.cpp:390 ] Starting to submit work for sample 111
+
+Rendering: [+++++                                      ]  (16.5s|137.2s)  [ tid 21928 @    17.291s wavefront/integrator.cpp:390 ] Starting to submit work for sample 112
+
+Rendering: [+++++                                      ]  (16.7s|136.1s)  [ tid 21928 @    17.440s wavefront/integrator.cpp:390 ] Starting to submit work for sample 113
+[ tid 21928 @    17.590s wavefront/integrator.cpp:390 ] Starting to submit work for sample 114
+
+Rendering: [+++++                                      ]  (16.9s|136.4s)  [ tid 21928 @    17.739s wavefront/integrator.cpp:390 ] Starting to submit work for sample 115
+
+Rendering: [+++++                                      ]  (17.1s|136.6s)  [ tid 21928 @    17.889s wavefront/integrator.cpp:390 ] Starting to submit work for sample 116
+
+Rendering: [+++++                                      ]  (17.3s|135.5s)  [ tid 21928 @    18.038s wavefront/integrator.cpp:390 ] Starting to submit work for sample 117
+[ tid 21928 @    18.186s wavefront/integrator.cpp:390 ] Starting to submit work for sample 118
+
+Rendering: [+++++                                      ]  (17.5s|135.8s)  [ tid 21928 @    18.336s wavefront/integrator.cpp:390 ] Starting to submit work for sample 119
+
+Rendering: [+++++                                      ]  (17.7s|136.0s)  [ tid 21928 @    18.485s wavefront/integrator.cpp:390 ] Starting to submit work for sample 120
+
+Rendering: [+++++                                      ]  (17.9s|135.0s)  [ tid 21928 @    18.634s wavefront/integrator.cpp:390 ] Starting to submit work for sample 121
+[ tid 21928 @    18.783s wavefront/integrator.cpp:390 ] Starting to submit work for sample 122
+
+Rendering: [+++++                                      ]  (18.1s|135.2s)  [ tid 21928 @    18.933s wavefront/integrator.cpp:390 ] Starting to submit work for sample 123
+
+Rendering: [+++++                                      ]  (18.3s|135.4s)  [ tid 21928 @    19.082s wavefront/integrator.cpp:390 ] Starting to submit work for sample 124
+
+Rendering: [+++++                                      ]  (18.5s|134.4s)  [ tid 21928 @    19.231s wavefront/integrator.cpp:390 ] Starting to submit work for sample 125
+[ tid 21928 @    19.380s wavefront/integrator.cpp:390 ] Starting to submit work for sample 126
+
+Rendering: [+++++                                      ]  (18.7s|134.6s)  [ tid 21928 @    19.529s wavefront/integrator.cpp:390 ] Starting to submit work for sample 127
+
+Rendering: [+++++                                      ]  (18.9s|134.8s)  [ tid 21928 @    19.679s wavefront/integrator.cpp:390 ] Starting to submit work for sample 128
+
+Rendering: [+++++                                      ]  (19.1s|133.8s)  [ tid 21928 @    19.829s wavefront/integrator.cpp:390 ] Starting to submit work for sample 129
+[ tid 21928 @    19.978s wavefront/integrator.cpp:390 ] Starting to submit work for sample 130
+
+Rendering: [+++++                                      ]  (19.3s|134.0s)  [ tid 21928 @    20.127s wavefront/integrator.cpp:390 ] Starting to submit work for sample 131
+
+Rendering: [+++++                                      ]  (19.5s|134.2s)  [ tid 21928 @    20.276s wavefront/integrator.cpp:390 ] Starting to submit work for sample 132
+
+Rendering: [++++++                                     ]  (19.7s|133.2s)  [ tid 21928 @    20.426s wavefront/integrator.cpp:390 ] Starting to submit work for sample 133
+[ tid 21928 @    20.574s wavefront/integrator.cpp:390 ] Starting to submit work for sample 134
+
+Rendering: [++++++                                     ]  (19.9s|133.4s)  [ tid 21928 @    20.724s wavefront/integrator.cpp:390 ] Starting to submit work for sample 135
+
+Rendering: [++++++                                     ]  (20.1s|133.6s)  [ tid 21928 @    20.873s wavefront/integrator.cpp:390 ] Starting to submit work for sample 136
+
+Rendering: [++++++                                     ]  (20.3s|132.7s)  [ tid 21928 @    21.022s wavefront/integrator.cpp:390 ] Starting to submit work for sample 137
+[ tid 21928 @    21.172s wavefront/integrator.cpp:390 ] Starting to submit work for sample 138
+
+Rendering: [++++++                                     ]  (20.5s|132.8s)  [ tid 21928 @    21.322s wavefront/integrator.cpp:390 ] Starting to submit work for sample 139
+
+Rendering: [++++++                                     ]  (20.7s|131.9s)  [ tid 21928 @    21.471s wavefront/integrator.cpp:390 ] Starting to submit work for sample 140
+
+Rendering: [++++++                                     ]  (20.9s|132.1s)  [ tid 21928 @    21.620s wavefront/integrator.cpp:390 ] Starting to submit work for sample 141
+[ tid 21928 @    21.769s wavefront/integrator.cpp:390 ] Starting to submit work for sample 142
+
+Rendering: [++++++                                     ]  (21.1s|132.2s)  [ tid 21928 @    21.918s wavefront/integrator.cpp:390 ] Starting to submit work for sample 143
+
+Rendering: [++++++                                     ]  (21.3s|131.3s)  [ tid 21928 @    22.068s wavefront/integrator.cpp:390 ] Starting to submit work for sample 144
+
+Rendering: [++++++                                     ]  (21.5s|131.5s)  [ tid 21928 @    22.217s wavefront/integrator.cpp:390 ] Starting to submit work for sample 145
+[ tid 21928 @    22.367s wavefront/integrator.cpp:390 ] Starting to submit work for sample 146
+
+Rendering: [++++++                                     ]  (21.7s|131.7s)  [ tid 21928 @    22.517s wavefront/integrator.cpp:390 ] Starting to submit work for sample 147
+
+Rendering: [++++++                                     ]  (21.9s|130.8s)  [ tid 21928 @    22.666s wavefront/integrator.cpp:390 ] Starting to submit work for sample 148
+
+Rendering: [++++++                                     ]  (22.1s|130.9s)  [ tid 21928 @    22.816s wavefront/integrator.cpp:390 ] Starting to submit work for sample 149
+[ tid 21928 @    22.965s wavefront/integrator.cpp:390 ] Starting to submit work for sample 150
+
+Rendering: [++++++                                     ]  (22.3s|131.1s)  [ tid 21928 @    23.114s wavefront/integrator.cpp:390 ] Starting to submit work for sample 151
+
+Rendering: [++++++                                     ]  (22.5s|130.2s)  [ tid 21928 @    23.264s wavefront/integrator.cpp:390 ] Starting to submit work for sample 152
+
+Rendering: [++++++                                     ]  (22.7s|130.3s)  [ tid 21928 @    23.413s wavefront/integrator.cpp:390 ] Starting to submit work for sample 153
+[ tid 21928 @    23.562s wavefront/integrator.cpp:390 ] Starting to submit work for sample 154
+
+Rendering: [++++++                                     ]  (22.9s|130.5s)  [ tid 21928 @    23.712s wavefront/integrator.cpp:390 ] Starting to submit work for sample 155
+
+Rendering: [+++++++                                    ]  (23.1s|129.6s)  [ tid 21928 @    23.861s wavefront/integrator.cpp:390 ] Starting to submit work for sample 156
+
+Rendering: [+++++++                                    ]  (23.3s|129.7s)  [ tid 21928 @    24.010s wavefront/integrator.cpp:390 ] Starting to submit work for sample 157
+[ tid 21928 @    24.160s wavefront/integrator.cpp:390 ] Starting to submit work for sample 158
+
+Rendering: [+++++++                                    ]  (23.5s|129.9s)  [ tid 21928 @    24.310s wavefront/integrator.cpp:390 ] Starting to submit work for sample 159
+
+Rendering: [+++++++                                    ]  (23.7s|129.0s)  [ tid 21928 @    24.459s wavefront/integrator.cpp:390 ] Starting to submit work for sample 160
+
+Rendering: [+++++++                                    ]  (23.9s|129.2s)  [ tid 21928 @    24.609s wavefront/integrator.cpp:390 ] Starting to submit work for sample 161
+[ tid 21928 @    24.757s wavefront/integrator.cpp:390 ] Starting to submit work for sample 162
+
+Rendering: [+++++++                                    ]  (24.1s|129.3s)  [ tid 21928 @    24.907s wavefront/integrator.cpp:390 ] Starting to submit work for sample 163
+
+Rendering: [+++++++                                    ]  (24.3s|128.5s)  [ tid 21928 @    25.056s wavefront/integrator.cpp:390 ] Starting to submit work for sample 164
+[ tid 21928 @    25.206s wavefront/integrator.cpp:390 ] Starting to submit work for sample 165
+
+Rendering: [+++++++                                    ]  (24.5s|128.6s)  [ tid 21928 @    25.355s wavefront/integrator.cpp:390 ] Starting to submit work for sample 166
+
+Rendering: [+++++++                                    ]  (24.7s|128.7s)  [ tid 21928 @    25.504s wavefront/integrator.cpp:390 ] Starting to submit work for sample 167
+
+Rendering: [+++++++                                    ]  (24.9s|127.9s)  [ tid 21928 @    25.654s wavefront/integrator.cpp:390 ] Starting to submit work for sample 168
+[ tid 21928 @    25.803s wavefront/integrator.cpp:390 ] Starting to submit work for sample 169
+
+Rendering: [+++++++                                    ]  (25.1s|128.0s)  [ tid 21928 @    25.952s wavefront/integrator.cpp:390 ] Starting to submit work for sample 170
+
+Rendering: [+++++++                                    ]  (25.3s|128.1s)  [ tid 21928 @    26.102s wavefront/integrator.cpp:390 ] Starting to submit work for sample 171
+
+Rendering: [+++++++                                    ]  (25.5s|127.3s)  [ tid 21928 @    26.251s wavefront/integrator.cpp:390 ] Starting to submit work for sample 172
+[ tid 21928 @    26.401s wavefront/integrator.cpp:390 ] Starting to submit work for sample 173
+
+Rendering: [+++++++                                    ]  (25.7s|127.4s)  [ tid 21928 @    26.550s wavefront/integrator.cpp:390 ] Starting to submit work for sample 174
+
+Rendering: [+++++++                                    ]  (25.9s|127.5s)  [ tid 21928 @    26.699s wavefront/integrator.cpp:390 ] Starting to submit work for sample 175
+
+Rendering: [+++++++                                    ]  (26.1s|126.7s)  [ tid 21928 @    26.848s wavefront/integrator.cpp:390 ] Starting to submit work for sample 176
+[ tid 21928 @    26.998s wavefront/integrator.cpp:390 ] Starting to submit work for sample 177
+
+Rendering: [+++++++                                    ]  (26.3s|126.8s)  [ tid 21928 @    27.147s wavefront/integrator.cpp:390 ] Starting to submit work for sample 178
+
+Rendering: [+++++++                                    ]  (26.5s|126.9s)  [ tid 21928 @    27.296s wavefront/integrator.cpp:390 ] Starting to submit work for sample 179
+
+Rendering: [++++++++                                   ]  (26.7s|126.1s)  [ tid 21928 @    27.446s wavefront/integrator.cpp:390 ] Starting to submit work for sample 180
+[ tid 21928 @    27.596s wavefront/integrator.cpp:390 ] Starting to submit work for sample 181
+
+Rendering: [++++++++                                   ]  (26.9s|126.2s)  [ tid 21928 @    27.746s wavefront/integrator.cpp:390 ] Starting to submit work for sample 182
+
+Rendering: [++++++++                                   ]  (27.1s|126.3s)  [ tid 21928 @    27.895s wavefront/integrator.cpp:390 ] Starting to submit work for sample 183
+
+Rendering: [++++++++                                   ]  (27.3s|125.6s)  [ tid 21928 @    28.044s wavefront/integrator.cpp:390 ] Starting to submit work for sample 184
+[ tid 21928 @    28.194s wavefront/integrator.cpp:390 ] Starting to submit work for sample 185
+
+Rendering: [++++++++                                   ]  (27.5s|125.6s)  [ tid 21928 @    28.344s wavefront/integrator.cpp:390 ] Starting to submit work for sample 186
+
+Rendering: [++++++++                                   ]  (27.7s|125.7s)  [ tid 21928 @    28.493s wavefront/integrator.cpp:390 ] Starting to submit work for sample 187
+
+Rendering: [++++++++                                   ]  (27.9s|125.0s)  [ tid 21928 @    28.642s wavefront/integrator.cpp:390 ] Starting to submit work for sample 188
+[ tid 21928 @    28.792s wavefront/integrator.cpp:390 ] Starting to submit work for sample 189
+
+Rendering: [++++++++                                   ]  (28.1s|125.0s)  [ tid 21928 @    28.941s wavefront/integrator.cpp:390 ] Starting to submit work for sample 190
+
+Rendering: [++++++++                                   ]  (28.3s|125.1s)  [ tid 21928 @    29.090s wavefront/integrator.cpp:390 ] Starting to submit work for sample 191
+
+Rendering: [++++++++                                   ]  (28.5s|124.4s)  [ tid 21928 @    29.240s wavefront/integrator.cpp:390 ] Starting to submit work for sample 192
+[ tid 21928 @    29.389s wavefront/integrator.cpp:390 ] Starting to submit work for sample 193
+
+Rendering: [++++++++                                   ]  (28.7s|124.5s)  [ tid 21928 @    29.539s wavefront/integrator.cpp:390 ] Starting to submit work for sample 194
+
+Rendering: [++++++++                                   ]  (28.9s|124.5s)  [ tid 21928 @    29.688s wavefront/integrator.cpp:390 ] Starting to submit work for sample 195
+
+Rendering: [++++++++                                   ]  (29.1s|123.8s)  [ tid 21928 @    29.837s wavefront/integrator.cpp:390 ] Starting to submit work for sample 196
+[ tid 21928 @    29.986s wavefront/integrator.cpp:390 ] Starting to submit work for sample 197
+
+Rendering: [++++++++                                   ]  (29.3s|123.9s)  [ tid 21928 @    30.136s wavefront/integrator.cpp:390 ] Starting to submit work for sample 198
+
+Rendering: [++++++++                                   ]  (29.5s|123.9s)  [ tid 21928 @    30.285s wavefront/integrator.cpp:390 ] Starting to submit work for sample 199
+
+Rendering: [++++++++                                   ]  (29.7s|123.2s)  [ tid 21928 @    30.435s wavefront/integrator.cpp:390 ] Starting to submit work for sample 200
+[ tid 21928 @    30.584s wavefront/integrator.cpp:390 ] Starting to submit work for sample 201
+
+Rendering: [++++++++                                   ]  (29.9s|123.3s)  [ tid 21928 @    30.734s wavefront/integrator.cpp:390 ] Starting to submit work for sample 202
+
+Rendering: [++++++++                                   ]  (30.1s|123.3s)  [ tid 21928 @    30.883s wavefront/integrator.cpp:390 ] Starting to submit work for sample 203
+
+Rendering: [+++++++++                                  ]  (30.3s|122.6s)  [ tid 21928 @    31.033s wavefront/integrator.cpp:390 ] Starting to submit work for sample 204
+[ tid 21928 @    31.182s wavefront/integrator.cpp:390 ] Starting to submit work for sample 205
+
+Rendering: [+++++++++                                  ]  (30.5s|122.7s)  [ tid 21928 @    31.332s wavefront/integrator.cpp:390 ] Starting to submit work for sample 206
+
+Rendering: [+++++++++                                  ]  (30.7s|122.7s)  [ tid 21928 @    31.481s wavefront/integrator.cpp:390 ] Starting to submit work for sample 207
+
+Rendering: [+++++++++                                  ]  (30.9s|122.0s)  [ tid 21928 @    31.631s wavefront/integrator.cpp:390 ] Starting to submit work for sample 208
+[ tid 21928 @    31.780s wavefront/integrator.cpp:390 ] Starting to submit work for sample 209
+
+Rendering: [+++++++++                                  ]  (31.1s|122.1s)  [ tid 21928 @    31.930s wavefront/integrator.cpp:390 ] Starting to submit work for sample 210
+
+Rendering: [+++++++++                                  ]  (31.3s|122.1s)  [ tid 21928 @    32.079s wavefront/integrator.cpp:390 ] Starting to submit work for sample 211
+
+Rendering: [+++++++++                                  ]  (31.5s|121.5s)  [ tid 21928 @    32.229s wavefront/integrator.cpp:390 ] Starting to submit work for sample 212
+[ tid 21928 @    32.379s wavefront/integrator.cpp:390 ] Starting to submit work for sample 213
+
+Rendering: [+++++++++                                  ]  (31.7s|121.5s)  [ tid 21928 @    32.528s wavefront/integrator.cpp:390 ] Starting to submit work for sample 214
+
+Rendering: [+++++++++                                  ]  (31.9s|120.8s)  [ tid 21928 @    32.678s wavefront/integrator.cpp:390 ] Starting to submit work for sample 215
+
+Rendering: [+++++++++                                  ]  (32.1s|120.9s)  [ tid 21928 @    32.828s wavefront/integrator.cpp:390 ] Starting to submit work for sample 216
+[ tid 21928 @    32.977s wavefront/integrator.cpp:390 ] Starting to submit work for sample 217
+
+Rendering: [+++++++++                                  ]  (32.3s|120.9s)  [ tid 21928 @    33.126s wavefront/integrator.cpp:390 ] Starting to submit work for sample 218
+
+Rendering: [+++++++++                                  ]  (32.5s|120.2s)  [ tid 21928 @    33.276s wavefront/integrator.cpp:390 ] Starting to submit work for sample 219
+
+Rendering: [+++++++++                                  ]  (32.7s|120.3s)  [ tid 21928 @    33.426s wavefront/integrator.cpp:390 ] Starting to submit work for sample 220
+[ tid 21928 @    33.575s wavefront/integrator.cpp:390 ] Starting to submit work for sample 221
+
+Rendering: [+++++++++                                  ]  (32.9s|120.3s)  [ tid 21928 @    33.725s wavefront/integrator.cpp:390 ] Starting to submit work for sample 222
+
+Rendering: [+++++++++                                  ]  (33.1s|119.7s)  [ tid 21928 @    33.875s wavefront/integrator.cpp:390 ] Starting to submit work for sample 223
+
+Rendering: [+++++++++                                  ]  (33.3s|119.7s)  [ tid 21928 @    34.024s wavefront/integrator.cpp:390 ] Starting to submit work for sample 224
+[ tid 21928 @    34.174s wavefront/integrator.cpp:390 ] Starting to submit work for sample 225
+
+Rendering: [+++++++++                                  ]  (33.5s|119.7s)  [ tid 21928 @    34.323s wavefront/integrator.cpp:390 ] Starting to submit work for sample 226
+
+Rendering: [+++++++++                                  ]  (33.7s|119.1s)  [ tid 21928 @    34.473s wavefront/integrator.cpp:390 ] Starting to submit work for sample 227
+
+Rendering: [++++++++++                                 ]  (33.9s|119.1s)  [ tid 21928 @    34.622s wavefront/integrator.cpp:390 ] Starting to submit work for sample 228
+[ tid 21928 @    34.772s wavefront/integrator.cpp:390 ] Starting to submit work for sample 229
+
+Rendering: [++++++++++                                 ]  (34.1s|119.1s)  [ tid 21928 @    34.921s wavefront/integrator.cpp:390 ] Starting to submit work for sample 230
+
+Rendering: [++++++++++                                 ]  (34.3s|118.5s)  [ tid 21928 @    35.070s wavefront/integrator.cpp:390 ] Starting to submit work for sample 231
+
+Rendering: [++++++++++                                 ]  (34.5s|118.5s)  [ tid 21928 @    35.220s wavefront/integrator.cpp:390 ] Starting to submit work for sample 232
+[ tid 21928 @    35.369s wavefront/integrator.cpp:390 ] Starting to submit work for sample 233
+
+Rendering: [++++++++++                                 ]  (34.7s|118.5s)  [ tid 21928 @    35.519s wavefront/integrator.cpp:390 ] Starting to submit work for sample 234
+
+Rendering: [++++++++++                                 ]  (34.9s|117.9s)  [ tid 21928 @    35.668s wavefront/integrator.cpp:390 ] Starting to submit work for sample 235
+
+Rendering: [++++++++++                                 ]  (35.1s|117.9s)  [ tid 21928 @    35.818s wavefront/integrator.cpp:390 ] Starting to submit work for sample 236
+[ tid 21928 @    35.967s wavefront/integrator.cpp:390 ] Starting to submit work for sample 237
+
+Rendering: [++++++++++                                 ]  (35.3s|117.9s)  [ tid 21928 @    36.116s wavefront/integrator.cpp:390 ] Starting to submit work for sample 238
+
+Rendering: [++++++++++                                 ]  (35.5s|117.3s)  [ tid 21928 @    36.266s wavefront/integrator.cpp:390 ] Starting to submit work for sample 239
+
+Rendering: [++++++++++                                 ]  (35.7s|117.3s)  [ tid 21928 @    36.415s wavefront/integrator.cpp:390 ] Starting to submit work for sample 240
+[ tid 21928 @    36.565s wavefront/integrator.cpp:390 ] Starting to submit work for sample 241
+
+Rendering: [++++++++++                                 ]  (35.9s|117.4s)  [ tid 21928 @    36.715s wavefront/integrator.cpp:390 ] Starting to submit work for sample 242
+
+Rendering: [++++++++++                                 ]  (36.1s|116.7s)  [ tid 21928 @    36.865s wavefront/integrator.cpp:390 ] Starting to submit work for sample 243
+
+Rendering: [++++++++++                                 ]  (36.3s|116.7s)  [ tid 21928 @    37.014s wavefront/integrator.cpp:390 ] Starting to submit work for sample 244
+[ tid 21928 @    37.164s wavefront/integrator.cpp:390 ] Starting to submit work for sample 245
+
+Rendering: [++++++++++                                 ]  (36.5s|116.8s)  [ tid 21928 @    37.313s wavefront/integrator.cpp:390 ] Starting to submit work for sample 246
+
+Rendering: [++++++++++                                 ]  (36.7s|116.1s)  [ tid 21928 @    37.463s wavefront/integrator.cpp:390 ] Starting to submit work for sample 247
+[ tid 21928 @    37.613s wavefront/integrator.cpp:390 ] Starting to submit work for sample 248
+
+Rendering: [++++++++++                                 ]  (36.9s|116.2s)  [ tid 21928 @    37.762s wavefront/integrator.cpp:390 ] Starting to submit work for sample 249
+
+Rendering: [++++++++++                                 ]  (37.1s|116.2s)  [ tid 21928 @    37.913s wavefront/integrator.cpp:390 ] Starting to submit work for sample 250
+
+Rendering: [++++++++++                                 ]  (37.3s|115.6s)  [ tid 21928 @    38.062s wavefront/integrator.cpp:390 ] Starting to submit work for sample 251
+[ tid 21928 @    38.212s wavefront/integrator.cpp:390 ] Starting to submit work for sample 252
+
+Rendering: [+++++++++++                                ]  (37.5s|115.6s)  [ tid 21928 @    38.361s wavefront/integrator.cpp:390 ] Starting to submit work for sample 253
+
+Rendering: [+++++++++++                                ]  (37.7s|115.6s)  [ tid 21928 @    38.511s wavefront/integrator.cpp:390 ] Starting to submit work for sample 254
+
+Rendering: [+++++++++++                                ]  (37.9s|115.0s)  [ tid 21928 @    38.661s wavefront/integrator.cpp:390 ] Starting to submit work for sample 255
+[ tid 21928 @    38.810s wavefront/integrator.cpp:390 ] Starting to submit work for sample 256
+
+Rendering: [+++++++++++                                ]  (38.1s|115.0s)  [ tid 21928 @    38.960s wavefront/integrator.cpp:390 ] Starting to submit work for sample 257
+
+Rendering: [+++++++++++                                ]  (38.3s|115.0s)  [ tid 21928 @    39.110s wavefront/integrator.cpp:390 ] Starting to submit work for sample 258
+
+Rendering: [+++++++++++                                ]  (38.5s|114.4s)  [ tid 21928 @    39.260s wavefront/integrator.cpp:390 ] Starting to submit work for sample 259
+[ tid 21928 @    39.410s wavefront/integrator.cpp:390 ] Starting to submit work for sample 260
+
+Rendering: [+++++++++++                                ]  (38.7s|114.4s)  [ tid 21928 @    39.559s wavefront/integrator.cpp:390 ] Starting to submit work for sample 261
+
+Rendering: [+++++++++++                                ]  (38.9s|114.4s)  [ tid 21928 @    39.708s wavefront/integrator.cpp:390 ] Starting to submit work for sample 262
+
+Rendering: [+++++++++++                                ]  (39.1s|113.8s)  [ tid 21928 @    39.858s wavefront/integrator.cpp:390 ] Starting to submit work for sample 263
+[ tid 21928 @    40.008s wavefront/integrator.cpp:390 ] Starting to submit work for sample 264
+
+Rendering: [+++++++++++                                ]  (39.3s|113.8s)  [ tid 21928 @    40.157s wavefront/integrator.cpp:390 ] Starting to submit work for sample 265
+
+Rendering: [+++++++++++                                ]  (39.5s|113.8s)  [ tid 21928 @    40.307s wavefront/integrator.cpp:390 ] Starting to submit work for sample 266
+
+Rendering: [+++++++++++                                ]  (39.7s|113.2s)  [ tid 21928 @    40.456s wavefront/integrator.cpp:390 ] Starting to submit work for sample 267
+[ tid 21928 @    40.606s wavefront/integrator.cpp:390 ] Starting to submit work for sample 268
+
+Rendering: [+++++++++++                                ]  (39.9s|113.2s)  [ tid 21928 @    40.756s wavefront/integrator.cpp:390 ] Starting to submit work for sample 269
+
+Rendering: [+++++++++++                                ]  (40.1s|113.2s)  [ tid 21928 @    40.906s wavefront/integrator.cpp:390 ] Starting to submit work for sample 270
+
+Rendering: [+++++++++++                                ]  (40.3s|112.6s)  [ tid 21928 @    41.056s wavefront/integrator.cpp:390 ] Starting to submit work for sample 271
+[ tid 21928 @    41.205s wavefront/integrator.cpp:390 ] Starting to submit work for sample 272
+
+Rendering: [+++++++++++                                ]  (40.5s|112.6s)  [ tid 21928 @    41.355s wavefront/integrator.cpp:390 ] Starting to submit work for sample 273
+
+Rendering: [+++++++++++                                ]  (40.7s|112.6s)  [ tid 21928 @    41.504s wavefront/integrator.cpp:390 ] Starting to submit work for sample 274
+
+Rendering: [++++++++++++                               ]  (40.9s|112.0s)  [ tid 21928 @    41.654s wavefront/integrator.cpp:390 ] Starting to submit work for sample 275
+[ tid 21928 @    41.804s wavefront/integrator.cpp:390 ] Starting to submit work for sample 276
+
+Rendering: [++++++++++++                               ]  (41.1s|112.0s)  [ tid 21928 @    41.953s wavefront/integrator.cpp:390 ] Starting to submit work for sample 277
+
+Rendering: [++++++++++++                               ]  (41.3s|112.0s)  [ tid 21928 @    42.103s wavefront/integrator.cpp:390 ] Starting to submit work for sample 278
+
+Rendering: [++++++++++++                               ]  (41.5s|111.4s)  [ tid 21928 @    42.252s wavefront/integrator.cpp:390 ] Starting to submit work for sample 279
+[ tid 21928 @    42.402s wavefront/integrator.cpp:390 ] Starting to submit work for sample 280
+
+Rendering: [++++++++++++                               ]  (41.7s|111.4s)  [ tid 21928 @    42.552s wavefront/integrator.cpp:390 ] Starting to submit work for sample 281
+
+Rendering: [++++++++++++                               ]  (41.9s|111.4s)  [ tid 21928 @    42.701s wavefront/integrator.cpp:390 ] Starting to submit work for sample 282
+
+Rendering: [++++++++++++                               ]  (42.1s|110.8s)  [ tid 21928 @    42.851s wavefront/integrator.cpp:390 ] Starting to submit work for sample 283
+[ tid 21928 @    43.001s wavefront/integrator.cpp:390 ] Starting to submit work for sample 284
+
+Rendering: [++++++++++++                               ]  (42.3s|110.8s)  [ tid 21928 @    43.151s wavefront/integrator.cpp:390 ] Starting to submit work for sample 285
+
+Rendering: [++++++++++++                               ]  (42.5s|110.8s)  [ tid 21928 @    43.300s wavefront/integrator.cpp:390 ] Starting to submit work for sample 286
+
+Rendering: [++++++++++++                               ]  (42.7s|110.3s)  [ tid 21928 @    43.450s wavefront/integrator.cpp:390 ] Starting to submit work for sample 287
+[ tid 21928 @    43.600s wavefront/integrator.cpp:390 ] Starting to submit work for sample 288
+
+Rendering: [++++++++++++                               ]  (42.9s|110.2s)  [ tid 21928 @    43.750s wavefront/integrator.cpp:390 ] Starting to submit work for sample 289
+
+Rendering: [++++++++++++                               ]  (43.1s|110.2s)  [ tid 21928 @    43.900s wavefront/integrator.cpp:390 ] Starting to submit work for sample 290
+
+Rendering: [++++++++++++                               ]  (43.3s|109.7s)  [ tid 21928 @    44.049s wavefront/integrator.cpp:390 ] Starting to submit work for sample 291
+[ tid 21928 @    44.199s wavefront/integrator.cpp:390 ] Starting to submit work for sample 292
+
+Rendering: [++++++++++++                               ]  (43.5s|109.6s)  [ tid 21928 @    44.349s wavefront/integrator.cpp:390 ] Starting to submit work for sample 293
+
+Rendering: [++++++++++++                               ]  (43.7s|109.6s)  [ tid 21928 @    44.499s wavefront/integrator.cpp:390 ] Starting to submit work for sample 294
+
+Rendering: [++++++++++++                               ]  (43.9s|109.1s)  [ tid 21928 @    44.649s wavefront/integrator.cpp:390 ] Starting to submit work for sample 295
+[ tid 21928 @    44.798s wavefront/integrator.cpp:390 ] Starting to submit work for sample 296
+
+Rendering: [++++++++++++                               ]  (44.1s|109.1s)  [ tid 21928 @    44.948s wavefront/integrator.cpp:390 ] Starting to submit work for sample 297
+
+Rendering: [++++++++++++                               ]  (44.3s|109.0s)  [ tid 21928 @    45.098s wavefront/integrator.cpp:390 ] Starting to submit work for sample 298
+
+Rendering: [+++++++++++++                              ]  (44.5s|108.5s)  [ tid 21928 @    45.248s wavefront/integrator.cpp:390 ] Starting to submit work for sample 299
+[ tid 21928 @    45.398s wavefront/integrator.cpp:390 ] Starting to submit work for sample 300
+
+Rendering: [+++++++++++++                              ]  (44.7s|108.5s)  [ tid 21928 @    45.548s wavefront/integrator.cpp:390 ] Starting to submit work for sample 301
+
+Rendering: [+++++++++++++                              ]  (44.9s|108.4s)  [ tid 21928 @    45.698s wavefront/integrator.cpp:390 ] Starting to submit work for sample 302
+
+Rendering: [+++++++++++++                              ]  (45.1s|107.9s)  [ tid 21928 @    45.848s wavefront/integrator.cpp:390 ] Starting to submit work for sample 303
+[ tid 21928 @    45.998s wavefront/integrator.cpp:390 ] Starting to submit work for sample 304
+
+Rendering: [+++++++++++++                              ]  (45.3s|107.9s)  [ tid 21928 @    46.147s wavefront/integrator.cpp:390 ] Starting to submit work for sample 305
+
+Rendering: [+++++++++++++                              ]  (45.5s|107.8s)  [ tid 21928 @    46.297s wavefront/integrator.cpp:390 ] Starting to submit work for sample 306
+
+Rendering: [+++++++++++++                              ]  (45.7s|107.3s)  [ tid 21928 @    46.447s wavefront/integrator.cpp:390 ] Starting to submit work for sample 307
+[ tid 21928 @    46.596s wavefront/integrator.cpp:390 ] Starting to submit work for sample 308
+
+Rendering: [+++++++++++++                              ]  (45.9s|107.3s)  [ tid 21928 @    46.746s wavefront/integrator.cpp:390 ] Starting to submit work for sample 309
+
+Rendering: [+++++++++++++                              ]  (46.1s|107.2s)  [ tid 21928 @    46.895s wavefront/integrator.cpp:390 ] Starting to submit work for sample 310
+
+Rendering: [+++++++++++++                              ]  (46.3s|106.7s)  [ tid 21928 @    47.045s wavefront/integrator.cpp:390 ] Starting to submit work for sample 311
+[ tid 21928 @    47.194s wavefront/integrator.cpp:390 ] Starting to submit work for sample 312
+
+Rendering: [+++++++++++++                              ]  (46.5s|106.7s)  [ tid 21928 @    47.344s wavefront/integrator.cpp:390 ] Starting to submit work for sample 313
+
+Rendering: [+++++++++++++                              ]  (46.7s|106.6s)  [ tid 21928 @    47.494s wavefront/integrator.cpp:390 ] Starting to submit work for sample 314
+
+Rendering: [+++++++++++++                              ]  (46.9s|106.1s)  [ tid 21928 @    47.644s wavefront/integrator.cpp:390 ] Starting to submit work for sample 315
+[ tid 21928 @    47.794s wavefront/integrator.cpp:390 ] Starting to submit work for sample 316
+
+Rendering: [+++++++++++++                              ]  (47.1s|106.1s)  [ tid 21928 @    47.943s wavefront/integrator.cpp:390 ] Starting to submit work for sample 317
+
+Rendering: [+++++++++++++                              ]  (47.3s|106.0s)  [ tid 21928 @    48.093s wavefront/integrator.cpp:390 ] Starting to submit work for sample 318
+
+Rendering: [+++++++++++++                              ]  (47.5s|105.5s)  [ tid 21928 @    48.242s wavefront/integrator.cpp:390 ] Starting to submit work for sample 319
+[ tid 21928 @    48.392s wavefront/integrator.cpp:390 ] Starting to submit work for sample 320
+
+Rendering: [+++++++++++++                              ]  (47.7s|105.5s)  [ tid 21928 @    48.542s wavefront/integrator.cpp:390 ] Starting to submit work for sample 321
+
+Rendering: [+++++++++++++                              ]  (47.9s|105.4s)  [ tid 21928 @    48.692s wavefront/integrator.cpp:390 ] Starting to submit work for sample 322
+
+Rendering: [++++++++++++++                             ]  (48.1s|104.9s)  [ tid 21928 @    48.841s wavefront/integrator.cpp:390 ] Starting to submit work for sample 323
+[ tid 21928 @    48.991s wavefront/integrator.cpp:390 ] Starting to submit work for sample 324
+
+Rendering: [++++++++++++++                             ]  (48.3s|104.9s)  [ tid 21928 @    49.141s wavefront/integrator.cpp:390 ] Starting to submit work for sample 325
+
+Rendering: [++++++++++++++                             ]  (48.5s|104.9s)  [ tid 21928 @    49.291s wavefront/integrator.cpp:390 ] Starting to submit work for sample 326
+
+Rendering: [++++++++++++++                             ]  (48.7s|104.3s)  [ tid 21928 @    49.440s wavefront/integrator.cpp:390 ] Starting to submit work for sample 327
+[ tid 21928 @    49.590s wavefront/integrator.cpp:390 ] Starting to submit work for sample 328
+
+Rendering: [++++++++++++++                             ]  (48.9s|104.3s)  [ tid 21928 @    49.740s wavefront/integrator.cpp:390 ] Starting to submit work for sample 329
+
+Rendering: [++++++++++++++                             ]  (49.1s|104.3s)  [ tid 21928 @    49.890s wavefront/integrator.cpp:390 ] Starting to submit work for sample 330
+
+Rendering: [++++++++++++++                             ]  (49.3s|103.7s)  [ tid 21928 @    50.040s wavefront/integrator.cpp:390 ] Starting to submit work for sample 331
+[ tid 21928 @    50.190s wavefront/integrator.cpp:390 ] Starting to submit work for sample 332
+
+Rendering: [++++++++++++++                             ]  (49.5s|103.7s)  [ tid 21928 @    50.340s wavefront/integrator.cpp:390 ] Starting to submit work for sample 333
+
+Rendering: [++++++++++++++                             ]  (49.7s|103.7s)  [ tid 21928 @    50.490s wavefront/integrator.cpp:390 ] Starting to submit work for sample 334
+
+Rendering: [++++++++++++++                             ]  (49.9s|103.2s)  [ tid 21928 @    50.639s wavefront/integrator.cpp:390 ] Starting to submit work for sample 335
+[ tid 21928 @    50.789s wavefront/integrator.cpp:390 ] Starting to submit work for sample 336
+
+Rendering: [++++++++++++++                             ]  (50.1s|103.1s)  [ tid 21928 @    50.939s wavefront/integrator.cpp:390 ] Starting to submit work for sample 337
+
+Rendering: [++++++++++++++                             ]  (50.3s|102.6s)  [ tid 21928 @    51.089s wavefront/integrator.cpp:390 ] Starting to submit work for sample 338
+
+Rendering: [++++++++++++++                             ]  (50.5s|102.6s)  [ tid 21928 @    51.239s wavefront/integrator.cpp:390 ] Starting to submit work for sample 339
+[ tid 21928 @    51.389s wavefront/integrator.cpp:390 ] Starting to submit work for sample 340
+
+Rendering: [++++++++++++++                             ]  (50.7s|102.5s)  [ tid 21928 @    51.539s wavefront/integrator.cpp:390 ] Starting to submit work for sample 341
+
+Rendering: [++++++++++++++                             ]  (50.9s|102.0s)  [ tid 21928 @    51.688s wavefront/integrator.cpp:390 ] Starting to submit work for sample 342
+
+Rendering: [++++++++++++++                             ]  (51.1s|102.0s)  [ tid 21928 @    51.839s wavefront/integrator.cpp:390 ] Starting to submit work for sample 343
+[ tid 21928 @    51.989s wavefront/integrator.cpp:390 ] Starting to submit work for sample 344
+
+Rendering: [++++++++++++++                             ]  (51.3s|101.9s)  [ tid 21928 @    52.139s wavefront/integrator.cpp:390 ] Starting to submit work for sample 345
+
+Rendering: [++++++++++++++                             ]  (51.5s|101.4s)  [ tid 21928 @    52.289s wavefront/integrator.cpp:390 ] Starting to submit work for sample 346
+
+Rendering: [+++++++++++++++                            ]  (51.7s|101.4s)  [ tid 21928 @    52.439s wavefront/integrator.cpp:390 ] Starting to submit work for sample 347
+[ tid 21928 @    52.589s wavefront/integrator.cpp:390 ] Starting to submit work for sample 348
+
+Rendering: [+++++++++++++++                            ]  (51.9s|101.3s)  [ tid 21928 @    52.740s wavefront/integrator.cpp:390 ] Starting to submit work for sample 349
+
+Rendering: [+++++++++++++++                            ]  (52.1s|100.8s)  [ tid 21928 @    52.890s wavefront/integrator.cpp:390 ] Starting to submit work for sample 350
+
+Rendering: [+++++++++++++++                            ]  (52.3s|100.8s)  [ tid 21928 @    53.040s wavefront/integrator.cpp:390 ] Starting to submit work for sample 351
+[ tid 21928 @    53.190s wavefront/integrator.cpp:390 ] Starting to submit work for sample 352
+
+Rendering: [+++++++++++++++                            ]  (52.5s|100.7s)  [ tid 21928 @    53.341s wavefront/integrator.cpp:390 ] Starting to submit work for sample 353
+
+Rendering: [+++++++++++++++                            ]  (52.7s|100.7s)  [ tid 21928 @    53.491s wavefront/integrator.cpp:390 ] Starting to submit work for sample 354
+
+Rendering: [+++++++++++++++                            ]  (52.9s|100.2s)  [ tid 21928 @    53.641s wavefront/integrator.cpp:390 ] Starting to submit work for sample 355
+[ tid 21928 @    53.791s wavefront/integrator.cpp:390 ] Starting to submit work for sample 356
+
+Rendering: [+++++++++++++++                            ]  (53.1s|100.1s)  [ tid 21928 @    53.941s wavefront/integrator.cpp:390 ] Starting to submit work for sample 357
+
+Rendering: [+++++++++++++++                            ]  (53.3s|100.1s)  [ tid 21928 @    54.091s wavefront/integrator.cpp:390 ] Starting to submit work for sample 358
+
+Rendering: [+++++++++++++++                            ]  (53.5s|99.6s)  [ tid 21928 @    54.241s wavefront/integrator.cpp:390 ] Starting to submit work for sample 359
+[ tid 21928 @    54.390s wavefront/integrator.cpp:390 ] Starting to submit work for sample 360
+
+Rendering: [+++++++++++++++                            ]  (53.7s|99.5s)  [ tid 21928 @    54.541s wavefront/integrator.cpp:390 ] Starting to submit work for sample 361
+
+Rendering: [+++++++++++++++                            ]  (53.9s|99.1s)  [ tid 21928 @    54.691s wavefront/integrator.cpp:390 ] Starting to submit work for sample 362
+
+Rendering: [+++++++++++++++                            ]  (54.1s|99.0s)  [ tid 21928 @    54.841s wavefront/integrator.cpp:390 ] Starting to submit work for sample 363
+[ tid 21928 @    54.991s wavefront/integrator.cpp:390 ] Starting to submit work for sample 364
+
+Rendering: [+++++++++++++++                            ]  (54.3s|98.9s)  [ tid 21928 @    55.141s wavefront/integrator.cpp:390 ] Starting to submit work for sample 365
+
+Rendering: [+++++++++++++++                            ]  (54.5s|98.5s)  [ tid 21928 @    55.291s wavefront/integrator.cpp:390 ] Starting to submit work for sample 366
+
+Rendering: [+++++++++++++++                            ]  (54.7s|98.4s)  [ tid 21928 @    55.441s wavefront/integrator.cpp:390 ] Starting to submit work for sample 367
+[ tid 21928 @    55.591s wavefront/integrator.cpp:390 ] Starting to submit work for sample 368
+
+Rendering: [+++++++++++++++                            ]  (54.9s|98.3s)  [ tid 21928 @    55.741s wavefront/integrator.cpp:390 ] Starting to submit work for sample 369
+
+Rendering: [+++++++++++++++                            ]  (55.1s|97.9s)  [ tid 21928 @    55.891s wavefront/integrator.cpp:390 ] Starting to submit work for sample 370
+
+Rendering: [++++++++++++++++                           ]  (55.3s|97.8s)  [ tid 21928 @    56.041s wavefront/integrator.cpp:390 ] Starting to submit work for sample 371
+[ tid 21928 @    56.191s wavefront/integrator.cpp:390 ] Starting to submit work for sample 372
+
+Rendering: [++++++++++++++++                           ]  (55.5s|97.7s)  [ tid 21928 @    56.341s wavefront/integrator.cpp:390 ] Starting to submit work for sample 373
+
+Rendering: [++++++++++++++++                           ]  (55.7s|97.3s)  [ tid 21928 @    56.491s wavefront/integrator.cpp:390 ] Starting to submit work for sample 374
+
+Rendering: [++++++++++++++++                           ]  (55.9s|97.2s)  [ tid 21928 @    56.641s wavefront/integrator.cpp:390 ] Starting to submit work for sample 375
+[ tid 21928 @    56.791s wavefront/integrator.cpp:390 ] Starting to submit work for sample 376
+
+Rendering: [++++++++++++++++                           ]  (56.1s|97.2s)  [ tid 21928 @    56.941s wavefront/integrator.cpp:390 ] Starting to submit work for sample 377
+
+Rendering: [++++++++++++++++                           ]  (56.3s|96.7s)  [ tid 21928 @    57.091s wavefront/integrator.cpp:390 ] Starting to submit work for sample 378
+
+Rendering: [++++++++++++++++                           ]  (56.5s|96.6s)  [ tid 21928 @    57.242s wavefront/integrator.cpp:390 ] Starting to submit work for sample 379
+[ tid 21928 @    57.392s wavefront/integrator.cpp:390 ] Starting to submit work for sample 380
+
+Rendering: [++++++++++++++++                           ]  (56.7s|96.6s)  [ tid 21928 @    57.541s wavefront/integrator.cpp:390 ] Starting to submit work for sample 381
+
+Rendering: [++++++++++++++++                           ]  (56.9s|96.1s)  [ tid 21928 @    57.691s wavefront/integrator.cpp:390 ] Starting to submit work for sample 382
+
+Rendering: [++++++++++++++++                           ]  (57.1s|96.0s)  [ tid 21928 @    57.842s wavefront/integrator.cpp:390 ] Starting to submit work for sample 383
+[ tid 21928 @    57.992s wavefront/integrator.cpp:390 ] Starting to submit work for sample 384
+
+Rendering: [++++++++++++++++                           ]  (57.3s|96.0s)  [ tid 21928 @    58.142s wavefront/integrator.cpp:390 ] Starting to submit work for sample 385
+
+Rendering: [++++++++++++++++                           ]  (57.5s|95.5s)  [ tid 21928 @    58.293s wavefront/integrator.cpp:390 ] Starting to submit work for sample 386
+
+Rendering: [++++++++++++++++                           ]  (57.7s|95.4s)  [ tid 21928 @    58.443s wavefront/integrator.cpp:390 ] Starting to submit work for sample 387
+[ tid 21928 @    58.593s wavefront/integrator.cpp:390 ] Starting to submit work for sample 388
+
+Rendering: [++++++++++++++++                           ]  (57.9s|95.4s)  [ tid 21928 @    58.743s wavefront/integrator.cpp:390 ] Starting to submit work for sample 389
+
+Rendering: [++++++++++++++++                           ]  (58.1s|94.9s)  [ tid 21928 @    58.893s wavefront/integrator.cpp:390 ] Starting to submit work for sample 390
+
+Rendering: [++++++++++++++++                           ]  (58.3s|94.8s)  [ tid 21928 @    59.043s wavefront/integrator.cpp:390 ] Starting to submit work for sample 391
+[ tid 21928 @    59.193s wavefront/integrator.cpp:390 ] Starting to submit work for sample 392
+
+Rendering: [++++++++++++++++                           ]  (58.5s|94.8s)  [ tid 21928 @    59.343s wavefront/integrator.cpp:390 ] Starting to submit work for sample 393
+
+Rendering: [+++++++++++++++++                          ]  (58.7s|94.3s)  [ tid 21928 @    59.493s wavefront/integrator.cpp:390 ] Starting to submit work for sample 394
+
+Rendering: [+++++++++++++++++                          ]  (58.9s|94.2s)  [ tid 21928 @    59.643s wavefront/integrator.cpp:390 ] Starting to submit work for sample 395
+[ tid 21928 @    59.793s wavefront/integrator.cpp:390 ] Starting to submit work for sample 396
+
+Rendering: [+++++++++++++++++                          ]  (59.1s|94.2s)  [ tid 21928 @    59.943s wavefront/integrator.cpp:390 ] Starting to submit work for sample 397
+
+Rendering: [+++++++++++++++++                          ]  (59.3s|93.7s)  [ tid 21928 @    60.094s wavefront/integrator.cpp:390 ] Starting to submit work for sample 398
+
+Rendering: [+++++++++++++++++                          ]  (59.5s|93.6s)  [ tid 21928 @    60.244s wavefront/integrator.cpp:390 ] Starting to submit work for sample 399
+[ tid 21928 @    60.394s wavefront/integrator.cpp:390 ] Starting to submit work for sample 400
+
+Rendering: [+++++++++++++++++                          ]  (59.7s|93.6s)  [ tid 21928 @    60.544s wavefront/integrator.cpp:390 ] Starting to submit work for sample 401
+
+Rendering: [+++++++++++++++++                          ]  (59.9s|93.1s)  [ tid 21928 @    60.693s wavefront/integrator.cpp:390 ] Starting to submit work for sample 402
+
+Rendering: [+++++++++++++++++                          ]  (60.1s|93.0s)  [ tid 21928 @    60.843s wavefront/integrator.cpp:390 ] Starting to submit work for sample 403
+[ tid 21928 @    60.993s wavefront/integrator.cpp:390 ] Starting to submit work for sample 404
+
+Rendering: [+++++++++++++++++                          ]  (60.3s|93.0s)  [ tid 21928 @    61.143s wavefront/integrator.cpp:390 ] Starting to submit work for sample 405
+
+Rendering: [+++++++++++++++++                          ]  (60.5s|92.5s)  [ tid 21928 @    61.293s wavefront/integrator.cpp:390 ] Starting to submit work for sample 406
+
+Rendering: [+++++++++++++++++                          ]  (60.7s|92.5s)  [ tid 21928 @    61.443s wavefront/integrator.cpp:390 ] Starting to submit work for sample 407
+[ tid 21928 @    61.593s wavefront/integrator.cpp:390 ] Starting to submit work for sample 408
+
+Rendering: [+++++++++++++++++                          ]  (60.9s|92.4s)  [ tid 21928 @    61.744s wavefront/integrator.cpp:390 ] Starting to submit work for sample 409
+
+Rendering: [+++++++++++++++++                          ]  (61.1s|91.9s)  [ tid 21928 @    61.894s wavefront/integrator.cpp:390 ] Starting to submit work for sample 410
+
+Rendering: [+++++++++++++++++                          ]  (61.3s|91.9s)  [ tid 21928 @    62.044s wavefront/integrator.cpp:390 ] Starting to submit work for sample 411
+[ tid 21928 @    62.195s wavefront/integrator.cpp:390 ] Starting to submit work for sample 412
+
+Rendering: [+++++++++++++++++                          ]  (61.5s|91.8s)  [ tid 21928 @    62.345s wavefront/integrator.cpp:390 ] Starting to submit work for sample 413
+
+Rendering: [+++++++++++++++++                          ]  (61.7s|91.3s)  [ tid 21928 @    62.495s wavefront/integrator.cpp:390 ] Starting to submit work for sample 414
+
+Rendering: [+++++++++++++++++                          ]  (61.9s|91.3s)  [ tid 21928 @    62.645s wavefront/integrator.cpp:390 ] Starting to submit work for sample 415
+[ tid 21928 @    62.795s wavefront/integrator.cpp:390 ] Starting to submit work for sample 416
+
+Rendering: [+++++++++++++++++                          ]  (62.1s|91.2s)  [ tid 21928 @    62.945s wavefront/integrator.cpp:390 ] Starting to submit work for sample 417
+
+Rendering: [++++++++++++++++++                         ]  (62.3s|90.7s)  [ tid 21928 @    63.095s wavefront/integrator.cpp:390 ] Starting to submit work for sample 418
+
+Rendering: [++++++++++++++++++                         ]  (62.5s|90.7s)  [ tid 21928 @    63.245s wavefront/integrator.cpp:390 ] Starting to submit work for sample 419
+[ tid 21928 @    63.395s wavefront/integrator.cpp:390 ] Starting to submit work for sample 420
+
+Rendering: [++++++++++++++++++                         ]  (62.7s|90.6s)  [ tid 21928 @    63.546s wavefront/integrator.cpp:390 ] Starting to submit work for sample 421
+
+Rendering: [++++++++++++++++++                         ]  (62.9s|90.1s)  [ tid 21928 @    63.696s wavefront/integrator.cpp:390 ] Starting to submit work for sample 422
+
+Rendering: [++++++++++++++++++                         ]  (63.1s|90.1s)  [ tid 21928 @    63.846s wavefront/integrator.cpp:390 ] Starting to submit work for sample 423
+[ tid 21928 @    63.996s wavefront/integrator.cpp:390 ] Starting to submit work for sample 424
+
+Rendering: [++++++++++++++++++                         ]  (63.3s|90.0s)  [ tid 21928 @    64.146s wavefront/integrator.cpp:390 ] Starting to submit work for sample 425
+
+Rendering: [++++++++++++++++++                         ]  (63.5s|89.6s)  [ tid 21928 @    64.296s wavefront/integrator.cpp:390 ] Starting to submit work for sample 426
+
+Rendering: [++++++++++++++++++                         ]  (63.7s|89.5s)  [ tid 21928 @    64.446s wavefront/integrator.cpp:390 ] Starting to submit work for sample 427
+[ tid 21928 @    64.596s wavefront/integrator.cpp:390 ] Starting to submit work for sample 428
+
+Rendering: [++++++++++++++++++                         ]  (63.9s|89.4s)  [ tid 21928 @    64.747s wavefront/integrator.cpp:390 ] Starting to submit work for sample 429
+
+Rendering: [++++++++++++++++++                         ]  (64.1s|89.3s)  [ tid 21928 @    64.897s wavefront/integrator.cpp:390 ] Starting to submit work for sample 430
+
+Rendering: [++++++++++++++++++                         ]  (64.3s|88.9s)  [ tid 21928 @    65.047s wavefront/integrator.cpp:390 ] Starting to submit work for sample 431
+[ tid 21928 @    65.197s wavefront/integrator.cpp:390 ] Starting to submit work for sample 432
+
+Rendering: [++++++++++++++++++                         ]  (64.5s|88.8s)  [ tid 21928 @    65.347s wavefront/integrator.cpp:390 ] Starting to submit work for sample 433
+
+Rendering: [++++++++++++++++++                         ]  (64.7s|88.7s)  [ tid 21928 @    65.497s wavefront/integrator.cpp:390 ] Starting to submit work for sample 434
+
+Rendering: [++++++++++++++++++                         ]  (64.9s|88.3s)  [ tid 21928 @    65.647s wavefront/integrator.cpp:390 ] Starting to submit work for sample 435
+[ tid 21928 @    65.798s wavefront/integrator.cpp:390 ] Starting to submit work for sample 436
+
+Rendering: [++++++++++++++++++                         ]  (65.1s|88.2s)  [ tid 21928 @    65.948s wavefront/integrator.cpp:390 ] Starting to submit work for sample 437
+
+Rendering: [++++++++++++++++++                         ]  (65.3s|88.1s)  [ tid 21928 @    66.098s wavefront/integrator.cpp:390 ] Starting to submit work for sample 438
+
+Rendering: [++++++++++++++++++                         ]  (65.5s|87.7s)  [ tid 21928 @    66.248s wavefront/integrator.cpp:390 ] Starting to submit work for sample 439
+[ tid 21928 @    66.398s wavefront/integrator.cpp:390 ] Starting to submit work for sample 440
+
+Rendering: [++++++++++++++++++                         ]  (65.7s|87.6s)  [ tid 21928 @    66.548s wavefront/integrator.cpp:390 ] Starting to submit work for sample 441
+
+Rendering: [++++++++++++++++++                         ]  (65.9s|87.5s)  [ tid 21928 @    66.698s wavefront/integrator.cpp:390 ] Starting to submit work for sample 442
+
+Rendering: [+++++++++++++++++++                        ]  (66.1s|87.1s)  [ tid 21928 @    66.849s wavefront/integrator.cpp:390 ] Starting to submit work for sample 443
+[ tid 21928 @    66.999s wavefront/integrator.cpp:390 ] Starting to submit work for sample 444
+
+Rendering: [+++++++++++++++++++                        ]  (66.3s|87.0s)  [ tid 21928 @    67.149s wavefront/integrator.cpp:390 ] Starting to submit work for sample 445
+
+Rendering: [+++++++++++++++++++                        ]  (66.5s|86.9s)  [ tid 21928 @    67.299s wavefront/integrator.cpp:390 ] Starting to submit work for sample 446
+
+Rendering: [+++++++++++++++++++                        ]  (66.7s|86.5s)  [ tid 21928 @    67.450s wavefront/integrator.cpp:390 ] Starting to submit work for sample 447
+[ tid 21928 @    67.600s wavefront/integrator.cpp:390 ] Starting to submit work for sample 448
+
+Rendering: [+++++++++++++++++++                        ]  (66.9s|86.4s)  [ tid 21928 @    67.750s wavefront/integrator.cpp:390 ] Starting to submit work for sample 449
+
+Rendering: [+++++++++++++++++++                        ]  (67.1s|86.3s)  [ tid 21928 @    67.900s wavefront/integrator.cpp:390 ] Starting to submit work for sample 450
+
+Rendering: [+++++++++++++++++++                        ]  (67.3s|85.9s)  [ tid 21928 @    68.050s wavefront/integrator.cpp:390 ] Starting to submit work for sample 451
+[ tid 21928 @    68.201s wavefront/integrator.cpp:390 ] Starting to submit work for sample 452
+
+Rendering: [+++++++++++++++++++                        ]  (67.5s|85.8s)  [ tid 21928 @    68.351s wavefront/integrator.cpp:390 ] Starting to submit work for sample 453
+
+Rendering: [+++++++++++++++++++                        ]  (67.7s|85.7s)  [ tid 21928 @    68.501s wavefront/integrator.cpp:390 ] Starting to submit work for sample 454
+
+Rendering: [+++++++++++++++++++                        ]  (67.9s|85.3s)  [ tid 21928 @    68.651s wavefront/integrator.cpp:390 ] Starting to submit work for sample 455
+[ tid 21928 @    68.802s wavefront/integrator.cpp:390 ] Starting to submit work for sample 456
+
+Rendering: [+++++++++++++++++++                        ]  (68.1s|85.2s)  [ tid 21928 @    68.952s wavefront/integrator.cpp:390 ] Starting to submit work for sample 457
+
+Rendering: [+++++++++++++++++++                        ]  (68.3s|85.1s)  [ tid 21928 @    69.102s wavefront/integrator.cpp:390 ] Starting to submit work for sample 458
+
+Rendering: [+++++++++++++++++++                        ]  (68.5s|84.7s)  [ tid 21928 @    69.253s wavefront/integrator.cpp:390 ] Starting to submit work for sample 459
+[ tid 21928 @    69.403s wavefront/integrator.cpp:390 ] Starting to submit work for sample 460
+
+Rendering: [+++++++++++++++++++                        ]  (68.7s|84.6s)  [ tid 21928 @    69.553s wavefront/integrator.cpp:390 ] Starting to submit work for sample 461
+
+Rendering: [+++++++++++++++++++                        ]  (68.9s|84.5s)  [ tid 21928 @    69.703s wavefront/integrator.cpp:390 ] Starting to submit work for sample 462
+
+Rendering: [+++++++++++++++++++                        ]  (69.1s|84.1s)  [ tid 21928 @    69.853s wavefront/integrator.cpp:390 ] Starting to submit work for sample 463
+[ tid 21928 @    70.003s wavefront/integrator.cpp:390 ] Starting to submit work for sample 464
+
+Rendering: [+++++++++++++++++++                        ]  (69.3s|84.0s)  [ tid 21928 @    70.153s wavefront/integrator.cpp:390 ] Starting to submit work for sample 465
+
+Rendering: [+++++++++++++++++++                        ]  (69.5s|83.9s)  [ tid 21928 @    70.304s wavefront/integrator.cpp:390 ] Starting to submit work for sample 466
+
+Rendering: [++++++++++++++++++++                       ]  (69.7s|83.5s)  [ tid 21928 @    70.454s wavefront/integrator.cpp:390 ] Starting to submit work for sample 467
+[ tid 21928 @    70.605s wavefront/integrator.cpp:390 ] Starting to submit work for sample 468
+
+Rendering: [++++++++++++++++++++                       ]  (69.9s|83.4s)  [ tid 21928 @    70.755s wavefront/integrator.cpp:390 ] Starting to submit work for sample 469
+
+Rendering: [++++++++++++++++++++                       ]  (70.1s|83.3s)  [ tid 21928 @    70.905s wavefront/integrator.cpp:390 ] Starting to submit work for sample 470
+
+Rendering: [++++++++++++++++++++                       ]  (70.3s|82.9s)  [ tid 21928 @    71.056s wavefront/integrator.cpp:390 ] Starting to submit work for sample 471
+[ tid 21928 @    71.206s wavefront/integrator.cpp:390 ] Starting to submit work for sample 472
+
+Rendering: [++++++++++++++++++++                       ]  (70.5s|82.8s)  [ tid 21928 @    71.356s wavefront/integrator.cpp:390 ] Starting to submit work for sample 473
+
+Rendering: [++++++++++++++++++++                       ]  (70.7s|82.7s)  [ tid 21928 @    71.506s wavefront/integrator.cpp:390 ] Starting to submit work for sample 474
+
+Rendering: [++++++++++++++++++++                       ]  (70.9s|82.3s)  [ tid 21928 @    71.656s wavefront/integrator.cpp:390 ] Starting to submit work for sample 475
+[ tid 21928 @    71.807s wavefront/integrator.cpp:390 ] Starting to submit work for sample 476
+
+Rendering: [++++++++++++++++++++                       ]  (71.1s|82.2s)  [ tid 21928 @    71.957s wavefront/integrator.cpp:390 ] Starting to submit work for sample 477
+
+Rendering: [++++++++++++++++++++                       ]  (71.3s|82.1s)  [ tid 21928 @    72.107s wavefront/integrator.cpp:390 ] Starting to submit work for sample 478
+
+Rendering: [++++++++++++++++++++                       ]  (71.5s|81.7s)  [ tid 21928 @    72.258s wavefront/integrator.cpp:390 ] Starting to submit work for sample 479
+[ tid 21928 @    72.408s wavefront/integrator.cpp:390 ] Starting to submit work for sample 480
+
+Rendering: [++++++++++++++++++++                       ]  (71.7s|81.6s)  [ tid 21928 @    72.558s wavefront/integrator.cpp:390 ] Starting to submit work for sample 481
+
+Rendering: [++++++++++++++++++++                       ]  (71.9s|81.5s)  [ tid 21928 @    72.709s wavefront/integrator.cpp:390 ] Starting to submit work for sample 482
+
+Rendering: [++++++++++++++++++++                       ]  (72.1s|81.1s)  [ tid 21928 @    72.859s wavefront/integrator.cpp:390 ] Starting to submit work for sample 483
+[ tid 21928 @    73.009s wavefront/integrator.cpp:390 ] Starting to submit work for sample 484
+
+Rendering: [++++++++++++++++++++                       ]  (72.3s|81.0s)  [ tid 21928 @    73.159s wavefront/integrator.cpp:390 ] Starting to submit work for sample 485
+
+Rendering: [++++++++++++++++++++                       ]  (72.5s|80.9s)  [ tid 21928 @    73.310s wavefront/integrator.cpp:390 ] Starting to submit work for sample 486
+
+Rendering: [++++++++++++++++++++                       ]  (72.7s|80.5s)  [ tid 21928 @    73.460s wavefront/integrator.cpp:390 ] Starting to submit work for sample 487
+[ tid 21928 @    73.611s wavefront/integrator.cpp:390 ] Starting to submit work for sample 488
+
+Rendering: [++++++++++++++++++++                       ]  (72.9s|80.4s)  [ tid 21928 @    73.761s wavefront/integrator.cpp:390 ] Starting to submit work for sample 489
+
+Rendering: [++++++++++++++++++++                       ]  (73.1s|80.3s)  [ tid 21928 @    73.911s wavefront/integrator.cpp:390 ] Starting to submit work for sample 490
+
+Rendering: [+++++++++++++++++++++                      ]  (73.3s|79.9s)  [ tid 21928 @    74.061s wavefront/integrator.cpp:390 ] Starting to submit work for sample 491
+[ tid 21928 @    74.212s wavefront/integrator.cpp:390 ] Starting to submit work for sample 492
+
+Rendering: [+++++++++++++++++++++                      ]  (73.5s|79.8s)  [ tid 21928 @    74.362s wavefront/integrator.cpp:390 ] Starting to submit work for sample 493
+
+Rendering: [+++++++++++++++++++++                      ]  (73.7s|79.7s)  [ tid 21928 @    74.512s wavefront/integrator.cpp:390 ] Starting to submit work for sample 494
+
+Rendering: [+++++++++++++++++++++                      ]  (73.9s|79.3s)  [ tid 21928 @    74.663s wavefront/integrator.cpp:390 ] Starting to submit work for sample 495
+[ tid 21928 @    74.813s wavefront/integrator.cpp:390 ] Starting to submit work for sample 496
+
+Rendering: [+++++++++++++++++++++                      ]  (74.1s|79.2s)  [ tid 21928 @    74.964s wavefront/integrator.cpp:390 ] Starting to submit work for sample 497
+
+Rendering: [+++++++++++++++++++++                      ]  (74.3s|79.1s)  [ tid 21928 @    75.114s wavefront/integrator.cpp:390 ] Starting to submit work for sample 498
+
+Rendering: [+++++++++++++++++++++                      ]  (74.5s|78.7s)  [ tid 21928 @    75.265s wavefront/integrator.cpp:390 ] Starting to submit work for sample 499
+[ tid 21928 @    75.415s wavefront/integrator.cpp:390 ] Starting to submit work for sample 500
+
+Rendering: [+++++++++++++++++++++                      ]  (74.7s|78.6s)  [ tid 21928 @    75.565s wavefront/integrator.cpp:390 ] Starting to submit work for sample 501
+
+Rendering: [+++++++++++++++++++++                      ]  (74.9s|78.5s)  [ tid 21928 @    75.716s wavefront/integrator.cpp:390 ] Starting to submit work for sample 502
+
+Rendering: [+++++++++++++++++++++                      ]  (75.1s|78.1s)  [ tid 21928 @    75.866s wavefront/integrator.cpp:390 ] Starting to submit work for sample 503
+[ tid 21928 @    76.016s wavefront/integrator.cpp:390 ] Starting to submit work for sample 504
+
+Rendering: [+++++++++++++++++++++                      ]  (75.3s|78.0s)  [ tid 21928 @    76.167s wavefront/integrator.cpp:390 ] Starting to submit work for sample 505
+
+Rendering: [+++++++++++++++++++++                      ]  (75.5s|77.9s)  [ tid 21928 @    76.317s wavefront/integrator.cpp:390 ] Starting to submit work for sample 506
+
+Rendering: [+++++++++++++++++++++                      ]  (75.7s|77.5s)  [ tid 21928 @    76.468s wavefront/integrator.cpp:390 ] Starting to submit work for sample 507
+[ tid 21928 @    76.619s wavefront/integrator.cpp:390 ] Starting to submit work for sample 508
+
+Rendering: [+++++++++++++++++++++                      ]  (75.9s|77.4s)  [ tid 21928 @    76.769s wavefront/integrator.cpp:390 ] Starting to submit work for sample 509
+
+Rendering: [+++++++++++++++++++++                      ]  (76.1s|77.3s)  [ tid 21928 @    76.919s wavefront/integrator.cpp:390 ] Starting to submit work for sample 510
+
+Rendering: [+++++++++++++++++++++                      ]  (76.3s|76.9s)  [ tid 21928 @    77.070s wavefront/integrator.cpp:390 ] Starting to submit work for sample 511
+[ tid 21928 @    77.220s wavefront/integrator.cpp:390 ] Starting to submit work for sample 512
+
+Rendering: [+++++++++++++++++++++                      ]  (76.5s|76.8s)  [ tid 21928 @    77.371s wavefront/integrator.cpp:390 ] Starting to submit work for sample 513
+
+Rendering: [++++++++++++++++++++++                     ]  (76.7s|76.7s)  [ tid 21928 @    77.521s wavefront/integrator.cpp:390 ] Starting to submit work for sample 514
+
+Rendering: [++++++++++++++++++++++                     ]  (76.9s|76.3s)  [ tid 21928 @    77.672s wavefront/integrator.cpp:390 ] Starting to submit work for sample 515
+[ tid 21928 @    77.821s wavefront/integrator.cpp:390 ] Starting to submit work for sample 516
+
+Rendering: [++++++++++++++++++++++                     ]  (77.1s|76.2s)  [ tid 21928 @    77.972s wavefront/integrator.cpp:390 ] Starting to submit work for sample 517
+
+Rendering: [++++++++++++++++++++++                     ]  (77.3s|76.1s)  [ tid 21928 @    78.122s wavefront/integrator.cpp:390 ] Starting to submit work for sample 518
+
+Rendering: [++++++++++++++++++++++                     ]  (77.5s|75.8s)  [ tid 21928 @    78.273s wavefront/integrator.cpp:390 ] Starting to submit work for sample 519
+[ tid 21928 @    78.423s wavefront/integrator.cpp:390 ] Starting to submit work for sample 520
+
+Rendering: [++++++++++++++++++++++                     ]  (77.7s|75.7s)  [ tid 21928 @    78.573s wavefront/integrator.cpp:390 ] Starting to submit work for sample 521
+
+Rendering: [++++++++++++++++++++++                     ]  (77.9s|75.5s)  [ tid 21928 @    78.724s wavefront/integrator.cpp:390 ] Starting to submit work for sample 522
+
+Rendering: [++++++++++++++++++++++                     ]  (78.1s|75.2s)  [ tid 21928 @    78.874s wavefront/integrator.cpp:390 ] Starting to submit work for sample 523
+[ tid 21928 @    79.024s wavefront/integrator.cpp:390 ] Starting to submit work for sample 524
+
+Rendering: [++++++++++++++++++++++                     ]  (78.3s|75.1s)  [ tid 21928 @    79.174s wavefront/integrator.cpp:390 ] Starting to submit work for sample 525
+
+Rendering: [++++++++++++++++++++++                     ]  (78.5s|75.0s)  [ tid 21928 @    79.325s wavefront/integrator.cpp:390 ] Starting to submit work for sample 526
+
+Rendering: [++++++++++++++++++++++                     ]  (78.7s|74.6s)  [ tid 21928 @    79.475s wavefront/integrator.cpp:390 ] Starting to submit work for sample 527
+[ tid 21928 @    79.626s wavefront/integrator.cpp:390 ] Starting to submit work for sample 528
+
+Rendering: [++++++++++++++++++++++                     ]  (78.9s|74.5s)  [ tid 21928 @    79.777s wavefront/integrator.cpp:390 ] Starting to submit work for sample 529
+
+Rendering: [++++++++++++++++++++++                     ]  (79.1s|74.4s)  [ tid 21928 @    79.927s wavefront/integrator.cpp:390 ] Starting to submit work for sample 530
+
+Rendering: [++++++++++++++++++++++                     ]  (79.3s|74.0s)  [ tid 21928 @    80.078s wavefront/integrator.cpp:390 ] Starting to submit work for sample 531
+[ tid 21928 @    80.228s wavefront/integrator.cpp:390 ] Starting to submit work for sample 532
+
+Rendering: [++++++++++++++++++++++                     ]  (79.5s|73.9s)  [ tid 21928 @    80.379s wavefront/integrator.cpp:390 ] Starting to submit work for sample 533
+
+Rendering: [++++++++++++++++++++++                     ]  (79.7s|73.8s)  [ tid 21928 @    80.529s wavefront/integrator.cpp:390 ] Starting to submit work for sample 534
+
+Rendering: [++++++++++++++++++++++                     ]  (79.9s|73.4s)  [ tid 21928 @    80.680s wavefront/integrator.cpp:390 ] Starting to submit work for sample 535
+[ tid 21928 @    80.830s wavefront/integrator.cpp:390 ] Starting to submit work for sample 536
+
+Rendering: [++++++++++++++++++++++                     ]  (80.1s|73.3s)  [ tid 21928 @    80.981s wavefront/integrator.cpp:390 ] Starting to submit work for sample 537
+
+Rendering: [+++++++++++++++++++++++                    ]  (80.3s|73.2s)  [ tid 21928 @    81.131s wavefront/integrator.cpp:390 ] Starting to submit work for sample 538
+
+Rendering: [+++++++++++++++++++++++                    ]  (80.5s|72.8s)  [ tid 21928 @    81.282s wavefront/integrator.cpp:390 ] Starting to submit work for sample 539
+[ tid 21928 @    81.432s wavefront/integrator.cpp:390 ] Starting to submit work for sample 540
+
+Rendering: [+++++++++++++++++++++++                    ]  (80.7s|72.7s)  [ tid 21928 @    81.582s wavefront/integrator.cpp:390 ] Starting to submit work for sample 541
+
+Rendering: [+++++++++++++++++++++++                    ]  (80.9s|72.6s)  [ tid 21928 @    81.733s wavefront/integrator.cpp:390 ] Starting to submit work for sample 542
+
+Rendering: [+++++++++++++++++++++++                    ]  (81.1s|72.2s)  [ tid 21928 @    81.883s wavefront/integrator.cpp:390 ] Starting to submit work for sample 543
+[ tid 21928 @    82.034s wavefront/integrator.cpp:390 ] Starting to submit work for sample 544
+
+Rendering: [+++++++++++++++++++++++                    ]  (81.3s|72.1s)  [ tid 21928 @    82.185s wavefront/integrator.cpp:390 ] Starting to submit work for sample 545
+
+Rendering: [+++++++++++++++++++++++                    ]  (81.5s|72.0s)  [ tid 21928 @    82.336s wavefront/integrator.cpp:390 ] Starting to submit work for sample 546
+
+Rendering: [+++++++++++++++++++++++                    ]  (81.7s|71.6s)  [ tid 21928 @    82.486s wavefront/integrator.cpp:390 ] Starting to submit work for sample 547
+[ tid 21928 @    82.636s wavefront/integrator.cpp:390 ] Starting to submit work for sample 548
+
+Rendering: [+++++++++++++++++++++++                    ]  (81.9s|71.5s)  [ tid 21928 @    82.787s wavefront/integrator.cpp:390 ] Starting to submit work for sample 549
+
+Rendering: [+++++++++++++++++++++++                    ]  (82.1s|71.4s)  [ tid 21928 @    82.937s wavefront/integrator.cpp:390 ] Starting to submit work for sample 550
+
+Rendering: [+++++++++++++++++++++++                    ]  (82.3s|71.0s)  [ tid 21928 @    83.088s wavefront/integrator.cpp:390 ] Starting to submit work for sample 551
+[ tid 21928 @    83.238s wavefront/integrator.cpp:390 ] Starting to submit work for sample 552
+
+Rendering: [+++++++++++++++++++++++                    ]  (82.6s|70.9s)  [ tid 21928 @    83.389s wavefront/integrator.cpp:390 ] Starting to submit work for sample 553
+
+Rendering: [+++++++++++++++++++++++                    ]  (82.8s|70.8s)  [ tid 21928 @    83.539s wavefront/integrator.cpp:390 ] Starting to submit work for sample 554
+
+Rendering: [+++++++++++++++++++++++                    ]  (83.0s|70.4s)  [ tid 21928 @    83.690s wavefront/integrator.cpp:390 ] Starting to submit work for sample 555
+
+Rendering: [+++++++++++++++++++++++                    ]  (83.2s|70.3s)  [ tid 21928 @    83.841s wavefront/integrator.cpp:390 ] Starting to submit work for sample 556
+[ tid 21928 @    83.991s wavefront/integrator.cpp:390 ] Starting to submit work for sample 557
+
+Rendering: [+++++++++++++++++++++++                    ]  (83.4s|70.2s)  [ tid 21928 @    84.142s wavefront/integrator.cpp:390 ] Starting to submit work for sample 558
+
+Rendering: [+++++++++++++++++++++++                    ]  (83.6s|69.8s)  [ tid 21928 @    84.292s wavefront/integrator.cpp:390 ] Starting to submit work for sample 559
+
+Rendering: [+++++++++++++++++++++++                    ]  (83.8s|69.7s)  [ tid 21928 @    84.442s wavefront/integrator.cpp:390 ] Starting to submit work for sample 560
+[ tid 21928 @    84.593s wavefront/integrator.cpp:390 ] Starting to submit work for sample 561
+
+Rendering: [++++++++++++++++++++++++                   ]  (84.0s|69.6s)  [ tid 21928 @    84.744s wavefront/integrator.cpp:390 ] Starting to submit work for sample 562
+
+Rendering: [++++++++++++++++++++++++                   ]  (84.2s|69.2s)  [ tid 21928 @    84.894s wavefront/integrator.cpp:390 ] Starting to submit work for sample 563
+
+Rendering: [++++++++++++++++++++++++                   ]  (84.4s|69.1s)  [ tid 21928 @    85.044s wavefront/integrator.cpp:390 ] Starting to submit work for sample 564
+[ tid 21928 @    85.195s wavefront/integrator.cpp:390 ] Starting to submit work for sample 565
+
+Rendering: [++++++++++++++++++++++++                   ]  (84.6s|69.0s)  [ tid 21928 @    85.346s wavefront/integrator.cpp:390 ] Starting to submit work for sample 566
+
+Rendering: [++++++++++++++++++++++++                   ]  (84.8s|68.6s)  [ tid 21928 @    85.496s wavefront/integrator.cpp:390 ] Starting to submit work for sample 567
+
+Rendering: [++++++++++++++++++++++++                   ]  (85.0s|68.5s)  [ tid 21928 @    85.647s wavefront/integrator.cpp:390 ] Starting to submit work for sample 568
+[ tid 21928 @    85.798s wavefront/integrator.cpp:390 ] Starting to submit work for sample 569
+
+Rendering: [++++++++++++++++++++++++                   ]  (85.2s|68.4s)  [ tid 21928 @    85.948s wavefront/integrator.cpp:390 ] Starting to submit work for sample 570
+
+Rendering: [++++++++++++++++++++++++                   ]  (85.4s|68.0s)  [ tid 21928 @    86.098s wavefront/integrator.cpp:390 ] Starting to submit work for sample 571
+
+Rendering: [++++++++++++++++++++++++                   ]  (85.6s|67.9s)  [ tid 21928 @    86.249s wavefront/integrator.cpp:390 ] Starting to submit work for sample 572
+[ tid 21928 @    86.400s wavefront/integrator.cpp:390 ] Starting to submit work for sample 573
+
+Rendering: [++++++++++++++++++++++++                   ]  (85.8s|67.8s)  [ tid 21928 @    86.551s wavefront/integrator.cpp:390 ] Starting to submit work for sample 574
+
+Rendering: [++++++++++++++++++++++++                   ]  (86.0s|67.4s)  [ tid 21928 @    86.701s wavefront/integrator.cpp:390 ] Starting to submit work for sample 575
+
+Rendering: [++++++++++++++++++++++++                   ]  (86.2s|67.3s)  [ tid 21928 @    86.852s wavefront/integrator.cpp:390 ] Starting to submit work for sample 576
+[ tid 21928 @    87.002s wavefront/integrator.cpp:390 ] Starting to submit work for sample 577
+
+Rendering: [++++++++++++++++++++++++                   ]  (86.4s|67.2s)  [ tid 21928 @    87.153s wavefront/integrator.cpp:390 ] Starting to submit work for sample 578
+
+Rendering: [++++++++++++++++++++++++                   ]  (86.6s|66.8s)  [ tid 21928 @    87.304s wavefront/integrator.cpp:390 ] Starting to submit work for sample 579
+
+Rendering: [++++++++++++++++++++++++                   ]  (86.8s|66.7s)  [ tid 21928 @    87.455s wavefront/integrator.cpp:390 ] Starting to submit work for sample 580
+[ tid 21928 @    87.606s wavefront/integrator.cpp:390 ] Starting to submit work for sample 581
+
+Rendering: [++++++++++++++++++++++++                   ]  (87.0s|66.6s)  [ tid 21928 @    87.756s wavefront/integrator.cpp:390 ] Starting to submit work for sample 582
+
+Rendering: [++++++++++++++++++++++++                   ]  (87.2s|66.2s)  [ tid 21928 @    87.907s wavefront/integrator.cpp:390 ] Starting to submit work for sample 583
+
+Rendering: [++++++++++++++++++++++++                   ]  (87.4s|66.1s)  [ tid 21928 @    88.057s wavefront/integrator.cpp:390 ] Starting to submit work for sample 584
+[ tid 21928 @    88.208s wavefront/integrator.cpp:390 ] Starting to submit work for sample 585
+
+Rendering: [+++++++++++++++++++++++++                  ]  (87.6s|66.0s)  [ tid 21928 @    88.359s wavefront/integrator.cpp:390 ] Starting to submit work for sample 586
+
+Rendering: [+++++++++++++++++++++++++                  ]  (87.8s|65.6s)  [ tid 21928 @    88.509s wavefront/integrator.cpp:390 ] Starting to submit work for sample 587
+
+Rendering: [+++++++++++++++++++++++++                  ]  (88.0s|65.5s)  [ tid 21928 @    88.660s wavefront/integrator.cpp:390 ] Starting to submit work for sample 588
+[ tid 21928 @    88.810s wavefront/integrator.cpp:390 ] Starting to submit work for sample 589
+
+Rendering: [+++++++++++++++++++++++++                  ]  (88.2s|65.4s)  [ tid 21928 @    88.961s wavefront/integrator.cpp:390 ] Starting to submit work for sample 590
+
+Rendering: [+++++++++++++++++++++++++                  ]  (88.4s|65.3s)  [ tid 21928 @    89.111s wavefront/integrator.cpp:390 ] Starting to submit work for sample 591
+
+Rendering: [+++++++++++++++++++++++++                  ]  (88.6s|64.9s)  [ tid 21928 @    89.261s wavefront/integrator.cpp:390 ] Starting to submit work for sample 592
+[ tid 21928 @    89.413s wavefront/integrator.cpp:390 ] Starting to submit work for sample 593
+
+Rendering: [+++++++++++++++++++++++++                  ]  (88.8s|64.8s)  [ tid 21928 @    89.563s wavefront/integrator.cpp:390 ] Starting to submit work for sample 594
+
+Rendering: [+++++++++++++++++++++++++                  ]  (89.0s|64.7s)  [ tid 21928 @    89.713s wavefront/integrator.cpp:390 ] Starting to submit work for sample 595
+
+Rendering: [+++++++++++++++++++++++++                  ]  (89.2s|64.3s)  [ tid 21928 @    89.864s wavefront/integrator.cpp:390 ] Starting to submit work for sample 596
+[ tid 21928 @    90.015s wavefront/integrator.cpp:390 ] Starting to submit work for sample 597
+
+Rendering: [+++++++++++++++++++++++++                  ]  (89.4s|64.2s)  [ tid 21928 @    90.165s wavefront/integrator.cpp:390 ] Starting to submit work for sample 598
+
+Rendering: [+++++++++++++++++++++++++                  ]  (89.6s|64.1s)  [ tid 21928 @    90.316s wavefront/integrator.cpp:390 ] Starting to submit work for sample 599
+
+Rendering: [+++++++++++++++++++++++++                  ]  (89.8s|63.7s)  [ tid 21928 @    90.467s wavefront/integrator.cpp:390 ] Starting to submit work for sample 600
+[ tid 21928 @    90.618s wavefront/integrator.cpp:390 ] Starting to submit work for sample 601
+
+Rendering: [+++++++++++++++++++++++++                  ]  (90.0s|63.6s)  [ tid 21928 @    90.768s wavefront/integrator.cpp:390 ] Starting to submit work for sample 602
+
+Rendering: [+++++++++++++++++++++++++                  ]  (90.2s|63.5s)  [ tid 21928 @    90.919s wavefront/integrator.cpp:390 ] Starting to submit work for sample 603
+
+Rendering: [+++++++++++++++++++++++++                  ]  (90.4s|63.1s)  [ tid 21928 @    91.070s wavefront/integrator.cpp:390 ] Starting to submit work for sample 604
+[ tid 21928 @    91.220s wavefront/integrator.cpp:390 ] Starting to submit work for sample 605
+
+Rendering: [+++++++++++++++++++++++++                  ]  (90.6s|63.0s)  [ tid 21928 @    91.371s wavefront/integrator.cpp:390 ] Starting to submit work for sample 606
+
+Rendering: [+++++++++++++++++++++++++                  ]  (90.8s|62.9s)  [ tid 21928 @    91.521s wavefront/integrator.cpp:390 ] Starting to submit work for sample 607
+
+Rendering: [+++++++++++++++++++++++++                  ]  (91.0s|62.5s)  [ tid 21928 @    91.672s wavefront/integrator.cpp:390 ] Starting to submit work for sample 608
+[ tid 21928 @    91.822s wavefront/integrator.cpp:390 ] Starting to submit work for sample 609
+
+Rendering: [++++++++++++++++++++++++++                 ]  (91.2s|62.4s)  [ tid 21928 @    91.973s wavefront/integrator.cpp:390 ] Starting to submit work for sample 610
+
+Rendering: [++++++++++++++++++++++++++                 ]  (91.4s|62.3s)  [ tid 21928 @    92.124s wavefront/integrator.cpp:390 ] Starting to submit work for sample 611
+
+Rendering: [++++++++++++++++++++++++++                 ]  (91.6s|61.9s)  [ tid 21928 @    92.275s wavefront/integrator.cpp:390 ] Starting to submit work for sample 612
+[ tid 21928 @    92.426s wavefront/integrator.cpp:390 ] Starting to submit work for sample 613
+
+Rendering: [++++++++++++++++++++++++++                 ]  (91.8s|61.8s)  [ tid 21928 @    92.577s wavefront/integrator.cpp:390 ] Starting to submit work for sample 614
+
+Rendering: [++++++++++++++++++++++++++                 ]  (92.0s|61.7s)  [ tid 21928 @    92.727s wavefront/integrator.cpp:390 ] Starting to submit work for sample 615
+
+Rendering: [++++++++++++++++++++++++++                 ]  (92.2s|61.3s)  [ tid 21928 @    92.878s wavefront/integrator.cpp:390 ] Starting to submit work for sample 616
+[ tid 21928 @    93.029s wavefront/integrator.cpp:390 ] Starting to submit work for sample 617
+
+Rendering: [++++++++++++++++++++++++++                 ]  (92.4s|61.2s)  [ tid 21928 @    93.180s wavefront/integrator.cpp:390 ] Starting to submit work for sample 618
+
+Rendering: [++++++++++++++++++++++++++                 ]  (92.6s|61.1s)  [ tid 21928 @    93.331s wavefront/integrator.cpp:390 ] Starting to submit work for sample 619
+
+Rendering: [++++++++++++++++++++++++++                 ]  (92.8s|60.7s)  [ tid 21928 @    93.482s wavefront/integrator.cpp:390 ] Starting to submit work for sample 620
+[ tid 21928 @    93.632s wavefront/integrator.cpp:390 ] Starting to submit work for sample 621
+
+Rendering: [++++++++++++++++++++++++++                 ]  (93.0s|60.6s)  [ tid 21928 @    93.783s wavefront/integrator.cpp:390 ] Starting to submit work for sample 622
+
+Rendering: [++++++++++++++++++++++++++                 ]  (93.2s|60.5s)  [ tid 21928 @    93.934s wavefront/integrator.cpp:390 ] Starting to submit work for sample 623
+
+Rendering: [++++++++++++++++++++++++++                 ]  (93.4s|60.1s)  [ tid 21928 @    94.085s wavefront/integrator.cpp:390 ] Starting to submit work for sample 624
+[ tid 21928 @    94.235s wavefront/integrator.cpp:390 ] Starting to submit work for sample 625
+
+Rendering: [++++++++++++++++++++++++++                 ]  (93.6s|60.0s)  [ tid 21928 @    94.386s wavefront/integrator.cpp:390 ] Starting to submit work for sample 626
+
+Rendering: [++++++++++++++++++++++++++                 ]  (93.8s|59.9s)  [ tid 21928 @    94.537s wavefront/integrator.cpp:390 ] Starting to submit work for sample 627
+
+Rendering: [++++++++++++++++++++++++++                 ]  (94.0s|59.5s)  [ tid 21928 @    94.688s wavefront/integrator.cpp:390 ] Starting to submit work for sample 628
+[ tid 21928 @    94.839s wavefront/integrator.cpp:390 ] Starting to submit work for sample 629
+
+Rendering: [++++++++++++++++++++++++++                 ]  (94.2s|59.4s)  [ tid 21928 @    94.990s wavefront/integrator.cpp:390 ] Starting to submit work for sample 630
+
+Rendering: [++++++++++++++++++++++++++                 ]  (94.4s|59.3s)  [ tid 21928 @    95.140s wavefront/integrator.cpp:390 ] Starting to submit work for sample 631
+
+Rendering: [++++++++++++++++++++++++++                 ]  (94.6s|58.9s)  [ tid 21928 @    95.291s wavefront/integrator.cpp:390 ] Starting to submit work for sample 632
+[ tid 21928 @    95.442s wavefront/integrator.cpp:390 ] Starting to submit work for sample 633
+
+Rendering: [+++++++++++++++++++++++++++                ]  (94.8s|58.8s)  [ tid 21928 @    95.593s wavefront/integrator.cpp:390 ] Starting to submit work for sample 634
+
+Rendering: [+++++++++++++++++++++++++++                ]  (95.0s|58.7s)  [ tid 21928 @    95.744s wavefront/integrator.cpp:390 ] Starting to submit work for sample 635
+
+Rendering: [+++++++++++++++++++++++++++                ]  (95.2s|58.3s)  [ tid 21928 @    95.894s wavefront/integrator.cpp:390 ] Starting to submit work for sample 636
+[ tid 21928 @    96.045s wavefront/integrator.cpp:390 ] Starting to submit work for sample 637
+
+Rendering: [+++++++++++++++++++++++++++                ]  (95.4s|58.2s)  [ tid 21928 @    96.196s wavefront/integrator.cpp:390 ] Starting to submit work for sample 638
+
+Rendering: [+++++++++++++++++++++++++++                ]  (95.6s|58.1s)  [ tid 21928 @    96.346s wavefront/integrator.cpp:390 ] Starting to submit work for sample 639
+
+Rendering: [+++++++++++++++++++++++++++                ]  (95.8s|57.7s)  [ tid 21928 @    96.497s wavefront/integrator.cpp:390 ] Starting to submit work for sample 640
+
+Rendering: [+++++++++++++++++++++++++++                ]  (96.0s|57.6s)  [ tid 21928 @    96.647s wavefront/integrator.cpp:390 ] Starting to submit work for sample 641
+[ tid 21928 @    96.798s wavefront/integrator.cpp:390 ] Starting to submit work for sample 642
+
+Rendering: [+++++++++++++++++++++++++++                ]  (96.2s|57.5s)  [ tid 21928 @    96.948s wavefront/integrator.cpp:390 ] Starting to submit work for sample 643
+
+Rendering: [+++++++++++++++++++++++++++                ]  (96.4s|57.1s)  [ tid 21928 @    97.099s wavefront/integrator.cpp:390 ] Starting to submit work for sample 644
+
+Rendering: [+++++++++++++++++++++++++++                ]  (96.6s|57.0s)  [ tid 21928 @    97.250s wavefront/integrator.cpp:390 ] Starting to submit work for sample 645
+[ tid 21928 @    97.400s wavefront/integrator.cpp:390 ] Starting to submit work for sample 646
+[ tid 21928 @    97.551s wavefront/integrator.cpp:390 ] Starting to submit work for sample 647
+[ tid 21928 @    97.702s wavefront/integrator.cpp:390 ] Starting to submit work for sample 648
+[ tid 21928 @    97.853s wavefront/integrator.cpp:390 ] Starting to submit work for sample 649
+[ tid 21928 @    98.003s wavefront/integrator.cpp:390 ] Starting to submit work for sample 650
+[ tid 21928 @    98.154s wavefront/integrator.cpp:390 ] Starting to submit work for sample 651
+
+Rendering: [+++++++++++++++++++++++++++                ]  (97.6s|55.9s)  [ tid 21928 @    98.304s wavefront/integrator.cpp:390 ] Starting to submit work for sample 652
+[ tid 21928 @    98.455s wavefront/integrator.cpp:390 ] Starting to submit work for sample 653
+[ tid 21928 @    98.605s wavefront/integrator.cpp:390 ] Starting to submit work for sample 654
+[ tid 21928 @    98.757s wavefront/integrator.cpp:390 ] Starting to submit work for sample 655
+[ tid 21928 @    98.907s wavefront/integrator.cpp:390 ] Starting to submit work for sample 656
+[ tid 21928 @    99.058s wavefront/integrator.cpp:390 ] Starting to submit work for sample 657
+[ tid 21928 @    99.209s wavefront/integrator.cpp:390 ] Starting to submit work for sample 658
+
+Rendering: [++++++++++++++++++++++++++++               ]  (98.6s|55.1s)  [ tid 21928 @    99.359s wavefront/integrator.cpp:390 ] Starting to submit work for sample 659
+[ tid 21928 @    99.510s wavefront/integrator.cpp:390 ] Starting to submit work for sample 660
+[ tid 21928 @    99.660s wavefront/integrator.cpp:390 ] Starting to submit work for sample 661
+[ tid 21928 @    99.811s wavefront/integrator.cpp:390 ] Starting to submit work for sample 662
+[ tid 21928 @    99.962s wavefront/integrator.cpp:390 ] Starting to submit work for sample 663
+[ tid 21928 @   100.113s wavefront/integrator.cpp:390 ] Starting to submit work for sample 664
+
+Rendering: [++++++++++++++++++++++++++++               ]  (99.6s|54.0s)  [ tid 21928 @   100.264s wavefront/integrator.cpp:390 ] Starting to submit work for sample 665
+[ tid 21928 @   100.414s wavefront/integrator.cpp:390 ] Starting to submit work for sample 666
+[ tid 21928 @   100.564s wavefront/integrator.cpp:390 ] Starting to submit work for sample 667
+[ tid 21928 @   100.715s wavefront/integrator.cpp:390 ] Starting to submit work for sample 668
+[ tid 21928 @   100.866s wavefront/integrator.cpp:390 ] Starting to submit work for sample 669
+[ tid 21928 @   101.017s wavefront/integrator.cpp:390 ] Starting to submit work for sample 670
+[ tid 21928 @   101.168s wavefront/integrator.cpp:390 ] Starting to submit work for sample 671
+
+Rendering: [++++++++++++++++++++++++++++               ]  (100.6s|53.1s)  [ tid 21928 @   101.319s wavefront/integrator.cpp:390 ] Starting to submit work for sample 672
+[ tid 21928 @   101.469s wavefront/integrator.cpp:390 ] Starting to submit work for sample 673
+[ tid 21928 @   101.620s wavefront/integrator.cpp:390 ] Starting to submit work for sample 674
+[ tid 21928 @   101.771s wavefront/integrator.cpp:390 ] Starting to submit work for sample 675
+[ tid 21928 @   101.922s wavefront/integrator.cpp:390 ] Starting to submit work for sample 676
+[ tid 21928 @   102.073s wavefront/integrator.cpp:390 ] Starting to submit work for sample 677
+[ tid 21928 @   102.223s wavefront/integrator.cpp:390 ] Starting to submit work for sample 678
+
+Rendering: [++++++++++++++++++++++++++++               ]  (101.6s|52.1s)  [ tid 21928 @   102.374s wavefront/integrator.cpp:390 ] Starting to submit work for sample 679
+[ tid 21928 @   102.525s wavefront/integrator.cpp:390 ] Starting to submit work for sample 680
+[ tid 21928 @   102.676s wavefront/integrator.cpp:390 ] Starting to submit work for sample 681
+[ tid 21928 @   102.827s wavefront/integrator.cpp:390 ] Starting to submit work for sample 682
+[ tid 21928 @   102.978s wavefront/integrator.cpp:390 ] Starting to submit work for sample 683
+[ tid 21928 @   103.129s wavefront/integrator.cpp:390 ] Starting to submit work for sample 684
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (102.6s|51.0s)  [ tid 21928 @   103.279s wavefront/integrator.cpp:390 ] Starting to submit work for sample 685
+[ tid 21928 @   103.430s wavefront/integrator.cpp:390 ] Starting to submit work for sample 686
+[ tid 21928 @   103.581s wavefront/integrator.cpp:390 ] Starting to submit work for sample 687
+[ tid 21928 @   103.732s wavefront/integrator.cpp:390 ] Starting to submit work for sample 688
+[ tid 21928 @   103.883s wavefront/integrator.cpp:390 ] Starting to submit work for sample 689
+[ tid 21928 @   104.034s wavefront/integrator.cpp:390 ] Starting to submit work for sample 690
+[ tid 21928 @   104.185s wavefront/integrator.cpp:390 ] Starting to submit work for sample 691
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (103.6s|50.1s)  [ tid 21928 @   104.336s wavefront/integrator.cpp:390 ] Starting to submit work for sample 692
+[ tid 21928 @   104.487s wavefront/integrator.cpp:390 ] Starting to submit work for sample 693
+[ tid 21928 @   104.637s wavefront/integrator.cpp:390 ] Starting to submit work for sample 694
+[ tid 21928 @   104.788s wavefront/integrator.cpp:390 ] Starting to submit work for sample 695
+[ tid 21928 @   104.939s wavefront/integrator.cpp:390 ] Starting to submit work for sample 696
+[ tid 21928 @   105.090s wavefront/integrator.cpp:390 ] Starting to submit work for sample 697
+[ tid 21928 @   105.241s wavefront/integrator.cpp:390 ] Starting to submit work for sample 698
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (104.6s|49.1s)  [ tid 21928 @   105.392s wavefront/integrator.cpp:390 ] Starting to submit work for sample 699
+[ tid 21928 @   105.543s wavefront/integrator.cpp:390 ] Starting to submit work for sample 700
+[ tid 21928 @   105.694s wavefront/integrator.cpp:390 ] Starting to submit work for sample 701
+[ tid 21928 @   105.844s wavefront/integrator.cpp:390 ] Starting to submit work for sample 702
+[ tid 21928 @   105.995s wavefront/integrator.cpp:390 ] Starting to submit work for sample 703
+[ tid 21928 @   106.146s wavefront/integrator.cpp:390 ] Starting to submit work for sample 704
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (105.6s|48.0s)  [ tid 21928 @   106.297s wavefront/integrator.cpp:390 ] Starting to submit work for sample 705
+[ tid 21928 @   106.447s wavefront/integrator.cpp:390 ] Starting to submit work for sample 706
+[ tid 21928 @   106.598s wavefront/integrator.cpp:390 ] Starting to submit work for sample 707
+[ tid 21928 @   106.748s wavefront/integrator.cpp:390 ] Starting to submit work for sample 708
+[ tid 21928 @   106.899s wavefront/integrator.cpp:390 ] Starting to submit work for sample 709
+[ tid 21928 @   107.049s wavefront/integrator.cpp:390 ] Starting to submit work for sample 710
+[ tid 21928 @   107.200s wavefront/integrator.cpp:390 ] Starting to submit work for sample 711
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (106.6s|47.1s)  [ tid 21928 @   107.351s wavefront/integrator.cpp:390 ] Starting to submit work for sample 712
+[ tid 21928 @   107.502s wavefront/integrator.cpp:390 ] Starting to submit work for sample 713
+[ tid 21928 @   107.653s wavefront/integrator.cpp:390 ] Starting to submit work for sample 714
+[ tid 21928 @   107.803s wavefront/integrator.cpp:390 ] Starting to submit work for sample 715
+[ tid 21928 @   107.954s wavefront/integrator.cpp:390 ] Starting to submit work for sample 716
+[ tid 21928 @   108.105s wavefront/integrator.cpp:390 ] Starting to submit work for sample 717
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (107.6s|46.1s)  [ tid 21928 @   108.256s wavefront/integrator.cpp:390 ] Starting to submit work for sample 718
+[ tid 21928 @   108.406s wavefront/integrator.cpp:390 ] Starting to submit work for sample 719
+[ tid 21928 @   108.558s wavefront/integrator.cpp:390 ] Starting to submit work for sample 720
+[ tid 21928 @   108.709s wavefront/integrator.cpp:390 ] Starting to submit work for sample 721
+[ tid 21928 @   108.860s wavefront/integrator.cpp:390 ] Starting to submit work for sample 722
+[ tid 21928 @   109.011s wavefront/integrator.cpp:390 ] Starting to submit work for sample 723
+[ tid 21928 @   109.162s wavefront/integrator.cpp:390 ] Starting to submit work for sample 724
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (108.6s|45.0s)  [ tid 21928 @   109.313s wavefront/integrator.cpp:390 ] Starting to submit work for sample 725
+[ tid 21928 @   109.464s wavefront/integrator.cpp:390 ] Starting to submit work for sample 726
+[ tid 21928 @   109.615s wavefront/integrator.cpp:390 ] Starting to submit work for sample 727
+[ tid 21928 @   109.766s wavefront/integrator.cpp:390 ] Starting to submit work for sample 728
+[ tid 21928 @   109.917s wavefront/integrator.cpp:390 ] Starting to submit work for sample 729
+[ tid 21928 @   110.068s wavefront/integrator.cpp:390 ] Starting to submit work for sample 730
+[ tid 21928 @   110.219s wavefront/integrator.cpp:390 ] Starting to submit work for sample 731
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (109.6s|44.1s)  [ tid 21928 @   110.370s wavefront/integrator.cpp:390 ] Starting to submit work for sample 732
+[ tid 21928 @   110.521s wavefront/integrator.cpp:390 ] Starting to submit work for sample 733
+[ tid 21928 @   110.672s wavefront/integrator.cpp:390 ] Starting to submit work for sample 734
+[ tid 21928 @   110.823s wavefront/integrator.cpp:390 ] Starting to submit work for sample 735
+[ tid 21928 @   110.974s wavefront/integrator.cpp:390 ] Starting to submit work for sample 736
+[ tid 21928 @   111.125s wavefront/integrator.cpp:390 ] Starting to submit work for sample 737
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (110.6s|43.1s)  [ tid 21928 @   111.276s wavefront/integrator.cpp:390 ] Starting to submit work for sample 738
+[ tid 21928 @   111.427s wavefront/integrator.cpp:390 ] Starting to submit work for sample 739
+[ tid 21928 @   111.578s wavefront/integrator.cpp:390 ] Starting to submit work for sample 740
+[ tid 21928 @   111.729s wavefront/integrator.cpp:390 ] Starting to submit work for sample 741
+[ tid 21928 @   111.880s wavefront/integrator.cpp:390 ] Starting to submit work for sample 742
+[ tid 21928 @   112.031s wavefront/integrator.cpp:390 ] Starting to submit work for sample 743
+[ tid 21928 @   112.182s wavefront/integrator.cpp:390 ] Starting to submit work for sample 744
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (111.6s|42.2s)  [ tid 21928 @   112.333s wavefront/integrator.cpp:390 ] Starting to submit work for sample 745
+[ tid 21928 @   112.483s wavefront/integrator.cpp:390 ] Starting to submit work for sample 746
+[ tid 21928 @   112.634s wavefront/integrator.cpp:390 ] Starting to submit work for sample 747
+[ tid 21928 @   112.785s wavefront/integrator.cpp:390 ] Starting to submit work for sample 748
+[ tid 21928 @   112.936s wavefront/integrator.cpp:390 ] Starting to submit work for sample 749
+[ tid 21928 @   113.087s wavefront/integrator.cpp:390 ] Starting to submit work for sample 750
+[ tid 21928 @   113.238s wavefront/integrator.cpp:390 ] Starting to submit work for sample 751
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (112.6s|41.1s)  [ tid 21928 @   113.389s wavefront/integrator.cpp:390 ] Starting to submit work for sample 752
+[ tid 21928 @   113.540s wavefront/integrator.cpp:390 ] Starting to submit work for sample 753
+[ tid 21928 @   113.691s wavefront/integrator.cpp:390 ] Starting to submit work for sample 754
+[ tid 21928 @   113.842s wavefront/integrator.cpp:390 ] Starting to submit work for sample 755
+[ tid 21928 @   113.993s wavefront/integrator.cpp:390 ] Starting to submit work for sample 756
+[ tid 21928 @   114.144s wavefront/integrator.cpp:390 ] Starting to submit work for sample 757
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (113.6s|40.1s)  [ tid 21928 @   114.295s wavefront/integrator.cpp:390 ] Starting to submit work for sample 758
+[ tid 21928 @   114.446s wavefront/integrator.cpp:390 ] Starting to submit work for sample 759
+[ tid 21928 @   114.597s wavefront/integrator.cpp:390 ] Starting to submit work for sample 760
+[ tid 21928 @   114.748s wavefront/integrator.cpp:390 ] Starting to submit work for sample 761
+[ tid 21928 @   114.899s wavefront/integrator.cpp:390 ] Starting to submit work for sample 762
+[ tid 21928 @   115.050s wavefront/integrator.cpp:390 ] Starting to submit work for sample 763
+[ tid 21928 @   115.201s wavefront/integrator.cpp:390 ] Starting to submit work for sample 764
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (114.6s|39.2s)  [ tid 21928 @   115.352s wavefront/integrator.cpp:390 ] Starting to submit work for sample 765
+[ tid 21928 @   115.503s wavefront/integrator.cpp:390 ] Starting to submit work for sample 766
+[ tid 21928 @   115.654s wavefront/integrator.cpp:390 ] Starting to submit work for sample 767
+[ tid 21928 @   115.805s wavefront/integrator.cpp:390 ] Starting to submit work for sample 768
+[ tid 21928 @   115.956s wavefront/integrator.cpp:390 ] Starting to submit work for sample 769
+[ tid 21928 @   116.107s wavefront/integrator.cpp:390 ] Starting to submit work for sample 770
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (115.6s|38.1s)  [ tid 21928 @   116.258s wavefront/integrator.cpp:390 ] Starting to submit work for sample 771
+[ tid 21928 @   116.409s wavefront/integrator.cpp:390 ] Starting to submit work for sample 772
+[ tid 21928 @   116.561s wavefront/integrator.cpp:390 ] Starting to submit work for sample 773
+[ tid 21928 @   116.712s wavefront/integrator.cpp:390 ] Starting to submit work for sample 774
+[ tid 21928 @   116.863s wavefront/integrator.cpp:390 ] Starting to submit work for sample 775
+[ tid 21928 @   117.014s wavefront/integrator.cpp:390 ] Starting to submit work for sample 776
+[ tid 21928 @   117.165s wavefront/integrator.cpp:390 ] Starting to submit work for sample 777
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (116.6s|37.1s)  [ tid 21928 @   117.317s wavefront/integrator.cpp:390 ] Starting to submit work for sample 778
+[ tid 21928 @   117.467s wavefront/integrator.cpp:390 ] Starting to submit work for sample 779
+[ tid 21928 @   117.618s wavefront/integrator.cpp:390 ] Starting to submit work for sample 780
+[ tid 21928 @   117.769s wavefront/integrator.cpp:390 ] Starting to submit work for sample 781
+[ tid 21928 @   117.920s wavefront/integrator.cpp:390 ] Starting to submit work for sample 782
+[ tid 21928 @   118.072s wavefront/integrator.cpp:390 ] Starting to submit work for sample 783
+[ tid 21928 @   118.223s wavefront/integrator.cpp:390 ] Starting to submit work for sample 784
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (117.6s|36.2s)  [ tid 21928 @   118.374s wavefront/integrator.cpp:390 ] Starting to submit work for sample 785
+[ tid 21928 @   118.524s wavefront/integrator.cpp:390 ] Starting to submit work for sample 786
+[ tid 21928 @   118.675s wavefront/integrator.cpp:390 ] Starting to submit work for sample 787
+[ tid 21928 @   118.826s wavefront/integrator.cpp:390 ] Starting to submit work for sample 788
+[ tid 21928 @   118.977s wavefront/integrator.cpp:390 ] Starting to submit work for sample 789
+[ tid 21928 @   119.128s wavefront/integrator.cpp:390 ] Starting to submit work for sample 790
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (118.6s|35.1s)  [ tid 21928 @   119.280s wavefront/integrator.cpp:390 ] Starting to submit work for sample 791
+[ tid 21928 @   119.431s wavefront/integrator.cpp:390 ] Starting to submit work for sample 792
+[ tid 21928 @   119.582s wavefront/integrator.cpp:390 ] Starting to submit work for sample 793
+[ tid 21928 @   119.733s wavefront/integrator.cpp:390 ] Starting to submit work for sample 794
+[ tid 21928 @   119.884s wavefront/integrator.cpp:390 ] Starting to submit work for sample 795
+[ tid 21928 @   120.035s wavefront/integrator.cpp:390 ] Starting to submit work for sample 796
+[ tid 21928 @   120.186s wavefront/integrator.cpp:390 ] Starting to submit work for sample 797
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (119.6s|34.2s)  [ tid 21928 @   120.337s wavefront/integrator.cpp:390 ] Starting to submit work for sample 798
+[ tid 21928 @   120.488s wavefront/integrator.cpp:390 ] Starting to submit work for sample 799
+[ tid 21928 @   120.640s wavefront/integrator.cpp:390 ] Starting to submit work for sample 800
+[ tid 21928 @   120.791s wavefront/integrator.cpp:390 ] Starting to submit work for sample 801
+[ tid 21928 @   120.942s wavefront/integrator.cpp:390 ] Starting to submit work for sample 802
+[ tid 21928 @   121.093s wavefront/integrator.cpp:390 ] Starting to submit work for sample 803
+[ tid 21928 @   121.245s wavefront/integrator.cpp:390 ] Starting to submit work for sample 804
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (120.6s|33.2s)  [ tid 21928 @   121.396s wavefront/integrator.cpp:390 ] Starting to submit work for sample 805
+[ tid 21928 @   121.547s wavefront/integrator.cpp:390 ] Starting to submit work for sample 806
+[ tid 21928 @   121.698s wavefront/integrator.cpp:390 ] Starting to submit work for sample 807
+[ tid 21928 @   121.850s wavefront/integrator.cpp:390 ] Starting to submit work for sample 808
+[ tid 21928 @   122.000s wavefront/integrator.cpp:390 ] Starting to submit work for sample 809
+[ tid 21928 @   122.151s wavefront/integrator.cpp:390 ] Starting to submit work for sample 810
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (121.6s|32.1s)  [ tid 21928 @   122.302s wavefront/integrator.cpp:390 ] Starting to submit work for sample 811
+[ tid 21928 @   122.453s wavefront/integrator.cpp:390 ] Starting to submit work for sample 812
+[ tid 21928 @   122.605s wavefront/integrator.cpp:390 ] Starting to submit work for sample 813
+[ tid 21928 @   122.756s wavefront/integrator.cpp:390 ] Starting to submit work for sample 814
+[ tid 21928 @   122.907s wavefront/integrator.cpp:390 ] Starting to submit work for sample 815
+[ tid 21928 @   123.058s wavefront/integrator.cpp:390 ] Starting to submit work for sample 816
+[ tid 21928 @   123.208s wavefront/integrator.cpp:390 ] Starting to submit work for sample 817
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (122.6s|31.2s)  [ tid 21928 @   123.360s wavefront/integrator.cpp:390 ] Starting to submit work for sample 818
+[ tid 21928 @   123.511s wavefront/integrator.cpp:390 ] Starting to submit work for sample 819
+[ tid 21928 @   123.662s wavefront/integrator.cpp:390 ] Starting to submit work for sample 820
+[ tid 21928 @   123.813s wavefront/integrator.cpp:390 ] Starting to submit work for sample 821
+[ tid 21928 @   123.964s wavefront/integrator.cpp:390 ] Starting to submit work for sample 822
+[ tid 21928 @   124.115s wavefront/integrator.cpp:390 ] Starting to submit work for sample 823
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (123.6s|30.2s)  [ tid 21928 @   124.266s wavefront/integrator.cpp:390 ] Starting to submit work for sample 824
+[ tid 21928 @   124.418s wavefront/integrator.cpp:390 ] Starting to submit work for sample 825
+[ tid 21928 @   124.569s wavefront/integrator.cpp:390 ] Starting to submit work for sample 826
+[ tid 21928 @   124.720s wavefront/integrator.cpp:390 ] Starting to submit work for sample 827
+[ tid 21928 @   124.871s wavefront/integrator.cpp:390 ] Starting to submit work for sample 828
+[ tid 21928 @   125.022s wavefront/integrator.cpp:390 ] Starting to submit work for sample 829
+[ tid 21928 @   125.174s wavefront/integrator.cpp:390 ] Starting to submit work for sample 830
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (124.6s|29.3s)  [ tid 21928 @   125.325s wavefront/integrator.cpp:390 ] Starting to submit work for sample 831
+[ tid 21928 @   125.477s wavefront/integrator.cpp:390 ] Starting to submit work for sample 832
+[ tid 21928 @   125.628s wavefront/integrator.cpp:390 ] Starting to submit work for sample 833
+[ tid 21928 @   125.779s wavefront/integrator.cpp:390 ] Starting to submit work for sample 834
+[ tid 21928 @   125.930s wavefront/integrator.cpp:390 ] Starting to submit work for sample 835
+[ tid 21928 @   126.081s wavefront/integrator.cpp:390 ] Starting to submit work for sample 836
+[ tid 21928 @   126.232s wavefront/integrator.cpp:390 ] Starting to submit work for sample 837
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (125.6s|28.2s)  [ tid 21928 @   126.384s wavefront/integrator.cpp:390 ] Starting to submit work for sample 838
+[ tid 21928 @   126.535s wavefront/integrator.cpp:390 ] Starting to submit work for sample 839
+[ tid 21928 @   126.686s wavefront/integrator.cpp:390 ] Starting to submit work for sample 840
+[ tid 21928 @   126.837s wavefront/integrator.cpp:390 ] Starting to submit work for sample 841
+[ tid 21928 @   126.988s wavefront/integrator.cpp:390 ] Starting to submit work for sample 842
+[ tid 21928 @   127.140s wavefront/integrator.cpp:390 ] Starting to submit work for sample 843
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (126.6s|27.2s)  [ tid 21928 @   127.291s wavefront/integrator.cpp:390 ] Starting to submit work for sample 844
+[ tid 21928 @   127.442s wavefront/integrator.cpp:390 ] Starting to submit work for sample 845
+[ tid 21928 @   127.593s wavefront/integrator.cpp:390 ] Starting to submit work for sample 846
+[ tid 21928 @   127.744s wavefront/integrator.cpp:390 ] Starting to submit work for sample 847
+[ tid 21928 @   127.895s wavefront/integrator.cpp:390 ] Starting to submit work for sample 848
+[ tid 21928 @   128.046s wavefront/integrator.cpp:390 ] Starting to submit work for sample 849
+[ tid 21928 @   128.197s wavefront/integrator.cpp:390 ] Starting to submit work for sample 850
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (127.6s|26.3s)  [ tid 21928 @   128.349s wavefront/integrator.cpp:390 ] Starting to submit work for sample 851
+[ tid 21928 @   128.500s wavefront/integrator.cpp:390 ] Starting to submit work for sample 852
+[ tid 21928 @   128.651s wavefront/integrator.cpp:390 ] Starting to submit work for sample 853
+[ tid 21928 @   128.802s wavefront/integrator.cpp:390 ] Starting to submit work for sample 854
+[ tid 21928 @   128.953s wavefront/integrator.cpp:390 ] Starting to submit work for sample 855
+[ tid 21928 @   129.104s wavefront/integrator.cpp:390 ] Starting to submit work for sample 856
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (128.6s|25.2s)  [ tid 21928 @   129.256s wavefront/integrator.cpp:390 ] Starting to submit work for sample 857
+[ tid 21928 @   129.407s wavefront/integrator.cpp:390 ] Starting to submit work for sample 858
+[ tid 21928 @   129.558s wavefront/integrator.cpp:390 ] Starting to submit work for sample 859
+[ tid 21928 @   129.709s wavefront/integrator.cpp:390 ] Starting to submit work for sample 860
+[ tid 21928 @   129.860s wavefront/integrator.cpp:390 ] Starting to submit work for sample 861
+[ tid 21928 @   130.011s wavefront/integrator.cpp:390 ] Starting to submit work for sample 862
+[ tid 21928 @   130.162s wavefront/integrator.cpp:390 ] Starting to submit work for sample 863
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (129.6s|24.2s)  [ tid 21928 @   130.314s wavefront/integrator.cpp:390 ] Starting to submit work for sample 864
+[ tid 21928 @   130.465s wavefront/integrator.cpp:390 ] Starting to submit work for sample 865
+[ tid 21928 @   130.616s wavefront/integrator.cpp:390 ] Starting to submit work for sample 866
+[ tid 21928 @   130.767s wavefront/integrator.cpp:390 ] Starting to submit work for sample 867
+[ tid 21928 @   130.918s wavefront/integrator.cpp:390 ] Starting to submit work for sample 868
+[ tid 21928 @   131.070s wavefront/integrator.cpp:390 ] Starting to submit work for sample 869
+[ tid 21928 @   131.221s wavefront/integrator.cpp:390 ] Starting to submit work for sample 870
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (130.6s|23.3s)  [ tid 21928 @   131.372s wavefront/integrator.cpp:390 ] Starting to submit work for sample 871
+[ tid 21928 @   131.523s wavefront/integrator.cpp:390 ] Starting to submit work for sample 872
+[ tid 21928 @   131.675s wavefront/integrator.cpp:390 ] Starting to submit work for sample 873
+[ tid 21928 @   131.826s wavefront/integrator.cpp:390 ] Starting to submit work for sample 874
+[ tid 21928 @   131.977s wavefront/integrator.cpp:390 ] Starting to submit work for sample 875
+[ tid 21928 @   132.128s wavefront/integrator.cpp:390 ] Starting to submit work for sample 876
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (131.6s|22.2s)  [ tid 21928 @   132.278s wavefront/integrator.cpp:390 ] Starting to submit work for sample 877
+[ tid 21928 @   132.430s wavefront/integrator.cpp:390 ] Starting to submit work for sample 878
+[ tid 21928 @   132.581s wavefront/integrator.cpp:390 ] Starting to submit work for sample 879
+[ tid 21928 @   132.733s wavefront/integrator.cpp:390 ] Starting to submit work for sample 880
+[ tid 21928 @   132.884s wavefront/integrator.cpp:390 ] Starting to submit work for sample 881
+[ tid 21928 @   133.035s wavefront/integrator.cpp:390 ] Starting to submit work for sample 882
+[ tid 21928 @   133.186s wavefront/integrator.cpp:390 ] Starting to submit work for sample 883
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (132.6s|21.3s)  [ tid 21928 @   133.337s wavefront/integrator.cpp:390 ] Starting to submit work for sample 884
+[ tid 21928 @   133.488s wavefront/integrator.cpp:390 ] Starting to submit work for sample 885
+[ tid 21928 @   133.639s wavefront/integrator.cpp:390 ] Starting to submit work for sample 886
+[ tid 21928 @   133.791s wavefront/integrator.cpp:390 ] Starting to submit work for sample 887
+[ tid 21928 @   133.942s wavefront/integrator.cpp:390 ] Starting to submit work for sample 888
+[ tid 21928 @   134.093s wavefront/integrator.cpp:390 ] Starting to submit work for sample 889
+[ tid 21928 @   134.244s wavefront/integrator.cpp:390 ] Starting to submit work for sample 890
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (133.6s|20.3s)  [ tid 21928 @   134.395s wavefront/integrator.cpp:390 ] Starting to submit work for sample 891
+[ tid 21928 @   134.546s wavefront/integrator.cpp:390 ] Starting to submit work for sample 892
+[ tid 21928 @   134.698s wavefront/integrator.cpp:390 ] Starting to submit work for sample 893
+[ tid 21928 @   134.849s wavefront/integrator.cpp:390 ] Starting to submit work for sample 894
+[ tid 21928 @   135.000s wavefront/integrator.cpp:390 ] Starting to submit work for sample 895
+[ tid 21928 @   135.152s wavefront/integrator.cpp:390 ] Starting to submit work for sample 896
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (134.6s|19.2s)  [ tid 21928 @   135.303s wavefront/integrator.cpp:390 ] Starting to submit work for sample 897
+[ tid 21928 @   135.454s wavefront/integrator.cpp:390 ] Starting to submit work for sample 898
+[ tid 21928 @   135.605s wavefront/integrator.cpp:390 ] Starting to submit work for sample 899
+[ tid 21928 @   135.757s wavefront/integrator.cpp:390 ] Starting to submit work for sample 900
+[ tid 21928 @   135.908s wavefront/integrator.cpp:390 ] Starting to submit work for sample 901
+[ tid 21928 @   136.059s wavefront/integrator.cpp:390 ] Starting to submit work for sample 902
+[ tid 21928 @   136.211s wavefront/integrator.cpp:390 ] Starting to submit work for sample 903
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (135.6s|18.3s)  [ tid 21928 @   136.362s wavefront/integrator.cpp:390 ] Starting to submit work for sample 904
+[ tid 21928 @   136.514s wavefront/integrator.cpp:390 ] Starting to submit work for sample 905
+[ tid 21928 @   136.664s wavefront/integrator.cpp:390 ] Starting to submit work for sample 906
+[ tid 21928 @   136.816s wavefront/integrator.cpp:390 ] Starting to submit work for sample 907
+[ tid 21928 @   136.967s wavefront/integrator.cpp:390 ] Starting to submit work for sample 908
+[ tid 21928 @   137.118s wavefront/integrator.cpp:390 ] Starting to submit work for sample 909
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (136.6s|17.3s)  [ tid 21928 @   137.270s wavefront/integrator.cpp:390 ] Starting to submit work for sample 910
+[ tid 21928 @   137.421s wavefront/integrator.cpp:390 ] Starting to submit work for sample 911
+[ tid 21928 @   137.572s wavefront/integrator.cpp:390 ] Starting to submit work for sample 912
+[ tid 21928 @   137.723s wavefront/integrator.cpp:390 ] Starting to submit work for sample 913
+[ tid 21928 @   137.874s wavefront/integrator.cpp:390 ] Starting to submit work for sample 914
+[ tid 21928 @   138.025s wavefront/integrator.cpp:390 ] Starting to submit work for sample 915
+[ tid 21928 @   138.177s wavefront/integrator.cpp:390 ] Starting to submit work for sample 916
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (137.6s|16.4s)  [ tid 21928 @   138.328s wavefront/integrator.cpp:390 ] Starting to submit work for sample 917
+[ tid 21928 @   138.479s wavefront/integrator.cpp:390 ] Starting to submit work for sample 918
+[ tid 21928 @   138.630s wavefront/integrator.cpp:390 ] Starting to submit work for sample 919
+[ tid 21928 @   138.782s wavefront/integrator.cpp:390 ] Starting to submit work for sample 920
+[ tid 21928 @   138.933s wavefront/integrator.cpp:390 ] Starting to submit work for sample 921
+[ tid 21928 @   139.085s wavefront/integrator.cpp:390 ] Starting to submit work for sample 922
+[ tid 21928 @   139.235s wavefront/integrator.cpp:390 ] Starting to submit work for sample 923
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (138.6s|15.3s)  [ tid 21928 @   139.386s wavefront/integrator.cpp:390 ] Starting to submit work for sample 924
+[ tid 21928 @   139.538s wavefront/integrator.cpp:390 ] Starting to submit work for sample 925
+[ tid 21928 @   139.689s wavefront/integrator.cpp:390 ] Starting to submit work for sample 926
+[ tid 21928 @   139.841s wavefront/integrator.cpp:390 ] Starting to submit work for sample 927
+[ tid 21928 @   139.992s wavefront/integrator.cpp:390 ] Starting to submit work for sample 928
+[ tid 21928 @   140.144s wavefront/integrator.cpp:390 ] Starting to submit work for sample 929
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (139.6s|14.3s)  [ tid 21928 @   140.295s wavefront/integrator.cpp:390 ] Starting to submit work for sample 930
+[ tid 21928 @   140.447s wavefront/integrator.cpp:390 ] Starting to submit work for sample 931
+[ tid 21928 @   140.598s wavefront/integrator.cpp:390 ] Starting to submit work for sample 932
+[ tid 21928 @   140.750s wavefront/integrator.cpp:390 ] Starting to submit work for sample 933
+[ tid 21928 @   140.901s wavefront/integrator.cpp:390 ] Starting to submit work for sample 934
+[ tid 21928 @   141.053s wavefront/integrator.cpp:390 ] Starting to submit work for sample 935
+[ tid 21928 @   141.204s wavefront/integrator.cpp:390 ] Starting to submit work for sample 936
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (140.6s|13.4s)  [ tid 21928 @   141.355s wavefront/integrator.cpp:390 ] Starting to submit work for sample 937
+[ tid 21928 @   141.507s wavefront/integrator.cpp:390 ] Starting to submit work for sample 938
+[ tid 21928 @   141.658s wavefront/integrator.cpp:390 ] Starting to submit work for sample 939
+[ tid 21928 @   141.810s wavefront/integrator.cpp:390 ] Starting to submit work for sample 940
+[ tid 21928 @   141.961s wavefront/integrator.cpp:390 ] Starting to submit work for sample 941
+[ tid 21928 @   142.113s wavefront/integrator.cpp:390 ] Starting to submit work for sample 942
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (141.6s|12.3s)  [ tid 21928 @   142.264s wavefront/integrator.cpp:390 ] Starting to submit work for sample 943
+[ tid 21928 @   142.415s wavefront/integrator.cpp:390 ] Starting to submit work for sample 944
+[ tid 21928 @   142.566s wavefront/integrator.cpp:390 ] Starting to submit work for sample 945
+[ tid 21928 @   142.718s wavefront/integrator.cpp:390 ] Starting to submit work for sample 946
+[ tid 21928 @   142.870s wavefront/integrator.cpp:390 ] Starting to submit work for sample 947
+[ tid 21928 @   143.022s wavefront/integrator.cpp:390 ] Starting to submit work for sample 948
+[ tid 21928 @   143.173s wavefront/integrator.cpp:390 ] Starting to submit work for sample 949
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (142.6s|11.4s)  [ tid 21928 @   143.324s wavefront/integrator.cpp:390 ] Starting to submit work for sample 950
+[ tid 21928 @   143.476s wavefront/integrator.cpp:390 ] Starting to submit work for sample 951
+[ tid 21928 @   143.627s wavefront/integrator.cpp:390 ] Starting to submit work for sample 952
+[ tid 21928 @   143.778s wavefront/integrator.cpp:390 ] Starting to submit work for sample 953
+[ tid 21928 @   143.930s wavefront/integrator.cpp:390 ] Starting to submit work for sample 954
+[ tid 21928 @   144.081s wavefront/integrator.cpp:390 ] Starting to submit work for sample 955
+[ tid 21928 @   144.232s wavefront/integrator.cpp:390 ] Starting to submit work for sample 956
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (143.6s|10.4s)  [ tid 21928 @   144.383s wavefront/integrator.cpp:390 ] Starting to submit work for sample 957
+[ tid 21928 @   144.535s wavefront/integrator.cpp:390 ] Starting to submit work for sample 958
+[ tid 21928 @   144.686s wavefront/integrator.cpp:390 ] Starting to submit work for sample 959
+[ tid 21928 @   144.838s wavefront/integrator.cpp:390 ] Starting to submit work for sample 960
+[ tid 21928 @   144.990s wavefront/integrator.cpp:390 ] Starting to submit work for sample 961
+[ tid 21928 @   145.141s wavefront/integrator.cpp:390 ] Starting to submit work for sample 962
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (144.6s|9.3s)  [ tid 21928 @   145.292s wavefront/integrator.cpp:390 ] Starting to submit work for sample 963
+[ tid 21928 @   145.443s wavefront/integrator.cpp:390 ] Starting to submit work for sample 964
+[ tid 21928 @   145.594s wavefront/integrator.cpp:390 ] Starting to submit work for sample 965
+[ tid 21928 @   145.746s wavefront/integrator.cpp:390 ] Starting to submit work for sample 966
+[ tid 21928 @   145.897s wavefront/integrator.cpp:390 ] Starting to submit work for sample 967
+[ tid 21928 @   146.049s wavefront/integrator.cpp:390 ] Starting to submit work for sample 968
+[ tid 21928 @   146.200s wavefront/integrator.cpp:390 ] Starting to submit work for sample 969
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (145.6s|8.4s)  [ tid 21928 @   146.351s wavefront/integrator.cpp:390 ] Starting to submit work for sample 970
+[ tid 21928 @   146.502s wavefront/integrator.cpp:390 ] Starting to submit work for sample 971
+[ tid 21928 @   146.654s wavefront/integrator.cpp:390 ] Starting to submit work for sample 972
+[ tid 21928 @   146.805s wavefront/integrator.cpp:390 ] Starting to submit work for sample 973
+[ tid 21928 @   146.957s wavefront/integrator.cpp:390 ] Starting to submit work for sample 974
+[ tid 21928 @   147.108s wavefront/integrator.cpp:390 ] Starting to submit work for sample 975
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (146.6s|7.4s)  [ tid 21928 @   147.259s wavefront/integrator.cpp:390 ] Starting to submit work for sample 976
+[ tid 21928 @   147.410s wavefront/integrator.cpp:390 ] Starting to submit work for sample 977
+[ tid 21928 @   147.561s wavefront/integrator.cpp:390 ] Starting to submit work for sample 978
+[ tid 21928 @   147.713s wavefront/integrator.cpp:390 ] Starting to submit work for sample 979
+[ tid 21928 @   147.864s wavefront/integrator.cpp:390 ] Starting to submit work for sample 980
+[ tid 21928 @   148.016s wavefront/integrator.cpp:390 ] Starting to submit work for sample 981
+[ tid 21928 @   148.167s wavefront/integrator.cpp:390 ] Starting to submit work for sample 982
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (147.6s|6.3s)  [ tid 21928 @   148.318s wavefront/integrator.cpp:390 ] Starting to submit work for sample 983
+[ tid 21928 @   148.469s wavefront/integrator.cpp:390 ] Starting to submit work for sample 984
+[ tid 21928 @   148.620s wavefront/integrator.cpp:390 ] Starting to submit work for sample 985
+[ tid 21928 @   148.772s wavefront/integrator.cpp:390 ] Starting to submit work for sample 986
+[ tid 21928 @   148.923s wavefront/integrator.cpp:390 ] Starting to submit work for sample 987
+[ tid 21928 @   149.075s wavefront/integrator.cpp:390 ] Starting to submit work for sample 988
+[ tid 21928 @   149.227s wavefront/integrator.cpp:390 ] Starting to submit work for sample 989
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (148.6s|5.4s)  [ tid 21928 @   149.378s wavefront/integrator.cpp:390 ] Starting to submit work for sample 990
+[ tid 21928 @   149.530s wavefront/integrator.cpp:390 ] Starting to submit work for sample 991
+[ tid 21928 @   149.681s wavefront/integrator.cpp:390 ] Starting to submit work for sample 992
+[ tid 21928 @   149.833s wavefront/integrator.cpp:390 ] Starting to submit work for sample 993
+[ tid 21928 @   149.984s wavefront/integrator.cpp:390 ] Starting to submit work for sample 994
+[ tid 21928 @   150.135s wavefront/integrator.cpp:390 ] Starting to submit work for sample 995
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (149.6s|4.4s)  [ tid 21928 @   150.287s wavefront/integrator.cpp:390 ] Starting to submit work for sample 996
+[ tid 21928 @   150.438s wavefront/integrator.cpp:390 ] Starting to submit work for sample 997
+[ tid 21928 @   150.589s wavefront/integrator.cpp:390 ] Starting to submit work for sample 998
+[ tid 21928 @   150.740s wavefront/integrator.cpp:390 ] Starting to submit work for sample 999
+[ tid 21928 @   150.892s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1000
+[ tid 21928 @   151.043s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1001
+[ tid 21928 @   151.195s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1002
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (150.6s|3.5s)  [ tid 21928 @   151.346s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1003
+[ tid 21928 @   151.498s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1004
+[ tid 21928 @   151.649s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1005
+[ tid 21928 @   151.800s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1006
+[ tid 21928 @   151.952s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1007
+[ tid 21928 @   152.104s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1008
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (151.6s|2.4s)  [ tid 21928 @   152.255s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1009
+[ tid 21928 @   152.407s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1010
+[ tid 21928 @   152.558s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1011
+[ tid 21928 @   152.709s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1012
+[ tid 21928 @   152.861s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1013
+[ tid 21928 @   153.012s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1014
+[ tid 21928 @   153.163s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1015
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (152.6s|1.4s)  [ tid 21928 @   153.315s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1016
+[ tid 21928 @   153.467s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1017
+[ tid 21928 @   153.618s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1018
+[ tid 21928 @   153.770s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1019
+[ tid 21928 @   153.922s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1020
+[ tid 21928 @   154.073s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1021
+[ tid 21928 @   154.225s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1022
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (153.6s|0.5s)  [ tid 21928 @   154.376s wavefront/integrator.cpp:390 ] Starting to submit work for sample 1023
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (154.6s)       
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (154.6s)       [ tid 21928 @   155.253s wavefront/wavefront.cpp:50 ] Total rendering time: 154.649 s
+[ tid 21928 @   155.253s film.cpp:540 ] Converting image to RGB and computing final weighted pixel values
+[ tid 21928 @   155.414s film.cpp:534 ] Writing image benchmark-baseline-3080/pbrt-book/book_4k.exr with bounds [ [ 0, 0 ] - [ 3840, 2160 ] ]
+[ tid 21928 @   155.493s cmd/pbrt.cpp:290 ] Memory used after post-render cleanup: 1070981120
+[ tid 21958 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21954 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21955 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21964 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21951 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21960 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21957 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21962 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21956 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21961 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21952 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21953 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21963 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21959 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 21965 @   155.494s util/parallel.cpp:63 ] Exiting worker thread
+
