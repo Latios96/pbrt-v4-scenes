@@ -1,0 +1,905 @@
+pbrt version 4 (built Sep 15 2025 at 09:24:32)
+Copyright (c)1998-2021 Matt Pharr, Wenzel Jakob, and Greg Humphreys.
+The source code to pbrt (but *not* the book contents) is covered by the Apache 2.0 License.
+See the file LICENSE.txt for the conditions of the license.
+[1m[31mWarning[0m: Both --gpu and --wavefront were specified; --gpu takes precedence.
+[ tid 306271 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306274 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306274 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306271 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306272 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306272 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306273 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306273 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306276 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306276 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306275 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306275 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306277 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306277 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306279 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306280 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306280 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306281 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306281 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306278 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306278 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306279 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306282 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306282 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306283 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306283 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306284 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306284 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306285 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306285 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306287 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306287 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306286 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306286 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306288 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306288 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306289 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306289 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306290 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306290 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306291 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306291 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306293 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306293 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306292 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306292 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306294 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306294 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306295 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306295 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306296 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306296 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306297 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306297 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306298 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306298 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306232 @     0.001s gpu/util.cpp:40 ] GPU CUDA driver 12.9, CUDA runtime 12.0
+[ tid 306300 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306300 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306301 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306301 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306299 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 306299 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 306232 @     0.002s gpu/util.cpp:57 ] CUDA device 0 (NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition) with 97225.5625 MiB, 188 SMs running at 2280 MHz with shader model 12.0
+[ tid 306232 @     0.002s gpu/util.cpp:73 ] Selecting GPU device 0
+[ tid 306232 @     0.004s gpu/util.cpp:89 ] Reset stack size to 8192
+[ tid 306232 @     0.014s parser.cpp:610 ] Started parsing /home/jan/workspace/pbrt-v4-scenes/watercolor/camera-1_fullhd.pbrt
+[ tid 306232 @     0.014s cameras.cpp:50 ] World-space position: [ 730.19196, 130.06535, 168.48814 ]
+[ tid 306232 @     0.014s scene.cpp:748 ] Starting to create filter and film
+[1m[31mWarning[0m: /home/jan/workspace/pbrt-v4-scenes/watercolor/camera-1_fullhd.pbrt:5:0: Output filename supplied on command line, "benchmark-baseline-A6000/watercolor/camera-1_fullhd.exr" will override filename provided in scene description file, "camera-1.exr".
+[ tid 306232 @     0.014s util/error.cpp:52 ] [1m[31mWarning[0m: /home/jan/workspace/pbrt-v4-scenes/watercolor/camera-1_fullhd.pbrt:5:0: Output filename supplied on command line, "benchmark-baseline-A6000/watercolor/camera-1_fullhd.exr" will override filename provided in scene description file, "camera-1.exr".
+[ tid 306232 @     0.014s film.h:195 ] Created film with full resolution [ 1920, 1080 ], pixelBounds [ [ 0, 0 ] - [ 1920, 1080 ] ]
+[ tid 306232 @     0.087s scene.cpp:765 ] Finished creating filter and film
+[ tid 306297 @     0.087s scene.cpp:778 ] Starting to create camera
+[ tid 306287 @     0.087s scene.cpp:769 ] Starting to create sampler
+[ tid 306232 @     0.087s parser.cpp:765 ] Started parsing /home/jan/workspace/pbrt-v4-scenes/watercolor/lights-no-windowglass.pbrt
+[ tid 306232 @     0.087s parser.cpp:640 ] Finished parsing /home/jan/workspace/pbrt-v4-scenes/watercolor/lights-no-windowglass.pbrt
+[ tid 306232 @     0.087s parser.cpp:765 ] Started parsing /home/jan/workspace/pbrt-v4-scenes/watercolor/materials.pbrt
+[ tid 306297 @     0.087s cameras.cpp:196 ] Camera min pos differentials: [ 0, 0, -0 ], [ 0, 0, -0 ]
+[ tid 306297 @     0.087s cameras.cpp:198 ] Camera min dir differentials: [ 0.00035548717, -0.00007817974, -1.1920929e-7 ], [ 0.000049088554, 0.00038094432, -1.7881393e-7 ]
+[ tid 306297 @     0.087s scene.cpp:784 ] Finished creating camera
+[ tid 306296 @     0.087s scene.h:290 ] Retrieved Camera from future
+[ tid 306291 @     0.087s scene.h:290 ] Retrieved Camera from future
+[ tid 306232 @     0.093s parser.cpp:640 ] Finished parsing /home/jan/workspace/pbrt-v4-scenes/watercolor/materials.pbrt
+[ tid 306232 @     0.094s parser.cpp:765 ] Started parsing /home/jan/workspace/pbrt-v4-scenes/watercolor/geometry.pbrt
+[ tid 306232 @     0.108s parser.cpp:640 ] Finished parsing /home/jan/workspace/pbrt-v4-scenes/watercolor/geometry.pbrt
+[ tid 306232 @     0.108s parser.cpp:640 ] Finished parsing /home/jan/workspace/pbrt-v4-scenes/watercolor/camera-1_fullhd.pbrt
+[ tid 306232 @     0.108s scene.cpp:839 ] Consume media futures start
+[ tid 306296 @     0.288s util/image.cpp:1164 ] Read EXR image /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/abandoned_tank_farm_03_4k-clamp5.exr (4096 x 4096)
+[ tid 306291 @     0.290s util/image.cpp:1164 ] Read EXR image /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/abandoned_tank_farm_03_4k-clamp5.exr (4096 x 4096)
+[ tid 306283 @     0.354s util/image.cpp:1164 ] Read EXR image /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Spot_Floor_02x11.exr (1024 x 1024)
+[ tid 306232 @     1.666s scene.cpp:847 ] Consume media futures finished
+[ tid 306232 @     1.666s wavefront/integrator.cpp:114 ] Starting to create textures
+[ tid 306232 @     1.666s scene.cpp:1180 ] Starting to consume texture futures
+[ tid 306232 @     2.839s scene.cpp:1192 ] Finished consuming texture futures
+[ tid 306232 @     2.839s scene.cpp:1194 ] Starting to create remaining textures
+[ tid 306232 @     2.839s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_08_i0404201.png in luminance tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_08_i0404201.png in luminance tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Concrete_2_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Concrete_2_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Window_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Window_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paper_01_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paper_01_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paper_9_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paper_9_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Poster_2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Poster_2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Poster_4_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Poster_4_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paper_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paper_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Elements_V03_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Elements_V03_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_62_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_62_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/SidePages_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/SidePages_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Koala_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Koala_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Artisan_Champagne_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Artisan_Champagne_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Artisan_Peach_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Artisan_Peach_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/White_Linen_Paper_Texture_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/White_Linen_Paper_Texture_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Rope_diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Rope_diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wicker_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wicker_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Metal_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Metal_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Metal024_4K_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Metal024_4K_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Page_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Page_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood034_2K_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood034_2K_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Grembiule_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Grembiule_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Table_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Table_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Drawing_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Drawing_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Canvas_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Canvas_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_plank_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_plank_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.839s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_01_2K_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_01_2K_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Postit-1_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Postit-1_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Postit-2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Postit-2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Postit-3_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Postit-3_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Postit-4_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Postit-4_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Postit-5_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Postit-5_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Marker_2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Marker_2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_87_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_87_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Scratches_Overlay_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Scratches_Overlay_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Leather_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Leather_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_51_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_51_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_53_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_53_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Elements_V01_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Elements_V01_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Statuette_Clay_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Statuette_Clay_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_39_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_39_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_pages_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_pages_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_35_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_35_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_36_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_36_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Color_4_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Color_4_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Rosso_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Rosso_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_46_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_46_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_BaseColor_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_BaseColor_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Color_3_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Color_3_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Colore_Rosso_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Colore_Rosso_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paint_6_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paint_6_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paint_5_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paint_5_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Color_2_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Color_2_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Leaves_Albedo_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Leaves_Albedo_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Branches_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Branches_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Pen_diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Pen_diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Pen_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Pen_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Pen_05_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Pen_05_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Pen_03_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Pen_03_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Piper_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Piper_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paper_2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paper_2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paper_1_1_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Paper_1_1_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Fabric_Rag_02_D_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Fabric_Rag_02_D_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Cup_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Cup_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Notebook_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Notebook_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Fabric_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Fabric_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Chair_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Chair_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Noce_Canaletto_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.840s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Noce_Canaletto_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Metal_3_BaseColor_2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Metal_3_BaseColor_2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Metal_1_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Metal_1_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_Glass_Base_Color_1_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_Glass_Base_Color_1_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Panno_Base Color_1_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Panno_Base Color_1_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Fabric_29_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Fabric_29_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_01_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_01_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Rough_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Rough_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Rovere_Miele_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Rovere_Miele_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_09_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_09_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_01_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_01_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Cork_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Cork_D_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_03_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_03_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Soil_i0404201.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Soil_i0404201.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Waterplant_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Waterplant_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Cardboard_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Cardboard_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_25_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_25_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_pages_03_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_pages_03_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Picture_01_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Picture_01_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Picture_03_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Picture_03_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Picture_04_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Picture_04_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Picture_08_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Picture_08_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_Cover_01_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Book_Cover_01_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Watercolor_tree_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Watercolor_tree_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Watercolor_plate_spot_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Watercolor_plate_spot_i04042021.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Spot_colors_i0404201.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Spot_colors_i0404201.png in RGB tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Spot_tin_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_08_i0404201.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/White_Linen_Paper_Texture_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Metal_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Metal_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Leather_black_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Canvas_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Canvas_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Scratches_Overlay_i04042021.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 306232 @     2.841s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Fabric_Rag_02_D_i04042021.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_01_i04042021.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_03_i04042021.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1366 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Spot_Floor_10_i04042021.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Leather_black_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Leather_black_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Leather_black_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Table_i04042021.png in RGB tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Table_i04042021.png in RGB tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Wood_Table_i04042021.png in RGB tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Marker_2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Marker_2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Marker_2_i04042021.png in RGB tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 306232 @     3.312s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Carpet_4_BaseColor_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Carpet_4_BaseColor_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_01_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_01_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Brush_wood_01_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 306232 @     4.145s textures.cpp:1130 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 306232 @     4.236s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Picture_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.236s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Picture_02_i04042021.png in RGB tex array cache!
+[ tid 306232 @     4.236s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Spot_colors_i0404201.png in RGB tex array cache!
+[ tid 306232 @     4.236s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Spot_colors_i0404201.png in RGB tex array cache!
+[ tid 306232 @     4.236s textures.cpp:1119 ] Found /home/jan/workspace/pbrt-v4-scenes/watercolor/textures/Spot_colors_i0404201.png in RGB tex array cache!
+[ tid 306232 @     4.236s scene.cpp:1250 ] Done creating textures
+[ tid 306232 @     4.236s wavefront/integrator.cpp:116 ] Done creating textures
+[ tid 306232 @     4.236s wavefront/integrator.cpp:118 ] Starting to create lights
+[ tid 306232 @     4.236s scene.cpp:1289 ] Starting area lights
+[ tid 306232 @     4.236s scene.cpp:1341 ] Finished area lights
+[ tid 306232 @     4.236s scene.cpp:1343 ] Starting to consume non-area light futures
+[ tid 306232 @     4.236s scene.cpp:1347 ] Finished consuming non-area light futures
+[ tid 306232 @     4.236s wavefront/integrator.cpp:131 ] Done creating lights
+[ tid 306232 @     4.236s wavefront/integrator.cpp:133 ] Starting to create materials
+[ tid 306232 @     4.236s scene.cpp:1113 ] Starting to consume 9 normal map futures
+[ tid 306232 @     4.236s scene.cpp:1120 ] Finished consuming normal map futures
+[ tid 306232 @     4.237s wavefront/integrator.cpp:147 ] Finished creating materials
+[ tid 306232 @     4.237s scene.h:290 ] Retrieved Camera from future
+[ tid 306232 @     4.237s scene.h:302 ] Retrieved Sampler from future
+[ tid 306232 @     4.239s gpu/optix/aggregate.cpp:1219 ] Starting OptiX initialization
+[ tid 306232 @     4.288s gpu/optix/aggregate.cpp:1233 ] Optix version 9.0.0 successfully initialized
+[ tid 306232 @     4.300s gpu/optix/aggregate.cpp:1308 ] Info: Pipeline statistics
+	module(s)                            :     1
+	entry function(s)                    :    19
+	trace call(s)                        :     4
+	continuation callable call(s)        :     0
+	direct callable call(s)              :     0
+	basic block(s) in entry functions    :  3562
+	instruction(s) in entry functions    : 58335
+	non-entry function(s)                :     0
+	basic block(s) in non-entry functions:     0
+	instruction(s) in non-entry functions:     0
+	debug information                    :    no
+
+[ tid 306232 @     4.300s gpu/optix/aggregate.cpp:1364 ] Finished OptiX initialization
+[ tid 306232 @     4.300s gpu/optix/aggregate.cpp:1376 ] Starting to create shapes and acceleration structures
+[ tid 306232 @     4.300s gpu/optix/aggregate.cpp:1384 ] Starting to read PLY meshes
+[ tid 306232 @     4.903s gpu/optix/aggregate.cpp:1387 ] Finished reading PLY meshes
+[ tid 306232 @     4.903s gpu/optix/aggregate.cpp:1434 ] Starting to create IASes for 6 instance definitions
+[ tid 306298 @     4.904s gpu/optix/aggregate.cpp:282 ] Starting to displace mesh "/home/jan/workspace/pbrt-v4-scenes/watercolor/geometry/uv-mesh_00300.ply" with "float:textures/Carpet_4_i04042021-scaled"
+[ tid 306291 @     4.909s gpu/optix/aggregate.cpp:282 ] Starting to displace mesh "/home/jan/workspace/pbrt-v4-scenes/watercolor/geometry/mesh_00536.ply" with "float:textures/Fabric_D_i04042021"
+[ tid 306284 @     4.910s gpu/optix/aggregate.cpp:282 ] Starting to displace mesh "/home/jan/workspace/pbrt-v4-scenes/watercolor/geometry/mesh_00282.ply" with "float:textures/Statuette_Clay_Displacement_i04042021"
+[ tid 306293 @     4.974s gpu/optix/aggregate.cpp:282 ] Starting to displace mesh "/home/jan/workspace/pbrt-v4-scenes/watercolor/geometry/mesh_00508.ply" with "float:textures/Fabric_Rag_02_D_i04042021"
+[ tid 306284 @     4.985s gpu/util.h:70 ] [Evaluate Displacement]: block size 640
+[ tid 306284 @     5.191s gpu/optix/aggregate.cpp:327 ] Finished displacing mesh "/home/jan/workspace/pbrt-v4-scenes/watercolor/geometry/mesh_00282.ply" with "float:textures/Statuette_Clay_Displacement_i04042021" -> 216066 tris
+[ tid 306293 @     5.695s gpu/optix/aggregate.cpp:327 ] Finished displacing mesh "/home/jan/workspace/pbrt-v4-scenes/watercolor/geometry/mesh_00508.ply" with "float:textures/Fabric_Rag_02_D_i04042021" -> 3674148 tris
+[ tid 306291 @     6.196s gpu/optix/aggregate.cpp:327 ] Finished displacing mesh "/home/jan/workspace/pbrt-v4-scenes/watercolor/geometry/mesh_00536.ply" with "float:textures/Fabric_D_i04042021" -> 7947232 tris
+[ tid 306298 @     8.339s gpu/optix/aggregate.cpp:327 ] Finished displacing mesh "/home/jan/workspace/pbrt-v4-scenes/watercolor/geometry/uv-mesh_00300.ply" with "float:textures/Carpet_4_i04042021-scaled" -> 22110832 tris
+[ tid 306232 @     8.800s gpu/optix/aggregate.cpp:1493 ] Finished creating IASes for instance definitions
+[ tid 306232 @     8.800s gpu/optix/aggregate.cpp:1497 ] Starting to create 54 OptixInstances
+[ tid 306232 @     8.800s gpu/optix/aggregate.cpp:1537 ] Starting to consume top-level GAS futures
+[ tid 306232 @     8.800s gpu/optix/aggregate.cpp:1548 ] Finished consuming top-level GAS futures
+[ tid 306232 @     8.800s gpu/optix/aggregate.cpp:1614 ] Finished creating OptixInstances
+[ tid 306232 @     8.800s gpu/optix/aggregate.cpp:1618 ] Starting to build top-level IAS
+[ tid 306232 @     8.801s gpu/optix/aggregate.cpp:1628 ] Finished building top-level IAS
+[ tid 306232 @     8.801s gpu/optix/aggregate.cpp:1630 ] Finished creating shapes and acceleration structures
+[ tid 306232 @     8.810s wavefront/integrator.cpp:181 ] Starting to create light sampler
+[ tid 306232 @     8.811s wavefront/integrator.cpp:187 ] Finished creating light sampler
+[ tid 306232 @     8.811s wavefront/integrator.cpp:275 ] maxQueueSize 1036800
+[ tid 306232 @     8.811s wavefront/integrator.cpp:276 ] Will render in 2 passes 540 scanlines per pass
+
+[ tid 306232 @     8.818s wavefront/integrator.cpp:326 ] pathIntegratorBytes 3700358640
+[ tid 306232 @     8.818s wavefront/integrator.cpp:327 ] bytes per accumulated queue entry is 3569
+[ tid 306232 @     8.819s gpu/memory.cpp:61 ] Prefetching 2010 allocations to GPU memory
+[ tid 306232 @     9.017s gpu/memory.cpp:69 ] Done prefetching: 7935764516 bytes total
+[ tid 306232 @     9.017s wavefront/integrator.cpp:395 ] Starting to submit work for sample 0
+
+Rendering: [                                           ] [ tid 306232 @     9.017s gpu/util.h:70 ] [Reset ray queue]: block size 768
+[ tid 306232 @     9.017s gpu/util.h:70 ] [Generate camera rays]: block size 512
+[ tid 306232 @     9.017s gpu/util.h:70 ] [Update camera ray stats]: block size 768
+[ tid 306232 @     9.017s gpu/util.h:70 ] [Reset queues before tracing rays]: block size 768
+[ tid 306232 @     9.017s gpu/util.h:70 ] [Generate ray samples - HaltonSampler]: block size 1024
+[ tid 306232 @     9.017s gpu/util.h:70 ] [Sample medium interaction]: block size 512
+[ tid 306232 @     9.019s gpu/util.h:70 ] [Sample direct/indirect - Henyey-Greenstein]: block size 512
+[ tid 306232 @     9.019s gpu/util.h:70 ] [Handle escaped rays]: block size 512
+[ tid 306232 @     9.019s gpu/util.h:70 ] [Handle emitters hit by indirect rays]: block size 512
+[ tid 306232 @     9.020s gpu/util.h:70 ] [CoatedDiffuseMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 306232 @     9.023s gpu/util.h:70 ] [CoatedDiffuseMaterial + BxDF eval (Universal tex)]: block size 512
+[ tid 306232 @     9.023s gpu/util.h:70 ] [CoatedConductorMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 306232 @     9.024s gpu/util.h:70 ] [ConductorMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 306232 @     9.024s gpu/util.h:70 ] [DielectricMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 306232 @     9.024s gpu/util.h:70 ] [DiffuseMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 306232 @     9.025s gpu/util.h:70 ] [DiffuseMaterial + BxDF eval (Universal tex)]: block size 512
+[ tid 306232 @     9.025s gpu/util.h:70 ] [DiffuseTransmissionMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 306232 @     9.025s gpu/util.h:70 ] [Reset shadowRayQueue]: block size 768
+[ tid 306232 @     9.025s gpu/util.h:70 ] [Update indirect ray stats]: block size 768
+[ tid 306232 @     9.026s gpu/util.h:70 ] [Update film]: block size 512
+
+Rendering: [                                           ]  (0.1s|?s)  [ tid 306232 @     9.081s wavefront/integrator.cpp:395 ] Starting to submit work for sample 1
+
+Rendering: [                                           ]  (0.1s|?s)  
+Rendering: [                                           ]  (0.2s|38.3s)  [ tid 306232 @     9.195s wavefront/integrator.cpp:395 ] Starting to submit work for sample 2
+
+Rendering: [                                           ]  (0.2s|51.1s)  
+Rendering: [                                           ]  (0.3s|31.8s)  [ tid 306232 @     9.307s wavefront/integrator.cpp:395 ] Starting to submit work for sample 3
+
+Rendering: [                                           ]  (0.3s|38.2s)  
+Rendering: [+                                          ]  (0.4s|29.6s)  
+Rendering: [+                                          ]  (0.4s|33.8s)  [ tid 306232 @     9.423s wavefront/integrator.cpp:395 ] Starting to submit work for sample 4
+
+Rendering: [+                                          ]  (0.5s|38.0s)  
+Rendering: [+                                          ]  (0.5s|31.6s)  [ tid 306232 @     9.536s wavefront/integrator.cpp:395 ] Starting to submit work for sample 5
+
+Rendering: [+                                          ]  (0.6s|30.2s)  [ tid 306232 @     9.648s wavefront/integrator.cpp:395 ] Starting to submit work for sample 6
+
+Rendering: [+                                          ]  (0.7s|29.2s)  [ tid 306232 @     9.759s wavefront/integrator.cpp:395 ] Starting to submit work for sample 7
+
+Rendering: [+                                          ]  (0.8s|28.5s)  [ tid 306232 @     9.869s wavefront/integrator.cpp:395 ] Starting to submit work for sample 8
+
+Rendering: [+                                          ]  (0.9s|32.1s)  [ tid 306232 @     9.980s wavefront/integrator.cpp:395 ] Starting to submit work for sample 9
+
+Rendering: [+                                          ]  (1.0s|31.0s)  [ tid 306232 @    10.090s wavefront/integrator.cpp:395 ] Starting to submit work for sample 10
+
+Rendering: [++                                         ]  (1.1s|30.2s)  [ tid 306232 @    10.199s wavefront/integrator.cpp:395 ] Starting to submit work for sample 11
+
+Rendering: [++                                         ]  (1.2s|29.5s)  [ tid 306232 @    10.309s wavefront/integrator.cpp:395 ] Starting to submit work for sample 12
+
+Rendering: [++                                         ]  (1.3s|29.0s)  [ tid 306232 @    10.418s wavefront/integrator.cpp:395 ] Starting to submit work for sample 13
+
+Rendering: [++                                         ]  (1.4s|28.5s)  
+Rendering: [++                                         ]  (1.5s|28.1s)  [ tid 306232 @    10.527s wavefront/integrator.cpp:395 ] Starting to submit work for sample 14
+
+Rendering: [++                                         ]  (1.6s|27.7s)  [ tid 306232 @    10.637s wavefront/integrator.cpp:395 ] Starting to submit work for sample 15
+
+Rendering: [+++                                        ]  (1.7s|27.3s)  [ tid 306232 @    10.747s wavefront/integrator.cpp:395 ] Starting to submit work for sample 16
+
+Rendering: [+++                                        ]  (1.8s|27.0s)  [ tid 306232 @    10.857s wavefront/integrator.cpp:395 ] Starting to submit work for sample 17
+
+Rendering: [+++                                        ]  (1.9s|26.7s)  [ tid 306232 @    10.966s wavefront/integrator.cpp:395 ] Starting to submit work for sample 18
+
+Rendering: [+++                                        ]  (2.0s|28.1s)  [ tid 306232 @    11.074s wavefront/integrator.cpp:395 ] Starting to submit work for sample 19
+
+Rendering: [+++                                        ]  (2.1s|27.8s)  [ tid 306232 @    11.184s wavefront/integrator.cpp:395 ] Starting to submit work for sample 20
+
+Rendering: [+++                                        ]  (2.2s|27.5s)  [ tid 306232 @    11.293s wavefront/integrator.cpp:395 ] Starting to submit work for sample 21
+
+Rendering: [+++                                        ]  (2.3s|27.2s)  [ tid 306232 @    11.403s wavefront/integrator.cpp:395 ] Starting to submit work for sample 22
+
+Rendering: [++++                                       ]  (2.4s|26.9s)  [ tid 306232 @    11.512s wavefront/integrator.cpp:395 ] Starting to submit work for sample 23
+
+Rendering: [++++                                       ]  (2.5s|26.6s)  
+Rendering: [++++                                       ]  (2.6s|26.4s)  [ tid 306232 @    11.622s wavefront/integrator.cpp:395 ] Starting to submit work for sample 24
+
+Rendering: [++++                                       ]  (2.7s|26.1s)  [ tid 306232 @    11.731s wavefront/integrator.cpp:395 ] Starting to submit work for sample 25
+
+Rendering: [++++                                       ]  (2.8s|25.9s)  [ tid 306232 @    11.840s wavefront/integrator.cpp:395 ] Starting to submit work for sample 26
+
+Rendering: [++++                                       ]  (2.9s|25.7s)  [ tid 306232 @    11.949s wavefront/integrator.cpp:395 ] Starting to submit work for sample 27
+
+Rendering: [+++++                                      ]  (3.0s|25.5s)  [ tid 306232 @    12.058s wavefront/integrator.cpp:395 ] Starting to submit work for sample 28
+
+Rendering: [+++++                                      ]  (3.1s|25.3s)  [ tid 306232 @    12.167s wavefront/integrator.cpp:395 ] Starting to submit work for sample 29
+
+Rendering: [+++++                                      ]  (3.2s|26.1s)  [ tid 306232 @    12.277s wavefront/integrator.cpp:395 ] Starting to submit work for sample 30
+
+Rendering: [+++++                                      ]  (3.3s|25.8s)  [ tid 306232 @    12.387s wavefront/integrator.cpp:395 ] Starting to submit work for sample 31
+
+Rendering: [+++++                                      ]  (3.4s|25.6s)  [ tid 306232 @    12.496s wavefront/integrator.cpp:395 ] Starting to submit work for sample 32
+
+Rendering: [+++++                                      ]  (3.5s|25.4s)  [ tid 306232 @    12.607s wavefront/integrator.cpp:395 ] Starting to submit work for sample 33
+
+Rendering: [+++++                                      ]  (3.6s|25.2s)  [ tid 306232 @    12.716s wavefront/integrator.cpp:395 ] Starting to submit work for sample 34
+
+Rendering: [++++++                                     ]  (3.7s|25.0s)  
+Rendering: [++++++                                     ]  (3.8s|24.8s)  [ tid 306232 @    12.826s wavefront/integrator.cpp:395 ] Starting to submit work for sample 35
+
+Rendering: [++++++                                     ]  (3.9s|24.6s)  [ tid 306232 @    12.936s wavefront/integrator.cpp:395 ] Starting to submit work for sample 36
+
+Rendering: [++++++                                     ]  (4.0s|24.5s)  [ tid 306232 @    13.045s wavefront/integrator.cpp:395 ] Starting to submit work for sample 37
+
+Rendering: [++++++                                     ]  (4.1s|24.3s)  [ tid 306232 @    13.154s wavefront/integrator.cpp:395 ] Starting to submit work for sample 38
+
+Rendering: [++++++                                     ]  (4.2s|24.1s)  [ tid 306232 @    13.264s wavefront/integrator.cpp:395 ] Starting to submit work for sample 39
+
+Rendering: [++++++                                     ]  (4.3s|24.7s)  [ tid 306232 @    13.373s wavefront/integrator.cpp:395 ] Starting to submit work for sample 40
+
+Rendering: [+++++++                                    ]  (4.4s|24.5s)  [ tid 306232 @    13.483s wavefront/integrator.cpp:395 ] Starting to submit work for sample 41
+
+Rendering: [+++++++                                    ]  (4.5s|24.3s)  [ tid 306232 @    13.592s wavefront/integrator.cpp:395 ] Starting to submit work for sample 42
+
+Rendering: [+++++++                                    ]  (4.6s|24.1s)  [ tid 306232 @    13.701s wavefront/integrator.cpp:395 ] Starting to submit work for sample 43
+
+Rendering: [+++++++                                    ]  (4.7s|24.0s)  [ tid 306232 @    13.811s wavefront/integrator.cpp:395 ] Starting to submit work for sample 44
+
+Rendering: [+++++++                                    ]  (4.8s|23.8s)  [ tid 306232 @    13.920s wavefront/integrator.cpp:395 ] Starting to submit work for sample 45
+
+Rendering: [+++++++                                    ]  (4.9s|23.6s)  
+Rendering: [++++++++                                   ]  (5.0s|23.5s)  [ tid 306232 @    14.031s wavefront/integrator.cpp:395 ] Starting to submit work for sample 46
+
+Rendering: [++++++++                                   ]  (5.1s|23.3s)  [ tid 306232 @    14.140s wavefront/integrator.cpp:395 ] Starting to submit work for sample 47
+
+Rendering: [++++++++                                   ]  (5.2s|23.1s)  [ tid 306232 @    14.248s wavefront/integrator.cpp:395 ] Starting to submit work for sample 48
+
+Rendering: [++++++++                                   ]  (5.3s|23.0s)  [ tid 306232 @    14.358s wavefront/integrator.cpp:395 ] Starting to submit work for sample 49
+
+Rendering: [++++++++                                   ]  (5.4s|22.8s)  [ tid 306232 @    14.468s wavefront/integrator.cpp:395 ] Starting to submit work for sample 50
+
+Rendering: [++++++++                                   ]  (5.5s|23.3s)  [ tid 306232 @    14.577s wavefront/integrator.cpp:395 ] Starting to submit work for sample 51
+
+Rendering: [++++++++                                   ]  (5.6s|23.1s)  [ tid 306232 @    14.687s wavefront/integrator.cpp:395 ] Starting to submit work for sample 52
+
+Rendering: [+++++++++                                  ]  (5.7s|22.9s)  [ tid 306232 @    14.796s wavefront/integrator.cpp:395 ] Starting to submit work for sample 53
+
+Rendering: [+++++++++                                  ]  (5.8s|22.8s)  [ tid 306232 @    14.905s wavefront/integrator.cpp:395 ] Starting to submit work for sample 54
+
+Rendering: [+++++++++                                  ]  (5.9s|22.6s)  [ tid 306232 @    15.015s wavefront/integrator.cpp:395 ] Starting to submit work for sample 55
+
+Rendering: [+++++++++                                  ]  (6.0s|22.5s)  
+Rendering: [+++++++++                                  ]  (6.1s|22.3s)  [ tid 306232 @    15.126s wavefront/integrator.cpp:395 ] Starting to submit work for sample 56
+
+Rendering: [+++++++++                                  ]  (6.2s|22.2s)  [ tid 306232 @    15.235s wavefront/integrator.cpp:395 ] Starting to submit work for sample 57
+
+Rendering: [++++++++++                                 ]  (6.3s|22.0s)  [ tid 306232 @    15.344s wavefront/integrator.cpp:395 ] Starting to submit work for sample 58
+
+Rendering: [++++++++++                                 ]  (6.4s|21.9s)  [ tid 306232 @    15.454s wavefront/integrator.cpp:395 ] Starting to submit work for sample 59
+
+Rendering: [++++++++++                                 ]  (6.5s|21.7s)  [ tid 306232 @    15.564s wavefront/integrator.cpp:395 ] Starting to submit work for sample 60
+[ tid 306232 @    15.672s wavefront/integrator.cpp:395 ] Starting to submit work for sample 61
+
+Rendering: [++++++++++                                 ]  (6.7s|21.9s)  [ tid 306232 @    15.781s wavefront/integrator.cpp:395 ] Starting to submit work for sample 62
+[ tid 306232 @    15.889s wavefront/integrator.cpp:395 ] Starting to submit work for sample 63
+
+Rendering: [++++++++++                                 ]  (6.9s|21.6s)  [ tid 306232 @    15.998s wavefront/integrator.cpp:395 ] Starting to submit work for sample 64
+[ tid 306232 @    16.106s wavefront/integrator.cpp:395 ] Starting to submit work for sample 65
+
+Rendering: [+++++++++++                                ]  (7.1s|21.3s)  [ tid 306232 @    16.215s wavefront/integrator.cpp:395 ] Starting to submit work for sample 66
+
+Rendering: [+++++++++++                                ]  (7.3s|21.0s)  [ tid 306232 @    16.325s wavefront/integrator.cpp:395 ] Starting to submit work for sample 67
+[ tid 306232 @    16.433s wavefront/integrator.cpp:395 ] Starting to submit work for sample 68
+
+Rendering: [+++++++++++                                ]  (7.5s|20.7s)  [ tid 306232 @    16.543s wavefront/integrator.cpp:395 ] Starting to submit work for sample 69
+[ tid 306232 @    16.650s wavefront/integrator.cpp:395 ] Starting to submit work for sample 70
+
+Rendering: [++++++++++++                               ]  (7.7s|20.5s)  [ tid 306232 @    16.759s wavefront/integrator.cpp:395 ] Starting to submit work for sample 71
+[ tid 306232 @    16.869s wavefront/integrator.cpp:395 ] Starting to submit work for sample 72
+
+Rendering: [++++++++++++                               ]  (7.9s|20.6s)  [ tid 306232 @    16.978s wavefront/integrator.cpp:395 ] Starting to submit work for sample 73
+[ tid 306232 @    17.085s wavefront/integrator.cpp:395 ] Starting to submit work for sample 74
+
+Rendering: [++++++++++++                               ]  (8.1s|20.3s)  [ tid 306232 @    17.195s wavefront/integrator.cpp:395 ] Starting to submit work for sample 75
+[ tid 306232 @    17.302s wavefront/integrator.cpp:395 ] Starting to submit work for sample 76
+
+Rendering: [+++++++++++++                              ]  (8.3s|20.0s)  [ tid 306232 @    17.411s wavefront/integrator.cpp:395 ] Starting to submit work for sample 77
+[ tid 306232 @    17.520s wavefront/integrator.cpp:395 ] Starting to submit work for sample 78
+
+Rendering: [+++++++++++++                              ]  (8.5s|19.8s)  [ tid 306232 @    17.630s wavefront/integrator.cpp:395 ] Starting to submit work for sample 79
+
+Rendering: [+++++++++++++                              ]  (8.7s|19.5s)  [ tid 306232 @    17.739s wavefront/integrator.cpp:395 ] Starting to submit work for sample 80
+[ tid 306232 @    17.846s wavefront/integrator.cpp:395 ] Starting to submit work for sample 81
+
+Rendering: [++++++++++++++                             ]  (8.9s|19.2s)  [ tid 306232 @    17.955s wavefront/integrator.cpp:395 ] Starting to submit work for sample 82
+[ tid 306232 @    18.064s wavefront/integrator.cpp:395 ] Starting to submit work for sample 83
+
+Rendering: [++++++++++++++                             ]  (9.1s|19.0s)  [ tid 306232 @    18.173s wavefront/integrator.cpp:395 ] Starting to submit work for sample 84
+[ tid 306232 @    18.280s wavefront/integrator.cpp:395 ] Starting to submit work for sample 85
+
+Rendering: [++++++++++++++                             ]  (9.3s|19.1s)  [ tid 306232 @    18.390s wavefront/integrator.cpp:395 ] Starting to submit work for sample 86
+[ tid 306232 @    18.498s wavefront/integrator.cpp:395 ] Starting to submit work for sample 87
+
+Rendering: [++++++++++++++                             ]  (9.5s|18.8s)  [ tid 306232 @    18.608s wavefront/integrator.cpp:395 ] Starting to submit work for sample 88
+[ tid 306232 @    18.716s wavefront/integrator.cpp:395 ] Starting to submit work for sample 89
+
+Rendering: [+++++++++++++++                            ]  (9.7s|18.5s)  [ tid 306232 @    18.826s wavefront/integrator.cpp:395 ] Starting to submit work for sample 90
+
+Rendering: [+++++++++++++++                            ]  (9.9s|18.3s)  [ tid 306232 @    18.934s wavefront/integrator.cpp:395 ] Starting to submit work for sample 91
+[ tid 306232 @    19.042s wavefront/integrator.cpp:395 ] Starting to submit work for sample 92
+
+Rendering: [+++++++++++++++                            ]  (10.1s|18.0s)  [ tid 306232 @    19.151s wavefront/integrator.cpp:395 ] Starting to submit work for sample 93
+[ tid 306232 @    19.259s wavefront/integrator.cpp:395 ] Starting to submit work for sample 94
+
+Rendering: [++++++++++++++++                           ]  (10.3s|17.8s)  [ tid 306232 @    19.369s wavefront/integrator.cpp:395 ] Starting to submit work for sample 95
+[ tid 306232 @    19.476s wavefront/integrator.cpp:395 ] Starting to submit work for sample 96
+
+Rendering: [++++++++++++++++                           ]  (10.5s|17.8s)  [ tid 306232 @    19.585s wavefront/integrator.cpp:395 ] Starting to submit work for sample 97
+[ tid 306232 @    19.693s wavefront/integrator.cpp:395 ] Starting to submit work for sample 98
+
+Rendering: [++++++++++++++++                           ]  (10.7s|17.5s)  [ tid 306232 @    19.803s wavefront/integrator.cpp:395 ] Starting to submit work for sample 99
+[ tid 306232 @    19.911s wavefront/integrator.cpp:395 ] Starting to submit work for sample 100
+
+Rendering: [+++++++++++++++++                          ]  (10.9s|17.3s)  [ tid 306232 @    20.021s wavefront/integrator.cpp:395 ] Starting to submit work for sample 101
+
+Rendering: [+++++++++++++++++                          ]  (11.1s|17.0s)  [ tid 306232 @    20.130s wavefront/integrator.cpp:395 ] Starting to submit work for sample 102
+[ tid 306232 @    20.238s wavefront/integrator.cpp:395 ] Starting to submit work for sample 103
+
+Rendering: [+++++++++++++++++                          ]  (11.3s|16.8s)  [ tid 306232 @    20.348s wavefront/integrator.cpp:395 ] Starting to submit work for sample 104
+[ tid 306232 @    20.457s wavefront/integrator.cpp:395 ] Starting to submit work for sample 105
+
+Rendering: [++++++++++++++++++                         ]  (11.5s|16.5s)  [ tid 306232 @    20.567s wavefront/integrator.cpp:395 ] Starting to submit work for sample 106
+[ tid 306232 @    20.676s wavefront/integrator.cpp:395 ] Starting to submit work for sample 107
+
+Rendering: [++++++++++++++++++                         ]  (11.7s|16.6s)  [ tid 306232 @    20.785s wavefront/integrator.cpp:395 ] Starting to submit work for sample 108
+[ tid 306232 @    20.893s wavefront/integrator.cpp:395 ] Starting to submit work for sample 109
+
+Rendering: [++++++++++++++++++                         ]  (11.9s|16.3s)  [ tid 306232 @    21.003s wavefront/integrator.cpp:395 ] Starting to submit work for sample 110
+[ tid 306232 @    21.111s wavefront/integrator.cpp:395 ] Starting to submit work for sample 111
+
+Rendering: [++++++++++++++++++                         ]  (12.1s|16.1s)  [ tid 306232 @    21.222s wavefront/integrator.cpp:395 ] Starting to submit work for sample 112
+
+Rendering: [+++++++++++++++++++                        ]  (12.3s|15.8s)  [ tid 306232 @    21.331s wavefront/integrator.cpp:395 ] Starting to submit work for sample 113
+[ tid 306232 @    21.439s wavefront/integrator.cpp:395 ] Starting to submit work for sample 114
+
+Rendering: [+++++++++++++++++++                        ]  (12.5s|15.6s)  [ tid 306232 @    21.549s wavefront/integrator.cpp:395 ] Starting to submit work for sample 115
+[ tid 306232 @    21.658s wavefront/integrator.cpp:395 ] Starting to submit work for sample 116
+
+Rendering: [+++++++++++++++++++                        ]  (12.7s|15.3s)  [ tid 306232 @    21.768s wavefront/integrator.cpp:395 ] Starting to submit work for sample 117
+[ tid 306232 @    21.877s wavefront/integrator.cpp:395 ] Starting to submit work for sample 118
+
+Rendering: [++++++++++++++++++++                       ]  (12.9s|15.3s)  [ tid 306232 @    21.987s wavefront/integrator.cpp:395 ] Starting to submit work for sample 119
+[ tid 306232 @    22.095s wavefront/integrator.cpp:395 ] Starting to submit work for sample 120
+
+Rendering: [++++++++++++++++++++                       ]  (13.1s|15.1s)  [ tid 306232 @    22.205s wavefront/integrator.cpp:395 ] Starting to submit work for sample 121
+[ tid 306232 @    22.314s wavefront/integrator.cpp:395 ] Starting to submit work for sample 122
+
+Rendering: [++++++++++++++++++++                       ]  (13.3s|14.8s)  [ tid 306232 @    22.424s wavefront/integrator.cpp:395 ] Starting to submit work for sample 123
+
+Rendering: [+++++++++++++++++++++                      ]  (13.5s|14.6s)  [ tid 306232 @    22.534s wavefront/integrator.cpp:395 ] Starting to submit work for sample 124
+[ tid 306232 @    22.642s wavefront/integrator.cpp:395 ] Starting to submit work for sample 125
+
+Rendering: [+++++++++++++++++++++                      ]  (13.7s|14.4s)  [ tid 306232 @    22.753s wavefront/integrator.cpp:395 ] Starting to submit work for sample 126
+[ tid 306232 @    22.863s wavefront/integrator.cpp:395 ] Starting to submit work for sample 127
+
+Rendering: [+++++++++++++++++++++                      ]  (13.9s|14.1s)  [ tid 306232 @    22.973s wavefront/integrator.cpp:395 ] Starting to submit work for sample 128
+[ tid 306232 @    23.081s wavefront/integrator.cpp:395 ] Starting to submit work for sample 129
+
+Rendering: [++++++++++++++++++++++                     ]  (14.1s|14.1s)  [ tid 306232 @    23.191s wavefront/integrator.cpp:395 ] Starting to submit work for sample 130
+[ tid 306232 @    23.300s wavefront/integrator.cpp:395 ] Starting to submit work for sample 131
+
+Rendering: [++++++++++++++++++++++                     ]  (14.3s|13.9s)  [ tid 306232 @    23.410s wavefront/integrator.cpp:395 ] Starting to submit work for sample 132
+[ tid 306232 @    23.519s wavefront/integrator.cpp:395 ] Starting to submit work for sample 133
+
+Rendering: [++++++++++++++++++++++                     ]  (14.5s|13.6s)  [ tid 306232 @    23.629s wavefront/integrator.cpp:395 ] Starting to submit work for sample 134
+
+Rendering: [+++++++++++++++++++++++                    ]  (14.7s|13.4s)  [ tid 306232 @    23.739s wavefront/integrator.cpp:395 ] Starting to submit work for sample 135
+[ tid 306232 @    23.847s wavefront/integrator.cpp:395 ] Starting to submit work for sample 136
+
+Rendering: [+++++++++++++++++++++++                    ]  (14.9s|13.2s)  [ tid 306232 @    23.958s wavefront/integrator.cpp:395 ] Starting to submit work for sample 137
+[ tid 306232 @    24.067s wavefront/integrator.cpp:395 ] Starting to submit work for sample 138
+
+Rendering: [+++++++++++++++++++++++                    ]  (15.1s|12.9s)  [ tid 306232 @    24.177s wavefront/integrator.cpp:395 ] Starting to submit work for sample 139
+[ tid 306232 @    24.285s wavefront/integrator.cpp:395 ] Starting to submit work for sample 140
+
+Rendering: [+++++++++++++++++++++++                    ]  (15.3s|12.9s)  [ tid 306232 @    24.396s wavefront/integrator.cpp:395 ] Starting to submit work for sample 141
+[ tid 306232 @    24.504s wavefront/integrator.cpp:395 ] Starting to submit work for sample 142
+
+Rendering: [++++++++++++++++++++++++                   ]  (15.5s|12.6s)  [ tid 306232 @    24.615s wavefront/integrator.cpp:395 ] Starting to submit work for sample 143
+[ tid 306232 @    24.724s wavefront/integrator.cpp:395 ] Starting to submit work for sample 144
+
+Rendering: [++++++++++++++++++++++++                   ]  (15.7s|12.4s)  [ tid 306232 @    24.833s wavefront/integrator.cpp:395 ] Starting to submit work for sample 145
+
+Rendering: [++++++++++++++++++++++++                   ]  (15.9s|12.2s)  [ tid 306232 @    24.944s wavefront/integrator.cpp:395 ] Starting to submit work for sample 146
+[ tid 306232 @    25.053s wavefront/integrator.cpp:395 ] Starting to submit work for sample 147
+
+Rendering: [+++++++++++++++++++++++++                  ]  (16.1s|11.9s)  [ tid 306232 @    25.164s wavefront/integrator.cpp:395 ] Starting to submit work for sample 148
+[ tid 306232 @    25.273s wavefront/integrator.cpp:395 ] Starting to submit work for sample 149
+
+Rendering: [+++++++++++++++++++++++++                  ]  (16.3s|11.9s)  [ tid 306232 @    25.384s wavefront/integrator.cpp:395 ] Starting to submit work for sample 150
+[ tid 306232 @    25.492s wavefront/integrator.cpp:395 ] Starting to submit work for sample 151
+
+Rendering: [+++++++++++++++++++++++++                  ]  (16.5s|11.7s)  [ tid 306232 @    25.603s wavefront/integrator.cpp:395 ] Starting to submit work for sample 152
+[ tid 306232 @    25.712s wavefront/integrator.cpp:395 ] Starting to submit work for sample 153
+
+Rendering: [++++++++++++++++++++++++++                 ]  (16.7s|11.4s)  [ tid 306232 @    25.821s wavefront/integrator.cpp:395 ] Starting to submit work for sample 154
+
+Rendering: [++++++++++++++++++++++++++                 ]  (16.9s|11.2s)  [ tid 306232 @    25.931s wavefront/integrator.cpp:395 ] Starting to submit work for sample 155
+[ tid 306232 @    26.039s wavefront/integrator.cpp:395 ] Starting to submit work for sample 156
+
+Rendering: [++++++++++++++++++++++++++                 ]  (17.1s|11.0s)  [ tid 306232 @    26.150s wavefront/integrator.cpp:395 ] Starting to submit work for sample 157
+[ tid 306232 @    26.258s wavefront/integrator.cpp:395 ] Starting to submit work for sample 158
+
+Rendering: [+++++++++++++++++++++++++++                ]  (17.3s|10.7s)  [ tid 306232 @    26.369s wavefront/integrator.cpp:395 ] Starting to submit work for sample 159
+[ tid 306232 @    26.478s wavefront/integrator.cpp:395 ] Starting to submit work for sample 160
+
+Rendering: [+++++++++++++++++++++++++++                ]  (17.5s|10.7s)  [ tid 306232 @    26.588s wavefront/integrator.cpp:395 ] Starting to submit work for sample 161
+[ tid 306232 @    26.697s wavefront/integrator.cpp:395 ] Starting to submit work for sample 162
+
+Rendering: [+++++++++++++++++++++++++++                ]  (17.7s|10.4s)  [ tid 306232 @    26.807s wavefront/integrator.cpp:395 ] Starting to submit work for sample 163
+[ tid 306232 @    26.916s wavefront/integrator.cpp:395 ] Starting to submit work for sample 164
+
+Rendering: [+++++++++++++++++++++++++++                ]  (17.9s|10.2s)  [ tid 306232 @    27.027s wavefront/integrator.cpp:395 ] Starting to submit work for sample 165
+
+Rendering: [++++++++++++++++++++++++++++               ]  (18.1s|10.0s)  [ tid 306232 @    27.139s wavefront/integrator.cpp:395 ] Starting to submit work for sample 166
+[ tid 306232 @    27.247s wavefront/integrator.cpp:395 ] Starting to submit work for sample 167
+
+Rendering: [++++++++++++++++++++++++++++               ]  (18.3s|9.8s)  [ tid 306232 @    27.357s wavefront/integrator.cpp:395 ] Starting to submit work for sample 168
+[ tid 306232 @    27.465s wavefront/integrator.cpp:395 ] Starting to submit work for sample 169
+
+Rendering: [++++++++++++++++++++++++++++               ]  (18.5s|9.5s)  [ tid 306232 @    27.576s wavefront/integrator.cpp:395 ] Starting to submit work for sample 170
+[ tid 306232 @    27.685s wavefront/integrator.cpp:395 ] Starting to submit work for sample 171
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (18.7s|9.5s)  [ tid 306232 @    27.796s wavefront/integrator.cpp:395 ] Starting to submit work for sample 172
+[ tid 306232 @    27.905s wavefront/integrator.cpp:395 ] Starting to submit work for sample 173
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (18.9s|9.2s)  [ tid 306232 @    28.015s wavefront/integrator.cpp:395 ] Starting to submit work for sample 174
+[ tid 306232 @    28.123s wavefront/integrator.cpp:395 ] Starting to submit work for sample 175
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (19.1s|9.0s)  [ tid 306232 @    28.233s wavefront/integrator.cpp:395 ] Starting to submit work for sample 176
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (19.3s|8.8s)  [ tid 306232 @    28.344s wavefront/integrator.cpp:395 ] Starting to submit work for sample 177
+[ tid 306232 @    28.453s wavefront/integrator.cpp:395 ] Starting to submit work for sample 178
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (19.5s|8.5s)  [ tid 306232 @    28.563s wavefront/integrator.cpp:395 ] Starting to submit work for sample 179
+[ tid 306232 @    28.672s wavefront/integrator.cpp:395 ] Starting to submit work for sample 180
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (19.7s|8.5s)  [ tid 306232 @    28.782s wavefront/integrator.cpp:395 ] Starting to submit work for sample 181
+[ tid 306232 @    28.892s wavefront/integrator.cpp:395 ] Starting to submit work for sample 182
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (19.9s|8.2s)  [ tid 306232 @    29.002s wavefront/integrator.cpp:395 ] Starting to submit work for sample 183
+[ tid 306232 @    29.112s wavefront/integrator.cpp:395 ] Starting to submit work for sample 184
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (20.1s|8.0s)  [ tid 306232 @    29.222s wavefront/integrator.cpp:395 ] Starting to submit work for sample 185
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (20.3s|7.8s)  [ tid 306232 @    29.333s wavefront/integrator.cpp:395 ] Starting to submit work for sample 186
+[ tid 306232 @    29.441s wavefront/integrator.cpp:395 ] Starting to submit work for sample 187
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (20.5s|7.6s)  [ tid 306232 @    29.551s wavefront/integrator.cpp:395 ] Starting to submit work for sample 188
+[ tid 306232 @    29.659s wavefront/integrator.cpp:395 ] Starting to submit work for sample 189
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (20.7s|7.3s)  [ tid 306232 @    29.770s wavefront/integrator.cpp:395 ] Starting to submit work for sample 190
+[ tid 306232 @    29.878s wavefront/integrator.cpp:395 ] Starting to submit work for sample 191
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (20.9s|7.3s)  [ tid 306232 @    29.989s wavefront/integrator.cpp:395 ] Starting to submit work for sample 192
+[ tid 306232 @    30.098s wavefront/integrator.cpp:395 ] Starting to submit work for sample 193
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (21.1s|7.0s)  [ tid 306232 @    30.209s wavefront/integrator.cpp:395 ] Starting to submit work for sample 194
+[ tid 306232 @    30.318s wavefront/integrator.cpp:395 ] Starting to submit work for sample 195
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (21.3s|6.8s)  [ tid 306232 @    30.428s wavefront/integrator.cpp:395 ] Starting to submit work for sample 196
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (21.5s|6.6s)  [ tid 306232 @    30.539s wavefront/integrator.cpp:395 ] Starting to submit work for sample 197
+[ tid 306232 @    30.648s wavefront/integrator.cpp:395 ] Starting to submit work for sample 198
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (21.7s|6.4s)  [ tid 306232 @    30.758s wavefront/integrator.cpp:395 ] Starting to submit work for sample 199
+[ tid 306232 @    30.867s wavefront/integrator.cpp:395 ] Starting to submit work for sample 200
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (21.9s|6.1s)  [ tid 306232 @    30.977s wavefront/integrator.cpp:395 ] Starting to submit work for sample 201
+[ tid 306232 @    31.086s wavefront/integrator.cpp:395 ] Starting to submit work for sample 202
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (22.1s|6.1s)  [ tid 306232 @    31.197s wavefront/integrator.cpp:395 ] Starting to submit work for sample 203
+[ tid 306232 @    31.306s wavefront/integrator.cpp:395 ] Starting to submit work for sample 204
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (22.3s|5.8s)  [ tid 306232 @    31.417s wavefront/integrator.cpp:395 ] Starting to submit work for sample 205
+[ tid 306232 @    31.526s wavefront/integrator.cpp:395 ] Starting to submit work for sample 206
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (22.5s|5.6s)  [ tid 306232 @    31.637s wavefront/integrator.cpp:395 ] Starting to submit work for sample 207
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (22.7s|5.4s)  [ tid 306232 @    31.747s wavefront/integrator.cpp:395 ] Starting to submit work for sample 208
+[ tid 306232 @    31.855s wavefront/integrator.cpp:395 ] Starting to submit work for sample 209
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (22.9s|5.2s)  [ tid 306232 @    31.966s wavefront/integrator.cpp:395 ] Starting to submit work for sample 210
+[ tid 306232 @    32.075s wavefront/integrator.cpp:395 ] Starting to submit work for sample 211
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (23.1s|5.1s)  [ tid 306232 @    32.186s wavefront/integrator.cpp:395 ] Starting to submit work for sample 212
+[ tid 306232 @    32.294s wavefront/integrator.cpp:395 ] Starting to submit work for sample 213
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (23.3s|4.8s)  [ tid 306232 @    32.403s wavefront/integrator.cpp:395 ] Starting to submit work for sample 214
+[ tid 306232 @    32.512s wavefront/integrator.cpp:395 ] Starting to submit work for sample 215
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (23.5s|4.6s)  [ tid 306232 @    32.623s wavefront/integrator.cpp:395 ] Starting to submit work for sample 216
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (23.7s|4.4s)  [ tid 306232 @    32.734s wavefront/integrator.cpp:395 ] Starting to submit work for sample 217
+[ tid 306232 @    32.842s wavefront/integrator.cpp:395 ] Starting to submit work for sample 218
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (23.9s|4.2s)  [ tid 306232 @    32.953s wavefront/integrator.cpp:395 ] Starting to submit work for sample 219
+[ tid 306232 @    33.063s wavefront/integrator.cpp:395 ] Starting to submit work for sample 220
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (24.1s|3.9s)  [ tid 306232 @    33.173s wavefront/integrator.cpp:395 ] Starting to submit work for sample 221
+[ tid 306232 @    33.282s wavefront/integrator.cpp:395 ] Starting to submit work for sample 222
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (24.3s|3.9s)  [ tid 306232 @    33.392s wavefront/integrator.cpp:395 ] Starting to submit work for sample 223
+[ tid 306232 @    33.501s wavefront/integrator.cpp:395 ] Starting to submit work for sample 224
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (24.5s|3.6s)  [ tid 306232 @    33.611s wavefront/integrator.cpp:395 ] Starting to submit work for sample 225
+[ tid 306232 @    33.720s wavefront/integrator.cpp:395 ] Starting to submit work for sample 226
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (24.7s|3.4s)  [ tid 306232 @    33.831s wavefront/integrator.cpp:395 ] Starting to submit work for sample 227
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (24.9s|3.2s)  [ tid 306232 @    33.941s wavefront/integrator.cpp:395 ] Starting to submit work for sample 228
+[ tid 306232 @    34.050s wavefront/integrator.cpp:395 ] Starting to submit work for sample 229
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (25.1s|3.0s)  [ tid 306232 @    34.161s wavefront/integrator.cpp:395 ] Starting to submit work for sample 230
+[ tid 306232 @    34.269s wavefront/integrator.cpp:395 ] Starting to submit work for sample 231
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (25.3s|2.7s)  [ tid 306232 @    34.381s wavefront/integrator.cpp:395 ] Starting to submit work for sample 232
+[ tid 306232 @    34.490s wavefront/integrator.cpp:395 ] Starting to submit work for sample 233
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (25.5s|2.6s)  [ tid 306232 @    34.600s wavefront/integrator.cpp:395 ] Starting to submit work for sample 234
+[ tid 306232 @    34.709s wavefront/integrator.cpp:395 ] Starting to submit work for sample 235
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (25.7s|2.4s)  [ tid 306232 @    34.819s wavefront/integrator.cpp:395 ] Starting to submit work for sample 236
+[ tid 306232 @    34.928s wavefront/integrator.cpp:395 ] Starting to submit work for sample 237
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (25.9s|2.2s)  [ tid 306232 @    35.038s wavefront/integrator.cpp:395 ] Starting to submit work for sample 238
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (26.1s|2.0s)  [ tid 306232 @    35.149s wavefront/integrator.cpp:395 ] Starting to submit work for sample 239
+[ tid 306232 @    35.258s wavefront/integrator.cpp:395 ] Starting to submit work for sample 240
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (26.3s|1.8s)  [ tid 306232 @    35.368s wavefront/integrator.cpp:395 ] Starting to submit work for sample 241
+[ tid 306232 @    35.478s wavefront/integrator.cpp:395 ] Starting to submit work for sample 242
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (26.5s|1.7s)  [ tid 306232 @    35.588s wavefront/integrator.cpp:395 ] Starting to submit work for sample 243
+[ tid 306232 @    35.697s wavefront/integrator.cpp:395 ] Starting to submit work for sample 244
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (26.7s|1.4s)  [ tid 306232 @    35.808s wavefront/integrator.cpp:395 ] Starting to submit work for sample 245
+[ tid 306232 @    35.917s wavefront/integrator.cpp:395 ] Starting to submit work for sample 246
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (26.9s|1.2s)  [ tid 306232 @    36.028s wavefront/integrator.cpp:395 ] Starting to submit work for sample 247
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (27.1s|1.0s)  [ tid 306232 @    36.139s wavefront/integrator.cpp:395 ] Starting to submit work for sample 248
+[ tid 306232 @    36.247s wavefront/integrator.cpp:395 ] Starting to submit work for sample 249
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (27.3s|0.8s)  [ tid 306232 @    36.358s wavefront/integrator.cpp:395 ] Starting to submit work for sample 250
+[ tid 306232 @    36.466s wavefront/integrator.cpp:395 ] Starting to submit work for sample 251
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (27.5s|0.5s)  [ tid 306232 @    36.577s wavefront/integrator.cpp:395 ] Starting to submit work for sample 252
+[ tid 306232 @    36.686s wavefront/integrator.cpp:395 ] Starting to submit work for sample 253
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (27.7s|0.4s)  [ tid 306232 @    36.797s wavefront/integrator.cpp:395 ] Starting to submit work for sample 254
+[ tid 306232 @    36.905s wavefront/integrator.cpp:395 ] Starting to submit work for sample 255
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (27.9s|0.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (28.1s)       
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (28.1s)       [ tid 306232 @    37.130s wavefront/wavefront.cpp:45 ] Total rendering time: 28.311 s
+[ tid 306232 @    37.130s film.cpp:690 ] Converting image to RGB and computing final weighted pixel values
+[ tid 306232 @    37.250s film.cpp:684 ] Writing image benchmark-baseline-A6000/watercolor/camera-1_fullhd.exr with bounds [ [ 0, 0 ] - [ 1920, 1080 ] ]
+[ tid 306232 @    37.315s cmd/pbrt.cpp:290 ] Memory used after post-render cleanup: 3828617216
+[ tid 306287 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306281 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306275 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306279 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306283 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306290 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306274 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306292 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306284 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306299 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306273 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306282 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306286 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306285 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306295 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306291 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306300 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306278 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306301 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306298 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306288 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306289 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306277 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306293 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306280 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306276 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306296 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306271 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306294 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306297 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 306272 @    37.316s util/parallel.cpp:63 ] Exiting worker thread
+

@@ -1,0 +1,1866 @@
+pbrt version 4 (built Sep 15 2025 at 09:24:32)
+Copyright (c)1998-2021 Matt Pharr, Wenzel Jakob, and Greg Humphreys.
+The source code to pbrt (but *not* the book contents) is covered by the Apache 2.0 License.
+See the file LICENSE.txt for the conditions of the license.
+[1m[31mWarning[0m: Both --gpu and --wavefront were specified; --gpu takes precedence.
+[ tid 311677 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311676 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311677 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311676 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311678 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311678 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311679 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311679 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311680 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311680 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311683 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311683 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311682 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311682 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311681 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311681 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311684 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311684 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311685 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311685 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311686 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311686 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311687 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311687 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311688 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311688 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311689 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311689 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311690 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311690 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311691 @     0.000s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311691 @     0.000s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311692 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311692 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311693 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311693 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311694 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311694 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311695 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311695 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311697 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311697 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311696 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311696 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311698 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311698 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311699 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311699 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311700 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311700 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311701 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311701 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311702 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311702 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311703 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311703 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311704 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311704 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311705 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311705 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311637 @     0.001s gpu/util.cpp:40 ] GPU CUDA driver 12.9, CUDA runtime 12.0
+[ tid 311706 @     0.001s util/parallel.cpp:53 ] Started execution in worker thread
+[ tid 311706 @     0.001s gpu/util.cpp:108 ] Selecting GPU device 0
+[ tid 311637 @     0.002s gpu/util.cpp:57 ] CUDA device 0 (NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition) with 97225.5625 MiB, 188 SMs running at 2280 MHz with shader model 12.0
+[ tid 311637 @     0.002s gpu/util.cpp:73 ] Selecting GPU device 0
+[ tid 311637 @     0.004s gpu/util.cpp:89 ] Reset stack size to 8192
+[ tid 311637 @     0.013s parser.cpp:610 ] Started parsing /home/jan/workspace/pbrt-v4-scenes/disney-cloud/disney-cloud_4k.pbrt
+[ tid 311637 @     0.013s cameras.cpp:50 ] World-space position: [ 648.064, -82.473, -63.856 ]
+[ tid 311637 @     0.013s scene.cpp:748 ] Starting to create filter and film
+[1m[31mWarning[0m: /home/jan/workspace/pbrt-v4-scenes/disney-cloud/disney-cloud_4k.pbrt:5:0: Output filename supplied on command line, "benchmark-baseline-A6000/disney-cloud/disney-cloud_4k.exr" will override filename provided in scene description file, "disney-cloud-720p.exr".
+[ tid 311637 @     0.013s util/error.cpp:52 ] [1m[31mWarning[0m: /home/jan/workspace/pbrt-v4-scenes/disney-cloud/disney-cloud_4k.pbrt:5:0: Output filename supplied on command line, "benchmark-baseline-A6000/disney-cloud/disney-cloud_4k.exr" will override filename provided in scene description file, "disney-cloud-720p.exr".
+[ tid 311637 @     0.013s film.h:195 ] Created film with full resolution [ 3840, 2160 ], pixelBounds [ [ 0, 0 ] - [ 3840, 2160 ] ]
+[ tid 311637 @     0.122s scene.cpp:765 ] Finished creating filter and film
+[ tid 311691 @     0.122s scene.cpp:769 ] Starting to create sampler
+[ tid 311684 @     0.122s scene.cpp:778 ] Starting to create camera
+[ tid 311637 @     0.122s parser.cpp:640 ] Finished parsing /home/jan/workspace/pbrt-v4-scenes/disney-cloud/disney-cloud_4k.pbrt
+[ tid 311637 @     0.122s scene.cpp:839 ] Consume media futures start
+[ tid 311684 @     0.122s cameras.cpp:196 ] Camera min pos differentials: [ -0, 0, 0 ], [ -0, 0, 0 ]
+[ tid 311684 @     0.122s cameras.cpp:198 ] Camera min dir differentials: [ 0.00020214406, 0.0000012241421, 0 ], [ -0.000027063817, 0.00021556202, 0 ]
+[ tid 311684 @     0.122s scene.cpp:784 ] Finished creating camera
+[ tid 311694 @     0.122s scene.h:290 ] Retrieved Camera from future
+[ tid 311682 @     0.122s scene.h:290 ] Retrieved Camera from future
+[ tid 311687 @     0.328s media.cpp:504 ] /home/jan/workspace/pbrt-v4-scenes/disney-cloud/wdas_cloud_quarter.nvdb: found 24063202 "density" voxels
+[ tid 311687 @     0.328s media.cpp:558 ] Starting nanovdb grid GetMaxDensityGrid()
+[ tid 311687 @     0.358s media.cpp:618 ] Finished nanovdb grid GetMaxDensityGrid()
+[ tid 311637 @     0.358s scene.cpp:847 ] Consume media futures finished
+[ tid 311637 @     0.358s wavefront/integrator.cpp:114 ] Starting to create textures
+[ tid 311637 @     0.358s scene.cpp:1180 ] Starting to consume texture futures
+[ tid 311637 @     0.358s scene.cpp:1192 ] Finished consuming texture futures
+[ tid 311637 @     0.358s scene.cpp:1194 ] Starting to create remaining textures
+[ tid 311637 @     0.358s scene.cpp:1250 ] Done creating textures
+[ tid 311637 @     0.358s wavefront/integrator.cpp:116 ] Done creating textures
+[ tid 311637 @     0.358s wavefront/integrator.cpp:118 ] Starting to create lights
+[ tid 311637 @     0.358s scene.cpp:1289 ] Starting area lights
+[ tid 311637 @     0.358s scene.cpp:1341 ] Finished area lights
+[ tid 311637 @     0.358s scene.cpp:1343 ] Starting to consume non-area light futures
+[ tid 311637 @     0.358s scene.cpp:1347 ] Finished consuming non-area light futures
+[ tid 311637 @     0.358s wavefront/integrator.cpp:131 ] Done creating lights
+[ tid 311637 @     0.358s wavefront/integrator.cpp:133 ] Starting to create materials
+[ tid 311637 @     0.358s scene.cpp:1113 ] Starting to consume 0 normal map futures
+[ tid 311637 @     0.358s scene.cpp:1120 ] Finished consuming normal map futures
+[ tid 311637 @     0.358s wavefront/integrator.cpp:147 ] Finished creating materials
+[ tid 311637 @     0.358s scene.h:290 ] Retrieved Camera from future
+[ tid 311637 @     0.358s scene.h:302 ] Retrieved Sampler from future
+[ tid 311637 @     0.360s gpu/optix/aggregate.cpp:1219 ] Starting OptiX initialization
+[ tid 311637 @     0.408s gpu/optix/aggregate.cpp:1233 ] Optix version 9.0.0 successfully initialized
+[ tid 311637 @     0.420s gpu/optix/aggregate.cpp:1308 ] Info: Pipeline statistics
+	module(s)                            :     1
+	entry function(s)                    :    19
+	trace call(s)                        :     4
+	continuation callable call(s)        :     0
+	direct callable call(s)              :     0
+	basic block(s) in entry functions    :  3562
+	instruction(s) in entry functions    : 58335
+	non-entry function(s)                :     0
+	basic block(s) in non-entry functions:     0
+	instruction(s) in non-entry functions:     0
+	debug information                    :    no
+
+[ tid 311637 @     0.420s gpu/optix/aggregate.cpp:1364 ] Finished OptiX initialization
+[ tid 311637 @     0.420s gpu/optix/aggregate.cpp:1376 ] Starting to create shapes and acceleration structures
+[ tid 311637 @     0.420s gpu/optix/aggregate.cpp:1384 ] Starting to read PLY meshes
+[ tid 311637 @     0.420s gpu/optix/aggregate.cpp:1387 ] Finished reading PLY meshes
+[ tid 311637 @     0.421s gpu/optix/aggregate.cpp:1434 ] Starting to create IASes for 0 instance definitions
+[ tid 311637 @     0.421s gpu/optix/aggregate.cpp:1493 ] Finished creating IASes for instance definitions
+[ tid 311637 @     0.421s gpu/optix/aggregate.cpp:1497 ] Starting to create 0 OptixInstances
+[ tid 311637 @     0.421s gpu/optix/aggregate.cpp:1537 ] Starting to consume top-level GAS futures
+[ tid 311637 @     0.421s gpu/optix/aggregate.cpp:1548 ] Finished consuming top-level GAS futures
+[ tid 311637 @     0.421s gpu/optix/aggregate.cpp:1614 ] Finished creating OptixInstances
+[ tid 311637 @     0.421s gpu/optix/aggregate.cpp:1618 ] Starting to build top-level IAS
+[ tid 311637 @     0.421s gpu/optix/aggregate.cpp:1628 ] Finished building top-level IAS
+[ tid 311637 @     0.421s gpu/optix/aggregate.cpp:1630 ] Finished creating shapes and acceleration structures
+[ tid 311637 @     0.421s wavefront/integrator.cpp:181 ] Starting to create light sampler
+[ tid 311637 @     0.421s wavefront/integrator.cpp:187 ] Finished creating light sampler
+[ tid 311637 @     0.421s wavefront/integrator.cpp:275 ] maxQueueSize 1036800
+[ tid 311637 @     0.421s wavefront/integrator.cpp:276 ] Will render in 8 passes 270 scanlines per pass
+
+[ tid 311637 @     0.427s wavefront/integrator.cpp:326 ] pathIntegratorBytes 1871446564
+[ tid 311637 @     0.427s wavefront/integrator.cpp:327 ] bytes per accumulated queue entry is 1805
+[ tid 311637 @     0.427s gpu/memory.cpp:61 ] Prefetching 1353 allocations to GPU memory
+[ tid 311637 @     0.482s gpu/memory.cpp:69 ] Done prefetching: 2476146564 bytes total
+[ tid 311637 @     0.482s wavefront/integrator.cpp:395 ] Starting to submit work for sample 0
+
+Rendering: [                                           ] [ tid 311637 @     0.482s gpu/util.h:70 ] [Reset ray queue]: block size 768
+[ tid 311637 @     0.483s gpu/util.h:70 ] [Generate camera rays]: block size 512
+[ tid 311637 @     0.483s gpu/util.h:70 ] [Update camera ray stats]: block size 768
+[ tid 311637 @     0.483s gpu/util.h:70 ] [Reset queues before tracing rays]: block size 768
+[ tid 311637 @     0.483s gpu/util.h:70 ] [Generate ray samples - SobolSampler]: block size 768
+[ tid 311637 @     0.484s gpu/util.h:70 ] [Sample medium interaction]: block size 512
+[ tid 311637 @     0.485s gpu/util.h:70 ] [Sample direct/indirect - Henyey-Greenstein]: block size 512
+[ tid 311637 @     0.486s gpu/util.h:70 ] [Handle escaped rays]: block size 512
+[ tid 311637 @     0.486s gpu/util.h:70 ] [Handle emitters hit by indirect rays]: block size 512
+[ tid 311637 @     0.487s gpu/util.h:70 ] [DiffuseMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 311637 @     0.487s gpu/util.h:70 ] [Reset shadowRayQueue]: block size 768
+[ tid 311637 @     0.487s gpu/util.h:70 ] [Update indirect ray stats]: block size 768
+[ tid 311637 @     0.509s gpu/util.h:70 ] [Update film]: block size 512
+
+Rendering: [                                           ]  (0.1s|?s)  
+Rendering: [                                           ]  (0.1s|?s)  
+Rendering: [                                           ]  (0.2s|?s)  
+Rendering: [                                           ]  (0.2s|?s)  
+Rendering: [                                           ]  (0.3s|?s)  
+Rendering: [                                           ]  (0.3s|?s)  
+Rendering: [                                           ]  (0.4s|?s)  
+Rendering: [                                           ]  (0.4s|?s)  
+Rendering: [                                           ]  (0.5s|?s)  
+Rendering: [                                           ]  (0.5s|?s)  
+Rendering: [                                           ]  (0.6s|?s)  
+Rendering: [                                           ]  (0.7s|?s)  
+Rendering: [                                           ]  (0.8s|?s)  
+Rendering: [                                           ]  (0.9s|?s)  
+Rendering: [                                           ]  (1.0s|?s)  
+Rendering: [                                           ]  (1.1s|?s)  
+Rendering: [                                           ]  (1.2s|?s)  
+Rendering: [                                           ]  (1.3s|?s)  
+Rendering: [                                           ]  (1.4s|?s)  
+Rendering: [                                           ]  (1.5s|?s)  
+Rendering: [                                           ]  (1.6s|?s)  
+Rendering: [                                           ]  (1.7s|?s)  
+Rendering: [                                           ]  (1.8s|?s)  
+Rendering: [                                           ]  (1.9s|?s)  
+Rendering: [                                           ]  (2.0s|?s)  
+Rendering: [                                           ]  (2.1s|?s)  
+Rendering: [                                           ]  (2.2s|?s)  
+Rendering: [                                           ]  (2.3s|?s)  
+Rendering: [                                           ]  (2.4s|?s)  
+Rendering: [                                           ]  (2.5s|?s)  
+Rendering: [                                           ]  (2.6s|?s)  
+Rendering: [                                           ]  (2.7s|?s)  
+Rendering: [                                           ]  (2.8s|?s)  
+Rendering: [                                           ]  (2.9s|?s)  
+Rendering: [                                           ]  (3.0s|?s)  
+Rendering: [                                           ]  (3.1s|?s)  
+Rendering: [                                           ]  (3.2s|?s)  
+Rendering: [                                           ]  (3.3s|?s)  
+Rendering: [                                           ]  (3.4s|?s)  
+Rendering: [                                           ]  (3.5s|?s)  
+Rendering: [                                           ]  (3.6s|?s)  
+Rendering: [                                           ]  (3.7s|?s)  
+Rendering: [                                           ]  (3.8s|?s)  [ tid 311637 @     4.346s wavefront/integrator.cpp:395 ] Starting to submit work for sample 1
+
+Rendering: [                                           ]  (3.9s|?s)  
+Rendering: [                                           ]  (4.0s|1020.9s)  
+Rendering: [                                           ]  (4.1s|1046.4s)  
+Rendering: [                                           ]  (4.2s|1071.9s)  
+Rendering: [                                           ]  (4.3s|1097.4s)  
+Rendering: [                                           ]  (4.4s|1122.9s)  
+Rendering: [                                           ]  (4.5s|1148.5s)  
+Rendering: [                                           ]  (4.6s|1174.0s)  
+Rendering: [                                           ]  (4.7s|1199.5s)  
+Rendering: [                                           ]  (4.8s|1225.0s)  
+Rendering: [                                           ]  (4.9s|1250.5s)  
+Rendering: [                                           ]  (5.0s|1276.1s)  
+Rendering: [                                           ]  (5.1s|1301.6s)  
+Rendering: [                                           ]  (5.2s|1327.1s)  
+Rendering: [                                           ]  (5.3s|1352.6s)  
+Rendering: [                                           ]  (5.4s|1378.1s)  
+Rendering: [                                           ]  (5.5s|1403.7s)  
+Rendering: [                                           ]  (5.6s|1429.2s)  
+Rendering: [                                           ]  (5.7s|1454.7s)  
+Rendering: [                                           ]  (5.8s|1480.2s)  
+Rendering: [                                           ]  (5.9s|1505.7s)  
+Rendering: [                                           ]  (6.0s|1531.3s)  
+Rendering: [                                           ]  (6.1s|1556.8s)  
+Rendering: [                                           ]  (6.2s|1582.3s)  
+Rendering: [                                           ]  (6.3s|1607.8s)  
+Rendering: [                                           ]  (6.4s|1633.3s)  
+Rendering: [                                           ]  (6.5s|1658.8s)  
+Rendering: [                                           ]  (6.7s|1709.9s)  
+Rendering: [                                           ]  (6.9s|1760.9s)  
+Rendering: [                                           ]  (7.1s|1811.9s)  
+Rendering: [                                           ]  (7.3s|1862.9s)  
+Rendering: [                                           ]  (7.5s|1913.9s)  
+Rendering: [                                           ]  (7.7s|1964.9s)  [ tid 311637 @     8.242s wavefront/integrator.cpp:395 ] Starting to submit work for sample 2
+
+Rendering: [                                           ]  (7.9s|1004.0s)  
+Rendering: [                                           ]  (8.1s|1029.4s)  
+Rendering: [                                           ]  (8.3s|1054.8s)  
+Rendering: [                                           ]  (8.5s|1080.2s)  
+Rendering: [                                           ]  (8.7s|1105.6s)  
+Rendering: [                                           ]  (8.9s|1131.0s)  
+Rendering: [                                           ]  (9.1s|1156.5s)  
+Rendering: [                                           ]  (9.3s|1181.9s)  
+Rendering: [                                           ]  (9.5s|1207.3s)  
+Rendering: [                                           ]  (9.7s|1232.7s)  
+Rendering: [                                           ]  (9.9s|1258.1s)  
+Rendering: [                                           ]  (10.1s|1283.5s)  
+Rendering: [                                           ]  (10.3s|1308.9s)  
+Rendering: [                                           ]  (10.5s|1334.3s)  
+Rendering: [                                           ]  (10.7s|1359.7s)  
+Rendering: [                                           ]  (10.9s|1385.1s)  
+Rendering: [                                           ]  (11.1s|1410.5s)  
+Rendering: [                                           ]  (11.3s|1435.9s)  
+Rendering: [                                           ]  (11.5s|1461.3s)  [ tid 311637 @    12.123s wavefront/integrator.cpp:395 ] Starting to submit work for sample 3
+
+Rendering: [+                                          ]  (11.7s|987.3s)  
+Rendering: [+                                          ]  (11.9s|1004.1s)  
+Rendering: [+                                          ]  (12.1s|1021.0s)  
+Rendering: [+                                          ]  (12.3s|1037.9s)  
+Rendering: [+                                          ]  (12.5s|1054.8s)  
+Rendering: [+                                          ]  (12.7s|1071.6s)  
+Rendering: [+                                          ]  (12.9s|1088.5s)  
+Rendering: [+                                          ]  (13.1s|1105.4s)  
+Rendering: [+                                          ]  (13.3s|1122.2s)  
+Rendering: [+                                          ]  (13.5s|1139.1s)  
+Rendering: [+                                          ]  (13.7s|1156.0s)  
+Rendering: [+                                          ]  (13.9s|1172.9s)  
+Rendering: [+                                          ]  (14.1s|1189.7s)  
+Rendering: [+                                          ]  (14.3s|1206.6s)  
+Rendering: [+                                          ]  (14.5s|1223.5s)  
+Rendering: [+                                          ]  (14.7s|1240.3s)  
+Rendering: [+                                          ]  (14.9s|1257.2s)  
+Rendering: [+                                          ]  (15.1s|1274.1s)  
+Rendering: [+                                          ]  (15.3s|1291.0s)  
+Rendering: [+                                          ]  (15.5s|1307.8s)  [ tid 311637 @    16.013s wavefront/integrator.cpp:395 ] Starting to submit work for sample 4
+
+Rendering: [+                                          ]  (15.7s|989.6s)  
+Rendering: [+                                          ]  (15.9s|1002.2s)  
+Rendering: [+                                          ]  (16.1s|1014.8s)  
+Rendering: [+                                          ]  (16.3s|1027.4s)  
+Rendering: [+                                          ]  (16.5s|1040.0s)  
+Rendering: [+                                          ]  (16.7s|1052.6s)  
+Rendering: [+                                          ]  (16.9s|1065.2s)  
+Rendering: [+                                          ]  (17.1s|1077.8s)  
+Rendering: [+                                          ]  (17.3s|1090.4s)  
+Rendering: [+                                          ]  (17.5s|1103.0s)  
+Rendering: [+                                          ]  (17.7s|1115.6s)  
+Rendering: [+                                          ]  (17.9s|1128.2s)  
+Rendering: [+                                          ]  (18.1s|1140.8s)  
+Rendering: [+                                          ]  (18.3s|1153.5s)  
+Rendering: [+                                          ]  (18.5s|1166.1s)  
+Rendering: [+                                          ]  (18.7s|1178.7s)  
+Rendering: [+                                          ]  (18.9s|1191.3s)  
+Rendering: [+                                          ]  (19.1s|1203.9s)  
+Rendering: [+                                          ]  (19.3s|1216.5s)  [ tid 311637 @    19.906s wavefront/integrator.cpp:395 ] Starting to submit work for sample 5
+
+Rendering: [+                                          ]  (19.5s|979.4s)  
+Rendering: [+                                          ]  (19.7s|989.4s)  
+Rendering: [+                                          ]  (19.9s|999.4s)  
+Rendering: [+                                          ]  (20.1s|1009.5s)  
+Rendering: [+                                          ]  (20.3s|1019.5s)  
+Rendering: [+                                          ]  (20.5s|1029.6s)  
+Rendering: [+                                          ]  (20.7s|1039.6s)  
+Rendering: [+                                          ]  (20.9s|1049.7s)  
+Rendering: [+                                          ]  (21.1s|1059.7s)  
+Rendering: [+                                          ]  (21.3s|1069.7s)  
+Rendering: [+                                          ]  (21.5s|1079.8s)  
+Rendering: [+                                          ]  (21.7s|1089.8s)  
+Rendering: [+                                          ]  (21.9s|1099.9s)  
+Rendering: [+                                          ]  (22.1s|1109.9s)  
+Rendering: [+                                          ]  (22.3s|1120.0s)  
+Rendering: [+                                          ]  (22.5s|1130.0s)  
+Rendering: [+                                          ]  (22.7s|1140.0s)  
+Rendering: [+                                          ]  (22.9s|1150.1s)  
+Rendering: [+                                          ]  (23.1s|1160.1s)  [ tid 311637 @    23.776s wavefront/integrator.cpp:395 ] Starting to submit work for sample 6
+
+Rendering: [+                                          ]  (23.3s|1170.2s)  
+Rendering: [+                                          ]  (23.5s|979.6s)  
+Rendering: [+                                          ]  (23.7s|987.9s)  
+Rendering: [+                                          ]  (23.9s|996.3s)  
+Rendering: [+                                          ]  (24.1s|1004.6s)  
+Rendering: [+                                          ]  (24.3s|1012.9s)  
+Rendering: [+                                          ]  (24.5s|1021.3s)  
+Rendering: [+                                          ]  (24.7s|1029.6s)  
+Rendering: [+                                          ]  (24.9s|1037.9s)  
+Rendering: [+                                          ]  (25.1s|1046.3s)  
+Rendering: [+                                          ]  (25.3s|1054.6s)  
+Rendering: [+                                          ]  (25.5s|1063.0s)  
+Rendering: [+                                          ]  (25.7s|1071.3s)  
+Rendering: [+                                          ]  (25.9s|1079.6s)  
+Rendering: [+                                          ]  (26.1s|1088.0s)  
+Rendering: [+                                          ]  (26.3s|1096.3s)  
+Rendering: [+                                          ]  (26.5s|1104.6s)  
+Rendering: [+                                          ]  (26.7s|1113.0s)  
+Rendering: [+                                          ]  (26.9s|1121.3s)  
+Rendering: [+                                          ]  (27.1s|1129.6s)  [ tid 311637 @    27.668s wavefront/integrator.cpp:395 ] Starting to submit work for sample 7
+
+Rendering: [+                                          ]  (27.3s|971.5s)  
+Rendering: [+                                          ]  (27.5s|978.6s)  
+Rendering: [+                                          ]  (27.7s|985.7s)  
+Rendering: [+                                          ]  (27.9s|992.9s)  
+Rendering: [+                                          ]  (28.1s|1000.0s)  
+Rendering: [+                                          ]  (28.3s|1007.1s)  
+Rendering: [+                                          ]  (28.5s|1014.2s)  
+Rendering: [+                                          ]  (28.7s|1021.3s)  
+Rendering: [+                                          ]  (28.9s|1028.4s)  
+Rendering: [+                                          ]  (29.1s|1035.6s)  
+Rendering: [+                                          ]  (29.3s|1042.7s)  
+Rendering: [+                                          ]  (29.5s|1049.8s)  
+Rendering: [+                                          ]  (29.7s|1056.9s)  
+Rendering: [+                                          ]  (29.9s|1064.0s)  
+Rendering: [+                                          ]  (30.1s|1071.1s)  
+Rendering: [+                                          ]  (30.3s|1078.3s)  
+Rendering: [+                                          ]  (30.5s|1085.4s)  
+Rendering: [+                                          ]  (30.7s|1092.5s)  
+Rendering: [+                                          ]  (30.9s|1099.6s)  [ tid 311637 @    31.535s wavefront/integrator.cpp:395 ] Starting to submit work for sample 8
+
+Rendering: [+                                          ]  (31.1s|964.5s)  
+Rendering: [+                                          ]  (31.3s|970.7s)  
+Rendering: [+                                          ]  (31.5s|976.9s)  
+Rendering: [+                                          ]  (31.7s|983.1s)  
+Rendering: [+                                          ]  (31.9s|989.3s)  
+Rendering: [+                                          ]  (32.1s|995.5s)  
+Rendering: [+                                          ]  (32.3s|1001.7s)  
+Rendering: [+                                          ]  (32.5s|1007.9s)  
+Rendering: [+                                          ]  (32.7s|1014.1s)  
+Rendering: [+                                          ]  (32.9s|1020.3s)  
+Rendering: [+                                          ]  (33.1s|1026.5s)  
+Rendering: [+                                          ]  (33.3s|1032.7s)  
+Rendering: [+                                          ]  (33.5s|1038.9s)  
+Rendering: [+                                          ]  (33.7s|1045.1s)  
+Rendering: [+                                          ]  (33.9s|1051.3s)  
+Rendering: [+                                          ]  (34.1s|1057.5s)  
+Rendering: [+                                          ]  (34.3s|1063.7s)  
+Rendering: [+                                          ]  (34.5s|1069.9s)  
+Rendering: [+                                          ]  (34.7s|1076.1s)  
+Rendering: [+                                          ]  (34.9s|1082.3s)  [ tid 311637 @    35.425s wavefront/integrator.cpp:395 ] Starting to submit work for sample 9
+
+Rendering: [++                                         ]  (35.1s|963.7s)  
+Rendering: [++                                         ]  (35.3s|969.2s)  
+Rendering: [++                                         ]  (35.5s|974.7s)  
+Rendering: [++                                         ]  (35.7s|980.2s)  
+Rendering: [++                                         ]  (35.9s|985.6s)  
+Rendering: [++                                         ]  (36.1s|991.1s)  
+Rendering: [++                                         ]  (36.3s|996.6s)  
+Rendering: [++                                         ]  (36.5s|1002.1s)  
+Rendering: [++                                         ]  (36.7s|1007.6s)  
+Rendering: [++                                         ]  (36.9s|1013.1s)  
+Rendering: [++                                         ]  (37.1s|1018.6s)  
+Rendering: [++                                         ]  (37.3s|1024.1s)  
+Rendering: [++                                         ]  (37.5s|1029.6s)  
+Rendering: [++                                         ]  (37.7s|1035.1s)  
+Rendering: [++                                         ]  (37.9s|1040.5s)  
+Rendering: [++                                         ]  (38.1s|1046.0s)  
+Rendering: [++                                         ]  (38.3s|1051.5s)  
+Rendering: [++                                         ]  (38.5s|1057.0s)  
+Rendering: [++                                         ]  (38.7s|1062.5s)  [ tid 311637 @    39.310s wavefront/integrator.cpp:395 ] Starting to submit work for sample 10
+
+Rendering: [++                                         ]  (38.9s|957.3s)  
+Rendering: [++                                         ]  (39.1s|962.2s)  
+Rendering: [++                                         ]  (39.3s|967.2s)  
+Rendering: [++                                         ]  (39.5s|972.1s)  
+Rendering: [++                                         ]  (39.7s|977.0s)  
+Rendering: [++                                         ]  (39.9s|981.9s)  
+Rendering: [++                                         ]  (40.1s|986.8s)  
+Rendering: [++                                         ]  (40.3s|991.8s)  
+Rendering: [++                                         ]  (40.5s|996.7s)  
+Rendering: [++                                         ]  (40.7s|1001.6s)  
+Rendering: [++                                         ]  (40.9s|1006.5s)  
+Rendering: [++                                         ]  (41.1s|1011.4s)  
+Rendering: [++                                         ]  (41.3s|1016.4s)  
+Rendering: [++                                         ]  (41.5s|1021.3s)  
+Rendering: [++                                         ]  (41.7s|1026.2s)  
+Rendering: [++                                         ]  (41.9s|1031.1s)  
+Rendering: [++                                         ]  (42.1s|1036.1s)  
+Rendering: [++                                         ]  (42.3s|1041.0s)  
+Rendering: [++                                         ]  (42.5s|1045.9s)  [ tid 311637 @    43.198s wavefront/integrator.cpp:395 ] Starting to submit work for sample 11
+
+Rendering: [++                                         ]  (42.7s|1050.8s)  
+Rendering: [++                                         ]  (42.9s|955.9s)  
+Rendering: [++                                         ]  (43.1s|960.3s)  
+Rendering: [++                                         ]  (43.3s|964.8s)  
+Rendering: [++                                         ]  (43.5s|969.2s)  
+Rendering: [++                                         ]  (43.7s|973.7s)  
+Rendering: [++                                         ]  (43.9s|978.1s)  
+Rendering: [++                                         ]  (44.1s|982.6s)  
+Rendering: [++                                         ]  (44.3s|987.1s)  
+Rendering: [++                                         ]  (44.5s|991.5s)  
+Rendering: [++                                         ]  (44.7s|996.0s)  
+Rendering: [++                                         ]  (44.9s|1000.4s)  
+Rendering: [++                                         ]  (45.1s|1004.9s)  
+Rendering: [++                                         ]  (45.3s|1009.3s)  
+Rendering: [++                                         ]  (45.5s|1013.8s)  
+Rendering: [++                                         ]  (45.7s|1018.2s)  
+Rendering: [++                                         ]  (45.9s|1022.7s)  
+Rendering: [++                                         ]  (46.1s|1027.2s)  
+Rendering: [++                                         ]  (46.3s|1031.6s)  
+Rendering: [++                                         ]  (46.5s|1036.1s)  [ tid 311637 @    47.070s wavefront/integrator.cpp:395 ] Starting to submit work for sample 12
+
+Rendering: [++                                         ]  (46.7s|949.9s)  
+Rendering: [++                                         ]  (46.9s|954.0s)  
+Rendering: [++                                         ]  (47.1s|958.1s)  
+Rendering: [++                                         ]  (47.3s|962.1s)  
+Rendering: [++                                         ]  (47.5s|966.2s)  
+Rendering: [++                                         ]  (47.7s|970.3s)  
+Rendering: [++                                         ]  (47.9s|974.3s)  
+Rendering: [++                                         ]  (48.1s|978.4s)  
+Rendering: [++                                         ]  (48.3s|982.5s)  
+Rendering: [++                                         ]  (48.5s|986.5s)  
+Rendering: [++                                         ]  (48.7s|990.6s)  
+Rendering: [++                                         ]  (48.9s|994.7s)  
+Rendering: [++                                         ]  (49.1s|998.7s)  
+Rendering: [++                                         ]  (49.3s|1002.8s)  
+Rendering: [++                                         ]  (49.5s|1006.9s)  
+Rendering: [++                                         ]  (49.7s|1010.9s)  
+Rendering: [++                                         ]  (49.9s|1015.0s)  
+Rendering: [++                                         ]  (50.1s|1019.1s)  
+Rendering: [++                                         ]  (50.3s|1023.1s)  [ tid 311637 @    50.964s wavefront/integrator.cpp:395 ] Starting to submit work for sample 13
+
+Rendering: [++                                         ]  (50.5s|1027.2s)  
+Rendering: [++                                         ]  (50.7s|948.0s)  
+Rendering: [++                                         ]  (50.9s|951.8s)  
+Rendering: [++                                         ]  (51.1s|955.5s)  
+Rendering: [++                                         ]  (51.3s|959.3s)  
+Rendering: [++                                         ]  (51.5s|963.0s)  
+Rendering: [++                                         ]  (51.7s|966.7s)  
+Rendering: [++                                         ]  (51.9s|970.5s)  
+Rendering: [++                                         ]  (52.1s|974.2s)  
+Rendering: [++                                         ]  (52.3s|978.0s)  
+Rendering: [++                                         ]  (52.5s|981.7s)  
+Rendering: [++                                         ]  (52.7s|985.4s)  
+Rendering: [++                                         ]  (52.9s|989.2s)  
+Rendering: [++                                         ]  (53.1s|992.9s)  
+Rendering: [++                                         ]  (53.3s|996.7s)  
+Rendering: [++                                         ]  (53.5s|1000.4s)  
+Rendering: [++                                         ]  (53.7s|1004.1s)  
+Rendering: [++                                         ]  (53.9s|1007.9s)  
+Rendering: [++                                         ]  (54.1s|1011.6s)  
+Rendering: [++                                         ]  (54.3s|1015.4s)  [ tid 311637 @    54.850s wavefront/integrator.cpp:395 ] Starting to submit work for sample 14
+
+Rendering: [++                                         ]  (54.5s|942.4s)  
+Rendering: [++                                         ]  (54.7s|945.9s)  
+Rendering: [++                                         ]  (54.9s|949.3s)  
+Rendering: [++                                         ]  (55.1s|952.8s)  
+Rendering: [++                                         ]  (55.3s|956.2s)  
+Rendering: [++                                         ]  (55.5s|959.7s)  
+Rendering: [++                                         ]  (55.7s|963.2s)  
+Rendering: [++                                         ]  (55.9s|966.6s)  
+Rendering: [++                                         ]  (56.1s|970.1s)  
+Rendering: [++                                         ]  (56.3s|973.5s)  
+Rendering: [++                                         ]  (56.5s|977.0s)  
+Rendering: [++                                         ]  (56.7s|980.5s)  
+Rendering: [++                                         ]  (56.9s|983.9s)  
+Rendering: [++                                         ]  (57.1s|987.4s)  
+Rendering: [++                                         ]  (57.3s|990.8s)  
+Rendering: [++                                         ]  (57.5s|994.3s)  
+Rendering: [++                                         ]  (57.7s|997.7s)  
+Rendering: [++                                         ]  (57.9s|1001.2s)  
+Rendering: [++                                         ]  (58.1s|1004.7s)  [ tid 311637 @    58.731s wavefront/integrator.cpp:395 ] Starting to submit work for sample 15
+
+Rendering: [+++                                        ]  (58.3s|937.0s)  
+Rendering: [+++                                        ]  (58.5s|940.2s)  
+Rendering: [+++                                        ]  (58.7s|943.5s)  
+Rendering: [+++                                        ]  (58.9s|946.7s)  
+Rendering: [+++                                        ]  (59.1s|949.9s)  
+Rendering: [+++                                        ]  (59.3s|953.1s)  
+Rendering: [+++                                        ]  (59.5s|956.3s)  
+Rendering: [+++                                        ]  (59.7s|959.5s)  
+Rendering: [+++                                        ]  (59.9s|962.7s)  
+Rendering: [+++                                        ]  (60.1s|966.0s)  
+Rendering: [+++                                        ]  (60.3s|969.2s)  
+Rendering: [+++                                        ]  (60.5s|972.4s)  
+Rendering: [+++                                        ]  (60.7s|975.6s)  
+Rendering: [+++                                        ]  (60.9s|978.8s)  
+Rendering: [+++                                        ]  (61.1s|982.0s)  
+Rendering: [+++                                        ]  (61.3s|985.2s)  
+Rendering: [+++                                        ]  (61.5s|988.5s)  
+Rendering: [+++                                        ]  (61.7s|991.7s)  
+Rendering: [+++                                        ]  (61.9s|994.9s)  
+Rendering: [+++                                        ]  (62.1s|998.1s)  [ tid 311637 @    62.619s wavefront/integrator.cpp:395 ] Starting to submit work for sample 16
+
+Rendering: [+++                                        ]  (62.3s|934.8s)  
+Rendering: [+++                                        ]  (62.5s|937.8s)  
+Rendering: [+++                                        ]  (62.7s|940.8s)  
+Rendering: [+++                                        ]  (62.9s|943.8s)  
+Rendering: [+++                                        ]  (63.1s|946.8s)  
+Rendering: [+++                                        ]  (63.3s|949.8s)  
+Rendering: [+++                                        ]  (63.5s|952.8s)  
+Rendering: [+++                                        ]  (63.7s|955.8s)  
+Rendering: [+++                                        ]  (63.9s|958.8s)  
+Rendering: [+++                                        ]  (64.1s|961.8s)  
+Rendering: [+++                                        ]  (64.3s|964.8s)  
+Rendering: [+++                                        ]  (64.5s|967.8s)  
+Rendering: [+++                                        ]  (64.7s|970.8s)  
+Rendering: [+++                                        ]  (64.9s|973.8s)  
+Rendering: [+++                                        ]  (65.1s|976.8s)  
+Rendering: [+++                                        ]  (65.3s|979.8s)  
+Rendering: [+++                                        ]  (65.5s|982.8s)  
+Rendering: [+++                                        ]  (65.7s|985.8s)  
+Rendering: [+++                                        ]  (65.9s|988.8s)  [ tid 311637 @    66.495s wavefront/integrator.cpp:395 ] Starting to submit work for sample 17
+
+Rendering: [+++                                        ]  (66.1s|929.6s)  
+Rendering: [+++                                        ]  (66.3s|932.4s)  
+Rendering: [+++                                        ]  (66.5s|935.2s)  
+Rendering: [+++                                        ]  (66.7s|938.1s)  
+Rendering: [+++                                        ]  (66.9s|940.9s)  
+Rendering: [+++                                        ]  (67.1s|943.7s)  
+Rendering: [+++                                        ]  (67.3s|946.5s)  
+Rendering: [+++                                        ]  (67.5s|949.3s)  
+Rendering: [+++                                        ]  (67.7s|952.1s)  
+Rendering: [+++                                        ]  (67.9s|954.9s)  
+Rendering: [+++                                        ]  (68.1s|957.7s)  
+Rendering: [+++                                        ]  (68.3s|960.6s)  
+Rendering: [+++                                        ]  (68.5s|963.4s)  
+Rendering: [+++                                        ]  (68.7s|966.2s)  
+Rendering: [+++                                        ]  (68.9s|969.0s)  
+Rendering: [+++                                        ]  (69.1s|971.8s)  
+Rendering: [+++                                        ]  (69.3s|974.6s)  
+Rendering: [+++                                        ]  (69.5s|977.4s)  
+Rendering: [+++                                        ]  (69.7s|980.2s)  [ tid 311637 @    70.367s wavefront/integrator.cpp:395 ] Starting to submit work for sample 18
+
+Rendering: [+++                                        ]  (69.9s|983.1s)  
+Rendering: [+++                                        ]  (70.1s|927.2s)  
+Rendering: [+++                                        ]  (70.3s|929.8s)  
+Rendering: [+++                                        ]  (70.5s|932.5s)  
+Rendering: [+++                                        ]  (70.7s|935.1s)  
+Rendering: [+++                                        ]  (70.9s|937.8s)  
+Rendering: [+++                                        ]  (71.1s|940.4s)  
+Rendering: [+++                                        ]  (71.3s|943.1s)  
+Rendering: [+++                                        ]  (71.5s|945.7s)  
+Rendering: [+++                                        ]  (71.7s|948.4s)  
+Rendering: [+++                                        ]  (71.9s|951.0s)  
+Rendering: [+++                                        ]  (72.1s|953.7s)  
+Rendering: [+++                                        ]  (72.3s|956.3s)  
+Rendering: [+++                                        ]  (72.5s|958.9s)  
+Rendering: [+++                                        ]  (72.7s|961.6s)  
+Rendering: [+++                                        ]  (72.9s|964.2s)  
+Rendering: [+++                                        ]  (73.1s|966.9s)  
+Rendering: [+++                                        ]  (73.3s|969.5s)  
+Rendering: [+++                                        ]  (73.5s|972.2s)  
+Rendering: [+++                                        ]  (73.7s|974.8s)  [ tid 311637 @    74.234s wavefront/integrator.cpp:395 ] Starting to submit work for sample 19
+
+Rendering: [+++                                        ]  (73.9s|922.1s)  
+Rendering: [+++                                        ]  (74.1s|924.6s)  
+Rendering: [+++                                        ]  (74.3s|927.1s)  
+Rendering: [+++                                        ]  (74.5s|929.6s)  
+Rendering: [+++                                        ]  (74.7s|932.1s)  
+Rendering: [+++                                        ]  (74.9s|934.6s)  
+Rendering: [+++                                        ]  (75.1s|937.1s)  
+Rendering: [+++                                        ]  (75.3s|939.6s)  
+Rendering: [+++                                        ]  (75.5s|942.1s)  
+Rendering: [+++                                        ]  (75.7s|944.6s)  
+Rendering: [+++                                        ]  (75.9s|947.1s)  
+Rendering: [+++                                        ]  (76.1s|949.6s)  
+Rendering: [+++                                        ]  (76.3s|952.1s)  
+Rendering: [+++                                        ]  (76.5s|954.6s)  
+Rendering: [+++                                        ]  (76.7s|957.1s)  
+Rendering: [+++                                        ]  (76.9s|959.6s)  
+Rendering: [+++                                        ]  (77.1s|962.1s)  
+Rendering: [+++                                        ]  (77.3s|964.5s)  
+Rendering: [+++                                        ]  (77.5s|967.0s)  [ tid 311637 @    78.116s wavefront/integrator.cpp:395 ] Starting to submit work for sample 20
+
+Rendering: [+++                                        ]  (77.7s|917.2s)  
+Rendering: [+++                                        ]  (77.9s|919.5s)  
+Rendering: [+++                                        ]  (78.1s|921.9s)  
+Rendering: [+++                                        ]  (78.3s|924.3s)  
+Rendering: [+++                                        ]  (78.5s|926.6s)  
+Rendering: [+++                                        ]  (78.7s|929.0s)  
+Rendering: [+++                                        ]  (78.9s|931.3s)  
+Rendering: [+++                                        ]  (79.1s|933.7s)  
+Rendering: [+++                                        ]  (79.3s|936.1s)  
+Rendering: [+++                                        ]  (79.5s|938.4s)  
+Rendering: [+++                                        ]  (79.7s|940.8s)  
+Rendering: [+++                                        ]  (79.9s|943.1s)  
+Rendering: [+++                                        ]  (80.1s|945.5s)  
+Rendering: [+++                                        ]  (80.3s|947.9s)  
+Rendering: [+++                                        ]  (80.5s|950.2s)  
+Rendering: [+++                                        ]  (80.7s|952.6s)  
+Rendering: [+++                                        ]  (80.9s|955.0s)  
+Rendering: [+++                                        ]  (81.1s|957.3s)  
+Rendering: [+++                                        ]  (81.3s|959.7s)  [ tid 311637 @    81.989s wavefront/integrator.cpp:395 ] Starting to submit work for sample 21
+
+Rendering: [+++                                        ]  (81.5s|962.0s)  
+Rendering: [++++                                       ]  (81.7s|914.6s)  
+Rendering: [++++                                       ]  (81.9s|916.8s)  
+Rendering: [++++                                       ]  (82.1s|919.1s)  
+Rendering: [++++                                       ]  (82.3s|921.3s)  
+Rendering: [++++                                       ]  (82.5s|923.5s)  
+Rendering: [++++                                       ]  (82.7s|925.8s)  
+Rendering: [++++                                       ]  (82.9s|928.0s)  
+Rendering: [++++                                       ]  (83.1s|930.2s)  
+Rendering: [++++                                       ]  (83.3s|932.5s)  
+Rendering: [++++                                       ]  (83.5s|934.7s)  
+Rendering: [++++                                       ]  (83.7s|937.0s)  
+Rendering: [++++                                       ]  (83.9s|939.2s)  
+Rendering: [++++                                       ]  (84.1s|941.4s)  
+Rendering: [++++                                       ]  (84.3s|943.7s)  
+Rendering: [++++                                       ]  (84.5s|945.9s)  
+Rendering: [++++                                       ]  (84.7s|948.2s)  
+Rendering: [++++                                       ]  (84.9s|950.4s)  
+Rendering: [++++                                       ]  (85.1s|952.6s)  
+Rendering: [++++                                       ]  (85.3s|954.9s)  [ tid 311637 @    85.886s wavefront/integrator.cpp:395 ] Starting to submit work for sample 22
+
+Rendering: [++++                                       ]  (85.5s|909.7s)  
+Rendering: [++++                                       ]  (85.7s|911.9s)  
+Rendering: [++++                                       ]  (85.9s|914.0s)  
+Rendering: [++++                                       ]  (86.1s|916.1s)  
+Rendering: [++++                                       ]  (86.3s|918.2s)  
+Rendering: [++++                                       ]  (86.5s|920.4s)  
+Rendering: [++++                                       ]  (86.7s|922.5s)  
+Rendering: [++++                                       ]  (86.9s|924.6s)  
+Rendering: [++++                                       ]  (87.1s|926.7s)  
+Rendering: [++++                                       ]  (87.3s|928.9s)  
+Rendering: [++++                                       ]  (87.5s|931.0s)  
+Rendering: [++++                                       ]  (87.7s|933.1s)  
+Rendering: [++++                                       ]  (87.9s|935.3s)  
+Rendering: [++++                                       ]  (88.1s|937.4s)  
+Rendering: [++++                                       ]  (88.3s|939.5s)  
+Rendering: [++++                                       ]  (88.5s|941.6s)  
+Rendering: [++++                                       ]  (88.7s|943.8s)  
+Rendering: [++++                                       ]  (88.9s|945.9s)  
+Rendering: [++++                                       ]  (89.1s|948.0s)  [ tid 311637 @    89.778s wavefront/integrator.cpp:395 ] Starting to submit work for sample 23
+
+Rendering: [++++                                       ]  (89.3s|950.2s)  
+Rendering: [++++                                       ]  (89.5s|907.0s)  
+Rendering: [++++                                       ]  (89.7s|909.0s)  
+Rendering: [++++                                       ]  (89.9s|911.0s)  
+Rendering: [++++                                       ]  (90.1s|913.1s)  
+Rendering: [++++                                       ]  (90.3s|915.1s)  
+Rendering: [++++                                       ]  (90.5s|917.1s)  
+Rendering: [++++                                       ]  (90.7s|919.1s)  
+Rendering: [++++                                       ]  (90.9s|921.2s)  
+Rendering: [++++                                       ]  (91.1s|923.2s)  
+Rendering: [++++                                       ]  (91.3s|925.2s)  
+Rendering: [++++                                       ]  (91.5s|927.3s)  
+Rendering: [++++                                       ]  (91.7s|929.3s)  
+Rendering: [++++                                       ]  (91.9s|931.3s)  
+Rendering: [++++                                       ]  (92.1s|933.3s)  
+Rendering: [++++                                       ]  (92.3s|935.4s)  
+Rendering: [++++                                       ]  (92.5s|937.4s)  
+Rendering: [++++                                       ]  (92.7s|939.4s)  
+Rendering: [++++                                       ]  (92.9s|941.4s)  
+Rendering: [++++                                       ]  (93.1s|943.5s)  [ tid 311637 @    93.664s wavefront/integrator.cpp:395 ] Starting to submit work for sample 24
+
+Rendering: [++++                                       ]  (93.3s|902.2s)  
+Rendering: [++++                                       ]  (93.5s|904.1s)  
+Rendering: [++++                                       ]  (93.7s|906.1s)  
+Rendering: [++++                                       ]  (93.9s|908.0s)  
+Rendering: [++++                                       ]  (94.1s|909.9s)  
+Rendering: [++++                                       ]  (94.3s|911.9s)  
+Rendering: [++++                                       ]  (94.5s|913.8s)  
+Rendering: [++++                                       ]  (94.7s|915.7s)  
+Rendering: [++++                                       ]  (94.9s|917.7s)  
+Rendering: [++++                                       ]  (95.1s|919.6s)  
+Rendering: [++++                                       ]  (95.3s|921.5s)  
+Rendering: [++++                                       ]  (95.5s|923.5s)  
+Rendering: [++++                                       ]  (95.7s|925.4s)  
+Rendering: [++++                                       ]  (95.9s|927.4s)  
+Rendering: [++++                                       ]  (96.1s|929.3s)  
+Rendering: [++++                                       ]  (96.3s|931.2s)  
+Rendering: [++++                                       ]  (96.5s|933.2s)  [ tid 311637 @    97.555s wavefront/integrator.cpp:395 ] Starting to submit work for sample 25
+
+Rendering: [++++                                       ]  (97.5s|901.2s)  
+Rendering: [++++                                       ]  (98.5s|910.4s)  
+Rendering: [++++                                       ]  (99.5s|919.7s)  
+Rendering: [++++                                       ]  (100.5s|928.9s)  [ tid 311637 @   101.424s wavefront/integrator.cpp:395 ] Starting to submit work for sample 26
+
+Rendering: [++++                                       ]  (101.5s|898.2s)  
+Rendering: [++++                                       ]  (102.5s|907.0s)  
+Rendering: [++++                                       ]  (103.5s|915.9s)  
+Rendering: [++++                                       ]  (104.5s|924.7s)  [ tid 311637 @   105.294s wavefront/integrator.cpp:395 ] Starting to submit work for sample 27
+
+Rendering: [+++++                                      ]  (105.5s|895.1s)  
+Rendering: [+++++                                      ]  (106.5s|903.6s)  
+Rendering: [+++++                                      ]  (107.5s|912.0s)  
+Rendering: [+++++                                      ]  (108.5s|920.5s)  [ tid 311637 @   109.165s wavefront/integrator.cpp:395 ] Starting to submit work for sample 28
+
+Rendering: [+++++                                      ]  (109.5s|891.9s)  
+Rendering: [+++++                                      ]  (110.5s|900.1s)  
+Rendering: [+++++                                      ]  (111.5s|908.2s)  
+Rendering: [+++++                                      ]  (112.5s|916.3s)  [ tid 311637 @   113.038s wavefront/integrator.cpp:395 ] Starting to submit work for sample 29
+
+Rendering: [+++++                                      ]  (113.5s|888.7s)  
+Rendering: [+++++                                      ]  (114.5s|896.5s)  
+Rendering: [+++++                                      ]  (115.5s|904.4s)  [ tid 311637 @   116.913s wavefront/integrator.cpp:395 ] Starting to submit work for sample 30
+
+Rendering: [+++++                                      ]  (116.5s|877.9s)  
+Rendering: [+++++                                      ]  (117.5s|885.4s)  
+Rendering: [+++++                                      ]  (118.5s|893.0s)  
+Rendering: [+++++                                      ]  (119.5s|900.5s)  [ tid 311637 @   120.790s wavefront/integrator.cpp:395 ] Starting to submit work for sample 31
+
+Rendering: [+++++                                      ]  (120.5s|874.8s)  
+Rendering: [+++++                                      ]  (121.5s|882.1s)  
+Rendering: [+++++                                      ]  (122.5s|889.4s)  
+Rendering: [+++++                                      ]  (123.5s|896.6s)  [ tid 311637 @   124.762s wavefront/integrator.cpp:395 ] Starting to submit work for sample 32
+
+Rendering: [+++++                                      ]  (124.5s|871.7s)  
+Rendering: [+++++                                      ]  (125.5s|878.7s)  
+Rendering: [+++++                                      ]  (126.5s|885.7s)  
+Rendering: [+++++                                      ]  (127.5s|892.7s)  [ tid 311637 @   128.701s wavefront/integrator.cpp:395 ] Starting to submit work for sample 33
+
+Rendering: [++++++                                     ]  (128.5s|868.6s)  
+Rendering: [++++++                                     ]  (129.5s|875.3s)  
+Rendering: [++++++                                     ]  (130.5s|882.1s)  
+Rendering: [++++++                                     ]  (131.5s|888.9s)  [ tid 311637 @   132.576s wavefront/integrator.cpp:395 ] Starting to submit work for sample 34
+
+Rendering: [++++++                                     ]  (132.5s|865.4s)  
+Rendering: [++++++                                     ]  (133.5s|871.9s)  
+Rendering: [++++++                                     ]  (134.5s|878.4s)  
+Rendering: [++++++                                     ]  (135.5s|885.0s)  [ tid 311637 @   136.441s wavefront/integrator.cpp:395 ] Starting to submit work for sample 35
+
+Rendering: [++++++                                     ]  (136.5s|862.1s)  
+Rendering: [++++++                                     ]  (137.5s|868.4s)  
+Rendering: [++++++                                     ]  (138.5s|874.8s)  
+Rendering: [++++++                                     ]  (139.5s|881.1s)  [ tid 311637 @   140.303s wavefront/integrator.cpp:395 ] Starting to submit work for sample 36
+
+Rendering: [++++++                                     ]  (140.5s|858.8s)  
+Rendering: [++++++                                     ]  (141.5s|864.9s)  
+Rendering: [++++++                                     ]  (142.5s|871.1s)  
+Rendering: [++++++                                     ]  (143.5s|877.2s)  [ tid 311637 @   144.163s wavefront/integrator.cpp:395 ] Starting to submit work for sample 37
+
+Rendering: [++++++                                     ]  (144.5s|855.5s)  
+Rendering: [++++++                                     ]  (145.5s|861.4s)  
+Rendering: [++++++                                     ]  (146.5s|867.3s)  
+Rendering: [++++++                                     ]  (147.5s|873.3s)  [ tid 311637 @   148.030s wavefront/integrator.cpp:395 ] Starting to submit work for sample 38
+
+Rendering: [++++++                                     ]  (148.5s|852.1s)  
+Rendering: [++++++                                     ]  (149.5s|857.9s)  
+Rendering: [++++++                                     ]  (150.5s|863.6s)  [ tid 311637 @   151.895s wavefront/integrator.cpp:395 ] Starting to submit work for sample 39
+
+Rendering: [+++++++                                    ]  (151.5s|843.2s)  
+Rendering: [+++++++                                    ]  (152.5s|848.7s)  
+Rendering: [+++++++                                    ]  (153.5s|854.3s)  
+Rendering: [+++++++                                    ]  (154.5s|859.9s)  [ tid 311637 @   155.754s wavefront/integrator.cpp:395 ] Starting to submit work for sample 40
+
+Rendering: [+++++++                                    ]  (155.5s|839.9s)  
+Rendering: [+++++++                                    ]  (156.5s|845.3s)  
+Rendering: [+++++++                                    ]  (157.5s|850.7s)  
+Rendering: [+++++++                                    ]  (158.5s|856.1s)  [ tid 311637 @   159.633s wavefront/integrator.cpp:395 ] Starting to submit work for sample 41
+
+Rendering: [+++++++                                    ]  (159.5s|836.6s)  
+Rendering: [+++++++                                    ]  (160.5s|841.8s)  
+Rendering: [+++++++                                    ]  (161.5s|847.1s)  
+Rendering: [+++++++                                    ]  (162.5s|852.3s)  [ tid 311637 @   163.488s wavefront/integrator.cpp:395 ] Starting to submit work for sample 42
+
+Rendering: [+++++++                                    ]  (163.5s|833.3s)  
+Rendering: [+++++++                                    ]  (164.5s|838.4s)  
+Rendering: [+++++++                                    ]  (165.5s|843.5s)  
+Rendering: [+++++++                                    ]  (166.5s|848.6s)  [ tid 311637 @   167.328s wavefront/integrator.cpp:395 ] Starting to submit work for sample 43
+
+Rendering: [+++++++                                    ]  (167.5s|829.9s)  
+Rendering: [+++++++                                    ]  (168.5s|834.9s)  
+Rendering: [+++++++                                    ]  (169.5s|839.8s)  
+Rendering: [+++++++                                    ]  (170.5s|844.8s)  [ tid 311637 @   171.184s wavefront/integrator.cpp:395 ] Starting to submit work for sample 44
+
+Rendering: [+++++++                                    ]  (171.5s|826.5s)  
+Rendering: [+++++++                                    ]  (172.5s|831.3s)  
+Rendering: [+++++++                                    ]  (173.5s|836.1s)  
+Rendering: [+++++++                                    ]  (174.5s|841.0s)  [ tid 311637 @   175.040s wavefront/integrator.cpp:395 ] Starting to submit work for sample 45
+
+Rendering: [++++++++                                   ]  (175.5s|823.1s)  
+Rendering: [++++++++                                   ]  (176.5s|827.8s)  
+Rendering: [++++++++                                   ]  (177.5s|832.5s)  [ tid 311637 @   178.893s wavefront/integrator.cpp:395 ] Starting to submit work for sample 46
+
+Rendering: [++++++++                                   ]  (178.5s|815.1s)  
+Rendering: [++++++++                                   ]  (179.5s|819.6s)  
+Rendering: [++++++++                                   ]  (180.5s|824.2s)  
+Rendering: [++++++++                                   ]  (181.5s|828.8s)  [ tid 311637 @   182.755s wavefront/integrator.cpp:395 ] Starting to submit work for sample 47
+
+Rendering: [++++++++                                   ]  (182.5s|811.7s)  
+Rendering: [++++++++                                   ]  (183.5s|816.2s)  
+Rendering: [++++++++                                   ]  (184.5s|820.6s)  
+Rendering: [++++++++                                   ]  (185.5s|825.1s)  [ tid 311637 @   186.627s wavefront/integrator.cpp:395 ] Starting to submit work for sample 48
+
+Rendering: [++++++++                                   ]  (186.5s|808.3s)  
+Rendering: [++++++++                                   ]  (187.5s|812.7s)  
+Rendering: [++++++++                                   ]  (188.5s|817.0s)  
+Rendering: [++++++++                                   ]  (189.5s|821.3s)  [ tid 311637 @   190.479s wavefront/integrator.cpp:395 ] Starting to submit work for sample 49
+
+Rendering: [++++++++                                   ]  (190.5s|804.9s)  
+Rendering: [++++++++                                   ]  (191.5s|809.2s)  
+Rendering: [++++++++                                   ]  (192.5s|813.4s)  
+Rendering: [++++++++                                   ]  (193.5s|817.6s)  [ tid 311637 @   194.326s wavefront/integrator.cpp:395 ] Starting to submit work for sample 50
+
+Rendering: [++++++++                                   ]  (194.5s|801.5s)  
+Rendering: [++++++++                                   ]  (195.5s|805.6s)  
+Rendering: [++++++++                                   ]  (196.5s|809.7s)  
+Rendering: [++++++++                                   ]  (197.5s|813.9s)  [ tid 311637 @   198.173s wavefront/integrator.cpp:395 ] Starting to submit work for sample 51
+
+Rendering: [+++++++++                                  ]  (198.5s|798.1s)  
+Rendering: [+++++++++                                  ]  (199.5s|802.1s)  
+Rendering: [+++++++++                                  ]  (200.5s|806.1s)  
+Rendering: [+++++++++                                  ]  (201.5s|810.1s)  [ tid 311637 @   202.026s wavefront/integrator.cpp:395 ] Starting to submit work for sample 52
+
+Rendering: [+++++++++                                  ]  (202.5s|794.6s)  
+Rendering: [+++++++++                                  ]  (203.5s|798.5s)  
+Rendering: [+++++++++                                  ]  (204.5s|802.4s)  [ tid 311637 @   205.880s wavefront/integrator.cpp:395 ] Starting to submit work for sample 53
+
+Rendering: [+++++++++                                  ]  (205.5s|787.3s)  
+Rendering: [+++++++++                                  ]  (206.5s|791.1s)  
+Rendering: [+++++++++                                  ]  (207.5s|794.9s)  
+Rendering: [+++++++++                                  ]  (208.5s|798.8s)  [ tid 311637 @   209.754s wavefront/integrator.cpp:395 ] Starting to submit work for sample 54
+
+Rendering: [+++++++++                                  ]  (209.5s|783.8s)  
+Rendering: [+++++++++                                  ]  (210.5s|787.6s)  
+Rendering: [+++++++++                                  ]  (211.5s|791.3s)  
+Rendering: [+++++++++                                  ]  (212.5s|795.1s)  [ tid 311637 @   213.601s wavefront/integrator.cpp:395 ] Starting to submit work for sample 55
+
+Rendering: [+++++++++                                  ]  (213.5s|780.4s)  
+Rendering: [+++++++++                                  ]  (214.5s|784.1s)  
+Rendering: [+++++++++                                  ]  (215.5s|787.7s)  
+Rendering: [+++++++++                                  ]  (216.5s|791.4s)  [ tid 311637 @   217.464s wavefront/integrator.cpp:395 ] Starting to submit work for sample 56
+
+Rendering: [+++++++++                                  ]  (217.5s|776.9s)  
+Rendering: [+++++++++                                  ]  (218.5s|780.5s)  
+Rendering: [+++++++++                                  ]  (219.5s|784.1s)  
+Rendering: [+++++++++                                  ]  (220.5s|787.6s)  [ tid 311637 @   221.322s wavefront/integrator.cpp:395 ] Starting to submit work for sample 57
+
+Rendering: [++++++++++                                 ]  (221.5s|773.5s)  
+Rendering: [++++++++++                                 ]  (222.5s|776.9s)  
+Rendering: [++++++++++                                 ]  (223.5s|780.4s)  
+Rendering: [++++++++++                                 ]  (224.5s|783.9s)  [ tid 311637 @   225.181s wavefront/integrator.cpp:395 ] Starting to submit work for sample 58
+
+Rendering: [++++++++++                                 ]  (225.5s|770.0s)  
+Rendering: [++++++++++                                 ]  (226.5s|773.4s)  
+Rendering: [++++++++++                                 ]  (227.5s|776.8s)  
+Rendering: [++++++++++                                 ]  (228.5s|780.2s)  [ tid 311637 @   229.047s wavefront/integrator.cpp:395 ] Starting to submit work for sample 59
+
+Rendering: [++++++++++                                 ]  (229.5s|766.4s)  
+Rendering: [++++++++++                                 ]  (230.5s|769.8s)  
+Rendering: [++++++++++                                 ]  (231.5s|773.1s)  [ tid 311637 @   232.907s wavefront/integrator.cpp:395 ] Starting to submit work for sample 60
+
+Rendering: [++++++++++                                 ]  (232.5s|759.6s)  
+Rendering: [++++++++++                                 ]  (233.5s|762.9s)  
+Rendering: [++++++++++                                 ]  (234.5s|766.2s)  
+Rendering: [++++++++++                                 ]  (235.5s|769.4s)  [ tid 311637 @   236.759s wavefront/integrator.cpp:395 ] Starting to submit work for sample 61
+
+Rendering: [++++++++++                                 ]  (236.5s|756.2s)  
+Rendering: [++++++++++                                 ]  (237.5s|759.4s)  
+Rendering: [++++++++++                                 ]  (238.5s|762.6s)  
+Rendering: [++++++++++                                 ]  (239.5s|765.8s)  [ tid 311637 @   240.622s wavefront/integrator.cpp:395 ] Starting to submit work for sample 62
+
+Rendering: [++++++++++                                 ]  (240.5s|752.7s)  
+Rendering: [++++++++++                                 ]  (241.5s|755.8s)  
+Rendering: [++++++++++                                 ]  (242.5s|758.9s)  
+Rendering: [++++++++++                                 ]  (243.5s|762.1s)  [ tid 311637 @   244.480s wavefront/integrator.cpp:395 ] Starting to submit work for sample 63
+
+Rendering: [+++++++++++                                ]  (244.5s|749.2s)  
+Rendering: [+++++++++++                                ]  (245.5s|752.2s)  
+Rendering: [+++++++++++                                ]  (246.5s|755.3s)  
+Rendering: [+++++++++++                                ]  (247.5s|758.3s)  [ tid 311637 @   248.348s wavefront/integrator.cpp:395 ] Starting to submit work for sample 64
+
+Rendering: [+++++++++++                                ]  (248.5s|745.6s)  
+Rendering: [+++++++++++                                ]  (249.5s|748.6s)  
+Rendering: [+++++++++++                                ]  (250.5s|751.6s)  
+Rendering: [+++++++++++                                ]  (251.5s|754.6s)  [ tid 311637 @   252.208s wavefront/integrator.cpp:395 ] Starting to submit work for sample 65
+
+Rendering: [+++++++++++                                ]  (252.5s|742.1s)  
+Rendering: [+++++++++++                                ]  (253.5s|745.0s)  
+Rendering: [+++++++++++                                ]  (254.5s|748.0s)  
+Rendering: [+++++++++++                                ]  (255.5s|750.9s)  [ tid 311637 @   256.083s wavefront/integrator.cpp:395 ] Starting to submit work for sample 66
+
+Rendering: [+++++++++++                                ]  (256.5s|738.5s)  
+Rendering: [+++++++++++                                ]  (257.5s|741.4s)  
+Rendering: [+++++++++++                                ]  (258.5s|744.3s)  [ tid 311637 @   259.934s wavefront/integrator.cpp:395 ] Starting to submit work for sample 67
+
+Rendering: [+++++++++++                                ]  (259.5s|732.1s)  
+Rendering: [+++++++++++                                ]  (260.5s|735.0s)  
+Rendering: [+++++++++++                                ]  (261.5s|737.8s)  
+Rendering: [+++++++++++                                ]  (262.5s|740.6s)  [ tid 311637 @   263.820s wavefront/integrator.cpp:395 ] Starting to submit work for sample 68
+
+Rendering: [+++++++++++                                ]  (263.5s|728.6s)  
+Rendering: [+++++++++++                                ]  (264.5s|731.4s)  
+Rendering: [+++++++++++                                ]  (265.5s|734.2s)  
+Rendering: [+++++++++++                                ]  (266.5s|736.9s)  [ tid 311637 @   267.704s wavefront/integrator.cpp:395 ] Starting to submit work for sample 69
+
+Rendering: [++++++++++++                               ]  (267.5s|725.1s)  
+Rendering: [++++++++++++                               ]  (268.5s|727.8s)  
+Rendering: [++++++++++++                               ]  (269.5s|730.5s)  
+Rendering: [++++++++++++                               ]  (270.5s|733.2s)  [ tid 311637 @   271.551s wavefront/integrator.cpp:395 ] Starting to submit work for sample 70
+
+Rendering: [++++++++++++                               ]  (271.5s|721.5s)  
+Rendering: [++++++++++++                               ]  (272.5s|724.2s)  
+Rendering: [++++++++++++                               ]  (273.5s|726.8s)  
+Rendering: [++++++++++++                               ]  (274.5s|729.5s)  [ tid 311637 @   275.404s wavefront/integrator.cpp:395 ] Starting to submit work for sample 71
+
+Rendering: [++++++++++++                               ]  (275.5s|718.0s)  
+Rendering: [++++++++++++                               ]  (276.5s|720.6s)  
+Rendering: [++++++++++++                               ]  (277.5s|723.2s)  
+Rendering: [++++++++++++                               ]  (278.5s|725.8s)  [ tid 311637 @   279.257s wavefront/integrator.cpp:395 ] Starting to submit work for sample 72
+
+Rendering: [++++++++++++                               ]  (279.5s|714.4s)  
+Rendering: [++++++++++++                               ]  (280.5s|717.0s)  
+Rendering: [++++++++++++                               ]  (281.5s|719.5s)  
+Rendering: [++++++++++++                               ]  (282.5s|722.1s)  [ tid 311637 @   283.097s wavefront/integrator.cpp:395 ] Starting to submit work for sample 73
+
+Rendering: [++++++++++++                               ]  (283.5s|710.8s)  
+Rendering: [++++++++++++                               ]  (284.5s|713.3s)  
+Rendering: [++++++++++++                               ]  (285.5s|715.8s)  [ tid 311637 @   286.957s wavefront/integrator.cpp:395 ] Starting to submit work for sample 74
+
+Rendering: [++++++++++++                               ]  (286.5s|704.7s)  
+Rendering: [++++++++++++                               ]  (287.5s|707.2s)  
+Rendering: [++++++++++++                               ]  (288.5s|709.7s)  
+Rendering: [++++++++++++                               ]  (289.5s|712.1s)  [ tid 311637 @   290.824s wavefront/integrator.cpp:395 ] Starting to submit work for sample 75
+
+Rendering: [+++++++++++++                              ]  (290.5s|701.2s)  
+Rendering: [+++++++++++++                              ]  (291.5s|703.6s)  
+Rendering: [+++++++++++++                              ]  (292.5s|706.0s)  
+Rendering: [+++++++++++++                              ]  (293.5s|708.4s)  [ tid 311637 @   294.677s wavefront/integrator.cpp:395 ] Starting to submit work for sample 76
+
+Rendering: [+++++++++++++                              ]  (294.5s|697.6s)  
+Rendering: [+++++++++++++                              ]  (295.5s|700.0s)  
+Rendering: [+++++++++++++                              ]  (296.5s|702.3s)  
+Rendering: [+++++++++++++                              ]  (297.5s|704.7s)  [ tid 311637 @   298.551s wavefront/integrator.cpp:395 ] Starting to submit work for sample 77
+
+Rendering: [+++++++++++++                              ]  (298.5s|694.0s)  
+Rendering: [+++++++++++++                              ]  (299.5s|696.4s)  
+Rendering: [+++++++++++++                              ]  (300.5s|698.7s)  
+Rendering: [+++++++++++++                              ]  (301.5s|701.0s)  [ tid 311637 @   302.403s wavefront/integrator.cpp:395 ] Starting to submit work for sample 78
+
+Rendering: [+++++++++++++                              ]  (302.5s|690.4s)  
+Rendering: [+++++++++++++                              ]  (303.5s|692.7s)  
+Rendering: [+++++++++++++                              ]  (304.5s|695.0s)  
+Rendering: [+++++++++++++                              ]  (305.5s|697.3s)  [ tid 311637 @   306.271s wavefront/integrator.cpp:395 ] Starting to submit work for sample 79
+
+Rendering: [+++++++++++++                              ]  (306.5s|686.8s)  
+Rendering: [+++++++++++++                              ]  (307.5s|689.1s)  
+Rendering: [+++++++++++++                              ]  (308.5s|691.3s)  
+Rendering: [+++++++++++++                              ]  (309.5s|693.5s)  [ tid 311637 @   310.126s wavefront/integrator.cpp:395 ] Starting to submit work for sample 80
+
+Rendering: [+++++++++++++                              ]  (310.5s|683.2s)  
+Rendering: [+++++++++++++                              ]  (311.5s|685.4s)  
+Rendering: [+++++++++++++                              ]  (312.5s|687.6s)  [ tid 311637 @   313.980s wavefront/integrator.cpp:395 ] Starting to submit work for sample 81
+
+Rendering: [++++++++++++++                             ]  (313.5s|677.4s)  
+Rendering: [++++++++++++++                             ]  (314.5s|679.6s)  
+Rendering: [++++++++++++++                             ]  (315.5s|681.7s)  
+Rendering: [++++++++++++++                             ]  (316.5s|683.9s)  [ tid 311637 @   317.844s wavefront/integrator.cpp:395 ] Starting to submit work for sample 82
+
+Rendering: [++++++++++++++                             ]  (317.5s|673.8s)  
+Rendering: [++++++++++++++                             ]  (318.5s|675.9s)  
+Rendering: [++++++++++++++                             ]  (319.5s|678.1s)  
+Rendering: [++++++++++++++                             ]  (320.5s|680.2s)  [ tid 311637 @   321.699s wavefront/integrator.cpp:395 ] Starting to submit work for sample 83
+
+Rendering: [++++++++++++++                             ]  (321.5s|670.2s)  
+Rendering: [++++++++++++++                             ]  (322.5s|672.3s)  
+Rendering: [++++++++++++++                             ]  (323.5s|674.4s)  
+Rendering: [++++++++++++++                             ]  (324.5s|676.5s)  [ tid 311637 @   325.564s wavefront/integrator.cpp:395 ] Starting to submit work for sample 84
+
+Rendering: [++++++++++++++                             ]  (325.5s|666.6s)  
+Rendering: [++++++++++++++                             ]  (326.5s|668.6s)  
+Rendering: [++++++++++++++                             ]  (327.5s|670.7s)  
+Rendering: [++++++++++++++                             ]  (328.5s|672.7s)  [ tid 311637 @   329.418s wavefront/integrator.cpp:395 ] Starting to submit work for sample 85
+
+Rendering: [++++++++++++++                             ]  (329.5s|663.0s)  
+Rendering: [++++++++++++++                             ]  (330.5s|665.0s)  
+Rendering: [++++++++++++++                             ]  (331.5s|667.0s)  
+Rendering: [++++++++++++++                             ]  (332.5s|669.0s)  [ tid 311637 @   333.260s wavefront/integrator.cpp:395 ] Starting to submit work for sample 86
+
+Rendering: [++++++++++++++                             ]  (333.5s|659.3s)  
+Rendering: [++++++++++++++                             ]  (334.5s|661.3s)  
+Rendering: [++++++++++++++                             ]  (335.5s|663.3s)  
+Rendering: [++++++++++++++                             ]  (336.5s|665.3s)  [ tid 311637 @   337.117s wavefront/integrator.cpp:395 ] Starting to submit work for sample 87
+
+Rendering: [+++++++++++++++                            ]  (337.6s|655.7s)  
+Rendering: [+++++++++++++++                            ]  (338.6s|657.6s)  
+Rendering: [+++++++++++++++                            ]  (339.6s|659.6s)  [ tid 311637 @   340.971s wavefront/integrator.cpp:395 ] Starting to submit work for sample 88
+
+Rendering: [+++++++++++++++                            ]  (340.6s|650.1s)  
+Rendering: [+++++++++++++++                            ]  (341.6s|652.1s)  
+Rendering: [+++++++++++++++                            ]  (342.6s|654.0s)  
+Rendering: [+++++++++++++++                            ]  (343.6s|655.9s)  [ tid 311637 @   344.820s wavefront/integrator.cpp:395 ] Starting to submit work for sample 89
+
+Rendering: [+++++++++++++++                            ]  (344.6s|646.5s)  
+Rendering: [+++++++++++++++                            ]  (345.6s|648.4s)  
+Rendering: [+++++++++++++++                            ]  (346.6s|650.3s)  
+Rendering: [+++++++++++++++                            ]  (347.6s|652.1s)  [ tid 311637 @   348.675s wavefront/integrator.cpp:395 ] Starting to submit work for sample 90
+
+Rendering: [+++++++++++++++                            ]  (348.6s|642.9s)  
+Rendering: [+++++++++++++++                            ]  (349.6s|644.7s)  
+Rendering: [+++++++++++++++                            ]  (350.6s|646.6s)  
+Rendering: [+++++++++++++++                            ]  (351.6s|648.4s)  [ tid 311637 @   352.527s wavefront/integrator.cpp:395 ] Starting to submit work for sample 91
+
+Rendering: [+++++++++++++++                            ]  (352.6s|639.2s)  
+Rendering: [+++++++++++++++                            ]  (353.6s|641.1s)  
+Rendering: [+++++++++++++++                            ]  (354.6s|642.9s)  
+Rendering: [+++++++++++++++                            ]  (355.6s|644.7s)  [ tid 311637 @   356.385s wavefront/integrator.cpp:395 ] Starting to submit work for sample 92
+
+Rendering: [+++++++++++++++                            ]  (356.6s|635.6s)  
+Rendering: [+++++++++++++++                            ]  (357.6s|637.4s)  
+Rendering: [+++++++++++++++                            ]  (358.6s|639.2s)  
+Rendering: [+++++++++++++++                            ]  (359.6s|640.9s)  [ tid 311637 @   360.256s wavefront/integrator.cpp:395 ] Starting to submit work for sample 93
+
+Rendering: [++++++++++++++++                           ]  (360.6s|631.9s)  
+Rendering: [++++++++++++++++                           ]  (361.6s|633.7s)  
+Rendering: [++++++++++++++++                           ]  (362.6s|635.4s)  
+Rendering: [++++++++++++++++                           ]  (363.6s|637.2s)  [ tid 311637 @   364.111s wavefront/integrator.cpp:395 ] Starting to submit work for sample 94
+
+Rendering: [++++++++++++++++                           ]  (364.6s|628.3s)  
+Rendering: [++++++++++++++++                           ]  (365.6s|630.0s)  
+Rendering: [++++++++++++++++                           ]  (366.6s|631.7s)  [ tid 311637 @   367.977s wavefront/integrator.cpp:395 ] Starting to submit work for sample 95
+
+Rendering: [++++++++++++++++                           ]  (367.6s|622.9s)  
+Rendering: [++++++++++++++++                           ]  (368.6s|624.6s)  
+Rendering: [++++++++++++++++                           ]  (369.6s|626.3s)  
+Rendering: [++++++++++++++++                           ]  (370.6s|628.0s)  [ tid 311637 @   371.854s wavefront/integrator.cpp:395 ] Starting to submit work for sample 96
+
+Rendering: [++++++++++++++++                           ]  (371.6s|619.3s)  
+Rendering: [++++++++++++++++                           ]  (372.6s|620.9s)  
+Rendering: [++++++++++++++++                           ]  (373.6s|622.6s)  
+Rendering: [++++++++++++++++                           ]  (374.6s|624.3s)  [ tid 311637 @   375.726s wavefront/integrator.cpp:395 ] Starting to submit work for sample 97
+
+Rendering: [++++++++++++++++                           ]  (375.6s|615.6s)  
+Rendering: [++++++++++++++++                           ]  (376.6s|617.2s)  
+Rendering: [++++++++++++++++                           ]  (377.6s|618.9s)  
+Rendering: [++++++++++++++++                           ]  (378.6s|620.5s)  [ tid 311637 @   379.588s wavefront/integrator.cpp:395 ] Starting to submit work for sample 98
+
+Rendering: [++++++++++++++++                           ]  (379.6s|611.9s)  
+Rendering: [++++++++++++++++                           ]  (380.6s|613.5s)  
+Rendering: [++++++++++++++++                           ]  (381.6s|615.2s)  
+Rendering: [++++++++++++++++                           ]  (382.6s|616.8s)  [ tid 311637 @   383.444s wavefront/integrator.cpp:395 ] Starting to submit work for sample 99
+
+Rendering: [+++++++++++++++++                          ]  (383.6s|608.3s)  
+Rendering: [+++++++++++++++++                          ]  (384.6s|609.8s)  
+Rendering: [+++++++++++++++++                          ]  (385.6s|611.4s)  
+Rendering: [+++++++++++++++++                          ]  (386.6s|613.0s)  [ tid 311637 @   387.303s wavefront/integrator.cpp:395 ] Starting to submit work for sample 100
+
+Rendering: [+++++++++++++++++                          ]  (387.6s|604.6s)  
+Rendering: [+++++++++++++++++                          ]  (388.6s|606.1s)  
+Rendering: [+++++++++++++++++                          ]  (389.6s|607.7s)  
+Rendering: [+++++++++++++++++                          ]  (390.6s|609.3s)  [ tid 311637 @   391.143s wavefront/integrator.cpp:395 ] Starting to submit work for sample 101
+
+Rendering: [+++++++++++++++++                          ]  (391.6s|600.9s)  
+Rendering: [+++++++++++++++++                          ]  (392.6s|602.4s)  
+Rendering: [+++++++++++++++++                          ]  (393.6s|604.0s)  [ tid 311637 @   395.012s wavefront/integrator.cpp:395 ] Starting to submit work for sample 102
+
+Rendering: [+++++++++++++++++                          ]  (394.6s|605.5s)  
+Rendering: [+++++++++++++++++                          ]  (395.6s|597.2s)  
+Rendering: [+++++++++++++++++                          ]  (396.6s|598.7s)  
+Rendering: [+++++++++++++++++                          ]  (397.6s|600.2s)  [ tid 311637 @   398.877s wavefront/integrator.cpp:395 ] Starting to submit work for sample 103
+
+Rendering: [+++++++++++++++++                          ]  (398.6s|592.0s)  
+Rendering: [+++++++++++++++++                          ]  (399.6s|593.5s)  
+Rendering: [+++++++++++++++++                          ]  (400.6s|595.0s)  
+Rendering: [+++++++++++++++++                          ]  (401.6s|596.5s)  [ tid 311637 @   402.742s wavefront/integrator.cpp:395 ] Starting to submit work for sample 104
+
+Rendering: [+++++++++++++++++                          ]  (402.6s|588.3s)  
+Rendering: [+++++++++++++++++                          ]  (403.6s|589.8s)  
+Rendering: [+++++++++++++++++                          ]  (404.6s|591.3s)  
+Rendering: [+++++++++++++++++                          ]  (405.6s|592.7s)  [ tid 311637 @   406.602s wavefront/integrator.cpp:395 ] Starting to submit work for sample 105
+
+Rendering: [++++++++++++++++++                         ]  (406.6s|584.7s)  
+Rendering: [++++++++++++++++++                         ]  (407.6s|586.1s)  
+Rendering: [++++++++++++++++++                         ]  (408.6s|587.5s)  
+Rendering: [++++++++++++++++++                         ]  (409.6s|589.0s)  [ tid 311637 @   410.469s wavefront/integrator.cpp:395 ] Starting to submit work for sample 106
+
+Rendering: [++++++++++++++++++                         ]  (410.6s|581.0s)  
+Rendering: [++++++++++++++++++                         ]  (411.6s|582.4s)  
+Rendering: [++++++++++++++++++                         ]  (412.6s|583.8s)  
+Rendering: [++++++++++++++++++                         ]  (413.6s|585.2s)  [ tid 311637 @   414.331s wavefront/integrator.cpp:395 ] Starting to submit work for sample 107
+
+Rendering: [++++++++++++++++++                         ]  (414.6s|577.3s)  
+Rendering: [++++++++++++++++++                         ]  (415.6s|578.7s)  
+Rendering: [++++++++++++++++++                         ]  (416.6s|580.1s)  
+Rendering: [++++++++++++++++++                         ]  (417.6s|581.5s)  [ tid 311637 @   418.195s wavefront/integrator.cpp:395 ] Starting to submit work for sample 108
+
+Rendering: [++++++++++++++++++                         ]  (418.6s|573.6s)  
+Rendering: [++++++++++++++++++                         ]  (419.6s|574.9s)  
+Rendering: [++++++++++++++++++                         ]  (420.6s|576.3s)  
+Rendering: [++++++++++++++++++                         ]  (421.6s|577.7s)  [ tid 311637 @   422.061s wavefront/integrator.cpp:395 ] Starting to submit work for sample 109
+
+Rendering: [++++++++++++++++++                         ]  (422.6s|569.9s)  
+Rendering: [++++++++++++++++++                         ]  (423.6s|571.2s)  
+Rendering: [++++++++++++++++++                         ]  (424.6s|572.6s)  [ tid 311637 @   425.906s wavefront/integrator.cpp:395 ] Starting to submit work for sample 110
+
+Rendering: [++++++++++++++++++                         ]  (425.6s|564.8s)  
+Rendering: [++++++++++++++++++                         ]  (426.6s|566.2s)  
+Rendering: [++++++++++++++++++                         ]  (427.6s|567.5s)  
+Rendering: [++++++++++++++++++                         ]  (428.6s|568.8s)  [ tid 311637 @   429.768s wavefront/integrator.cpp:395 ] Starting to submit work for sample 111
+
+Rendering: [+++++++++++++++++++                        ]  (429.6s|561.1s)  
+Rendering: [+++++++++++++++++++                        ]  (430.6s|562.4s)  
+Rendering: [+++++++++++++++++++                        ]  (431.6s|563.7s)  
+Rendering: [+++++++++++++++++++                        ]  (432.6s|565.1s)  [ tid 311637 @   433.620s wavefront/integrator.cpp:395 ] Starting to submit work for sample 112
+
+Rendering: [+++++++++++++++++++                        ]  (433.6s|557.4s)  
+Rendering: [+++++++++++++++++++                        ]  (434.6s|558.7s)  
+Rendering: [+++++++++++++++++++                        ]  (435.6s|560.0s)  
+Rendering: [+++++++++++++++++++                        ]  (436.6s|561.3s)  [ tid 311637 @   437.492s wavefront/integrator.cpp:395 ] Starting to submit work for sample 113
+
+Rendering: [+++++++++++++++++++                        ]  (437.6s|553.7s)  
+Rendering: [+++++++++++++++++++                        ]  (438.6s|555.0s)  
+Rendering: [+++++++++++++++++++                        ]  (439.6s|556.3s)  
+Rendering: [+++++++++++++++++++                        ]  (440.6s|557.5s)  [ tid 311637 @   441.354s wavefront/integrator.cpp:395 ] Starting to submit work for sample 114
+
+Rendering: [+++++++++++++++++++                        ]  (441.6s|550.0s)  
+Rendering: [+++++++++++++++++++                        ]  (442.6s|551.3s)  
+Rendering: [+++++++++++++++++++                        ]  (443.6s|552.5s)  
+Rendering: [+++++++++++++++++++                        ]  (444.6s|553.7s)  [ tid 311637 @   445.206s wavefront/integrator.cpp:395 ] Starting to submit work for sample 115
+
+Rendering: [+++++++++++++++++++                        ]  (445.6s|546.3s)  
+Rendering: [+++++++++++++++++++                        ]  (446.6s|547.5s)  
+Rendering: [+++++++++++++++++++                        ]  (447.6s|548.7s)  
+Rendering: [+++++++++++++++++++                        ]  (448.6s|550.0s)  [ tid 311637 @   449.061s wavefront/integrator.cpp:395 ] Starting to submit work for sample 116
+
+Rendering: [+++++++++++++++++++                        ]  (449.6s|542.6s)  
+Rendering: [+++++++++++++++++++                        ]  (450.6s|543.8s)  
+Rendering: [+++++++++++++++++++                        ]  (451.6s|545.0s)  [ tid 311637 @   452.923s wavefront/integrator.cpp:395 ] Starting to submit work for sample 117
+
+Rendering: [++++++++++++++++++++                       ]  (452.6s|537.7s)  
+Rendering: [++++++++++++++++++++                       ]  (453.6s|538.8s)  
+Rendering: [++++++++++++++++++++                       ]  (454.6s|540.0s)  
+Rendering: [++++++++++++++++++++                       ]  (455.6s|541.2s)  [ tid 311637 @   456.767s wavefront/integrator.cpp:395 ] Starting to submit work for sample 118
+
+Rendering: [++++++++++++++++++++                       ]  (456.6s|533.9s)  
+Rendering: [++++++++++++++++++++                       ]  (457.6s|535.1s)  
+Rendering: [++++++++++++++++++++                       ]  (458.6s|536.3s)  
+Rendering: [++++++++++++++++++++                       ]  (459.6s|537.5s)  [ tid 311637 @   460.621s wavefront/integrator.cpp:395 ] Starting to submit work for sample 119
+
+Rendering: [++++++++++++++++++++                       ]  (460.6s|530.2s)  
+Rendering: [++++++++++++++++++++                       ]  (461.6s|531.4s)  
+Rendering: [++++++++++++++++++++                       ]  (462.6s|532.5s)  
+Rendering: [++++++++++++++++++++                       ]  (463.6s|533.7s)  [ tid 311637 @   464.502s wavefront/integrator.cpp:395 ] Starting to submit work for sample 120
+
+Rendering: [++++++++++++++++++++                       ]  (464.6s|526.5s)  
+Rendering: [++++++++++++++++++++                       ]  (465.6s|527.6s)  
+Rendering: [++++++++++++++++++++                       ]  (466.6s|528.8s)  
+Rendering: [++++++++++++++++++++                       ]  (467.6s|529.9s)  [ tid 311637 @   468.366s wavefront/integrator.cpp:395 ] Starting to submit work for sample 121
+
+Rendering: [++++++++++++++++++++                       ]  (468.6s|522.8s)  
+Rendering: [++++++++++++++++++++                       ]  (469.6s|523.9s)  
+Rendering: [++++++++++++++++++++                       ]  (470.6s|525.0s)  
+Rendering: [++++++++++++++++++++                       ]  (471.6s|526.1s)  [ tid 311637 @   472.233s wavefront/integrator.cpp:395 ] Starting to submit work for sample 122
+
+Rendering: [++++++++++++++++++++                       ]  (472.6s|519.0s)  
+Rendering: [++++++++++++++++++++                       ]  (473.6s|520.1s)  
+Rendering: [++++++++++++++++++++                       ]  (474.6s|521.2s)  
+Rendering: [++++++++++++++++++++                       ]  (475.6s|522.3s)  [ tid 311637 @   476.081s wavefront/integrator.cpp:395 ] Starting to submit work for sample 123
+
+Rendering: [+++++++++++++++++++++                      ]  (476.6s|515.3s)  
+Rendering: [+++++++++++++++++++++                      ]  (477.6s|516.4s)  
+Rendering: [+++++++++++++++++++++                      ]  (478.6s|517.5s)  [ tid 311637 @   479.935s wavefront/integrator.cpp:395 ] Starting to submit work for sample 124
+
+Rendering: [+++++++++++++++++++++                      ]  (479.6s|510.5s)  
+Rendering: [+++++++++++++++++++++                      ]  (480.6s|511.6s)  
+Rendering: [+++++++++++++++++++++                      ]  (481.6s|512.6s)  
+Rendering: [+++++++++++++++++++++                      ]  (482.6s|513.7s)  [ tid 311637 @   483.787s wavefront/integrator.cpp:395 ] Starting to submit work for sample 125
+
+Rendering: [+++++++++++++++++++++                      ]  (483.6s|506.8s)  
+Rendering: [+++++++++++++++++++++                      ]  (484.6s|507.8s)  
+Rendering: [+++++++++++++++++++++                      ]  (485.6s|508.9s)  
+Rendering: [+++++++++++++++++++++                      ]  (486.6s|509.9s)  [ tid 311637 @   487.625s wavefront/integrator.cpp:395 ] Starting to submit work for sample 126
+
+Rendering: [+++++++++++++++++++++                      ]  (487.6s|503.0s)  
+Rendering: [+++++++++++++++++++++                      ]  (488.6s|504.1s)  
+Rendering: [+++++++++++++++++++++                      ]  (489.6s|505.1s)  
+Rendering: [+++++++++++++++++++++                      ]  (490.6s|506.1s)  [ tid 311637 @   491.501s wavefront/integrator.cpp:395 ] Starting to submit work for sample 127
+
+Rendering: [+++++++++++++++++++++                      ]  (491.6s|499.3s)  
+Rendering: [+++++++++++++++++++++                      ]  (492.6s|500.3s)  
+Rendering: [+++++++++++++++++++++                      ]  (493.6s|501.3s)  
+Rendering: [+++++++++++++++++++++                      ]  (494.6s|502.4s)  [ tid 311637 @   495.362s wavefront/integrator.cpp:395 ] Starting to submit work for sample 128
+
+Rendering: [++++++++++++++++++++++                     ]  (495.6s|495.6s)  
+Rendering: [++++++++++++++++++++++                     ]  (496.6s|496.6s)  
+Rendering: [++++++++++++++++++++++                     ]  (497.6s|497.6s)  
+Rendering: [++++++++++++++++++++++                     ]  (498.6s|498.6s)  [ tid 311637 @   499.222s wavefront/integrator.cpp:395 ] Starting to submit work for sample 129
+
+Rendering: [++++++++++++++++++++++                     ]  (499.6s|491.8s)  
+Rendering: [++++++++++++++++++++++                     ]  (500.6s|492.8s)  
+Rendering: [++++++++++++++++++++++                     ]  (501.6s|493.8s)  
+Rendering: [++++++++++++++++++++++                     ]  (502.6s|494.8s)  [ tid 311637 @   503.103s wavefront/integrator.cpp:395 ] Starting to submit work for sample 130
+
+Rendering: [++++++++++++++++++++++                     ]  (503.6s|488.1s)  
+Rendering: [++++++++++++++++++++++                     ]  (504.6s|489.0s)  
+Rendering: [++++++++++++++++++++++                     ]  (505.6s|490.0s)  [ tid 311637 @   506.947s wavefront/integrator.cpp:395 ] Starting to submit work for sample 131
+
+Rendering: [++++++++++++++++++++++                     ]  (506.6s|483.4s)  
+Rendering: [++++++++++++++++++++++                     ]  (507.6s|484.3s)  
+Rendering: [++++++++++++++++++++++                     ]  (508.6s|485.3s)  
+Rendering: [++++++++++++++++++++++                     ]  (509.6s|486.2s)  [ tid 311637 @   510.803s wavefront/integrator.cpp:395 ] Starting to submit work for sample 132
+
+Rendering: [++++++++++++++++++++++                     ]  (510.6s|479.6s)  
+Rendering: [++++++++++++++++++++++                     ]  (511.6s|480.6s)  
+Rendering: [++++++++++++++++++++++                     ]  (512.6s|481.5s)  
+Rendering: [++++++++++++++++++++++                     ]  (513.6s|482.4s)  [ tid 311637 @   514.649s wavefront/integrator.cpp:395 ] Starting to submit work for sample 133
+
+Rendering: [++++++++++++++++++++++                     ]  (514.6s|475.9s)  
+Rendering: [++++++++++++++++++++++                     ]  (515.6s|476.8s)  
+Rendering: [++++++++++++++++++++++                     ]  (516.6s|477.7s)  
+Rendering: [++++++++++++++++++++++                     ]  (517.6s|478.6s)  [ tid 311637 @   518.512s wavefront/integrator.cpp:395 ] Starting to submit work for sample 134
+
+Rendering: [+++++++++++++++++++++++                    ]  (518.6s|472.1s)  
+Rendering: [+++++++++++++++++++++++                    ]  (519.6s|473.0s)  
+Rendering: [+++++++++++++++++++++++                    ]  (520.6s|473.9s)  
+Rendering: [+++++++++++++++++++++++                    ]  (521.6s|474.9s)  [ tid 311637 @   522.376s wavefront/integrator.cpp:395 ] Starting to submit work for sample 135
+
+Rendering: [+++++++++++++++++++++++                    ]  (522.6s|468.4s)  
+Rendering: [+++++++++++++++++++++++                    ]  (523.6s|469.3s)  
+Rendering: [+++++++++++++++++++++++                    ]  (524.6s|470.2s)  
+Rendering: [+++++++++++++++++++++++                    ]  (525.6s|471.1s)  [ tid 311637 @   526.229s wavefront/integrator.cpp:395 ] Starting to submit work for sample 136
+
+Rendering: [+++++++++++++++++++++++                    ]  (526.6s|464.6s)  
+Rendering: [+++++++++++++++++++++++                    ]  (527.6s|465.5s)  
+Rendering: [+++++++++++++++++++++++                    ]  (528.6s|466.4s)  
+Rendering: [+++++++++++++++++++++++                    ]  (529.6s|467.3s)  [ tid 311637 @   530.068s wavefront/integrator.cpp:395 ] Starting to submit work for sample 137
+
+Rendering: [+++++++++++++++++++++++                    ]  (530.6s|460.9s)  
+Rendering: [+++++++++++++++++++++++                    ]  (531.6s|461.7s)  
+Rendering: [+++++++++++++++++++++++                    ]  (532.6s|462.6s)  [ tid 311637 @   533.933s wavefront/integrator.cpp:395 ] Starting to submit work for sample 138
+
+Rendering: [+++++++++++++++++++++++                    ]  (533.6s|456.2s)  
+Rendering: [+++++++++++++++++++++++                    ]  (534.6s|457.1s)  
+Rendering: [+++++++++++++++++++++++                    ]  (535.6s|457.9s)  
+Rendering: [+++++++++++++++++++++++                    ]  (536.6s|458.8s)  [ tid 311637 @   537.802s wavefront/integrator.cpp:395 ] Starting to submit work for sample 139
+
+Rendering: [+++++++++++++++++++++++                    ]  (537.6s|452.5s)  
+Rendering: [+++++++++++++++++++++++                    ]  (538.6s|453.3s)  
+Rendering: [+++++++++++++++++++++++                    ]  (539.6s|454.2s)  
+Rendering: [+++++++++++++++++++++++                    ]  (540.6s|455.0s)  [ tid 311637 @   541.684s wavefront/integrator.cpp:395 ] Starting to submit work for sample 140
+
+Rendering: [++++++++++++++++++++++++                   ]  (541.6s|448.7s)  
+Rendering: [++++++++++++++++++++++++                   ]  (542.6s|449.6s)  
+Rendering: [++++++++++++++++++++++++                   ]  (543.6s|450.4s)  
+Rendering: [++++++++++++++++++++++++                   ]  (544.6s|451.2s)  [ tid 311637 @   545.553s wavefront/integrator.cpp:395 ] Starting to submit work for sample 141
+
+Rendering: [++++++++++++++++++++++++                   ]  (545.6s|445.0s)  
+Rendering: [++++++++++++++++++++++++                   ]  (546.6s|445.8s)  
+Rendering: [++++++++++++++++++++++++                   ]  (547.6s|446.6s)  
+Rendering: [++++++++++++++++++++++++                   ]  (548.6s|447.4s)  [ tid 311637 @   549.413s wavefront/integrator.cpp:395 ] Starting to submit work for sample 142
+
+Rendering: [++++++++++++++++++++++++                   ]  (549.6s|441.2s)  
+Rendering: [++++++++++++++++++++++++                   ]  (550.6s|442.0s)  
+Rendering: [++++++++++++++++++++++++                   ]  (551.6s|442.8s)  
+Rendering: [++++++++++++++++++++++++                   ]  (552.6s|443.6s)  [ tid 311637 @   553.275s wavefront/integrator.cpp:395 ] Starting to submit work for sample 143
+
+Rendering: [++++++++++++++++++++++++                   ]  (553.6s|437.4s)  
+Rendering: [++++++++++++++++++++++++                   ]  (554.6s|438.2s)  
+Rendering: [++++++++++++++++++++++++                   ]  (555.6s|439.0s)  
+Rendering: [++++++++++++++++++++++++                   ]  (556.6s|439.8s)  [ tid 311637 @   557.152s wavefront/integrator.cpp:395 ] Starting to submit work for sample 144
+
+Rendering: [++++++++++++++++++++++++                   ]  (557.6s|433.7s)  
+Rendering: [++++++++++++++++++++++++                   ]  (558.6s|434.4s)  
+Rendering: [++++++++++++++++++++++++                   ]  (559.6s|435.2s)  [ tid 311637 @   561.020s wavefront/integrator.cpp:395 ] Starting to submit work for sample 145
+
+Rendering: [++++++++++++++++++++++++                   ]  (560.6s|436.0s)  
+Rendering: [++++++++++++++++++++++++                   ]  (561.6s|429.9s)  
+Rendering: [++++++++++++++++++++++++                   ]  (562.6s|430.7s)  
+Rendering: [++++++++++++++++++++++++                   ]  (563.6s|431.4s)  [ tid 311637 @   564.881s wavefront/integrator.cpp:395 ] Starting to submit work for sample 146
+
+Rendering: [+++++++++++++++++++++++++                  ]  (564.6s|425.4s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (565.6s|426.1s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (566.6s|426.9s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (567.6s|427.6s)  [ tid 311637 @   568.727s wavefront/integrator.cpp:395 ] Starting to submit work for sample 147
+
+Rendering: [+++++++++++++++++++++++++                  ]  (568.6s|421.6s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (569.6s|422.3s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (570.6s|423.1s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (571.6s|423.8s)  [ tid 311637 @   572.581s wavefront/integrator.cpp:395 ] Starting to submit work for sample 148
+
+Rendering: [+++++++++++++++++++++++++                  ]  (572.6s|417.8s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (573.6s|418.5s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (574.6s|419.3s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (575.6s|420.0s)  [ tid 311637 @   576.440s wavefront/integrator.cpp:395 ] Starting to submit work for sample 149
+
+Rendering: [+++++++++++++++++++++++++                  ]  (576.6s|414.0s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (577.6s|414.8s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (578.6s|415.5s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (579.6s|416.2s)  [ tid 311637 @   580.299s wavefront/integrator.cpp:395 ] Starting to submit work for sample 150
+
+Rendering: [+++++++++++++++++++++++++                  ]  (580.6s|410.3s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (581.6s|411.0s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (582.6s|411.7s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (583.6s|412.4s)  [ tid 311637 @   584.150s wavefront/integrator.cpp:395 ] Starting to submit work for sample 151
+
+Rendering: [+++++++++++++++++++++++++                  ]  (584.6s|406.5s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (585.6s|407.2s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (586.6s|407.9s)  [ tid 311637 @   588.025s wavefront/integrator.cpp:395 ] Starting to submit work for sample 152
+
+Rendering: [+++++++++++++++++++++++++                  ]  (587.6s|408.6s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (588.6s|402.7s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (589.6s|403.4s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (590.6s|404.1s)  [ tid 311637 @   591.879s wavefront/integrator.cpp:395 ] Starting to submit work for sample 153
+
+Rendering: [++++++++++++++++++++++++++                 ]  (591.6s|398.2s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (592.6s|398.9s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (593.6s|399.6s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (594.6s|400.3s)  [ tid 311637 @   595.734s wavefront/integrator.cpp:395 ] Starting to submit work for sample 154
+
+Rendering: [++++++++++++++++++++++++++                 ]  (595.6s|394.5s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (596.6s|395.1s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (597.6s|395.8s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (598.6s|396.5s)  [ tid 311637 @   599.598s wavefront/integrator.cpp:395 ] Starting to submit work for sample 155
+
+Rendering: [++++++++++++++++++++++++++                 ]  (599.6s|390.7s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (600.6s|391.3s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (601.6s|392.0s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (602.6s|392.6s)  [ tid 311637 @   603.453s wavefront/integrator.cpp:395 ] Starting to submit work for sample 156
+
+Rendering: [++++++++++++++++++++++++++                 ]  (603.6s|386.9s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (604.6s|387.5s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (605.6s|388.2s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (606.6s|388.8s)  [ tid 311637 @   607.296s wavefront/integrator.cpp:395 ] Starting to submit work for sample 157
+
+Rendering: [++++++++++++++++++++++++++                 ]  (607.6s|383.1s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (608.6s|383.7s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (609.6s|384.4s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (610.6s|385.0s)  [ tid 311637 @   611.149s wavefront/integrator.cpp:395 ] Starting to submit work for sample 158
+
+Rendering: [+++++++++++++++++++++++++++                ]  (611.6s|379.3s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (612.6s|379.9s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (613.6s|380.6s)  [ tid 311637 @   615.004s wavefront/integrator.cpp:395 ] Starting to submit work for sample 159
+
+Rendering: [+++++++++++++++++++++++++++                ]  (614.6s|381.2s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (615.6s|375.5s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (616.6s|376.1s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (617.6s|376.8s)  [ tid 311637 @   618.847s wavefront/integrator.cpp:395 ] Starting to submit work for sample 160
+
+Rendering: [+++++++++++++++++++++++++++                ]  (618.6s|371.1s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (619.6s|371.7s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (620.6s|372.3s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (621.6s|372.9s)  [ tid 311637 @   622.702s wavefront/integrator.cpp:395 ] Starting to submit work for sample 161
+
+Rendering: [+++++++++++++++++++++++++++                ]  (622.6s|367.4s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (623.6s|367.9s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (624.6s|368.5s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (625.6s|369.1s)  [ tid 311637 @   626.544s wavefront/integrator.cpp:395 ] Starting to submit work for sample 162
+
+Rendering: [+++++++++++++++++++++++++++                ]  (626.6s|363.6s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (627.6s|364.1s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (628.6s|364.7s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (629.6s|365.3s)  [ tid 311637 @   630.419s wavefront/integrator.cpp:395 ] Starting to submit work for sample 163
+
+Rendering: [+++++++++++++++++++++++++++                ]  (630.6s|359.8s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (631.6s|360.3s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (632.6s|360.9s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (633.6s|361.5s)  [ tid 311637 @   634.275s wavefront/integrator.cpp:395 ] Starting to submit work for sample 164
+
+Rendering: [++++++++++++++++++++++++++++               ]  (634.6s|356.0s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (635.6s|356.5s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (636.6s|357.1s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (637.6s|357.7s)  [ tid 311637 @   638.142s wavefront/integrator.cpp:395 ] Starting to submit work for sample 165
+
+Rendering: [++++++++++++++++++++++++++++               ]  (638.6s|352.2s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (639.6s|352.7s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (640.6s|353.3s)  [ tid 311637 @   641.989s wavefront/integrator.cpp:395 ] Starting to submit work for sample 166
+
+Rendering: [++++++++++++++++++++++++++++               ]  (641.6s|347.8s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (642.6s|348.4s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (643.6s|348.9s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (644.6s|349.5s)  [ tid 311637 @   645.860s wavefront/integrator.cpp:395 ] Starting to submit work for sample 167
+
+Rendering: [++++++++++++++++++++++++++++               ]  (645.6s|344.0s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (646.6s|344.6s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (647.6s|345.1s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (648.6s|345.6s)  [ tid 311637 @   649.699s wavefront/integrator.cpp:395 ] Starting to submit work for sample 168
+
+Rendering: [++++++++++++++++++++++++++++               ]  (649.6s|340.3s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (650.6s|340.8s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (651.6s|341.3s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (652.6s|341.8s)  [ tid 311637 @   653.553s wavefront/integrator.cpp:395 ] Starting to submit work for sample 169
+
+Rendering: [++++++++++++++++++++++++++++               ]  (653.6s|336.5s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (654.6s|337.0s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (655.6s|337.5s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (656.6s|338.0s)  [ tid 311637 @   657.421s wavefront/integrator.cpp:395 ] Starting to submit work for sample 170
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (657.6s|332.7s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (658.6s|333.2s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (659.6s|333.7s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (660.6s|334.2s)  [ tid 311637 @   661.285s wavefront/integrator.cpp:395 ] Starting to submit work for sample 171
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (661.6s|328.9s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (662.6s|329.3s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (663.6s|329.8s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (664.6s|330.3s)  [ tid 311637 @   665.163s wavefront/integrator.cpp:395 ] Starting to submit work for sample 172
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (665.6s|325.0s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (666.6s|325.5s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (667.6s|326.0s)  [ tid 311637 @   669.019s wavefront/integrator.cpp:395 ] Starting to submit work for sample 173
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (668.6s|326.5s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (669.6s|321.2s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (670.6s|321.7s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (671.6s|322.2s)  [ tid 311637 @   672.888s wavefront/integrator.cpp:395 ] Starting to submit work for sample 174
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (672.6s|317.0s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (673.6s|317.4s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (674.6s|317.9s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (675.6s|318.4s)  [ tid 311637 @   676.736s wavefront/integrator.cpp:395 ] Starting to submit work for sample 175
+
+Rendering: [+++++++++++++++++++++++++++++              ]  (676.6s|313.2s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (677.6s|313.6s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (678.6s|314.1s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (679.6s|314.5s)  [ tid 311637 @   680.614s wavefront/integrator.cpp:395 ] Starting to submit work for sample 176
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (680.6s|309.4s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (681.6s|309.8s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (682.6s|310.3s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (683.6s|310.7s)  [ tid 311637 @   684.471s wavefront/integrator.cpp:395 ] Starting to submit work for sample 177
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (684.6s|305.5s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (685.6s|306.0s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (686.6s|306.4s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (687.6s|306.9s)  [ tid 311637 @   688.339s wavefront/integrator.cpp:395 ] Starting to submit work for sample 178
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (688.6s|301.7s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (689.6s|302.2s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (690.6s|302.6s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (691.6s|303.1s)  [ tid 311637 @   692.183s wavefront/integrator.cpp:395 ] Starting to submit work for sample 179
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (692.6s|297.9s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (693.6s|298.4s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (694.6s|298.8s)  [ tid 311637 @   696.052s wavefront/integrator.cpp:395 ] Starting to submit work for sample 180
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (695.6s|299.2s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (696.6s|294.1s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (697.6s|294.5s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (698.6s|295.0s)  [ tid 311637 @   699.909s wavefront/integrator.cpp:395 ] Starting to submit work for sample 181
+
+Rendering: [++++++++++++++++++++++++++++++             ]  (699.6s|289.9s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (700.6s|290.3s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (701.6s|290.7s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (702.6s|291.1s)  [ tid 311637 @   703.780s wavefront/integrator.cpp:395 ] Starting to submit work for sample 182
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (703.6s|286.1s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (704.6s|286.5s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (705.6s|286.9s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (706.6s|287.3s)  [ tid 311637 @   707.636s wavefront/integrator.cpp:395 ] Starting to submit work for sample 183
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (707.6s|282.3s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (708.6s|282.7s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (709.6s|283.1s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (710.6s|283.5s)  [ tid 311637 @   711.478s wavefront/integrator.cpp:395 ] Starting to submit work for sample 184
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (711.6s|278.4s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (712.6s|278.8s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (713.6s|279.2s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (714.6s|279.6s)  [ tid 311637 @   715.338s wavefront/integrator.cpp:395 ] Starting to submit work for sample 185
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (715.6s|274.6s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (716.6s|275.0s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (717.6s|275.4s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (718.6s|275.8s)  [ tid 311637 @   719.185s wavefront/integrator.cpp:395 ] Starting to submit work for sample 186
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (719.6s|270.8s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (720.6s|271.2s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (721.6s|271.6s)  [ tid 311637 @   723.039s wavefront/integrator.cpp:395 ] Starting to submit work for sample 187
+
+Rendering: [+++++++++++++++++++++++++++++++            ]  (722.6s|271.9s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (723.6s|267.0s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (724.6s|267.4s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (725.6s|267.7s)  [ tid 311637 @   726.910s wavefront/integrator.cpp:395 ] Starting to submit work for sample 188
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (726.6s|262.8s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (727.6s|263.2s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (728.6s|263.5s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (729.6s|263.9s)  [ tid 311637 @   730.774s wavefront/integrator.cpp:395 ] Starting to submit work for sample 189
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (730.6s|259.0s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (731.6s|259.3s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (732.6s|259.7s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (733.6s|260.1s)  [ tid 311637 @   734.625s wavefront/integrator.cpp:395 ] Starting to submit work for sample 190
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (734.6s|255.2s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (735.6s|255.5s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (736.6s|255.9s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (737.6s|256.2s)  [ tid 311637 @   738.475s wavefront/integrator.cpp:395 ] Starting to submit work for sample 191
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (738.6s|251.3s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (739.6s|251.7s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (740.6s|252.0s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (741.6s|252.4s)  [ tid 311637 @   742.330s wavefront/integrator.cpp:395 ] Starting to submit work for sample 192
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (742.6s|247.5s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (743.6s|247.9s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (744.6s|248.2s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (745.6s|248.5s)  [ tid 311637 @   746.187s wavefront/integrator.cpp:395 ] Starting to submit work for sample 193
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (746.6s|243.7s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (747.6s|244.0s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (748.6s|244.4s)  [ tid 311637 @   750.042s wavefront/integrator.cpp:395 ] Starting to submit work for sample 194
+
+Rendering: [++++++++++++++++++++++++++++++++           ]  (749.6s|244.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (750.6s|239.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (751.6s|240.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (752.6s|240.5s)  [ tid 311637 @   753.887s wavefront/integrator.cpp:395 ] Starting to submit work for sample 195
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (753.6s|235.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (754.6s|236.0s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (755.6s|236.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (756.6s|236.7s)  [ tid 311637 @   757.734s wavefront/integrator.cpp:395 ] Starting to submit work for sample 196
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (757.6s|231.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (758.6s|232.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (759.6s|232.5s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (760.6s|232.8s)  [ tid 311637 @   761.586s wavefront/integrator.cpp:395 ] Starting to submit work for sample 197
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (761.6s|228.1s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (762.6s|228.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (763.6s|228.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (764.6s|229.0s)  [ tid 311637 @   765.447s wavefront/integrator.cpp:395 ] Starting to submit work for sample 198
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (765.6s|224.3s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (766.6s|224.6s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (767.6s|224.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (768.6s|225.1s)  [ tid 311637 @   769.309s wavefront/integrator.cpp:395 ] Starting to submit work for sample 199
+
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (769.6s|220.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (770.6s|220.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (771.6s|221.0s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (772.6s|221.3s)  [ tid 311637 @   773.168s wavefront/integrator.cpp:395 ] Starting to submit work for sample 200
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (773.6s|216.6s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (774.6s|216.9s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (775.6s|217.2s)  [ tid 311637 @   777.046s wavefront/integrator.cpp:395 ] Starting to submit work for sample 201
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (776.6s|217.4s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (777.6s|212.8s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (778.6s|213.0s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (779.6s|213.3s)  [ tid 311637 @   780.902s wavefront/integrator.cpp:395 ] Starting to submit work for sample 202
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (780.6s|208.7s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (781.6s|208.9s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (782.6s|209.2s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (783.6s|209.5s)  [ tid 311637 @   784.758s wavefront/integrator.cpp:395 ] Starting to submit work for sample 203
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (784.6s|204.8s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (785.6s|205.1s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (786.6s|205.4s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (787.6s|205.6s)  [ tid 311637 @   788.607s wavefront/integrator.cpp:395 ] Starting to submit work for sample 204
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (788.6s|201.0s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (789.6s|201.3s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (790.6s|201.5s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (791.6s|201.8s)  [ tid 311637 @   792.459s wavefront/integrator.cpp:395 ] Starting to submit work for sample 205
+
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (792.6s|197.2s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (793.6s|197.4s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (794.6s|197.7s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (795.6s|197.9s)  [ tid 311637 @   796.319s wavefront/integrator.cpp:395 ] Starting to submit work for sample 206
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (796.6s|193.3s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (797.6s|193.6s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (798.6s|193.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (799.6s|194.1s)  [ tid 311637 @   800.183s wavefront/integrator.cpp:395 ] Starting to submit work for sample 207
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (800.6s|189.5s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (801.6s|189.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (802.6s|190.0s)  [ tid 311637 @   804.036s wavefront/integrator.cpp:395 ] Starting to submit work for sample 208
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (803.6s|190.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (804.6s|185.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (805.6s|185.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (806.6s|186.1s)  [ tid 311637 @   807.911s wavefront/integrator.cpp:395 ] Starting to submit work for sample 209
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (807.6s|181.6s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (808.6s|181.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (809.6s|182.1s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (810.6s|182.3s)  [ tid 311637 @   811.770s wavefront/integrator.cpp:395 ] Starting to submit work for sample 210
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (811.6s|177.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (812.6s|178.0s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (813.6s|178.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (814.6s|178.4s)  [ tid 311637 @   815.621s wavefront/integrator.cpp:395 ] Starting to submit work for sample 211
+
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (815.6s|173.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (816.6s|174.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (817.6s|174.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (818.6s|174.6s)  [ tid 311637 @   819.485s wavefront/integrator.cpp:395 ] Starting to submit work for sample 212
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (819.6s|170.1s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (820.6s|170.3s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (821.6s|170.5s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (822.6s|170.7s)  [ tid 311637 @   823.340s wavefront/integrator.cpp:395 ] Starting to submit work for sample 213
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (823.6s|166.3s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (824.6s|166.5s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (825.6s|166.7s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (826.6s|166.9s)  [ tid 311637 @   827.195s wavefront/integrator.cpp:395 ] Starting to submit work for sample 214
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (827.6s|162.4s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (828.6s|162.6s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (829.6s|162.8s)  [ tid 311637 @   831.050s wavefront/integrator.cpp:395 ] Starting to submit work for sample 215
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (830.6s|163.0s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (831.6s|158.6s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (832.6s|158.8s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (833.6s|159.0s)  [ tid 311637 @   834.916s wavefront/integrator.cpp:395 ] Starting to submit work for sample 216
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (834.6s|154.6s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (835.6s|154.7s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (836.6s|154.9s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (837.6s|155.1s)  [ tid 311637 @   838.777s wavefront/integrator.cpp:395 ] Starting to submit work for sample 217
+
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (838.6s|150.7s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (839.6s|150.9s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (840.6s|151.1s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (841.6s|151.3s)  [ tid 311637 @   842.634s wavefront/integrator.cpp:395 ] Starting to submit work for sample 218
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (842.6s|146.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (843.6s|147.0s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (844.6s|147.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (845.6s|147.4s)  [ tid 311637 @   846.492s wavefront/integrator.cpp:395 ] Starting to submit work for sample 219
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (846.6s|143.0s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (847.6s|143.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (848.6s|143.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (849.6s|143.5s)  [ tid 311637 @   850.350s wavefront/integrator.cpp:395 ] Starting to submit work for sample 220
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (850.6s|139.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (851.6s|139.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (852.6s|139.5s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (853.6s|139.7s)  [ tid 311637 @   854.189s wavefront/integrator.cpp:395 ] Starting to submit work for sample 221
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (854.6s|135.3s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (855.6s|135.5s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (856.6s|135.7s)  [ tid 311637 @   858.048s wavefront/integrator.cpp:395 ] Starting to submit work for sample 222
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (857.6s|135.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (858.6s|131.5s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (859.6s|131.6s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (860.6s|131.8s)  [ tid 311637 @   861.908s wavefront/integrator.cpp:395 ] Starting to submit work for sample 223
+
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (861.6s|127.5s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (862.6s|127.6s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (863.6s|127.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (864.6s|127.9s)  [ tid 311637 @   865.769s wavefront/integrator.cpp:395 ] Starting to submit work for sample 224
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (865.6s|123.7s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (866.6s|123.8s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (867.6s|123.9s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (868.6s|124.1s)  [ tid 311637 @   869.646s wavefront/integrator.cpp:395 ] Starting to submit work for sample 225
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (869.6s|119.8s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (870.6s|119.9s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (871.6s|120.1s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (872.6s|120.2s)  [ tid 311637 @   873.511s wavefront/integrator.cpp:395 ] Starting to submit work for sample 226
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (873.6s|116.0s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (874.6s|116.1s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (875.6s|116.2s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (876.6s|116.4s)  [ tid 311637 @   877.371s wavefront/integrator.cpp:395 ] Starting to submit work for sample 227
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (877.6s|112.1s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (878.6s|112.2s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (879.6s|112.4s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (880.6s|112.5s)  [ tid 311637 @   881.232s wavefront/integrator.cpp:395 ] Starting to submit work for sample 228
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (881.6s|108.3s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (882.6s|108.4s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (883.6s|108.5s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (884.6s|108.6s)  [ tid 311637 @   885.107s wavefront/integrator.cpp:395 ] Starting to submit work for sample 229
+
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (885.6s|104.4s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (886.6s|104.5s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (887.6s|104.7s)  [ tid 311637 @   888.967s wavefront/integrator.cpp:395 ] Starting to submit work for sample 230
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (888.6s|100.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (889.6s|100.6s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (890.6s|100.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (891.6s|100.8s)  [ tid 311637 @   892.834s wavefront/integrator.cpp:395 ] Starting to submit work for sample 231
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (892.6s|96.6s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (893.6s|96.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (894.6s|96.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (895.6s|96.9s)  [ tid 311637 @   896.700s wavefront/integrator.cpp:395 ] Starting to submit work for sample 232
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (896.6s|92.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (897.6s|92.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (898.6s|93.0s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (899.6s|93.1s)  [ tid 311637 @   900.558s wavefront/integrator.cpp:395 ] Starting to submit work for sample 233
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (900.6s|88.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (901.6s|89.0s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (902.6s|89.1s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (903.6s|89.2s)  [ tid 311637 @   904.399s wavefront/integrator.cpp:395 ] Starting to submit work for sample 234
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (904.6s|85.0s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (905.6s|85.1s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (906.6s|85.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (907.6s|85.3s)  [ tid 311637 @   908.238s wavefront/integrator.cpp:395 ] Starting to submit work for sample 235
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (908.6s|81.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (909.6s|81.3s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (910.6s|81.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (911.6s|81.5s)  [ tid 311637 @   912.106s wavefront/integrator.cpp:395 ] Starting to submit work for sample 236
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (912.6s|77.3s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (913.6s|77.4s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (914.6s|77.5s)  [ tid 311637 @   915.963s wavefront/integrator.cpp:395 ] Starting to submit work for sample 237
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (915.6s|73.4s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (916.6s|73.5s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (917.6s|73.6s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (918.6s|73.6s)  [ tid 311637 @   919.826s wavefront/integrator.cpp:395 ] Starting to submit work for sample 238
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (919.6s|69.5s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (920.6s|69.6s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (921.6s|69.7s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (922.6s|69.8s)  [ tid 311637 @   923.688s wavefront/integrator.cpp:395 ] Starting to submit work for sample 239
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (923.6s|65.7s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (924.6s|65.8s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (925.6s|65.8s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (926.6s|65.9s)  [ tid 311637 @   927.544s wavefront/integrator.cpp:395 ] Starting to submit work for sample 240
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (927.6s|61.8s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (928.6s|61.9s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (929.6s|62.0s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (930.6s|62.0s)  [ tid 311637 @   931.399s wavefront/integrator.cpp:395 ] Starting to submit work for sample 241
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (931.6s|58.0s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (932.6s|58.0s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (933.6s|58.1s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (934.6s|58.2s)  [ tid 311637 @   935.238s wavefront/integrator.cpp:395 ] Starting to submit work for sample 242
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (935.6s|54.1s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (936.6s|54.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (937.6s|54.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (938.6s|54.3s)  [ tid 311637 @   939.097s wavefront/integrator.cpp:395 ] Starting to submit work for sample 243
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (939.6s|50.3s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (940.6s|50.3s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (941.6s|50.4s)  [ tid 311637 @   942.963s wavefront/integrator.cpp:395 ] Starting to submit work for sample 244
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (942.6s|46.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (943.6s|46.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (944.6s|46.5s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (945.6s|46.5s)  [ tid 311637 @   946.818s wavefront/integrator.cpp:395 ] Starting to submit work for sample 245
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (946.6s|42.5s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (947.6s|42.5s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (948.6s|42.6s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (949.6s|42.6s)  [ tid 311637 @   950.690s wavefront/integrator.cpp:395 ] Starting to submit work for sample 246
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (950.6s|38.6s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (951.6s|38.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (952.6s|38.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (953.6s|38.8s)  [ tid 311637 @   954.534s wavefront/integrator.cpp:395 ] Starting to submit work for sample 247
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (954.6s|34.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (955.6s|34.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (956.6s|34.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (957.6s|34.9s)  [ tid 311637 @   958.386s wavefront/integrator.cpp:395 ] Starting to submit work for sample 248
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (958.6s|30.9s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (959.6s|31.0s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (960.6s|31.0s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (961.6s|31.0s)  [ tid 311637 @   962.234s wavefront/integrator.cpp:395 ] Starting to submit work for sample 249
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (962.6s|27.1s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (963.6s|27.1s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (964.6s|27.1s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (965.6s|27.1s)  [ tid 311637 @   966.088s wavefront/integrator.cpp:395 ] Starting to submit work for sample 250
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (966.6s|23.2s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (967.6s|23.2s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (968.6s|23.2s)  [ tid 311637 @   969.952s wavefront/integrator.cpp:395 ] Starting to submit work for sample 251
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (969.6s|19.3s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (970.6s|19.3s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (971.6s|19.4s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (972.6s|19.4s)  [ tid 311637 @   973.827s wavefront/integrator.cpp:395 ] Starting to submit work for sample 252
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (973.6s|15.5s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (974.6s|15.5s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (975.6s|15.5s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (976.6s|15.5s)  [ tid 311637 @   977.687s wavefront/integrator.cpp:395 ] Starting to submit work for sample 253
+
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (977.6s|11.6s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (978.6s|11.6s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (979.6s|11.6s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (980.6s|11.6s)  [ tid 311637 @   981.554s wavefront/integrator.cpp:395 ] Starting to submit work for sample 254
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (981.6s|7.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (982.6s|7.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (983.6s|7.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (984.6s|7.8s)  [ tid 311637 @   985.424s wavefront/integrator.cpp:395 ] Starting to submit work for sample 255
+
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (985.6s|3.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (986.6s|3.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (987.6s|3.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (988.6s|3.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (989.6s)       
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (989.6s)       [ tid 311637 @   990.079s wavefront/wavefront.cpp:45 ] Total rendering time: 989.652 s
+[ tid 311637 @   990.079s film.cpp:535 ] Converting image to RGB and computing final weighted pixel values
+[ tid 311637 @   990.215s film.cpp:529 ] Writing image benchmark-baseline-A6000/disney-cloud/disney-cloud_4k.exr with bounds [ [ 0, 0 ] - [ 3840, 2160 ] ]
+[ tid 311637 @   990.245s cmd/pbrt.cpp:290 ] Memory used after post-render cleanup: 1067171840
+[ tid 311698 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311691 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311677 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311704 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311695 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311706 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311697 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311689 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311681 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311702 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311703 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311679 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311680 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311686 @   990.245s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311701 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311692 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311683 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311696 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311688 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311682 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311676 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311690 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311678 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311685 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311684 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311705 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311700 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311694 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311699 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311687 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+[ tid 311693 @   990.246s util/parallel.cpp:63 ] Exiting worker thread
+
