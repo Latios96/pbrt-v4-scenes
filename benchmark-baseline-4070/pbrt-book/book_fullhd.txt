@@ -1,0 +1,1361 @@
+pbrt version 4 (built Sep 17 2025 at 07:55:20)
+Copyright (c)1998-2021 Matt Pharr, Wenzel Jakob, and Greg Humphreys.
+The source code to pbrt (but *not* the book contents) is covered by the Apache 2.0 License.
+See the file LICENSE.txt for the conditions of the license.
+[1m[31mWarning[0m: Both --gpu and --wavefront were specified; --gpu takes precedence.
+[ tid 2424 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 2424 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37960 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37960 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 15620 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 15620 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37124 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37124 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 24264 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 24264 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 29356 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 29356 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 36968 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:41 ] GPU CUDA driver 13.0, CUDA runtime 12.9
+[ tid 29900 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 29900 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 36968 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:57 ] CUDA device 0 (NVIDIA GeForce RTX 4070 Ti) with 12281.375 MiB, 60 SMs running at 2730 MHz with shader model 8.9
+[ tid 36968 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:73 ] Selecting GPU device 0
+[ tid 16640 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 16640 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 22216 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 22216 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 19624 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 19624 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 21828 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 21828 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 33740 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 33740 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 21532 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 21532 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 22156 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 22156 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 16344 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 16344 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 24468 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 24468 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 34524 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 34524 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 36020 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 36020 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37304 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37304 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 34316 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 34316 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 15096 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 18236 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 15096 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 18236 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 38188 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 38188 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 34232 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 34232 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 20676 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 20676 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 32112 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 32112 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 34420 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 34420 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 19232 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 28284 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 19232 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 28284 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 12604 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 12604 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 21792 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 21792 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 36968 @     0.003s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:89 ] Reset stack size to 8192
+[ tid 36968 @     0.385s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:611 ] Started parsing C:\workspace\pbrt-v4-scenes\pbrt-book\book_fullhd.pbrt
+[ tid 36968 @     0.385s C:\workspace\pbrt-v4\src\pbrt\cameras.cpp:50 ] World-space position: [ 0, 2.1088, 13.574 ]
+[ tid 36968 @     0.385s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:748 ] Starting to create filter and film
+[1m[31mWarning[0m: C:\workspace\pbrt-v4-scenes\pbrt-book\book_fullhd.pbrt:3:0: Output filename supplied on command line, "benchmark-baseline-4070\pbrt-book\book_fullhd.exr" will override filename provided in scene description file, "book.exr".
+[ tid 36968 @     0.387s C:\workspace\pbrt-v4\src\pbrt\util\error.cpp:52 ] [1m[31mWarning[0m: C:\workspace\pbrt-v4-scenes\pbrt-book\book_fullhd.pbrt:3:0: Output filename supplied on command line, "benchmark-baseline-4070\pbrt-book\book_fullhd.exr" will override filename provided in scene description file, "book.exr".
+[ tid 36968 @     0.387s film.h:196 ] Created film with full resolution [ 1920, 1080 ], pixelBounds [ [ 0, 0 ] - [ 1920, 1080 ] ]
+[ tid 36968 @     1.296s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:765 ] Finished creating filter and film
+[ tid 15620 @     1.296s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:769 ] Starting to create sampler
+[ tid 12604 @     1.296s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:778 ] Starting to create camera
+[ tid 12604 @     1.297s C:\workspace\pbrt-v4\src\pbrt\cameras.cpp:197 ] Camera min pos differentials: [ 0, 0, 0 ], [ 0, 0, 0 ]
+[ tid 12604 @     1.297s C:\workspace\pbrt-v4\src\pbrt\cameras.cpp:199 ] Camera min dir differentials: [ 0.00036355853, -0.000016570091, 0 ], [ -0.000016570091, 0.0003837198, -5.9604645e-8 ]
+[ tid 12604 @     1.297s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:784 ] Finished creating camera
+[ tid 36968 @     1.297s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:642 ] Finished parsing C:\workspace\pbrt-v4-scenes\pbrt-book\book_fullhd.pbrt
+[ tid 36968 @     1.297s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:114 ] Starting to create textures
+[ tid 36968 @     1.297s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1180 ] Starting to consume texture futures
+[ tid 36968 @     1.603s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1192 ] Finished consuming texture futures
+[ tid 36968 @     1.603s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1194 ] Starting to create remaining textures
+[ tid 36968 @     1.603s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\pbrt-book\texture\book_pbrt.png in RGB tex array cache!
+[ tid 36968 @     1.603s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\pbrt-book\texture\book_pbrt.png in RGB tex array cache!
+[ tid 36968 @     1.603s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\pbrt-book\texture\book_pages.png in luminance tex array cache!
+[ tid 36968 @     1.603s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\pbrt-book\texture\book_pages.png in luminance tex array cache!
+[ tid 36968 @     1.603s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1250 ] Done creating textures
+[ tid 36968 @     1.603s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:116 ] Done creating textures
+[ tid 36968 @     1.603s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:118 ] Starting to create lights
+[ tid 36968 @     1.604s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1289 ] Starting area lights
+[ tid 36968 @     1.606s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1341 ] Finished area lights
+[ tid 36968 @     1.606s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1343 ] Starting to consume non-area light futures
+[ tid 36968 @     1.606s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1347 ] Finished consuming non-area light futures
+[ tid 36968 @     1.606s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:131 ] Done creating lights
+[ tid 36968 @     1.606s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:133 ] Starting to create materials
+[ tid 36968 @     1.606s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1113 ] Starting to consume 0 normal map futures
+[ tid 36968 @     1.606s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1120 ] Finished consuming normal map futures
+[ tid 36968 @     1.606s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:147 ] Finished creating materials
+[ tid 36968 @     1.606s scene.h:290 ] Retrieved Camera from future
+[ tid 36968 @     1.668s scene.h:302 ] Retrieved Sampler from future
+[ tid 36968 @     1.669s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1219 ] Starting OptiX initialization
+[ tid 36968 @     1.773s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1234 ] Optix version 7.6.0 successfully initialized
+[ tid 36968 @     1.795s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1308 ] Warning: use of OPTIX_EXCEPTION_FLAG_DEBUG is deprecated. Use OPTIX_DEVICE_CONTEXT_VALIDATION_MODE_ALL instead.
+Info: Pipeline statistics
+	module(s)                            :     1
+	entry function(s)                    :    19
+	trace call(s)                        :     4
+	continuation callable call(s)        :     0
+	direct callable call(s)              :     0
+	basic block(s) in entry functions    :  3350
+	instruction(s) in entry functions    : 57440
+	non-entry function(s)                :     0
+	basic block(s) in non-entry functions:     0
+	instruction(s) in non-entry functions:     0
+	debug information                    :    no
+
+[ tid 36968 @     1.799s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1364 ] Finished OptiX initialization
+[ tid 36968 @     1.799s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1376 ] Starting to create shapes and acceleration structures
+[ tid 36968 @     1.799s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1384 ] Starting to read PLY meshes
+[ tid 36968 @     1.807s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1387 ] Finished reading PLY meshes
+[ tid 36968 @     1.807s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1435 ] Starting to create IASes for 0 instance definitions
+[ tid 36968 @     1.807s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1493 ] Finished creating IASes for instance definitions
+[ tid 36968 @     1.807s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1497 ] Starting to create 0 OptixInstances
+[ tid 36968 @     1.807s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1537 ] Starting to consume top-level GAS futures
+[ tid 36968 @     1.937s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1548 ] Finished consuming top-level GAS futures
+[ tid 36968 @     1.937s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1614 ] Finished creating OptixInstances
+[ tid 36968 @     1.937s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1618 ] Starting to build top-level IAS
+[ tid 36968 @     1.937s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1628 ] Finished building top-level IAS
+[ tid 36968 @     1.937s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1630 ] Finished creating shapes and acceleration structures
+[ tid 36968 @     1.937s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:181 ] Starting to create light sampler
+[ tid 36968 @     1.941s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:187 ] Finished creating light sampler
+[ tid 36968 @     1.941s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:275 ] maxQueueSize 1036800
+[ tid 36968 @     1.941s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:277 ] Will render in 2 passes 540 scanlines per pass
+
+[ tid 36968 @     2.154s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:326 ] pathIntegratorBytes 1460870552
+[ tid 36968 @     2.154s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:327 ] bytes per accumulated queue entry is 1409
+[ tid 36968 @     2.155s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 0
+[ tid 36968 @     2.155s gpu/util.h:70 ] [Reset ray queue]: block size 768
+
+Rendering: [  ] [ tid 36968 @     2.159s gpu/util.h:70 ] [Generate camera rays]: block size 512
+[ tid 36968 @     2.159s gpu/util.h:70 ] [Update camera ray stats]: block size 768
+[ tid 36968 @     2.159s gpu/util.h:70 ] [Reset queues before tracing rays]: block size 768
+[ tid 36968 @     2.160s gpu/util.h:70 ] [Generate ray samples - HaltonSampler]: block size 576
+[ tid 36968 @     2.160s gpu/util.h:70 ] [Handle emitters hit by indirect rays]: block size 512
+[ tid 36968 @     2.163s gpu/util.h:70 ] [CoatedDiffuseMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 36968 @     2.164s gpu/util.h:70 ] [DiffuseMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 36968 @     2.164s gpu/util.h:70 ] [Reset shadowRayQueue]: block size 768
+[ tid 36968 @     2.164s gpu/util.h:70 ] [Update indirect ray stats]: block size 768
+[ tid 36968 @     2.166s gpu/util.h:70 ] [Update film]: block size 512
+[ tid 36968 @     2.167s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1
+[ tid 36968 @     2.172s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 2
+[ tid 36968 @     2.177s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 3
+[ tid 36968 @     2.207s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 4
+
+Rendering: [  ]  (0.1s|33.7s)  [ tid 36968 @     2.222s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 5
+[ tid 36968 @     2.241s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 6
+[ tid 36968 @     2.271s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 7
+
+Rendering: [  ]  (0.1s|26.3s)  [ tid 36968 @     2.285s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 8
+[ tid 36968 @     2.316s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 9
+[ tid 36968 @     2.332s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 10
+
+Rendering: [  ]  (0.2s|24.3s)  [ tid 36968 @     2.350s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 11
+[ tid 36968 @     2.380s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 12
+[ tid 36968 @     2.395s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 13
+
+Rendering: [  ]  (0.3s|23.3s)  [ tid 36968 @     2.426s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 14
+[ tid 36968 @     2.441s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 15
+[ tid 36968 @     2.459s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 16
+
+Rendering: [  ]  (0.3s|22.8s)  [ tid 36968 @     2.487s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 17
+[ tid 36968 @     2.503s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 18
+
+Rendering: [  ]  (0.4s|23.8s)  [ tid 36968 @     2.534s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 19
+[ tid 36968 @     2.549s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 20
+[ tid 36968 @     2.568s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 21
+
+Rendering: [  ]  (0.4s|23.3s)  [ tid 36968 @     2.596s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 22
+[ tid 36968 @     2.612s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 23
+[ tid 36968 @     2.646s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 24
+
+Rendering: [  ]  (0.5s|22.8s)  [ tid 36968 @     2.658s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 25
+[ tid 36968 @     2.677s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 26
+[ tid 36968 @     2.705s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 27
+
+Rendering: [  ]  (0.6s|22.6s)  [ tid 36968 @     2.723s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 28
+[ tid 36968 @     2.752s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 29
+[ tid 36968 @     2.768s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 30
+
+Rendering: [  ]  (0.6s|22.3s)  [ tid 36968 @     2.786s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 31
+[ tid 36968 @     2.815s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 32
+[ tid 36968 @     2.832s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 33
+[ tid 36968 @     2.861s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 34
+[ tid 36968 @     2.876s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 35
+
+Rendering: [  ]  (0.7s|22.1s)  [ tid 36968 @     2.907s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 36
+[ tid 36968 @     2.922s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 37
+[ tid 36968 @     2.942s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 38
+[ tid 36968 @     2.970s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 39
+[ tid 36968 @     2.986s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 40
+
+Rendering: [  ]  (0.8s|21.9s)  [ tid 36968 @     3.017s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 41
+[ tid 36968 @     3.032s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 42
+[ tid 36968 @     3.063s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 43
+[ tid 36968 @     3.078s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 44
+[ tid 36968 @     3.096s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 45
+
+Rendering: [  ]  (1.0s|21.7s)  [ tid 36968 @     3.124s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 46
+[ tid 36968 @     3.140s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 47
+[ tid 36968 @     3.170s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 48
+[ tid 36968 @     3.185s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 49
+[ tid 36968 @     3.204s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 50
+
+Rendering: [  ]  (1.1s|22.0s)  [ tid 36968 @     3.231s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 51
+[ tid 36968 @     3.251s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 52
+[ tid 36968 @     3.277s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 53
+[ tid 36968 @     3.295s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 54
+[ tid 36968 @     3.313s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 55
+
+Rendering: [  ]  (1.2s|21.8s)  [ tid 36968 @     3.340s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 56
+[ tid 36968 @     3.357s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 57
+[ tid 36968 @     3.386s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 58
+[ tid 36968 @     3.402s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 59
+
+Rendering: [  ]  (1.3s|21.7s)  [ tid 36968 @     3.433s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 60
+[ tid 36968 @     3.448s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 61
+[ tid 36968 @     3.466s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 62
+[ tid 36968 @     3.494s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 63
+[ tid 36968 @     3.513s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 64
+
+Rendering: [  ]  (1.4s|21.5s)  [ tid 36968 @     3.540s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 65
+[ tid 36968 @     3.555s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 66
+[ tid 36968 @     3.574s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 67
+[ tid 36968 @     3.602s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 68
+[ tid 36968 @     3.619s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 69
+
+Rendering: [  ]  (1.5s|21.3s)  [ tid 36968 @     3.648s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 70
+[ tid 36968 @     3.664s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 71
+[ tid 36968 @     3.682s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 72
+[ tid 36968 @     3.710s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 73
+[ tid 36968 @     3.729s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 74
+
+Rendering: [  ]  (1.6s|21.2s)  [ tid 36968 @     3.757s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 75
+[ tid 36968 @     3.772s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 76
+[ tid 36968 @     3.790s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 77
+[ tid 36968 @     3.818s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 78
+[ tid 36968 @     3.836s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 79
+
+Rendering: [  ]  (1.7s|21.0s)  [ tid 36968 @     3.865s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 80
+[ tid 36968 @     3.881s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 81
+[ tid 36968 @     3.899s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 82
+[ tid 36968 @     3.928s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 83
+[ tid 36968 @     3.946s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 84
+
+Rendering: [  ]  (1.8s|20.9s)  [ tid 36968 @     3.974s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 85
+[ tid 36968 @     3.989s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 86
+[ tid 36968 @     4.007s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 87
+[ tid 36968 @     4.036s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 88
+[ tid 36968 @     4.054s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 89
+
+Rendering: [  ]  (1.9s|20.7s)  [ tid 36968 @     4.083s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 90
+[ tid 36968 @     4.099s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 91
+[ tid 36968 @     4.118s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 92
+[ tid 36968 @     4.145s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 93
+[ tid 36968 @     4.163s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 94
+
+Rendering: [  ]  (2.0s|20.6s)  [ tid 36968 @     4.192s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 95
+[ tid 36968 @     4.207s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 96
+[ tid 36968 @     4.225s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 97
+[ tid 36968 @     4.254s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 98
+[ tid 36968 @     4.271s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 99
+
+Rendering: [  ]  (2.1s|20.5s)  [ tid 36968 @     4.301s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 100
+[ tid 36968 @     4.316s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 101
+[ tid 36968 @     4.334s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 102
+[ tid 36968 @     4.361s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 103
+[ tid 36968 @     4.395s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 104
+[ tid 36968 @     4.401s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 105
+
+Rendering: [  ]  (2.3s|20.4s)  [ tid 36968 @     4.424s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 106
+[ tid 36968 @     4.443s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 107
+[ tid 36968 @     4.470s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 108
+[ tid 36968 @     4.488s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 109
+
+Rendering: [  ]  (2.4s|20.2s)  [ tid 36968 @     4.519s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 110
+[ tid 36968 @     4.534s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 111
+[ tid 36968 @     4.552s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 112
+[ tid 36968 @     4.580s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 113
+[ tid 36968 @     4.597s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 114
+
+Rendering: [  ]  (2.5s|20.1s)  [ tid 36968 @     4.627s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 115
+[ tid 36968 @     4.643s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 116
+[ tid 36968 @     4.661s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 117
+[ tid 36968 @     4.689s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 118
+[ tid 36968 @     4.704s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 119
+
+Rendering: [  ]  (2.6s|20.0s)  [ tid 36968 @     4.734s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 120
+[ tid 36968 @     4.751s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 121
+[ tid 36968 @     4.769s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 122
+[ tid 36968 @     4.798s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 123
+[ tid 36968 @     4.816s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 124
+
+Rendering: [  ]  (2.7s|19.9s)  [ tid 36968 @     4.844s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 125
+[ tid 36968 @     4.860s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 126
+[ tid 36968 @     4.878s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 127
+[ tid 36968 @     4.905s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 128
+[ tid 36968 @     4.923s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 129
+
+Rendering: [  ]  (2.8s|19.7s)  [ tid 36968 @     4.952s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 130
+[ tid 36968 @     4.967s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 131
+[ tid 36968 @     4.986s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 132
+[ tid 36968 @     5.014s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 133
+[ tid 36968 @     5.032s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 134
+
+Rendering: [  ]  (2.9s|19.6s)  [ tid 36968 @     5.060s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 135
+[ tid 36968 @     5.075s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 136
+[ tid 36968 @     5.094s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 137
+[ tid 36968 @     5.122s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 138
+[ tid 36968 @     5.140s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 139
+
+Rendering: [  ]  (3.0s|19.5s)  [ tid 36968 @     5.169s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 140
+[ tid 36968 @     5.184s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 141
+[ tid 36968 @     5.203s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 142
+[ tid 36968 @     5.231s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 143
+[ tid 36968 @     5.249s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 144
+
+Rendering: [  ]  (3.1s|19.4s)  [ tid 36968 @     5.277s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 145
+[ tid 36968 @     5.292s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 146
+[ tid 36968 @     5.311s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 147
+[ tid 36968 @     5.339s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 148
+[ tid 36968 @     5.357s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 149
+
+Rendering: [  ]  (3.2s|19.3s)  [ tid 36968 @     5.385s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 150
+[ tid 36968 @     5.401s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 151
+[ tid 36968 @     5.431s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 152
+[ tid 36968 @     5.447s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 153
+[ tid 36968 @     5.465s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 154
+
+Rendering: [  ]  (3.3s|19.1s)  [ tid 36968 @     5.494s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 155
+[ tid 36968 @     5.509s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 156
+[ tid 36968 @     5.528s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 157
+[ tid 36968 @     5.557s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 158
+[ tid 36968 @     5.572s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 159
+
+Rendering: [  ]  (3.4s|19.0s)  [ tid 36968 @     5.603s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 160
+[ tid 36968 @     5.619s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 161
+[ tid 36968 @     5.639s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 162
+[ tid 36968 @     5.667s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 163
+[ tid 36968 @     5.682s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 164
+[ tid 36968 @     5.700s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 165
+
+Rendering: [  ]  (3.6s|18.8s)  [ tid 36968 @     5.729s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 166
+[ tid 36968 @     5.748s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 167
+[ tid 36968 @     5.776s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 168
+[ tid 36968 @     5.792s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 169
+[ tid 36968 @     5.810s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 170
+
+Rendering: [  ]  (3.7s|18.7s)  [ tid 36968 @     5.838s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 171
+[ tid 36968 @     5.856s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 172
+[ tid 36968 @     5.885s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 173
+[ tid 36968 @     5.900s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 174
+[ tid 36968 @     5.919s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 175
+
+Rendering: [  ]  (3.8s|18.7s)  [ tid 36968 @     5.946s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 176
+[ tid 36968 @     5.965s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 177
+[ tid 36968 @     5.993s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 178
+[ tid 36968 @     6.009s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 179
+
+Rendering: [  ]  (3.9s|18.6s)  [ tid 36968 @     6.039s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 180
+[ tid 36968 @     6.055s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 181
+[ tid 36968 @     6.074s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 182
+[ tid 36968 @     6.104s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 183
+[ tid 36968 @     6.117s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 184
+[ tid 36968 @     6.136s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 185
+
+Rendering: [  ]  (4.0s|18.4s)  [ tid 36968 @     6.165s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 186
+[ tid 36968 @     6.183s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 187
+[ tid 36968 @     6.211s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 188
+[ tid 36968 @     6.227s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 189
+[ tid 36968 @     6.246s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 190
+
+Rendering: [  ]  (4.1s|18.2s)  [ tid 36968 @     6.274s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 191
+[ tid 36968 @     6.292s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 192
+[ tid 36968 @     6.322s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 193
+[ tid 36968 @     6.337s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 194
+[ tid 36968 @     6.356s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 195
+
+Rendering: [  ]  (4.2s|18.1s)  [ tid 36968 @     6.384s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 196
+[ tid 36968 @     6.402s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 197
+[ tid 36968 @     6.432s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 198
+[ tid 36968 @     6.447s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 199
+[ tid 36968 @     6.466s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 200
+
+Rendering: [  ]  (4.3s|18.1s)  [ tid 36968 @     6.494s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 201
+[ tid 36968 @     6.512s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 202
+[ tid 36968 @     6.539s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 203
+[ tid 36968 @     6.555s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 204
+
+Rendering: [  ]  (4.4s|18.0s)  [ tid 36968 @     6.586s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 205
+[ tid 36968 @     6.601s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 206
+[ tid 36968 @     6.620s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 207
+[ tid 36968 @     6.648s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 208
+[ tid 36968 @     6.665s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 209
+
+Rendering: [  ]  (4.5s|17.9s)  [ tid 36968 @     6.695s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 210
+[ tid 36968 @     6.711s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 211
+[ tid 36968 @     6.743s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 212
+[ tid 36968 @     6.757s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 213
+[ tid 36968 @     6.775s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 214
+
+Rendering: [  ]  (4.6s|17.8s)  [ tid 36968 @     6.803s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 215
+[ tid 36968 @     6.823s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 216
+[ tid 36968 @     6.850s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 217
+[ tid 36968 @     6.866s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 218
+[ tid 36968 @     6.897s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 219
+
+Rendering: [  ]  (4.8s|17.7s)  [ tid 36968 @     6.912s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 220
+[ tid 36968 @     6.932s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 221
+[ tid 36968 @     6.959s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 222
+[ tid 36968 @     6.977s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 223
+[ tid 36968 @     7.006s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 224
+
+Rendering: [  ]  (4.9s|17.6s)  [ tid 36968 @     7.020s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 225
+[ tid 36968 @     7.039s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 226
+[ tid 36968 @     7.068s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 227
+[ tid 36968 @     7.085s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 228
+[ tid 36968 @     7.116s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 229
+
+Rendering: [  ]  (5.0s|17.5s)  [ tid 36968 @     7.130s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 230
+[ tid 36968 @     7.149s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 231
+[ tid 36968 @     7.177s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 232
+[ tid 36968 @     7.194s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 233
+[ tid 36968 @     7.224s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 234
+
+Rendering: [  ]  (5.1s|17.4s)  [ tid 36968 @     7.239s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 235
+[ tid 36968 @     7.258s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 236
+[ tid 36968 @     7.286s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 237
+[ tid 36968 @     7.302s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 238
+[ tid 36968 @     7.333s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 239
+
+Rendering: [  ]  (5.2s|17.2s)  [ tid 36968 @     7.349s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 240
+[ tid 36968 @     7.367s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 241
+[ tid 36968 @     7.395s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 242
+[ tid 36968 @     7.411s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 243
+[ tid 36968 @     7.441s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 244
+
+Rendering: [  ]  (5.3s|17.1s)  [ tid 36968 @     7.457s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 245
+[ tid 36968 @     7.475s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 246
+[ tid 36968 @     7.505s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 247
+[ tid 36968 @     7.520s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 248
+[ tid 36968 @     7.538s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 249
+
+Rendering: [  ]  (5.4s|17.0s)  [ tid 36968 @     7.566s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 250
+[ tid 36968 @     7.584s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 251
+[ tid 36968 @     7.615s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 252
+[ tid 36968 @     7.630s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 253
+[ tid 36968 @     7.648s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 254
+
+Rendering: [  ]  (5.5s|16.9s)  [ tid 36968 @     7.676s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 255
+[ tid 36968 @     7.693s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 256
+[ tid 36968 @     7.723s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 257
+[ tid 36968 @     7.738s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 258
+[ tid 36968 @     7.756s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 259
+
+Rendering: [+ ]  (5.6s|16.8s)  [ tid 36968 @     7.784s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 260
+[ tid 36968 @     7.801s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 261
+[ tid 36968 @     7.832s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 262
+[ tid 36968 @     7.845s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 263
+[ tid 36968 @     7.864s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 264
+
+Rendering: [+ ]  (5.7s|16.7s)  [ tid 36968 @     7.892s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 265
+[ tid 36968 @     7.910s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 266
+[ tid 36968 @     7.939s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 267
+[ tid 36968 @     7.954s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 268
+[ tid 36968 @     7.972s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 269
+
+Rendering: [+ ]  (5.8s|16.6s)  [ tid 36968 @     8.001s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 270
+[ tid 36968 @     8.018s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 271
+[ tid 36968 @     8.050s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 272
+[ tid 36968 @     8.062s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 273
+[ tid 36968 @     8.081s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 274
+
+Rendering: [+ ]  (6.0s|16.5s)  [ tid 36968 @     8.109s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 275
+[ tid 36968 @     8.127s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 276
+[ tid 36968 @     8.155s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 277
+[ tid 36968 @     8.171s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 278
+[ tid 36968 @     8.189s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 279
+
+Rendering: [+ ]  (6.1s|16.3s)  [ tid 36968 @     8.217s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 280
+[ tid 36968 @     8.235s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 281
+[ tid 36968 @     8.264s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 282
+[ tid 36968 @     8.279s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 283
+[ tid 36968 @     8.297s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 284
+
+Rendering: [+ ]  (6.2s|16.2s)  [ tid 36968 @     8.325s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 285
+[ tid 36968 @     8.343s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 286
+[ tid 36968 @     8.373s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 287
+[ tid 36968 @     8.388s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 288
+[ tid 36968 @     8.406s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 289
+
+Rendering: [+ ]  (6.3s|16.1s)  [ tid 36968 @     8.435s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 290
+[ tid 36968 @     8.452s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 291
+[ tid 36968 @     8.482s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 292
+[ tid 36968 @     8.497s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 293
+[ tid 36968 @     8.516s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 294
+
+Rendering: [+ ]  (6.4s|16.0s)  [ tid 36968 @     8.544s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 295
+[ tid 36968 @     8.563s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 296
+[ tid 36968 @     8.593s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 297
+[ tid 36968 @     8.607s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 298
+[ tid 36968 @     8.627s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 299
+
+Rendering: [+ ]  (6.5s|15.9s)  [ tid 36968 @     8.653s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 300
+[ tid 36968 @     8.672s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 301
+[ tid 36968 @     8.701s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 302
+[ tid 36968 @     8.716s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 303
+[ tid 36968 @     8.734s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 304
+
+Rendering: [+ ]  (6.6s|15.8s)  [ tid 36968 @     8.763s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 305
+[ tid 36968 @     8.780s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 306
+[ tid 36968 @     8.810s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 307
+[ tid 36968 @     8.825s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 308
+[ tid 36968 @     8.843s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 309
+
+Rendering: [+ ]  (6.7s|15.7s)  [ tid 36968 @     8.871s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 310
+[ tid 36968 @     8.888s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 311
+[ tid 36968 @     8.917s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 312
+[ tid 36968 @     8.933s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 313
+[ tid 36968 @     8.951s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 314
+
+Rendering: [+ ]  (6.8s|15.6s)  [ tid 36968 @     8.979s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 315
+[ tid 36968 @     8.997s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 316
+[ tid 36968 @     9.027s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 317
+[ tid 36968 @     9.042s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 318
+[ tid 36968 @     9.060s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 319
+
+Rendering: [+ ]  (6.9s|15.5s)  [ tid 36968 @     9.088s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 320
+[ tid 36968 @     9.106s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 321
+[ tid 36968 @     9.123s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 322
+[ tid 36968 @     9.151s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 323
+[ tid 36968 @     9.170s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 324
+
+Rendering: [+ ]  (7.0s|15.4s)  [ tid 36968 @     9.199s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 325
+[ tid 36968 @     9.214s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 326
+[ tid 36968 @     9.244s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 327
+[ tid 36968 @     9.260s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 328
+[ tid 36968 @     9.279s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 329
+
+Rendering: [+ ]  (7.2s|15.2s)  [ tid 36968 @     9.306s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 330
+[ tid 36968 @     9.322s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 331
+[ tid 36968 @     9.353s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 332
+[ tid 36968 @     9.369s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 333
+[ tid 36968 @     9.387s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 334
+[ tid 36968 @     9.416s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 335
+[ tid 36968 @     9.431s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 336
+[ tid 36968 @     9.463s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 337
+[ tid 36968 @     9.477s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 338
+[ tid 36968 @     9.496s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 339
+
+Rendering: [+ ]  (7.4s|15.0s)  [ tid 36968 @     9.525s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 340
+[ tid 36968 @     9.540s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 341
+[ tid 36968 @     9.571s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 342
+[ tid 36968 @     9.586s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 343
+[ tid 36968 @     9.604s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 344
+[ tid 36968 @     9.634s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 345
+[ tid 36968 @     9.649s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 346
+[ tid 36968 @     9.679s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 347
+[ tid 36968 @     9.695s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 348
+
+Rendering: [+ ]  (7.6s|14.8s)  [ tid 36968 @     9.712s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 349
+[ tid 36968 @     9.742s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 350
+[ tid 36968 @     9.757s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 351
+[ tid 36968 @     9.789s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 352
+[ tid 36968 @     9.803s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 353
+[ tid 36968 @     9.821s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 354
+[ tid 36968 @     9.849s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 355
+[ tid 36968 @     9.868s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 356
+[ tid 36968 @     9.897s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 357
+
+Rendering: [+ ]  (7.8s|14.6s)  [ tid 36968 @     9.911s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 358
+[ tid 36968 @     9.930s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 359
+[ tid 36968 @     9.958s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 360
+[ tid 36968 @     9.974s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 361
+[ tid 36968 @    10.005s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 362
+[ tid 36968 @    10.020s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 363
+[ tid 36968 @    10.038s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 364
+[ tid 36968 @    10.067s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 365
+[ tid 36968 @    10.082s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 366
+
+Rendering: [+ ]  (8.0s|14.4s)  [ tid 36968 @    10.114s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 367
+[ tid 36968 @    10.130s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 368
+[ tid 36968 @    10.149s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 369
+[ tid 36968 @    10.177s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 370
+[ tid 36968 @    10.192s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 371
+[ tid 36968 @    10.211s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 372
+[ tid 36968 @    10.239s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 373
+[ tid 36968 @    10.257s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 374
+[ tid 36968 @    10.287s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 375
+[ tid 36968 @    10.302s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 376
+
+Rendering: [+ ]  (8.2s|14.2s)  [ tid 36968 @    10.321s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 377
+[ tid 36968 @    10.349s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 378
+[ tid 36968 @    10.365s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 379
+[ tid 36968 @    10.395s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 380
+[ tid 36968 @    10.410s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 381
+[ tid 36968 @    10.429s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 382
+[ tid 36968 @    10.457s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 383
+[ tid 36968 @    10.472s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 384
+[ tid 36968 @    10.504s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 385
+
+Rendering: [+ ]  (8.4s|14.0s)  [ tid 36968 @    10.519s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 386
+[ tid 36968 @    10.538s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 387
+[ tid 36968 @    10.565s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 388
+[ tid 36968 @    10.581s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 389
+[ tid 36968 @    10.600s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 390
+[ tid 36968 @    10.628s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 391
+[ tid 36968 @    10.645s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 392
+[ tid 36968 @    10.673s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 393
+[ tid 36968 @    10.689s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 394
+[ tid 36968 @    10.708s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 395
+
+Rendering: [+ ]  (8.6s|13.8s)  [ tid 36968 @    10.735s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 396
+[ tid 36968 @    10.753s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 397
+[ tid 36968 @    10.782s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 398
+[ tid 36968 @    10.797s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 399
+[ tid 36968 @    10.828s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 400
+[ tid 36968 @    10.843s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 401
+[ tid 36968 @    10.862s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 402
+[ tid 36968 @    10.892s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 403
+[ tid 36968 @    10.906s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 404
+
+Rendering: [+ ]  (8.8s|13.6s)  [ tid 36968 @    10.936s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 405
+[ tid 36968 @    10.951s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 406
+[ tid 36968 @    10.969s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 407
+[ tid 36968 @    10.998s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 408
+[ tid 36968 @    11.016s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 409
+[ tid 36968 @    11.044s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 410
+[ tid 36968 @    11.059s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 411
+[ tid 36968 @    11.077s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 412
+[ tid 36968 @    11.105s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 413
+[ tid 36968 @    11.123s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 414
+
+Rendering: [+ ]  (9.0s|13.3s)  [ tid 36968 @    11.151s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 415
+[ tid 36968 @    11.167s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 416
+[ tid 36968 @    11.185s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 417
+[ tid 36968 @    11.214s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 418
+[ tid 36968 @    11.231s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 419
+[ tid 36968 @    11.259s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 420
+[ tid 36968 @    11.274s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 421
+[ tid 36968 @    11.293s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 422
+[ tid 36968 @    11.321s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 423
+
+Rendering: [+ ]  (9.2s|13.1s)  [ tid 36968 @    11.339s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 424
+[ tid 36968 @    11.368s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 425
+[ tid 36968 @    11.383s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 426
+[ tid 36968 @    11.401s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 427
+[ tid 36968 @    11.429s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 428
+[ tid 36968 @    11.447s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 429
+[ tid 36968 @    11.475s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 430
+[ tid 36968 @    11.490s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 431
+[ tid 36968 @    11.511s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 432
+
+Rendering: [+ ]  (9.4s|13.0s)  [ tid 36968 @    11.537s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 433
+[ tid 36968 @    11.555s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 434
+[ tid 36968 @    11.584s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 435
+[ tid 36968 @    11.600s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 436
+[ tid 36968 @    11.617s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 437
+[ tid 36968 @    11.646s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 438
+[ tid 36968 @    11.664s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 439
+[ tid 36968 @    11.693s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 440
+[ tid 36968 @    11.709s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 441
+[ tid 36968 @    11.727s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 442
+
+Rendering: [+ ]  (9.6s|12.7s)  [ tid 36968 @    11.755s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 443
+[ tid 36968 @    11.771s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 444
+[ tid 36968 @    11.802s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 445
+[ tid 36968 @    11.817s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 446
+[ tid 36968 @    11.835s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 447
+[ tid 36968 @    11.863s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 448
+[ tid 36968 @    11.880s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 449
+[ tid 36968 @    11.911s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 450
+[ tid 36968 @    11.924s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 451
+
+Rendering: [+ ]  (9.8s|12.5s)  [ tid 36968 @    11.943s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 452
+[ tid 36968 @    11.972s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 453
+[ tid 36968 @    11.989s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 454
+[ tid 36968 @    12.019s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 455
+[ tid 36968 @    12.034s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 456
+[ tid 36968 @    12.052s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 457
+[ tid 36968 @    12.080s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 458
+[ tid 36968 @    12.097s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 459
+[ tid 36968 @    12.126s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 460
+
+Rendering: [+ ]  (10.0s|12.3s)  [ tid 36968 @    12.141s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 461
+[ tid 36968 @    12.172s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 462
+[ tid 36968 @    12.188s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 463
+[ tid 36968 @    12.206s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 464
+[ tid 36968 @    12.235s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 465
+[ tid 36968 @    12.250s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 466
+[ tid 36968 @    12.269s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 467
+[ tid 36968 @    12.298s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 468
+[ tid 36968 @    12.316s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 469
+
+Rendering: [+ ]  (10.2s|12.2s)  [ tid 36968 @    12.344s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 470
+[ tid 36968 @    12.359s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 471
+[ tid 36968 @    12.378s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 472
+[ tid 36968 @    12.405s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 473
+[ tid 36968 @    12.423s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 474
+[ tid 36968 @    12.453s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 475
+[ tid 36968 @    12.468s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 476
+[ tid 36968 @    12.486s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 477
+[ tid 36968 @    12.514s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 478
+[ tid 36968 @    12.531s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 479
+
+Rendering: [+ ]  (10.4s|11.9s)  [ tid 36968 @    12.561s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 480
+[ tid 36968 @    12.576s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 481
+[ tid 36968 @    12.594s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 482
+[ tid 36968 @    12.624s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 483
+[ tid 36968 @    12.640s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 484
+[ tid 36968 @    12.659s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 485
+[ tid 36968 @    12.687s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 486
+[ tid 36968 @    12.706s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 487
+[ tid 36968 @    12.732s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 488
+
+Rendering: [+ ]  (10.6s|11.7s)  [ tid 36968 @    12.748s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 489
+[ tid 36968 @    12.779s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 490
+[ tid 36968 @    12.794s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 491
+[ tid 36968 @    12.813s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 492
+[ tid 36968 @    12.842s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 493
+[ tid 36968 @    12.857s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 494
+[ tid 36968 @    12.888s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 495
+[ tid 36968 @    12.904s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 496
+[ tid 36968 @    12.923s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 497
+
+Rendering: [+ ]  (10.8s|11.5s)  [ tid 36968 @    12.951s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 498
+[ tid 36968 @    12.966s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 499
+[ tid 36968 @    12.984s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 500
+[ tid 36968 @    13.013s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 501
+[ tid 36968 @    13.031s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 502
+[ tid 36968 @    13.060s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 503
+[ tid 36968 @    13.075s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 504
+[ tid 36968 @    13.093s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 505
+[ tid 36968 @    13.122s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 506
+[ tid 36968 @    13.139s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 507
+
+Rendering: [+ ]  (11.0s|11.3s)  [ tid 36968 @    13.184s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 508
+[ tid 36968 @    13.190s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 509
+[ tid 36968 @    13.200s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 510
+[ tid 36968 @    13.231s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 511
+[ tid 36968 @    13.249s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 512
+[ tid 36968 @    13.265s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 513
+[ tid 36968 @    13.294s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 514
+[ tid 36968 @    13.310s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 515
+[ tid 36968 @    13.340s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 516
+
+Rendering: [+ ]  (11.2s|11.1s)  [ tid 36968 @    13.356s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 517
+[ tid 36968 @    13.374s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 518
+[ tid 36968 @    13.403s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 519
+[ tid 36968 @    13.418s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 520
+[ tid 36968 @    13.449s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 521
+[ tid 36968 @    13.464s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 522
+[ tid 36968 @    13.482s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 523
+[ tid 36968 @    13.511s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 524
+[ tid 36968 @    13.526s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 525
+
+Rendering: [+ ]  (11.4s|10.9s)  [ tid 36968 @    13.557s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 526
+[ tid 36968 @    13.573s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 527
+[ tid 36968 @    13.591s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 528
+[ tid 36968 @    13.619s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 529
+[ tid 36968 @    13.635s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 530
+[ tid 36968 @    13.666s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 531
+[ tid 36968 @    13.681s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 532
+[ tid 36968 @    13.700s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 533
+[ tid 36968 @    13.728s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 534
+[ tid 36968 @    13.744s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 535
+
+Rendering: [+ ]  (11.6s|10.7s)  [ tid 36968 @    13.762s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 536
+[ tid 36968 @    13.791s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 537
+[ tid 36968 @    13.809s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 538
+[ tid 36968 @    13.838s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 539
+[ tid 36968 @    13.854s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 540
+[ tid 36968 @    13.872s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 541
+[ tid 36968 @    13.902s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 542
+[ tid 36968 @    13.918s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 543
+[ tid 36968 @    13.936s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 544
+
+Rendering: [+ ]  (11.8s|10.5s)  [ tid 36968 @    13.964s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 545
+[ tid 36968 @    13.982s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 546
+[ tid 36968 @    14.011s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 547
+[ tid 36968 @    14.026s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 548
+[ tid 36968 @    14.045s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 549
+[ tid 36968 @    14.074s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 550
+[ tid 36968 @    14.089s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 551
+[ tid 36968 @    14.121s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 552
+[ tid 36968 @    14.135s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 553
+[ tid 36968 @    14.154s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 554
+
+Rendering: [+ ]  (12.0s|10.3s)  [ tid 36968 @    14.182s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 555
+[ tid 36968 @    14.197s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 556
+[ tid 36968 @    14.229s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 557
+[ tid 36968 @    14.244s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 558
+[ tid 36968 @    14.262s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 559
+[ tid 36968 @    14.289s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 560
+[ tid 36968 @    14.307s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 561
+[ tid 36968 @    14.337s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 562
+[ tid 36968 @    14.352s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 563
+
+Rendering: [+ ]  (12.2s|10.1s)  [ tid 36968 @    14.369s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 564
+[ tid 36968 @    14.398s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 565
+[ tid 36968 @    14.416s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 566
+[ tid 36968 @    14.445s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 567
+[ tid 36968 @    14.461s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 568
+[ tid 36968 @    14.479s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 569
+[ tid 36968 @    14.507s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 570
+[ tid 36968 @    14.525s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 571
+[ tid 36968 @    14.554s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 572
+
+Rendering: [+ ]  (12.4s|9.9s)  [ tid 36968 @    14.570s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 573
+[ tid 36968 @    14.588s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 574
+[ tid 36968 @    14.616s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 575
+[ tid 36968 @    14.632s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 576
+[ tid 36968 @    14.661s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 577
+[ tid 36968 @    14.678s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 578
+[ tid 36968 @    14.697s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 579
+[ tid 36968 @    14.724s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 580
+[ tid 36968 @    14.740s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 581
+
+Rendering: [+ ]  (12.6s|9.7s)  [ tid 36968 @    14.771s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 582
+[ tid 36968 @    14.787s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 583
+[ tid 36968 @    14.805s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 584
+[ tid 36968 @    14.833s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 585
+[ tid 36968 @    14.850s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 586
+[ tid 36968 @    14.867s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 587
+[ tid 36968 @    14.896s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 588
+[ tid 36968 @    14.914s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 589
+[ tid 36968 @    14.942s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 590
+[ tid 36968 @    14.958s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 591
+
+Rendering: [+ ]  (12.8s|9.5s)  [ tid 36968 @    14.976s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 592
+[ tid 36968 @    15.005s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 593
+[ tid 36968 @    15.023s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 594
+[ tid 36968 @    15.053s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 595
+[ tid 36968 @    15.068s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 596
+[ tid 36968 @    15.087s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 597
+[ tid 36968 @    15.117s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 598
+[ tid 36968 @    15.132s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 599
+[ tid 36968 @    15.151s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 600
+
+Rendering: [+ ]  (13.0s|9.3s)  [ tid 36968 @    15.178s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 601
+[ tid 36968 @    15.194s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 602
+[ tid 36968 @    15.226s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 603
+[ tid 36968 @    15.240s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 604
+[ tid 36968 @    15.259s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 605
+[ tid 36968 @    15.287s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 606
+[ tid 36968 @    15.305s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 607
+[ tid 36968 @    15.335s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 608
+[ tid 36968 @    15.350s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 609
+[ tid 36968 @    15.369s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 610
+
+Rendering: [+ ]  (13.2s|9.0s)  [ tid 36968 @    15.397s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 611
+[ tid 36968 @    15.412s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 612
+[ tid 36968 @    15.443s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 613
+[ tid 36968 @    15.459s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 614
+[ tid 36968 @    15.477s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 615
+[ tid 36968 @    15.505s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 616
+[ tid 36968 @    15.521s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 617
+[ tid 36968 @    15.540s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 618
+[ tid 36968 @    15.568s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 619
+
+Rendering: [+ ]  (13.4s|8.9s)  [ tid 36968 @    15.585s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 620
+[ tid 36968 @    15.615s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 621
+[ tid 36968 @    15.630s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 622
+[ tid 36968 @    15.648s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 623
+[ tid 36968 @    15.676s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 624
+[ tid 36968 @    15.691s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 625
+[ tid 36968 @    15.724s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 626
+[ tid 36968 @    15.737s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 627
+[ tid 36968 @    15.756s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 628
+
+Rendering: [+ ]  (13.6s|8.7s)  [ tid 36968 @    15.784s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 629
+[ tid 36968 @    15.802s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 630
+[ tid 36968 @    15.831s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 631
+[ tid 36968 @    15.846s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 632
+[ tid 36968 @    15.864s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 633
+[ tid 36968 @    15.893s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 634
+[ tid 36968 @    15.908s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 635
+[ tid 36968 @    15.940s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 636
+[ tid 36968 @    15.955s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 637
+[ tid 36968 @    15.974s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 638
+
+Rendering: [+ ]  (13.8s|8.4s)  [ tid 36968 @    16.002s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 639
+[ tid 36968 @    16.017s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 640
+[ tid 36968 @    16.047s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 641
+[ tid 36968 @    16.064s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 642
+[ tid 36968 @    16.082s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 643
+[ tid 36968 @    16.112s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 644
+[ tid 36968 @    16.127s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 645
+[ tid 36968 @    16.146s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 646
+[ tid 36968 @    16.173s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 647
+
+Rendering: [+ ]  (14.0s|8.2s)  [ tid 36968 @    16.191s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 648
+[ tid 36968 @    16.222s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 649
+[ tid 36968 @    16.235s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 650
+[ tid 36968 @    16.254s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 651
+[ tid 36968 @    16.283s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 652
+[ tid 36968 @    16.299s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 653
+[ tid 36968 @    16.318s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 654
+[ tid 36968 @    16.346s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 655
+[ tid 36968 @    16.363s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 656
+
+Rendering: [+ ]  (14.2s|8.1s)  [ tid 36968 @    16.393s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 657
+[ tid 36968 @    16.409s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 658
+[ tid 36968 @    16.426s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 659
+[ tid 36968 @    16.454s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 660
+[ tid 36968 @    16.470s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 661
+[ tid 36968 @    16.501s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 662
+[ tid 36968 @    16.516s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 663
+[ tid 36968 @    16.535s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 664
+[ tid 36968 @    16.562s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 665
+[ tid 36968 @    16.577s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 666
+
+Rendering: [+ ]  (14.4s|7.8s)  [ tid 36968 @    16.609s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 667
+[ tid 36968 @    16.623s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 668
+[ tid 36968 @    16.642s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 669
+[ tid 36968 @    16.670s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 670
+[ tid 36968 @    16.688s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 671
+[ tid 36968 @    16.718s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 672
+[ tid 36968 @    16.733s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 673
+[ tid 36968 @    16.751s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 674
+[ tid 36968 @    16.779s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 675
+
+Rendering: [+ ]  (14.6s|7.6s)  [ tid 36968 @    16.795s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 676
+[ tid 36968 @    16.826s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 677
+[ tid 36968 @    16.841s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 678
+[ tid 36968 @    16.860s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 679
+[ tid 36968 @    16.888s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 680
+[ tid 36968 @    16.904s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 681
+[ tid 36968 @    16.923s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 682
+[ tid 36968 @    16.950s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 683
+[ tid 36968 @    16.967s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 684
+
+Rendering: [+ ]  (14.8s|7.4s)  [ tid 36968 @    16.998s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 685
+[ tid 36968 @    17.011s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 686
+[ tid 36968 @    17.042s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 687
+[ tid 36968 @    17.058s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 688
+[ tid 36968 @    17.076s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 689
+[ tid 36968 @    17.105s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 690
+[ tid 36968 @    17.121s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 691
+[ tid 36968 @    17.139s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 692
+[ tid 36968 @    17.167s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 693
+[ tid 36968 @    17.185s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 694
+
+Rendering: [+ ]  (15.0s|7.2s)  [ tid 36968 @    17.214s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 695
+[ tid 36968 @    17.230s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 696
+[ tid 36968 @    17.248s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 697
+[ tid 36968 @    17.276s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 698
+[ tid 36968 @    17.293s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 699
+[ tid 36968 @    17.324s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 700
+[ tid 36968 @    17.340s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 701
+[ tid 36968 @    17.358s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 702
+[ tid 36968 @    17.386s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 703
+
+Rendering: [+ ]  (15.2s|7.0s)  [ tid 36968 @    17.401s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 704
+[ tid 36968 @    17.420s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 705
+[ tid 36968 @    17.448s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 706
+[ tid 36968 @    17.466s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 707
+[ tid 36968 @    17.495s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 708
+[ tid 36968 @    17.510s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 709
+[ tid 36968 @    17.527s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 710
+[ tid 36968 @    17.556s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 711
+[ tid 36968 @    17.574s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 712
+
+Rendering: [+ ]  (15.4s|6.8s)  [ tid 36968 @    17.604s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 713
+[ tid 36968 @    17.618s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 714
+[ tid 36968 @    17.636s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 715
+[ tid 36968 @    17.665s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 716
+[ tid 36968 @    17.682s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 717
+[ tid 36968 @    17.712s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 718
+[ tid 36968 @    17.727s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 719
+[ tid 36968 @    17.746s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 720
+[ tid 36968 @    17.774s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 721
+[ tid 36968 @    17.789s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 722
+
+Rendering: [+ ]  (15.6s|6.6s)  [ tid 36968 @    17.821s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 723
+[ tid 36968 @    17.837s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 724
+[ tid 36968 @    17.856s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 725
+[ tid 36968 @    17.884s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 726
+[ tid 36968 @    17.899s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 727
+[ tid 36968 @    17.917s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 728
+[ tid 36968 @    17.946s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 729
+[ tid 36968 @    17.964s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 730
+[ tid 36968 @    17.992s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 731
+
+Rendering: [+ ]  (15.9s|6.4s)  [ tid 36968 @    18.009s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 732
+[ tid 36968 @    18.038s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 733
+[ tid 36968 @    18.054s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 734
+[ tid 36968 @    18.072s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 735
+[ tid 36968 @    18.100s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 736
+[ tid 36968 @    18.116s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 737
+[ tid 36968 @    18.135s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 738
+[ tid 36968 @    18.163s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 739
+[ tid 36968 @    18.178s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 740
+
+Rendering: [+ ]  (16.1s|6.2s)  [ tid 36968 @    18.209s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 741
+[ tid 36968 @    18.225s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 742
+[ tid 36968 @    18.243s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 743
+[ tid 36968 @    18.271s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 744
+[ tid 36968 @    18.289s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 745
+[ tid 36968 @    18.305s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 746
+[ tid 36968 @    18.333s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 747
+[ tid 36968 @    18.352s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 748
+[ tid 36968 @    18.379s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 749
+[ tid 36968 @    18.395s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 750
+
+Rendering: [+ ]  (16.3s|6.0s)  [ tid 36968 @    18.413s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 751
+[ tid 36968 @    18.442s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 752
+[ tid 36968 @    18.459s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 753
+[ tid 36968 @    18.490s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 754
+[ tid 36968 @    18.503s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 755
+[ tid 36968 @    18.523s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 756
+[ tid 36968 @    18.551s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 757
+[ tid 36968 @    18.567s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 758
+[ tid 36968 @    18.585s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 759
+
+Rendering: [+ ]  (16.5s|5.8s)  [ tid 36968 @    18.614s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 760
+[ tid 36968 @    18.630s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 761
+[ tid 36968 @    18.661s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 762
+[ tid 36968 @    18.676s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 763
+[ tid 36968 @    18.694s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 764
+[ tid 36968 @    18.722s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 765
+[ tid 36968 @    18.739s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 766
+[ tid 36968 @    18.769s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 767
+[ tid 36968 @    18.784s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 768
+[ tid 36968 @    18.802s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 769
+
+Rendering: [+ ]  (16.7s|5.6s)  [ tid 36968 @    18.830s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 770
+[ tid 36968 @    18.846s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 771
+[ tid 36968 @    18.877s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 772
+[ tid 36968 @    18.892s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 773
+[ tid 36968 @    18.911s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 774
+[ tid 36968 @    18.940s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 775
+[ tid 36968 @    18.955s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 776
+[ tid 36968 @    18.975s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 777
+[ tid 36968 @    19.002s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 778
+
+Rendering: [++]  (16.9s|5.4s)  [ tid 36968 @    19.020s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 779
+[ tid 36968 @    19.050s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 780
+[ tid 36968 @    19.065s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 781
+[ tid 36968 @    19.083s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 782
+[ tid 36968 @    19.112s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 783
+[ tid 36968 @    19.128s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 784
+[ tid 36968 @    19.147s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 785
+[ tid 36968 @    19.175s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 786
+[ tid 36968 @    19.193s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 787
+
+Rendering: [++]  (17.1s|5.2s)  [ tid 36968 @    19.222s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 788
+[ tid 36968 @    19.238s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 789
+[ tid 36968 @    19.256s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 790
+[ tid 36968 @    19.284s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 791
+[ tid 36968 @    19.300s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 792
+[ tid 36968 @    19.332s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 793
+[ tid 36968 @    19.346s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 794
+[ tid 36968 @    19.364s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 795
+[ tid 36968 @    19.392s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 796
+[ tid 36968 @    19.410s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 797
+
+Rendering: [++]  (17.3s|5.0s)  [ tid 36968 @    19.439s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 798
+[ tid 36968 @    19.455s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 799
+[ tid 36968 @    19.474s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 800
+[ tid 36968 @    19.502s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 801
+[ tid 36968 @    19.517s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 802
+[ tid 36968 @    19.548s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 803
+[ tid 36968 @    19.564s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 804
+[ tid 36968 @    19.582s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 805
+[ tid 36968 @    19.610s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 806
+
+Rendering: [++]  (17.5s|4.8s)  [ tid 36968 @    19.625s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 807
+[ tid 36968 @    19.645s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 808
+[ tid 36968 @    19.673s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 809
+[ tid 36968 @    19.690s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 810
+[ tid 36968 @    19.719s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 811
+[ tid 36968 @    19.734s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 812
+[ tid 36968 @    19.753s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 813
+[ tid 36968 @    19.781s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 814
+[ tid 36968 @    19.799s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 815
+
+Rendering: [++]  (17.7s|4.6s)  [ tid 36968 @    19.828s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 816
+[ tid 36968 @    19.843s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 817
+[ tid 36968 @    19.862s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 818
+[ tid 36968 @    19.890s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 819
+[ tid 36968 @    19.907s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 820
+[ tid 36968 @    19.936s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 821
+[ tid 36968 @    19.951s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 822
+[ tid 36968 @    19.970s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 823
+[ tid 36968 @    19.999s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 824
+[ tid 36968 @    20.015s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 825
+
+Rendering: [++]  (17.9s|4.4s)  [ tid 36968 @    20.047s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 826
+[ tid 36968 @    20.062s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 827
+[ tid 36968 @    20.080s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 828
+[ tid 36968 @    20.107s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 829
+[ tid 36968 @    20.125s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 830
+[ tid 36968 @    20.155s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 831
+[ tid 36968 @    20.170s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 832
+[ tid 36968 @    20.189s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 833
+[ tid 36968 @    20.217s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 834
+
+Rendering: [++]  (18.1s|4.2s)  [ tid 36968 @    20.232s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 835
+[ tid 36968 @    20.264s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 836
+[ tid 36968 @    20.279s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 837
+[ tid 36968 @    20.297s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 838
+[ tid 36968 @    20.326s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 839
+[ tid 36968 @    20.342s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 840
+[ tid 36968 @    20.361s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 841
+[ tid 36968 @    20.389s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 842
+[ tid 36968 @    20.407s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 843
+
+Rendering: [++]  (18.3s|4.0s)  [ tid 36968 @    20.436s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 844
+[ tid 36968 @    20.452s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 845
+[ tid 36968 @    20.470s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 846
+[ tid 36968 @    20.499s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 847
+[ tid 36968 @    20.514s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 848
+[ tid 36968 @    20.545s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 849
+[ tid 36968 @    20.560s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 850
+[ tid 36968 @    20.578s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 851
+[ tid 36968 @    20.607s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 852
+[ tid 36968 @    20.623s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 853
+
+Rendering: [++]  (18.5s|3.8s)  [ tid 36968 @    20.653s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 854
+[ tid 36968 @    20.669s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 855
+[ tid 36968 @    20.687s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 856
+[ tid 36968 @    20.716s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 857
+[ tid 36968 @    20.731s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 858
+[ tid 36968 @    20.750s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 859
+[ tid 36968 @    20.778s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 860
+[ tid 36968 @    20.796s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 861
+[ tid 36968 @    20.825s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 862
+
+Rendering: [++]  (18.7s|3.6s)  [ tid 36968 @    20.839s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 863
+[ tid 36968 @    20.858s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 864
+[ tid 36968 @    20.887s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 865
+[ tid 36968 @    20.904s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 866
+[ tid 36968 @    20.933s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 867
+[ tid 36968 @    20.948s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 868
+[ tid 36968 @    20.966s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 869
+[ tid 36968 @    20.995s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 870
+[ tid 36968 @    21.012s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 871
+
+Rendering: [++]  (18.9s|3.4s)  [ tid 36968 @    21.041s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 872
+[ tid 36968 @    21.056s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 873
+[ tid 36968 @    21.087s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 874
+[ tid 36968 @    21.103s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 875
+[ tid 36968 @    21.121s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 876
+[ tid 36968 @    21.150s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 877
+[ tid 36968 @    21.165s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 878
+[ tid 36968 @    21.183s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 879
+[ tid 36968 @    21.212s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 880
+[ tid 36968 @    21.228s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 881
+
+Rendering: [++]  (19.1s|3.1s)  [ tid 36968 @    21.259s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 882
+[ tid 36968 @    21.274s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 883
+[ tid 36968 @    21.293s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 884
+[ tid 36968 @    21.323s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 885
+[ tid 36968 @    21.338s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 886
+[ tid 36968 @    21.356s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 887
+[ tid 36968 @    21.385s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 888
+[ tid 36968 @    21.400s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 889
+[ tid 36968 @    21.432s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 890
+
+Rendering: [++]  (19.3s|3.0s)  [ tid 36968 @    21.447s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 891
+[ tid 36968 @    21.465s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 892
+[ tid 36968 @    21.494s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 893
+[ tid 36968 @    21.510s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 894
+[ tid 36968 @    21.529s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 895
+[ tid 36968 @    21.557s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 896
+[ tid 36968 @    21.575s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 897
+[ tid 36968 @    21.604s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 898
+[ tid 36968 @    21.619s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 899
+[ tid 36968 @    21.638s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 900
+
+Rendering: [++]  (19.5s|2.7s)  [ tid 36968 @    21.665s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 901
+[ tid 36968 @    21.683s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 902
+[ tid 36968 @    21.712s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 903
+[ tid 36968 @    21.728s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 904
+[ tid 36968 @    21.746s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 905
+[ tid 36968 @    21.774s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 906
+[ tid 36968 @    21.791s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 907
+[ tid 36968 @    21.836s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 908
+[ tid 36968 @    21.841s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 909
+
+Rendering: [++]  (19.7s|2.5s)  [ tid 36968 @    21.866s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 910
+[ tid 36968 @    21.883s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 911
+[ tid 36968 @    21.898s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 912
+[ tid 36968 @    21.929s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 913
+[ tid 36968 @    21.944s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 914
+[ tid 36968 @    21.962s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 915
+[ tid 36968 @    21.990s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 916
+[ tid 36968 @    22.005s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 917
+[ tid 36968 @    22.024s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 918
+
+Rendering: [++]  (19.9s|2.3s)  [ tid 36968 @    22.052s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 919
+[ tid 36968 @    22.070s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 920
+[ tid 36968 @    22.099s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 921
+[ tid 36968 @    22.114s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 922
+[ tid 36968 @    22.132s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 923
+[ tid 36968 @    22.161s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 924
+[ tid 36968 @    22.178s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 925
+[ tid 36968 @    22.208s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 926
+[ tid 36968 @    22.223s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 927
+[ tid 36968 @    22.241s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 928
+
+Rendering: [++]  (20.1s|2.1s)  [ tid 36968 @    22.270s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 929
+[ tid 36968 @    22.285s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 930
+[ tid 36968 @    22.315s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 931
+[ tid 36968 @    22.331s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 932
+[ tid 36968 @    22.349s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 933
+[ tid 36968 @    22.378s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 934
+[ tid 36968 @    22.393s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 935
+[ tid 36968 @    22.424s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 936
+[ tid 36968 @    22.439s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 937
+
+Rendering: [++]  (20.3s|1.9s)  [ tid 36968 @    22.458s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 938
+[ tid 36968 @    22.488s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 939
+[ tid 36968 @    22.504s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 940
+[ tid 36968 @    22.522s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 941
+[ tid 36968 @    22.550s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 942
+[ tid 36968 @    22.567s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 943
+[ tid 36968 @    22.597s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 944
+[ tid 36968 @    22.612s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 945
+[ tid 36968 @    22.630s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 946
+
+Rendering: [++]  (20.5s|1.7s)  [ tid 36968 @    22.659s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 947
+[ tid 36968 @    22.674s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 948
+[ tid 36968 @    22.692s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 949
+[ tid 36968 @    22.721s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 950
+[ tid 36968 @    22.738s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 951
+[ tid 36968 @    22.768s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 952
+[ tid 36968 @    22.782s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 953
+[ tid 36968 @    22.801s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 954
+[ tid 36968 @    22.830s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 955
+[ tid 36968 @    22.845s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 956
+
+Rendering: [++]  (20.7s|1.5s)  [ tid 36968 @    22.876s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 957
+[ tid 36968 @    22.891s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 958
+[ tid 36968 @    22.909s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 959
+[ tid 36968 @    22.938s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 960
+[ tid 36968 @    22.953s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 961
+[ tid 36968 @    22.972s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 962
+[ tid 36968 @    23.001s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 963
+[ tid 36968 @    23.019s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 964
+[ tid 36968 @    23.048s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 965
+
+Rendering: [++]  (20.9s|1.3s)  [ tid 36968 @    23.064s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 966
+[ tid 36968 @    23.082s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 967
+[ tid 36968 @    23.112s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 968
+[ tid 36968 @    23.126s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 969
+[ tid 36968 @    23.158s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 970
+[ tid 36968 @    23.173s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 971
+[ tid 36968 @    23.191s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 972
+[ tid 36968 @    23.235s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 973
+[ tid 36968 @    23.240s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 974
+[ tid 36968 @    23.253s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 975
+
+Rendering: [++]  (21.1s|1.1s)  [ tid 36968 @    23.282s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 976
+[ tid 36968 @    23.300s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 977
+[ tid 36968 @    23.329s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 978
+[ tid 36968 @    23.344s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 979
+[ tid 36968 @    23.363s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 980
+[ tid 36968 @    23.392s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 981
+[ tid 36968 @    23.409s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 982
+[ tid 36968 @    23.438s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 983
+[ tid 36968 @    23.453s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 984
+
+Rendering: [++]  (21.3s|0.9s)  [ tid 36968 @    23.470s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 985
+[ tid 36968 @    23.499s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 986
+[ tid 36968 @    23.515s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 987
+[ tid 36968 @    23.546s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 988
+[ tid 36968 @    23.562s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 989
+[ tid 36968 @    23.580s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 990
+[ tid 36968 @    23.610s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 991
+[ tid 36968 @    23.625s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 992
+[ tid 36968 @    23.643s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 993
+
+Rendering: [++]  (21.5s|0.7s)  [ tid 36968 @    23.672s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 994
+[ tid 36968 @    23.689s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 995
+[ tid 36968 @    23.718s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 996
+[ tid 36968 @    23.733s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 997
+[ tid 36968 @    23.752s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 998
+[ tid 36968 @    23.780s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 999
+[ tid 36968 @    23.795s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1000
+[ tid 36968 @    23.842s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1001
+[ tid 36968 @    23.847s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1002
+[ tid 36968 @    23.858s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1003
+
+Rendering: [++]  (21.7s|0.5s)  [ tid 36968 @    23.889s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1004
+[ tid 36968 @    23.904s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1005
+[ tid 36968 @    23.922s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1006
+[ tid 36968 @    23.951s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1007
+[ tid 36968 @    23.969s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1008
+[ tid 36968 @    23.998s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1009
+[ tid 36968 @    24.013s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1010
+[ tid 36968 @    24.031s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1011
+[ tid 36968 @    24.058s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1012
+
+Rendering: [++]  (21.9s|0.3s)  [ tid 36968 @    24.076s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1013
+[ tid 36968 @    24.106s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1014
+[ tid 36968 @    24.120s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1015
+[ tid 36968 @    24.138s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1016
+[ tid 36968 @    24.166s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1017
+[ tid 36968 @    24.184s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1018
+[ tid 36968 @    24.214s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1019
+[ tid 36968 @    24.228s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1020
+[ tid 36968 @    24.247s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1021
+
+Rendering: [++]  (22.1s|0.1s)  [ tid 36968 @    24.275s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1022
+[ tid 36968 @    24.292s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1023
+
+Rendering: [++]  (22.3s)       
+Rendering: [++]  (22.3s)       
+Rendering: [++]  (22.3s)       [ tid 36968 @    24.680s C:\workspace\pbrt-v4\src\pbrt\wavefront\wavefront.cpp:45 ] Total rendering time: 22.526 s
+[ tid 36968 @    24.681s C:\workspace\pbrt-v4\src\pbrt\film.cpp:535 ] Converting image to RGB and computing final weighted pixel values
+[ tid 36968 @    25.577s C:\workspace\pbrt-v4\src\pbrt\film.cpp:529 ] Writing image benchmark-baseline-4070\pbrt-book\book_fullhd.exr with bounds [ [ 0, 0 ] - [ 1920, 1080 ] ]
+[ tid 36968 @    25.592s C:\workspace\pbrt-v4\src\pbrt\cmd\pbrt.cpp:290 ] Memory used after post-render cleanup: 615686144
+[ tid 15620 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 2424 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 33740 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 38188 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37304 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 34232 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 12604 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 34420 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 22156 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 20676 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 19232 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 18236 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 36020 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 21532 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 15096 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 16344 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 34524 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 22216 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 29356 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 21828 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37960 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 32112 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 21792 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 34316 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 28284 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37124 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 16640 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 19624 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 24264 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 24468 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 29900 @    25.594s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+

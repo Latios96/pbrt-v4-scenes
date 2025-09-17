@@ -1,0 +1,1566 @@
+pbrt version 4 (built Sep 17 2025 at 07:55:20)
+Copyright (c)1998-2021 Matt Pharr, Wenzel Jakob, and Greg Humphreys.
+The source code to pbrt (but *not* the book contents) is covered by the Apache 2.0 License.
+See the file LICENSE.txt for the conditions of the license.
+[1m[31mWarning[0m: Both --gpu and --wavefront were specified; --gpu takes precedence.
+[ tid 27956 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 33968 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 33968 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 27956 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 29812 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 29812 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 27732 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 27732 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 38432 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 38432 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 33912 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 33912 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 34216 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 34216 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 4816 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:41 ] GPU CUDA driver 13.0, CUDA runtime 12.9
+[ tid 37504 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 4816 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:57 ] CUDA device 0 (NVIDIA GeForce RTX 4070 Ti) with 12281.375 MiB, 60 SMs running at 2730 MHz with shader model 8.9
+[ tid 37504 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 4816 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:73 ] Selecting GPU device 0
+[ tid 23668 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 23668 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 24604 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 24604 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 33936 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 33936 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 36668 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 36668 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37964 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37964 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 32584 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 32584 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 29140 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 29140 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 34640 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 34640 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37312 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37312 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 34076 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 34076 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 27920 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 27920 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 644 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 644 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 26732 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 24868 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 26732 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 24868 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 25196 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 25196 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 24812 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 24812 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 9160 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 9160 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 2240 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 2240 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 26292 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 26292 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 2160 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 2160 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37024 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37024 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 12116 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 12116 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 3328 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 3328 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 4816 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:89 ] Reset stack size to 8192
+[ tid 4816 @     0.392s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:611 ] Started parsing C:\workspace\pbrt-v4-scenes\watercolor\camera-1_4k.pbrt
+[ tid 4816 @     0.392s C:\workspace\pbrt-v4\src\pbrt\cameras.cpp:50 ] World-space position: [ 730.19196, 130.06535, 168.48814 ]
+[ tid 4816 @     0.392s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:748 ] Starting to create filter and film
+[1m[31mWarning[0m: C:\workspace\pbrt-v4-scenes\watercolor\camera-1_4k.pbrt:5:0: Output filename supplied on command line, "benchmark-baseline-4070\watercolor\camera-1_4k.exr" will override filename provided in scene description file, "camera-1.exr".
+[ tid 4816 @     0.393s C:\workspace\pbrt-v4\src\pbrt\util\error.cpp:52 ] [1m[31mWarning[0m: C:\workspace\pbrt-v4-scenes\watercolor\camera-1_4k.pbrt:5:0: Output filename supplied on command line, "benchmark-baseline-4070\watercolor\camera-1_4k.exr" will override filename provided in scene description file, "camera-1.exr".
+[ tid 4816 @     0.393s film.h:196 ] Created film with full resolution [ 3840, 2160 ], pixelBounds [ [ 0, 0 ] - [ 3840, 2160 ] ]
+[ tid 4816 @    13.905s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:765 ] Finished creating filter and film
+[ tid 27956 @    13.906s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:769 ] Starting to create sampler
+[ tid 12116 @    13.906s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:778 ] Starting to create camera
+[ tid 4816 @    13.906s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:767 ] Started parsing C:\workspace\pbrt-v4-scenes\watercolor\lights-no-windowglass.pbrt
+[ tid 4816 @    13.906s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:642 ] Finished parsing C:\workspace\pbrt-v4-scenes\watercolor\lights-no-windowglass.pbrt
+[ tid 4816 @    13.907s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:767 ] Started parsing C:\workspace\pbrt-v4-scenes\watercolor\materials.pbrt
+[ tid 12116 @    13.909s C:\workspace\pbrt-v4\src\pbrt\cameras.cpp:197 ] Camera min pos differentials: [ 0, 0, -0 ], [ 0, 0, -0 ]
+[ tid 12116 @    13.909s C:\workspace\pbrt-v4\src\pbrt\cameras.cpp:199 ] Camera min dir differentials: [ 0.00017774105, -0.000039085746, -1.1920929e-7 ], [ 0.000024467703, 0.00019049642, -1.1920929e-7 ]
+[ tid 12116 @    13.909s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:784 ] Finished creating camera
+[ tid 3328 @    13.909s scene.h:290 ] Retrieved Camera from future
+[ tid 33968 @    13.909s scene.h:290 ] Retrieved Camera from future
+[ tid 4816 @    13.947s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:642 ] Finished parsing C:\workspace\pbrt-v4-scenes\watercolor\materials.pbrt
+[ tid 4816 @    13.947s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:767 ] Started parsing C:\workspace\pbrt-v4-scenes\watercolor\geometry.pbrt
+[ tid 4816 @    14.266s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:642 ] Finished parsing C:\workspace\pbrt-v4-scenes\watercolor\geometry.pbrt
+[ tid 4816 @    14.266s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:642 ] Finished parsing C:\workspace\pbrt-v4-scenes\watercolor\camera-1_4k.pbrt
+[ tid 4816 @    14.267s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:839 ] Consume media futures start
+[ tid 4816 @    14.597s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:847 ] Consume media futures finished
+[ tid 4816 @    14.597s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:114 ] Starting to create textures
+[ tid 4816 @    14.597s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1180 ] Starting to consume texture futures
+[ tid 2240 @    14.607s C:\workspace\pbrt-v4\src\pbrt\util\image.cpp:1164 ] Read EXR image C:\workspace\pbrt-v4-scenes\watercolor\textures\Spot_Floor_02x11.exr (1024 x 1024)
+[ tid 3328 @    19.621s C:\workspace\pbrt-v4\src\pbrt\util\image.cpp:1164 ] Read EXR image C:\workspace\pbrt-v4-scenes\watercolor\textures\abandoned_tank_farm_03_4k-clamp5.exr (4096 x 4096)
+[ tid 33968 @    19.919s C:\workspace\pbrt-v4\src\pbrt\util\image.cpp:1164 ] Read EXR image C:\workspace\pbrt-v4-scenes\watercolor\textures\abandoned_tank_farm_03_4k-clamp5.exr (4096 x 4096)
+[ tid 4816 @    21.328s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1192 ] Finished consuming texture futures
+[ tid 4816 @    21.328s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1194 ] Starting to create remaining textures
+[ tid 4816 @    21.329s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_08_i0404201.png in luminance tex array cache!
+[ tid 4816 @    21.329s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_08_i0404201.png in luminance tex array cache!
+[ tid 4816 @    21.329s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Concrete_2_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.329s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Concrete_2_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.330s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Window_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.330s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Window_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.330s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paper_01_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.330s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paper_01_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.331s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paper_9_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.331s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paper_9_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.331s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Poster_2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.331s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Poster_2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.332s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Poster_4_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.332s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Poster_4_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.332s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paper_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.332s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paper_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.332s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Elements_V03_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.333s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Elements_V03_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.333s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_62_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.333s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_62_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.333s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\SidePages_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.334s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\SidePages_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.334s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Koala_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.334s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Koala_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.334s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Artisan_Champagne_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.334s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Artisan_Champagne_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.335s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Artisan_Peach_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.335s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Artisan_Peach_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.335s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\White_Linen_Paper_Texture_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.335s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\White_Linen_Paper_Texture_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.335s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Rope_diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.336s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Rope_diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.336s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 4816 @    21.336s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 4816 @    21.336s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wicker_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.336s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wicker_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.337s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Metal_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.337s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Metal_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.337s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Metal024_4K_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.337s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Metal024_4K_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.337s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Page_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.338s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Page_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.338s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood034_2K_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.338s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood034_2K_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.338s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Grembiule_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.339s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Grembiule_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.339s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Table_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.339s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Table_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.339s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Drawing_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.339s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Drawing_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.340s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Canvas_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.340s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Canvas_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.340s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_plank_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.340s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_plank_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.341s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_01_2K_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.341s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_01_2K_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.341s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Postit-1_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.341s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Postit-1_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.341s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Postit-2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.342s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Postit-2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.342s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Postit-3_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.342s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Postit-3_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.342s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Postit-4_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.343s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Postit-4_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.343s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Postit-5_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.343s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Postit-5_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.343s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Marker_2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.343s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Marker_2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.344s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.344s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.344s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_87_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.344s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_87_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.344s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Scratches_Overlay_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.345s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Scratches_Overlay_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.345s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Leather_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.345s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Leather_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.345s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_51_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.345s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_51_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.346s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_53_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.346s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_53_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.346s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Elements_V01_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.346s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Elements_V01_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.346s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Statuette_Clay_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.347s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Statuette_Clay_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.347s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 4816 @    21.347s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 4816 @    21.347s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_39_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.348s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_39_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.348s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_pages_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.348s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_pages_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.348s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_35_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.348s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_35_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.349s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_36_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.349s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_36_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.349s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Color_4_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.349s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Color_4_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.349s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Rosso_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.350s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Rosso_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.350s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_46_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.350s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_46_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.350s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_BaseColor_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.350s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_BaseColor_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.351s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Color_3_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.351s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Color_3_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.351s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Colore_Rosso_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.352s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Colore_Rosso_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.352s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paint_6_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.352s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paint_6_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.352s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paint_5_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.353s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paint_5_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.353s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Color_2_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.353s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Color_2_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.353s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Leaves_Albedo_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.353s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Leaves_Albedo_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.354s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Branches_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.354s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Branches_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.354s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Pen_diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.354s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Pen_diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.355s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Pen_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.355s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Pen_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.355s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Pen_05_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.355s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Pen_05_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.356s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Pen_03_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.356s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Pen_03_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.356s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Piper_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.356s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Piper_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.357s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paper_2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.357s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paper_2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.357s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paper_1_1_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.357s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Paper_1_1_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.357s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Fabric_Rag_02_D_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.357s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Fabric_Rag_02_D_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.357s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Cup_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.357s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Cup_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.357s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Notebook_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.357s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Notebook_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.358s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Fabric_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.358s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Fabric_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.358s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Chair_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.358s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Chair_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.358s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Noce_Canaletto_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.358s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Noce_Canaletto_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.358s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Metal_3_BaseColor_2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.358s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Metal_3_BaseColor_2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.358s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Metal_1_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.358s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Metal_1_Base_Color_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.359s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_Glass_Base_Color_1_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.359s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_Glass_Base_Color_1_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.359s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Panno_Base Color_1_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.359s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Panno_Base Color_1_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.359s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Fabric_29_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.359s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Fabric_29_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.359s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_01_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.359s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_01_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.359s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Rough_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.359s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Rough_Diffuse_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.359s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Rovere_Miele_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.360s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Rovere_Miele_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.360s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_09_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.360s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_09_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.360s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_01_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.360s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_01_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.360s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Cork_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.360s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Cork_D_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.360s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.360s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.360s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_03_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.361s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_03_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.361s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Soil_i0404201.png in RGB tex array cache!
+[ tid 4816 @    21.361s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Soil_i0404201.png in RGB tex array cache!
+[ tid 4816 @    21.361s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Waterplant_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.361s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Waterplant_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.361s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Cardboard_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.361s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Cardboard_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.361s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_25_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.361s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_25_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.361s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_pages_03_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.362s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_pages_03_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.362s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Picture_01_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.362s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Picture_01_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.362s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Picture_03_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.362s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Picture_03_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.362s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Picture_04_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.362s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Picture_04_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.362s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Picture_08_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.362s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Picture_08_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.362s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_Cover_01_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.362s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Book_Cover_01_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Watercolor_tree_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Watercolor_tree_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Watercolor_plate_spot_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Watercolor_plate_spot_i04042021.png in RGB tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Spot_colors_i0404201.png in RGB tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Spot_colors_i0404201.png in RGB tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Spot_tin_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_08_i0404201.png in luminance tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\White_Linen_Paper_Texture_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Metal_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.363s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Metal_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.364s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Leather_black_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.364s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Canvas_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.364s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Canvas_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.364s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Scratches_Overlay_i04042021.png in luminance tex array cache!
+[ tid 4816 @    21.364s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 4816 @    21.364s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 4816 @    21.364s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Fabric_Rag_02_D_i04042021.png in luminance tex array cache!
+[ tid 4816 @    23.218s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 4816 @    23.218s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_01_i04042021.png in luminance tex array cache!
+[ tid 4816 @    23.218s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 4816 @    23.218s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_03_i04042021.png in luminance tex array cache!
+[ tid 4816 @    23.218s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1366 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Spot_Floor_10_i04042021.png in luminance tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_20_i0404201.png in luminance tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Leather_black_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Leather_black_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Leather_black_Base_Color_i04042021.png in luminance tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Table_i04042021.png in RGB tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Table_i04042021.png in RGB tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Wood_Table_i04042021.png in RGB tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Marker_2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Marker_2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    23.219s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Marker_2_i04042021.png in RGB tex array cache!
+[ tid 4816 @    23.220s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 4816 @    23.220s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 4816 @    23.220s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_19_i0404201.png in luminance tex array cache!
+[ tid 4816 @    25.502s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Carpet_4_BaseColor_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.502s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Carpet_4_BaseColor_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.502s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.502s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.502s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.502s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.502s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.502s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.502s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.503s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.503s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.503s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_01_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.503s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_01_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.503s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Brush_wood_01_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.503s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 4816 @    25.503s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 4816 @    25.503s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 4816 @    25.503s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 4816 @    25.504s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 4816 @    25.505s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1130 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Dirt_05_i04042021.png in luminance tex array cache!
+[ tid 4816 @    25.717s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Picture_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.717s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Picture_02_i04042021.png in RGB tex array cache!
+[ tid 4816 @    25.717s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Spot_colors_i0404201.png in RGB tex array cache!
+[ tid 4816 @    25.717s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Spot_colors_i0404201.png in RGB tex array cache!
+[ tid 4816 @    25.717s C:\workspace\pbrt-v4\src\pbrt\textures.cpp:1119 ] Found C:\workspace\pbrt-v4-scenes\watercolor\textures\Spot_colors_i0404201.png in RGB tex array cache!
+[ tid 4816 @    25.717s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1250 ] Done creating textures
+[ tid 4816 @    25.717s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:116 ] Done creating textures
+[ tid 4816 @    25.717s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:118 ] Starting to create lights
+[ tid 4816 @    25.719s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1289 ] Starting area lights
+[ tid 4816 @    25.719s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1341 ] Finished area lights
+[ tid 4816 @    25.719s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1343 ] Starting to consume non-area light futures
+[ tid 4816 @    30.118s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1347 ] Finished consuming non-area light futures
+[ tid 4816 @    30.119s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:131 ] Done creating lights
+[ tid 4816 @    30.119s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:133 ] Starting to create materials
+[ tid 4816 @    30.119s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1113 ] Starting to consume 9 normal map futures
+[ tid 4816 @    30.119s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1120 ] Finished consuming normal map futures
+[ tid 4816 @    30.120s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:147 ] Finished creating materials
+[ tid 4816 @    30.120s scene.h:290 ] Retrieved Camera from future
+[ tid 4816 @    30.120s scene.h:302 ] Retrieved Sampler from future
+[ tid 4816 @    30.122s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1219 ] Starting OptiX initialization
+[ tid 4816 @    30.252s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1234 ] Optix version 7.6.0 successfully initialized
+[ tid 4816 @    30.281s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1308 ] Warning: use of OPTIX_EXCEPTION_FLAG_DEBUG is deprecated. Use OPTIX_DEVICE_CONTEXT_VALIDATION_MODE_ALL instead.
+Info: Pipeline statistics
+	module(s)                            :     1
+	entry function(s)                    :    19
+	trace call(s)                        :     4
+	continuation callable call(s)        :     0
+	direct callable call(s)              :     0
+	basic block(s) in entry functions    :  3350
+	instruction(s) in entry functions    : 57440
+	non-entry function(s)                :     0
+	basic block(s) in non-entry functions:     0
+	instruction(s) in non-entry functions:     0
+	debug information                    :    no
+
+[ tid 4816 @    30.286s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1364 ] Finished OptiX initialization
+[ tid 4816 @    30.286s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1376 ] Starting to create shapes and acceleration structures
+[ tid 4816 @    30.286s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1384 ] Starting to read PLY meshes
+[ tid 4816 @    39.365s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1387 ] Finished reading PLY meshes
+[ tid 4816 @    39.365s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1435 ] Starting to create IASes for 6 instance definitions
+[ tid 4816 @    41.191s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:283 ] Starting to displace mesh "C:\workspace\pbrt-v4-scenes\watercolor\geometry\uv-mesh_00300.ply" with "float:textures/Carpet_4_i04042021-scaled"
+[ tid 4816 @    49.468s gpu/util.h:70 ] [Evaluate Displacement]: block size 640
+[ tid 4816 @    51.390s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:328 ] Finished displacing mesh "C:\workspace\pbrt-v4-scenes\watercolor\geometry\uv-mesh_00300.ply" with "float:textures/Carpet_4_i04042021-scaled" -> 22110832 tris
+[ tid 4816 @    58.862s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:283 ] Starting to displace mesh "C:\workspace\pbrt-v4-scenes\watercolor\geometry\mesh_00536.ply" with "float:textures/Fabric_D_i04042021"
+[ tid 4816 @    62.346s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:328 ] Finished displacing mesh "C:\workspace\pbrt-v4-scenes\watercolor\geometry\mesh_00536.ply" with "float:textures/Fabric_D_i04042021" -> 7947210 tris
+[ tid 4816 @    65.202s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:283 ] Starting to displace mesh "C:\workspace\pbrt-v4-scenes\watercolor\geometry\mesh_00508.ply" with "float:textures/Fabric_Rag_02_D_i04042021"
+[ tid 4816 @    67.129s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:328 ] Finished displacing mesh "C:\workspace\pbrt-v4-scenes\watercolor\geometry\mesh_00508.ply" with "float:textures/Fabric_Rag_02_D_i04042021" -> 3674150 tris
+[ tid 4816 @    68.482s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:283 ] Starting to displace mesh "C:\workspace\pbrt-v4-scenes\watercolor\geometry\mesh_00282.ply" with "float:textures/Statuette_Clay_Displacement_i04042021"
+[ tid 4816 @    68.617s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:328 ] Finished displacing mesh "C:\workspace\pbrt-v4-scenes\watercolor\geometry\mesh_00282.ply" with "float:textures/Statuette_Clay_Displacement_i04042021" -> 216066 tris
+[ tid 4816 @    68.752s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1493 ] Finished creating IASes for instance definitions
+[ tid 4816 @    68.752s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1497 ] Starting to create 54 OptixInstances
+[ tid 4816 @    68.752s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1537 ] Starting to consume top-level GAS futures
+[ tid 4816 @   151.603s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1548 ] Finished consuming top-level GAS futures
+[ tid 4816 @   151.604s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1614 ] Finished creating OptixInstances
+[ tid 4816 @   151.604s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1618 ] Starting to build top-level IAS
+[ tid 4816 @   151.604s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1628 ] Finished building top-level IAS
+[ tid 4816 @   151.604s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1630 ] Finished creating shapes and acceleration structures
+[ tid 4816 @   151.669s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:181 ] Starting to create light sampler
+[ tid 4816 @   151.671s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:187 ] Finished creating light sampler
+[ tid 4816 @   151.672s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:275 ] maxQueueSize 1036800
+[ tid 4816 @   151.672s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:277 ] Will render in 8 passes 270 scanlines per pass
+
+[ tid 4816 @   152.411s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:326 ] pathIntegratorBytes 3700358640
+[ tid 4816 @   152.411s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:327 ] bytes per accumulated queue entry is 3569
+[ tid 4816 @   152.413s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 0
+
+Rendering: [  ] [ tid 4816 @   152.413s gpu/util.h:70 ] [Reset ray queue]: block size 768
+[ tid 4816 @   152.464s gpu/util.h:70 ] [Generate camera rays]: block size 512
+[ tid 4816 @   152.465s gpu/util.h:70 ] [Update camera ray stats]: block size 768
+[ tid 4816 @   152.465s gpu/util.h:70 ] [Reset queues before tracing rays]: block size 768
+[ tid 4816 @   152.465s gpu/util.h:70 ] [Generate ray samples - HaltonSampler]: block size 576
+[ tid 4816 @   152.466s gpu/util.h:70 ] [Sample medium interaction]: block size 512
+
+Rendering: [  ]  (0.1s|?s)  
+Rendering: [  ]  (0.1s|?s)  
+Rendering: [  ]  (0.2s|?s)  
+Rendering: [  ]  (0.2s|?s)  
+Rendering: [  ]  (0.3s|?s)  
+Rendering: [  ]  (0.4s|?s)  
+Rendering: [  ]  (0.4s|?s)  
+Rendering: [  ]  (0.5s|?s)  
+Rendering: [  ]  (0.6s|?s)  
+Rendering: [  ]  (0.6s|?s)  [ tid 4816 @   153.146s gpu/util.h:70 ] [Sample direct/indirect - Henyey-Greenstein]: block size 512
+[ tid 4816 @   153.147s gpu/util.h:70 ] [Handle escaped rays]: block size 512
+[ tid 4816 @   153.148s gpu/util.h:70 ] [Handle emitters hit by indirect rays]: block size 512
+
+Rendering: [  ]  (0.7s|?s)  [ tid 4816 @   153.155s gpu/util.h:70 ] [CoatedDiffuseMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 4816 @   153.171s gpu/util.h:70 ] [CoatedDiffuseMaterial + BxDF eval (Universal tex)]: block size 512
+[ tid 4816 @   153.172s gpu/util.h:70 ] [CoatedConductorMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 4816 @   153.173s gpu/util.h:70 ] [ConductorMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 4816 @   153.173s gpu/util.h:70 ] [DielectricMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 4816 @   153.185s gpu/util.h:70 ] [DiffuseMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 4816 @   153.186s gpu/util.h:70 ] [DiffuseMaterial + BxDF eval (Universal tex)]: block size 512
+[ tid 4816 @   153.186s gpu/util.h:70 ] [DiffuseTransmissionMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 4816 @   153.186s gpu/util.h:70 ] [Reset shadowRayQueue]: block size 768
+[ tid 4816 @   153.186s gpu/util.h:70 ] [Update indirect ray stats]: block size 768
+[ tid 4816 @   153.196s gpu/util.h:70 ] [Update film]: block size 512
+
+Rendering: [  ]  (0.8s|?s)  
+Rendering: [  ]  (1.0s|?s)  
+Rendering: [  ]  (1.1s|?s)  
+Rendering: [  ]  (1.2s|?s)  
+Rendering: [  ]  (1.3s|?s)  
+Rendering: [  ]  (1.4s|?s)  
+Rendering: [  ]  (1.5s|?s)  
+Rendering: [  ]  (1.6s|?s)  
+Rendering: [  ]  (1.7s|?s)  
+Rendering: [  ]  (1.8s|?s)  
+Rendering: [  ]  (1.9s|?s)  
+Rendering: [  ]  (2.0s|?s)  
+Rendering: [  ]  (2.2s|?s)  
+Rendering: [  ]  (2.3s|?s)  
+Rendering: [  ]  (2.4s|?s)  
+Rendering: [  ]  (2.5s|?s)  
+Rendering: [  ]  (2.6s|?s)  
+Rendering: [  ]  (2.7s|?s)  
+Rendering: [  ]  (2.8s|?s)  
+Rendering: [  ]  (2.9s|?s)  
+Rendering: [  ]  (3.0s|?s)  
+Rendering: [  ]  (3.1s|?s)  
+Rendering: [  ]  (3.2s|?s)  
+Rendering: [  ]  (3.4s|?s)  
+Rendering: [  ]  (3.5s|?s)  
+Rendering: [  ]  (3.6s|?s)  
+Rendering: [  ]  (3.7s|?s)  
+Rendering: [  ]  (3.8s|?s)  
+Rendering: [  ]  (3.9s|?s)  
+Rendering: [  ]  (4.0s|?s)  
+Rendering: [  ]  (4.1s|?s)  
+Rendering: [  ]  (4.2s|?s)  
+Rendering: [  ]  (4.3s|?s)  
+Rendering: [  ]  (4.4s|?s)  
+Rendering: [  ]  (4.6s|?s)  
+Rendering: [  ]  (4.7s|?s)  
+Rendering: [  ]  (4.8s|?s)  
+Rendering: [  ]  (4.9s|?s)  
+Rendering: [  ]  (5.0s|?s)  
+Rendering: [  ]  (5.1s|?s)  
+Rendering: [  ]  (5.2s|?s)  
+Rendering: [  ]  (5.3s|?s)  
+Rendering: [  ]  (5.4s|?s)  
+Rendering: [  ]  (5.5s|?s)  
+Rendering: [  ]  (5.6s|?s)  
+Rendering: [  ]  (5.8s|?s)  
+Rendering: [  ]  (5.9s|?s)  
+Rendering: [  ]  (6.0s|?s)  
+Rendering: [  ]  (6.1s|?s)  
+Rendering: [  ]  (6.2s|?s)  
+Rendering: [  ]  (6.3s|?s)  
+Rendering: [  ]  (6.4s|?s)  
+Rendering: [  ]  (6.5s|?s)  
+Rendering: [  ]  (6.6s|?s)  
+Rendering: [  ]  (6.7s|?s)  
+Rendering: [  ]  (6.8s|?s)  
+Rendering: [  ]  (7.0s|?s)  
+Rendering: [  ]  (7.1s|?s)  
+Rendering: [  ]  (7.2s|?s)  
+Rendering: [  ]  (7.4s|?s)  
+Rendering: [  ]  (7.6s|?s)  
+Rendering: [  ]  (7.8s|?s)  
+Rendering: [  ]  (8.0s|?s)  
+Rendering: [  ]  (8.2s|?s)  
+Rendering: [  ]  (8.4s|?s)  
+Rendering: [  ]  (8.6s|?s)  
+Rendering: [  ]  (8.8s|?s)  
+Rendering: [  ]  (9.0s|?s)  
+Rendering: [  ]  (9.2s|?s)  
+Rendering: [  ]  (9.4s|?s)  
+Rendering: [  ]  (9.6s|?s)  
+Rendering: [  ]  (9.8s|?s)  
+Rendering: [  ]  (10.0s|?s)  
+Rendering: [  ]  (10.2s|?s)  
+Rendering: [  ]  (10.4s|?s)  
+Rendering: [  ]  (10.6s|?s)  
+Rendering: [  ]  (10.8s|?s)  
+Rendering: [  ]  (11.0s|?s)  
+Rendering: [  ]  (11.2s|?s)  
+Rendering: [  ]  (11.4s|?s)  
+Rendering: [  ]  (11.7s|?s)  
+Rendering: [  ]  (11.9s|?s)  
+Rendering: [  ]  (12.1s|?s)  
+Rendering: [  ]  (12.3s|?s)  
+Rendering: [  ]  (12.5s|?s)  
+Rendering: [  ]  (12.7s|?s)  
+Rendering: [  ]  (12.9s|?s)  
+Rendering: [  ]  (13.1s|?s)  
+Rendering: [  ]  (13.3s|?s)  
+Rendering: [  ]  (13.5s|?s)  
+Rendering: [  ]  (13.7s|?s)  
+Rendering: [  ]  (13.9s|?s)  
+Rendering: [  ]  (14.1s|?s)  
+Rendering: [  ]  (14.3s|?s)  
+Rendering: [  ]  (14.5s|?s)  
+Rendering: [  ]  (14.7s|?s)  
+Rendering: [  ]  (14.9s|?s)  
+Rendering: [  ]  (15.1s|?s)  
+Rendering: [  ]  (15.3s|?s)  
+Rendering: [  ]  (15.5s|?s)  
+Rendering: [  ]  (15.7s|?s)  
+Rendering: [  ]  (15.9s|?s)  
+Rendering: [  ]  (16.1s|?s)  
+Rendering: [  ]  (16.3s|?s)  
+Rendering: [  ]  (16.5s|?s)  
+Rendering: [  ]  (16.7s|?s)  
+Rendering: [  ]  (16.9s|?s)  
+Rendering: [  ]  (17.1s|?s)  
+Rendering: [  ]  (17.3s|?s)  
+Rendering: [  ]  (17.5s|?s)  
+Rendering: [  ]  (17.7s|?s)  
+Rendering: [  ]  (17.9s|?s)  
+Rendering: [  ]  (18.1s|?s)  
+Rendering: [  ]  (18.3s|?s)  
+Rendering: [  ]  (18.5s|?s)  
+Rendering: [  ]  (18.7s|?s)  
+Rendering: [  ]  (18.9s|?s)  
+Rendering: [  ]  (19.1s|?s)  
+Rendering: [  ]  (19.4s|?s)  
+Rendering: [  ]  (19.6s|?s)  
+Rendering: [  ]  (19.8s|?s)  
+Rendering: [  ]  (20.0s|?s)  
+Rendering: [  ]  (20.2s|?s)  
+Rendering: [  ]  (20.4s|?s)  
+Rendering: [  ]  (20.6s|?s)  
+Rendering: [  ]  (20.8s|?s)  
+Rendering: [  ]  (21.0s|?s)  
+Rendering: [  ]  (21.2s|?s)  
+Rendering: [  ]  (21.4s|?s)  
+Rendering: [  ]  (21.6s|?s)  
+Rendering: [  ]  (21.8s|?s)  
+Rendering: [  ]  (22.0s|?s)  
+Rendering: [  ]  (22.2s|?s)  
+Rendering: [  ]  (22.4s|?s)  
+Rendering: [  ]  (22.6s|?s)  
+Rendering: [  ]  (22.8s|?s)  
+Rendering: [  ]  (23.0s|?s)  
+Rendering: [  ]  (23.2s|?s)  
+Rendering: [  ]  (23.4s|?s)  
+Rendering: [  ]  (23.6s|?s)  
+Rendering: [  ]  (23.8s|?s)  
+Rendering: [  ]  (24.0s|?s)  [ tid 4816 @   176.619s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1
+
+Rendering: [  ]  (24.2s|?s)  
+Rendering: [  ]  (24.4s|?s)  
+Rendering: [  ]  (24.6s|?s)  
+Rendering: [  ]  (24.8s|?s)  
+Rendering: [  ]  (25.0s|?s)  
+Rendering: [  ]  (25.2s|?s)  
+Rendering: [  ]  (25.4s|?s)  
+Rendering: [  ]  (25.7s|?s)  
+Rendering: [  ]  (25.9s|?s)  
+Rendering: [  ]  (26.1s|?s)  
+Rendering: [  ]  (26.3s|?s)  
+Rendering: [  ]  (26.5s|?s)  
+Rendering: [  ]  (26.7s|?s)  
+Rendering: [  ]  (26.9s|?s)  
+Rendering: [  ]  (27.1s|?s)  
+Rendering: [  ]  (27.3s|?s)  
+Rendering: [  ]  (27.5s|?s)  
+Rendering: [  ]  (27.7s|?s)  
+Rendering: [  ]  (27.9s|?s)  
+Rendering: [  ]  (28.1s|?s)  
+Rendering: [  ]  (28.3s|678.7s)  
+Rendering: [  ]  (28.5s|683.5s)  
+Rendering: [  ]  (28.7s|688.4s)  
+Rendering: [  ]  (28.9s|693.2s)  
+Rendering: [  ]  (29.1s|698.1s)  
+Rendering: [  ]  (29.3s|702.9s)  
+Rendering: [  ]  (29.5s|707.9s)  
+Rendering: [  ]  (29.7s|712.8s)  
+Rendering: [  ]  (29.9s|717.7s)  
+Rendering: [  ]  (30.1s|722.5s)  
+Rendering: [  ]  (30.3s|727.4s)  
+Rendering: [  ]  (30.5s|732.6s)  
+Rendering: [  ]  (30.7s|737.4s)  
+Rendering: [  ]  (30.9s|742.3s)  
+Rendering: [  ]  (31.1s|747.1s)  
+Rendering: [  ]  (31.3s|752.0s)  
+Rendering: [  ]  (31.5s|756.9s)  
+Rendering: [  ]  (31.7s|761.7s)  
+Rendering: [  ]  (31.9s|766.5s)  
+Rendering: [  ]  (32.1s|771.4s)  
+Rendering: [  ]  (32.3s|776.3s)  
+Rendering: [  ]  (32.5s|781.1s)  
+Rendering: [  ]  (32.7s|786.0s)  
+Rendering: [  ]  (33.0s|791.1s)  
+Rendering: [  ]  (33.2s|796.0s)  
+Rendering: [  ]  (33.4s|800.8s)  
+Rendering: [  ]  (33.6s|805.7s)  
+Rendering: [  ]  (33.8s|810.6s)  
+Rendering: [  ]  (34.0s|815.4s)  
+Rendering: [  ]  (34.2s|820.2s)  
+Rendering: [  ]  (34.4s|825.4s)  
+Rendering: [  ]  (34.6s|830.2s)  
+Rendering: [  ]  (34.8s|835.1s)  
+Rendering: [  ]  (35.0s|839.9s)  
+Rendering: [  ]  (35.2s|844.7s)  
+Rendering: [  ]  (35.4s|849.6s)  
+Rendering: [  ]  (35.6s|854.5s)  
+Rendering: [  ]  (35.8s|859.3s)  
+Rendering: [  ]  (36.0s|864.1s)  
+Rendering: [  ]  (36.2s|869.0s)  
+Rendering: [  ]  (36.4s|873.8s)  
+Rendering: [  ]  (36.6s|878.6s)  
+Rendering: [  ]  (36.8s|883.5s)  
+Rendering: [  ]  (37.0s|888.3s)  
+Rendering: [  ]  (37.2s|893.2s)  
+Rendering: [  ]  (37.4s|898.0s)  
+Rendering: [  ]  (37.6s|902.8s)  
+Rendering: [  ]  (37.8s|908.0s)  
+Rendering: [  ]  (38.0s|912.9s)  
+Rendering: [  ]  (38.2s|917.7s)  
+Rendering: [  ]  (38.4s|922.5s)  
+Rendering: [  ]  (38.6s|927.4s)  
+Rendering: [  ]  (38.8s|932.2s)  
+Rendering: [  ]  (39.0s|937.0s)  
+Rendering: [  ]  (39.3s|942.2s)  
+Rendering: [  ]  (39.5s|947.0s)  
+Rendering: [  ]  (39.7s|951.8s)  
+Rendering: [  ]  (39.9s|956.7s)  
+Rendering: [  ]  (40.1s|961.5s)  
+Rendering: [  ]  (40.3s|966.4s)  
+Rendering: [  ]  (40.5s|971.6s)  
+Rendering: [  ]  (40.7s|976.4s)  
+Rendering: [  ]  (40.9s|981.5s)  
+Rendering: [  ]  (41.1s|986.4s)  
+Rendering: [  ]  (41.3s|991.2s)  
+Rendering: [  ]  (41.5s|996.0s)  
+Rendering: [  ]  (41.7s|1000.9s)  
+Rendering: [  ]  (41.9s|1005.7s)  
+Rendering: [  ]  (42.1s|1010.5s)  
+Rendering: [  ]  (42.3s|1015.7s)  
+Rendering: [  ]  (42.5s|1020.9s)  
+Rendering: [  ]  (42.7s|1025.7s)  
+Rendering: [  ]  (42.9s|1030.6s)  
+Rendering: [  ]  (43.2s|1035.8s)  
+Rendering: [  ]  (43.4s|1040.6s)  
+Rendering: [  ]  (43.6s|1045.5s)  
+Rendering: [  ]  (43.8s|1050.3s)  
+Rendering: [  ]  (44.0s|1055.1s)  
+Rendering: [  ]  (44.2s|1060.0s)  
+Rendering: [  ]  (44.4s|1064.8s)  
+Rendering: [  ]  (44.6s|1069.6s)  
+Rendering: [  ]  (44.8s|1074.5s)  
+Rendering: [  ]  (45.0s|1079.3s)  
+Rendering: [  ]  (45.2s|1084.2s)  
+Rendering: [  ]  (45.4s|1089.0s)  
+Rendering: [  ]  (45.6s|1093.8s)  
+Rendering: [  ]  (45.8s|1099.0s)  
+Rendering: [  ]  (46.0s|1103.8s)  
+Rendering: [  ]  (46.2s|1108.7s)  
+Rendering: [  ]  (46.4s|1113.5s)  
+Rendering: [  ]  (46.6s|1118.3s)  
+Rendering: [  ]  (46.8s|1123.2s)  
+Rendering: [  ]  (47.0s|1128.0s)  
+Rendering: [  ]  (47.2s|1132.9s)  
+Rendering: [  ]  (47.4s|1137.7s)  
+Rendering: [  ]  (47.6s|1142.6s)  
+Rendering: [  ]  (47.8s|1147.4s)  
+Rendering: [  ]  (48.0s|1152.2s)  
+Rendering: [  ]  (48.2s|1157.1s)  
+Rendering: [  ]  (48.4s|1162.0s)  
+Rendering: [  ]  (48.6s|1167.1s)  
+Rendering: [  ]  (48.8s|1172.0s)  
+Rendering: [  ]  (49.0s|1177.2s)  
+Rendering: [  ]  (49.2s|1182.0s)  
+Rendering: [  ]  (49.5s|1186.8s)  
+Rendering: [  ]  (49.7s|1191.7s)  
+Rendering: [  ]  (49.9s|1196.6s)  
+Rendering: [  ]  (50.1s|1201.4s)  
+Rendering: [  ]  (50.3s|1206.3s)  
+Rendering: [  ]  (50.5s|1211.4s)  
+Rendering: [  ]  (50.7s|1216.3s)  
+Rendering: [  ]  (50.9s|1221.2s)  
+Rendering: [  ]  (51.1s|1226.1s)  
+Rendering: [  ]  (51.3s|1230.9s)  [ tid 4816 @   203.811s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 2
+
+Rendering: [  ]  (51.5s|1235.8s)  
+Rendering: [  ]  (51.7s|1240.6s)  
+Rendering: [  ]  (51.9s|1245.5s)  
+Rendering: [  ]  (52.1s|1250.3s)  
+Rendering: [  ]  (52.3s|1255.1s)  
+Rendering: [  ]  (52.5s|1259.9s)  
+Rendering: [  ]  (52.7s|1264.8s)  
+Rendering: [  ]  (52.9s|1269.6s)  
+Rendering: [  ]  (53.1s|1274.5s)  
+Rendering: [  ]  (53.3s|1279.3s)  
+Rendering: [  ]  (53.5s|1284.5s)  
+Rendering: [  ]  (53.7s|1289.3s)  
+Rendering: [  ]  (53.9s|1294.2s)  
+Rendering: [  ]  (54.1s|1299.0s)  
+Rendering: [  ]  (54.3s|1303.8s)  
+Rendering: [  ]  (54.5s|1308.7s)  
+Rendering: [  ]  (54.7s|1313.6s)  
+Rendering: [  ]  (54.9s|631.7s)  
+Rendering: [  ]  (55.1s|634.1s)  
+Rendering: [  ]  (55.3s|636.4s)  
+Rendering: [  ]  (55.5s|638.7s)  
+Rendering: [  ]  (55.7s|641.1s)  
+Rendering: [  ]  (55.9s|643.4s)  
+Rendering: [  ]  (56.2s|645.9s)  
+Rendering: [  ]  (56.4s|648.3s)  
+Rendering: [  ]  (56.6s|650.7s)  
+Rendering: [  ]  (56.8s|653.0s)  
+Rendering: [  ]  (57.0s|655.3s)  
+Rendering: [  ]  (57.2s|657.6s)  
+Rendering: [  ]  (57.4s|659.9s)  
+Rendering: [  ]  (57.6s|662.3s)  
+Rendering: [  ]  (57.8s|664.6s)  
+Rendering: [  ]  (58.0s|666.9s)  
+Rendering: [  ]  (58.2s|669.3s)  
+Rendering: [  ]  (58.4s|671.7s)  
+Rendering: [  ]  (58.6s|674.0s)  
+Rendering: [  ]  (58.8s|676.4s)  
+Rendering: [  ]  (59.0s|678.7s)  
+Rendering: [  ]  (59.2s|681.0s)  
+Rendering: [  ]  (59.4s|683.3s)  
+Rendering: [  ]  (59.6s|685.7s)  
+Rendering: [  ]  (59.8s|688.0s)  
+Rendering: [  ]  (60.0s|690.5s)  
+Rendering: [  ]  (60.2s|692.8s)  
+Rendering: [  ]  (60.4s|695.1s)  
+Rendering: [  ]  (60.6s|697.4s)  
+Rendering: [  ]  (60.8s|699.7s)  
+Rendering: [  ]  (61.1s|702.1s)  
+Rendering: [  ]  (61.3s|704.4s)  
+Rendering: [  ]  (61.5s|706.7s)  
+Rendering: [  ]  (61.7s|709.2s)  
+Rendering: [  ]  (61.9s|711.5s)  
+Rendering: [  ]  (62.1s|713.8s)  
+Rendering: [  ]  (62.3s|716.1s)  
+Rendering: [  ]  (62.5s|718.5s)  
+Rendering: [  ]  (62.7s|720.8s)  
+Rendering: [  ]  (62.9s|723.1s)  
+Rendering: [  ]  (63.1s|725.4s)  
+Rendering: [  ]  (63.3s|727.7s)  
+Rendering: [  ]  (63.5s|730.0s)  
+Rendering: [  ]  (63.7s|732.4s)  
+Rendering: [  ]  (63.9s|734.7s)  
+Rendering: [  ]  (64.1s|737.2s)  
+Rendering: [  ]  (64.3s|739.5s)  
+Rendering: [  ]  (64.5s|741.8s)  
+Rendering: [  ]  (64.7s|744.1s)  
+Rendering: [  ]  (64.9s|746.4s)  
+Rendering: [  ]  (65.1s|748.8s)  
+Rendering: [  ]  (65.3s|751.1s)  
+Rendering: [  ]  (65.5s|753.4s)  
+Rendering: [  ]  (65.7s|755.7s)  
+Rendering: [  ]  (65.9s|758.0s)  
+Rendering: [  ]  (66.1s|760.4s)  
+Rendering: [  ]  (66.3s|762.7s)  
+Rendering: [  ]  (66.5s|765.0s)  
+Rendering: [  ]  (66.7s|767.3s)  
+Rendering: [  ]  (66.9s|769.6s)  
+Rendering: [  ]  (67.1s|771.9s)  
+Rendering: [  ]  (67.3s|774.2s)  
+Rendering: [  ]  (67.5s|776.6s)  
+Rendering: [  ]  (67.7s|779.0s)  
+Rendering: [  ]  (67.9s|781.3s)  
+Rendering: [  ]  (68.1s|783.7s)  
+Rendering: [  ]  (68.3s|786.0s)  
+Rendering: [  ]  (68.5s|788.3s)  
+Rendering: [  ]  (68.7s|790.6s)  
+Rendering: [  ]  (69.0s|792.9s)  
+Rendering: [  ]  (69.2s|795.2s)  
+Rendering: [  ]  (69.4s|797.6s)  
+Rendering: [  ]  (69.6s|799.9s)  
+Rendering: [  ]  (69.8s|802.2s)  
+Rendering: [  ]  (70.0s|804.5s)  
+Rendering: [  ]  (70.2s|806.8s)  
+Rendering: [  ]  (70.4s|809.2s)  
+Rendering: [  ]  (70.6s|811.5s)  
+Rendering: [  ]  (70.8s|813.8s)  
+Rendering: [  ]  (71.0s|816.1s)  
+Rendering: [  ]  (71.2s|818.4s)  
+Rendering: [  ]  (71.4s|820.8s)  
+Rendering: [  ]  (71.6s|823.1s)  
+Rendering: [  ]  (71.8s|825.4s)  
+Rendering: [  ]  (72.0s|827.8s)  
+Rendering: [  ]  (72.2s|830.1s)  
+Rendering: [  ]  (72.4s|832.5s)  
+Rendering: [  ]  (72.6s|834.8s)  
+Rendering: [  ]  (72.8s|837.1s)  
+Rendering: [  ]  (73.0s|839.4s)  
+Rendering: [  ]  (73.2s|841.7s)  
+Rendering: [  ]  (73.4s|844.1s)  
+Rendering: [  ]  (73.6s|846.4s)  
+Rendering: [  ]  (73.8s|848.7s)  
+Rendering: [  ]  (74.0s|851.0s)  
+Rendering: [  ]  (74.2s|853.4s)  
+Rendering: [  ]  (74.4s|855.7s)  
+Rendering: [  ]  (74.6s|858.0s)  
+Rendering: [  ]  (74.8s|860.3s)  
+Rendering: [  ]  (75.0s|862.6s)  
+Rendering: [  ]  (75.2s|864.9s)  
+Rendering: [  ]  (75.4s|867.4s)  
+Rendering: [  ]  (75.6s|869.9s)  
+Rendering: [  ]  (75.9s|872.4s)  
+Rendering: [  ]  (76.1s|874.7s)  
+Rendering: [  ]  (76.3s|877.0s)  
+Rendering: [  ]  (76.5s|879.3s)  
+Rendering: [  ]  (76.7s|881.7s)  
+Rendering: [  ]  (76.9s|884.0s)  
+Rendering: [  ]  (77.1s|886.5s)  
+Rendering: [  ]  (77.3s|888.8s)  [ tid 4816 @   229.807s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 3
+
+Rendering: [  ]  (77.5s|891.1s)  
+Rendering: [  ]  (77.7s|893.4s)  
+Rendering: [  ]  (77.9s|895.8s)  
+Rendering: [  ]  (78.1s|898.1s)  
+Rendering: [  ]  (78.3s|900.4s)  
+Rendering: [  ]  (78.5s|902.7s)  
+Rendering: [  ]  (78.7s|905.1s)  
+Rendering: [  ]  (78.9s|907.4s)  
+Rendering: [  ]  (79.1s|909.7s)  
+Rendering: [  ]  (79.3s|912.0s)  
+Rendering: [  ]  (79.5s|914.3s)  
+Rendering: [  ]  (79.7s|916.6s)  
+Rendering: [  ]  (79.9s|918.9s)  
+Rendering: [  ]  (80.1s|921.3s)  
+Rendering: [  ]  (80.3s|923.7s)  
+Rendering: [  ]  (80.5s|926.0s)  
+Rendering: [  ]  (80.7s|928.4s)  
+Rendering: [  ]  (80.9s|593.5s)  
+Rendering: [  ]  (81.1s|595.0s)  
+Rendering: [  ]  (81.3s|596.4s)  
+Rendering: [  ]  (81.5s|597.9s)  
+Rendering: [  ]  (81.7s|599.4s)  
+Rendering: [  ]  (81.9s|600.9s)  
+Rendering: [  ]  (82.1s|602.3s)  
+Rendering: [  ]  (82.3s|603.8s)  
+Rendering: [  ]  (82.5s|605.3s)  
+Rendering: [  ]  (82.7s|606.8s)  
+Rendering: [  ]  (82.9s|608.3s)  
+Rendering: [  ]  (83.1s|609.8s)  
+Rendering: [  ]  (83.4s|611.2s)  
+Rendering: [  ]  (83.6s|612.8s)  
+Rendering: [  ]  (83.8s|614.3s)  
+Rendering: [  ]  (84.0s|615.8s)  
+Rendering: [  ]  (84.2s|617.2s)  
+Rendering: [  ]  (84.4s|618.7s)  
+Rendering: [  ]  (84.6s|620.2s)  
+Rendering: [  ]  (84.8s|621.8s)  
+Rendering: [  ]  (85.0s|623.3s)  
+Rendering: [  ]  (85.2s|624.7s)  
+Rendering: [  ]  (85.4s|626.3s)  
+Rendering: [  ]  (85.6s|627.8s)  
+Rendering: [  ]  (85.8s|629.3s)  
+Rendering: [  ]  (86.0s|630.8s)  
+Rendering: [  ]  (86.2s|632.2s)  
+Rendering: [  ]  (86.4s|633.7s)  
+Rendering: [  ]  (86.6s|635.2s)  
+Rendering: [  ]  (86.8s|636.7s)  
+Rendering: [  ]  (87.0s|638.2s)  
+Rendering: [  ]  (87.2s|639.7s)  
+Rendering: [  ]  (87.4s|641.1s)  
+Rendering: [  ]  (87.6s|642.6s)  
+Rendering: [  ]  (87.8s|644.1s)  
+Rendering: [  ]  (88.0s|645.6s)  
+Rendering: [  ]  (88.2s|647.1s)  
+Rendering: [  ]  (88.4s|648.5s)  
+Rendering: [  ]  (88.7s|650.1s)  
+Rendering: [  ]  (88.9s|651.6s)  
+Rendering: [  ]  (89.1s|653.1s)  
+Rendering: [  ]  (89.3s|654.5s)  
+Rendering: [  ]  (89.5s|656.0s)  
+Rendering: [  ]  (89.7s|657.5s)  
+Rendering: [  ]  (89.9s|659.0s)  
+Rendering: [  ]  (90.1s|660.5s)  
+Rendering: [  ]  (90.3s|661.9s)  
+Rendering: [  ]  (90.5s|663.4s)  
+Rendering: [  ]  (90.7s|664.9s)  
+Rendering: [  ]  (90.9s|666.4s)  
+Rendering: [  ]  (91.1s|667.8s)  
+Rendering: [  ]  (91.3s|669.3s)  
+Rendering: [  ]  (91.5s|670.9s)  
+Rendering: [  ]  (91.7s|672.4s)  
+Rendering: [  ]  (91.9s|673.8s)  
+Rendering: [  ]  (92.1s|675.3s)  
+Rendering: [  ]  (92.3s|676.8s)  
+Rendering: [  ]  (92.5s|678.3s)  
+Rendering: [  ]  (92.7s|679.8s)  
+Rendering: [  ]  (92.9s|681.2s)  
+Rendering: [  ]  (93.1s|682.7s)  
+Rendering: [  ]  (93.3s|684.2s)  
+Rendering: [  ]  (93.5s|685.8s)  
+Rendering: [  ]  (93.7s|687.3s)  
+Rendering: [  ]  (93.9s|688.9s)  
+Rendering: [  ]  (94.1s|690.3s)  
+Rendering: [  ]  (94.3s|691.8s)  
+Rendering: [  ]  (94.5s|693.3s)  
+Rendering: [  ]  (94.8s|694.9s)  
+Rendering: [  ]  (95.0s|696.3s)  
+Rendering: [  ]  (95.2s|697.8s)  
+Rendering: [  ]  (95.4s|699.3s)  
+Rendering: [  ]  (95.6s|700.8s)  
+Rendering: [  ]  (95.8s|702.3s)  
+Rendering: [  ]  (96.0s|703.7s)  
+Rendering: [  ]  (96.2s|705.2s)  
+Rendering: [  ]  (96.4s|706.8s)  
+Rendering: [  ]  (96.6s|708.3s)  
+Rendering: [  ]  (96.8s|709.7s)  
+Rendering: [  ]  (97.0s|711.3s)  
+Rendering: [  ]  (97.2s|712.8s)  
+Rendering: [  ]  (97.4s|714.3s)  
+Rendering: [  ]  (97.6s|715.9s)  
+Rendering: [  ]  (97.8s|717.3s)  
+Rendering: [  ]  (98.0s|718.8s)  
+Rendering: [  ]  (98.2s|720.3s)  
+Rendering: [  ]  (98.4s|721.8s)  
+Rendering: [  ]  (98.6s|723.3s)  
+Rendering: [  ]  (99.6s|730.7s)  
+Rendering: [  ]  (100.6s|738.1s)  
+Rendering: [  ]  (101.7s|745.4s)  
+Rendering: [  ]  (102.7s|752.9s)  [ tid 4816 @   255.913s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 4
+
+Rendering: [  ]  (103.7s|760.2s)  
+Rendering: [  ]  (104.7s|767.6s)  
+Rendering: [  ]  (105.7s|775.0s)  
+Rendering: [  ]  (106.7s|782.4s)  
+Rendering: [  ]  (107.7s|565.4s)  
+Rendering: [  ]  (108.7s|570.7s)  
+Rendering: [  ]  (109.7s|576.0s)  
+Rendering: [  ]  (110.7s|581.3s)  
+Rendering: [  ]  (111.7s|586.6s)  
+Rendering: [  ]  (112.7s|591.8s)  
+Rendering: [  ]  (113.7s|597.1s)  
+Rendering: [  ]  (114.8s|602.5s)  
+Rendering: [  ]  (115.8s|607.7s)  
+Rendering: [  ]  (116.8s|613.0s)  
+Rendering: [  ]  (117.8s|618.3s)  
+Rendering: [  ]  (118.8s|623.6s)  
+Rendering: [  ]  (119.8s|628.9s)  
+Rendering: [  ]  (120.8s|634.2s)  
+Rendering: [  ]  (121.8s|639.5s)  
+Rendering: [  ]  (122.8s|644.7s)  
+Rendering: [  ]  (123.8s|650.0s)  
+Rendering: [  ]  (124.8s|655.3s)  
+Rendering: [  ]  (125.8s|660.6s)  
+Rendering: [  ]  (126.8s|665.9s)  
+Rendering: [  ]  (127.9s|671.2s)  
+Rendering: [  ]  (128.9s|676.5s)  [ tid 4816 @   281.493s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 5
+
+Rendering: [  ]  (129.9s|681.8s)  
+Rendering: [  ]  (130.9s|687.1s)  
+Rendering: [  ]  (131.9s|692.4s)  
+Rendering: [  ]  (132.9s|531.6s)  
+Rendering: [  ]  (133.9s|535.6s)  
+Rendering: [  ]  (134.9s|539.6s)  
+Rendering: [  ]  (135.9s|543.7s)  
+Rendering: [  ]  (136.9s|547.7s)  
+Rendering: [  ]  (137.9s|551.8s)  
+Rendering: [  ]  (138.9s|555.8s)  
+Rendering: [  ]  (140.0s|559.8s)  
+Rendering: [  ]  (141.0s|563.8s)  
+Rendering: [  ]  (142.0s|567.9s)  
+Rendering: [  ]  (143.0s|571.9s)  
+Rendering: [  ]  (144.0s|575.9s)  
+Rendering: [  ]  (145.0s|580.0s)  
+Rendering: [  ]  (146.0s|584.0s)  
+Rendering: [  ]  (147.0s|588.0s)  
+Rendering: [  ]  (148.0s|592.1s)  
+Rendering: [  ]  (149.0s|596.1s)  
+Rendering: [  ]  (150.0s|600.1s)  
+Rendering: [  ]  (151.0s|604.1s)  
+Rendering: [  ]  (152.0s|608.2s)  
+Rendering: [  ]  (153.1s|612.2s)  
+Rendering: [  ]  (154.1s|616.3s)  
+Rendering: [  ]  (155.1s|620.3s)  [ tid 4816 @   307.492s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 6
+
+Rendering: [  ]  (156.1s|624.4s)  
+Rendering: [  ]  (157.1s|628.4s)  
+Rendering: [  ]  (158.1s|632.4s)  
+Rendering: [  ]  (159.1s|503.9s)  
+Rendering: [  ]  (160.1s|507.1s)  
+Rendering: [  ]  (161.1s|510.3s)  
+Rendering: [  ]  (162.1s|513.5s)  
+Rendering: [  ]  (163.2s|516.6s)  
+Rendering: [  ]  (164.2s|519.8s)  
+Rendering: [  ]  (165.2s|523.0s)  
+Rendering: [  ]  (166.2s|526.2s)  
+Rendering: [  ]  (167.2s|529.4s)  
+Rendering: [  ]  (168.2s|532.6s)  
+Rendering: [  ]  (169.2s|535.8s)  
+Rendering: [  ]  (170.2s|539.0s)  
+Rendering: [  ]  (171.2s|542.2s)  
+Rendering: [  ]  (172.2s|545.3s)  
+Rendering: [  ]  (173.2s|548.5s)  
+Rendering: [  ]  (174.2s|551.7s)  
+Rendering: [  ]  (175.2s|554.9s)  
+Rendering: [  ]  (176.3s|558.1s)  
+Rendering: [  ]  (177.3s|561.3s)  
+Rendering: [  ]  (178.3s|564.5s)  
+Rendering: [  ]  (179.3s|567.7s)  
+Rendering: [  ]  (180.3s|570.9s)  [ tid 4816 @   333.323s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 7
+
+Rendering: [  ]  (181.3s|574.1s)  
+Rendering: [  ]  (182.3s|577.3s)  
+Rendering: [  ]  (183.3s|580.5s)  
+Rendering: [  ]  (184.3s|583.7s)  
+Rendering: [+ ]  (185.3s|476.6s)  
+Rendering: [+ ]  (186.3s|479.1s)  
+Rendering: [+ ]  (187.3s|481.7s)  
+Rendering: [+ ]  (188.4s|484.3s)  
+Rendering: [+ ]  (189.4s|486.9s)  
+Rendering: [+ ]  (190.4s|489.5s)  
+Rendering: [+ ]  (191.4s|492.1s)  
+Rendering: [+ ]  (192.4s|494.7s)  
+Rendering: [+ ]  (193.4s|497.3s)  
+Rendering: [+ ]  (194.4s|499.9s)  
+Rendering: [+ ]  (195.4s|502.5s)  
+Rendering: [+ ]  (196.4s|505.1s)  
+Rendering: [+ ]  (197.4s|507.7s)  
+Rendering: [+ ]  (198.4s|510.3s)  
+Rendering: [+ ]  (199.4s|512.9s)  
+Rendering: [+ ]  (200.5s|515.5s)  
+Rendering: [+ ]  (201.5s|518.1s)  
+Rendering: [+ ]  (202.5s|520.7s)  
+Rendering: [+ ]  (203.5s|523.2s)  
+Rendering: [+ ]  (204.5s|525.8s)  
+Rendering: [+ ]  (205.5s|528.4s)  
+Rendering: [+ ]  (206.5s|531.0s)  
+Rendering: [+ ]  (207.5s|533.6s)  
+Rendering: [+ ]  (208.5s|536.2s)  [ tid 4816 @   360.987s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 8
+
+Rendering: [+ ]  (209.5s|538.8s)  
+Rendering: [+ ]  (210.5s|541.4s)  
+Rendering: [+ ]  (211.6s|544.0s)  
+Rendering: [+ ]  (212.6s|451.7s)  
+Rendering: [+ ]  (213.6s|453.8s)  
+Rendering: [+ ]  (214.6s|456.0s)  
+Rendering: [+ ]  (215.6s|458.1s)  
+Rendering: [+ ]  (216.6s|460.3s)  
+Rendering: [+ ]  (217.6s|462.4s)  
+Rendering: [+ ]  (218.6s|464.6s)  
+Rendering: [+ ]  (219.6s|466.7s)  
+Rendering: [+ ]  (220.6s|468.9s)  
+Rendering: [+ ]  (221.6s|471.0s)  
+Rendering: [+ ]  (222.7s|473.1s)  
+Rendering: [+ ]  (223.7s|475.3s)  
+Rendering: [+ ]  (224.7s|477.4s)  
+Rendering: [+ ]  (225.7s|479.6s)  
+Rendering: [+ ]  (226.7s|481.7s)  
+Rendering: [+ ]  (227.7s|483.8s)  
+Rendering: [+ ]  (228.7s|486.0s)  
+Rendering: [+ ]  (229.7s|488.1s)  
+Rendering: [+ ]  (230.7s|490.3s)  
+Rendering: [+ ]  (231.7s|492.4s)  
+Rendering: [+ ]  (232.7s|494.6s)  
+Rendering: [+ ]  (233.7s|496.7s)  [ tid 4816 @   386.465s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 9
+
+Rendering: [+ ]  (234.7s|498.8s)  
+Rendering: [+ ]  (235.8s|501.0s)  
+Rendering: [+ ]  (236.8s|503.1s)  
+Rendering: [+ ]  (237.8s|422.7s)  
+Rendering: [+ ]  (238.8s|424.5s)  
+Rendering: [+ ]  (239.8s|426.3s)  
+Rendering: [+ ]  (240.8s|428.1s)  
+Rendering: [+ ]  (241.8s|429.9s)  
+Rendering: [+ ]  (242.8s|431.7s)  
+Rendering: [+ ]  (243.8s|433.5s)  
+Rendering: [+ ]  (244.8s|435.3s)  
+Rendering: [+ ]  (245.8s|437.0s)  
+Rendering: [+ ]  (246.8s|438.8s)  
+Rendering: [+ ]  (247.9s|440.6s)  
+Rendering: [+ ]  (248.9s|442.4s)  
+Rendering: [+ ]  (249.9s|444.2s)  
+Rendering: [+ ]  (250.9s|446.0s)  
+Rendering: [+ ]  (251.9s|447.8s)  
+Rendering: [+ ]  (252.9s|449.6s)  
+Rendering: [+ ]  (253.9s|451.4s)  
+Rendering: [+ ]  (254.9s|453.2s)  
+Rendering: [+ ]  (255.9s|455.0s)  
+Rendering: [+ ]  (256.9s|456.8s)  
+Rendering: [+ ]  (257.9s|458.6s)  
+Rendering: [+ ]  (258.9s|460.4s)  [ tid 4816 @   412.234s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 10
+
+Rendering: [+ ]  (260.0s|462.2s)  
+Rendering: [+ ]  (261.0s|463.9s)  
+Rendering: [+ ]  (262.0s|465.7s)  
+Rendering: [+ ]  (263.0s|467.5s)  
+Rendering: [+ ]  (264.0s|396.0s)  
+Rendering: [+ ]  (265.0s|397.5s)  
+Rendering: [+ ]  (266.0s|399.0s)  
+Rendering: [+ ]  (267.0s|400.5s)  
+Rendering: [+ ]  (268.0s|402.0s)  
+Rendering: [+ ]  (269.0s|403.6s)  
+Rendering: [+ ]  (270.0s|405.1s)  
+Rendering: [+ ]  (271.1s|406.6s)  
+Rendering: [+ ]  (272.1s|408.1s)  
+Rendering: [+ ]  (273.1s|409.6s)  
+Rendering: [+ ]  (274.1s|411.1s)  
+Rendering: [+ ]  (275.1s|412.6s)  
+Rendering: [+ ]  (276.1s|414.2s)  
+Rendering: [+ ]  (277.1s|415.7s)  
+Rendering: [+ ]  (278.1s|417.2s)  
+Rendering: [+ ]  (279.1s|418.7s)  
+Rendering: [+ ]  (280.1s|420.2s)  
+Rendering: [+ ]  (281.1s|421.7s)  
+Rendering: [+ ]  (282.2s|423.2s)  
+Rendering: [+ ]  (283.2s|424.7s)  
+Rendering: [+ ]  (284.2s|426.3s)  
+Rendering: [+ ]  (285.2s|427.8s)  [ tid 4816 @   438.101s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 11
+
+Rendering: [+ ]  (286.2s|429.3s)  
+Rendering: [+ ]  (287.2s|430.8s)  
+Rendering: [+ ]  (288.2s|432.3s)  
+Rendering: [+ ]  (289.2s|368.1s)  
+Rendering: [+ ]  (290.2s|369.4s)  
+Rendering: [+ ]  (291.2s|370.7s)  
+Rendering: [+ ]  (292.2s|371.9s)  
+Rendering: [+ ]  (293.3s|373.2s)  
+Rendering: [+ ]  (294.3s|374.5s)  
+Rendering: [+ ]  (295.3s|375.8s)  
+Rendering: [+ ]  (296.3s|377.1s)  
+Rendering: [+ ]  (297.3s|378.4s)  
+Rendering: [+ ]  (298.3s|379.6s)  
+Rendering: [+ ]  (299.3s|380.9s)  
+Rendering: [+ ]  (300.3s|382.2s)  
+Rendering: [+ ]  (301.3s|383.5s)  
+Rendering: [+ ]  (302.3s|384.8s)  
+Rendering: [+ ]  (303.3s|386.1s)  
+Rendering: [+ ]  (304.3s|387.3s)  
+Rendering: [+ ]  (305.3s|388.6s)  
+Rendering: [+ ]  (306.3s|389.9s)  
+Rendering: [+ ]  (307.4s|391.2s)  
+Rendering: [+ ]  (308.4s|392.5s)  
+Rendering: [+ ]  (309.4s|393.8s)  
+Rendering: [+ ]  (310.4s|395.0s)  [ tid 4816 @   463.663s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 12
+
+Rendering: [+ ]  (311.4s|396.3s)  
+Rendering: [+ ]  (312.4s|397.6s)  
+Rendering: [+ ]  (313.4s|398.9s)  
+Rendering: [+ ]  (314.4s|400.2s)  
+Rendering: [+ ]  (315.4s|341.7s)  
+Rendering: [+ ]  (316.4s|342.8s)  
+Rendering: [+ ]  (317.4s|343.9s)  
+Rendering: [+ ]  (318.4s|345.0s)  
+Rendering: [+ ]  (319.4s|346.1s)  
+Rendering: [+ ]  (320.4s|347.2s)  
+Rendering: [+ ]  (321.5s|348.2s)  
+Rendering: [+ ]  (322.5s|349.3s)  
+Rendering: [+ ]  (323.5s|350.4s)  
+Rendering: [+ ]  (324.5s|351.5s)  
+Rendering: [+ ]  (325.5s|352.6s)  
+Rendering: [+ ]  (326.5s|353.7s)  
+Rendering: [+ ]  (327.5s|354.8s)  
+Rendering: [+ ]  (328.5s|355.9s)  
+Rendering: [+ ]  (329.5s|357.0s)  
+Rendering: [+ ]  (330.5s|358.1s)  
+Rendering: [+ ]  (331.6s|359.2s)  
+Rendering: [+ ]  (332.6s|360.3s)  
+Rendering: [+ ]  (333.6s|361.4s)  
+Rendering: [+ ]  (334.6s|362.5s)  
+Rendering: [+ ]  (335.6s|363.6s)  
+Rendering: [+ ]  (336.6s|364.7s)  [ tid 4816 @   489.293s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 13
+
+Rendering: [+ ]  (337.6s|365.7s)  
+Rendering: [+ ]  (338.6s|366.8s)  
+Rendering: [+ ]  (339.6s|367.9s)  
+Rendering: [+ ]  (340.6s|314.4s)  
+Rendering: [+ ]  (341.6s|315.4s)  
+Rendering: [+ ]  (342.7s|316.3s)  
+Rendering: [+ ]  (343.7s|317.2s)  
+Rendering: [+ ]  (344.7s|318.2s)  
+Rendering: [+ ]  (345.7s|319.1s)  
+Rendering: [+ ]  (346.7s|320.0s)  
+Rendering: [+ ]  (347.7s|320.9s)  
+Rendering: [+ ]  (348.7s|321.9s)  
+Rendering: [+ ]  (349.7s|322.8s)  
+Rendering: [+ ]  (350.7s|323.7s)  
+Rendering: [+ ]  (351.7s|324.7s)  
+Rendering: [+ ]  (352.7s|325.6s)  
+Rendering: [+ ]  (353.7s|326.5s)  
+Rendering: [+ ]  (354.7s|327.5s)  
+Rendering: [+ ]  (355.8s|328.4s)  
+Rendering: [+ ]  (356.8s|329.3s)  
+Rendering: [+ ]  (357.8s|330.3s)  
+Rendering: [+ ]  (358.8s|331.2s)  
+Rendering: [+ ]  (359.8s|332.1s)  
+Rendering: [+ ]  (360.8s|333.0s)  
+Rendering: [+ ]  (361.8s|334.0s)  [ tid 4816 @   514.844s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 14
+
+Rendering: [+ ]  (362.8s|334.9s)  
+Rendering: [+ ]  (363.8s|335.8s)  
+Rendering: [+ ]  (364.8s|336.8s)  
+Rendering: [+ ]  (365.8s|287.4s)  
+Rendering: [+ ]  (366.8s|288.2s)  
+Rendering: [+ ]  (367.8s|289.0s)  
+Rendering: [+ ]  (368.8s|289.8s)  
+Rendering: [+ ]  (369.9s|290.6s)  
+Rendering: [+ ]  (370.9s|291.4s)  
+Rendering: [+ ]  (371.9s|292.2s)  
+Rendering: [+ ]  (372.9s|293.0s)  
+Rendering: [+ ]  (373.9s|293.8s)  
+Rendering: [+ ]  (374.9s|294.6s)  
+Rendering: [+ ]  (375.9s|295.4s)  
+Rendering: [+ ]  (376.9s|296.2s)  
+Rendering: [+ ]  (377.9s|296.9s)  
+Rendering: [+ ]  (378.9s|297.7s)  
+Rendering: [+ ]  (380.0s|298.5s)  
+Rendering: [+ ]  (381.0s|299.3s)  
+Rendering: [+ ]  (382.0s|300.1s)  
+Rendering: [+ ]  (383.0s|300.9s)  
+Rendering: [+ ]  (384.0s|301.7s)  
+Rendering: [+ ]  (385.0s|302.5s)  
+Rendering: [+ ]  (386.0s|303.3s)  
+Rendering: [+ ]  (387.0s|304.1s)  [ tid 4816 @   540.271s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 15
+
+Rendering: [+ ]  (388.0s|304.9s)  
+Rendering: [+ ]  (389.0s|305.7s)  
+Rendering: [+ ]  (390.0s|306.4s)  
+Rendering: [+ ]  (391.0s|307.2s)  
+Rendering: [+ ]  (392.0s|261.4s)  
+Rendering: [+ ]  (393.0s|262.0s)  
+Rendering: [+ ]  (394.1s|262.7s)  
+Rendering: [+ ]  (395.1s|263.4s)  
+Rendering: [+ ]  (396.1s|264.0s)  
+Rendering: [+ ]  (397.1s|264.7s)  
+Rendering: [+ ]  (398.1s|265.4s)  
+Rendering: [+ ]  (399.1s|266.1s)  
+Rendering: [+ ]  (400.1s|266.7s)  
+Rendering: [+ ]  (401.1s|267.4s)  
+Rendering: [+ ]  (402.1s|268.1s)  
+Rendering: [+ ]  (403.1s|268.8s)  
+Rendering: [+ ]  (404.1s|269.4s)  
+Rendering: [+ ]  (405.2s|270.1s)  
+Rendering: [+ ]  (406.2s|270.8s)  
+Rendering: [+ ]  (407.2s|271.4s)  
+Rendering: [+ ]  (408.2s|272.1s)  
+Rendering: [+ ]  (409.2s|272.8s)  
+Rendering: [+ ]  (410.2s|273.5s)  
+Rendering: [+ ]  (411.2s|274.1s)  
+Rendering: [+ ]  (412.2s|274.8s)  [ tid 4816 @   565.601s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 16
+
+Rendering: [+ ]  (413.2s|275.5s)  
+Rendering: [+ ]  (414.2s|276.2s)  
+Rendering: [+ ]  (415.2s|276.8s)  
+Rendering: [+ ]  (416.2s|277.5s)  
+Rendering: [+ ]  (417.2s|234.7s)  
+Rendering: [+ ]  (418.3s|235.3s)  
+Rendering: [+ ]  (419.3s|235.8s)  
+Rendering: [+ ]  (420.3s|236.4s)  
+Rendering: [+ ]  (421.3s|237.0s)  
+Rendering: [+ ]  (422.3s|237.5s)  
+Rendering: [+ ]  (423.3s|238.1s)  
+Rendering: [+ ]  (424.3s|238.7s)  
+Rendering: [+ ]  (425.3s|239.2s)  
+Rendering: [+ ]  (426.3s|239.8s)  
+Rendering: [+ ]  (427.3s|240.4s)  
+Rendering: [+ ]  (428.3s|240.9s)  
+Rendering: [+ ]  (429.4s|241.5s)  
+Rendering: [+ ]  (430.4s|242.1s)  
+Rendering: [+ ]  (431.4s|242.6s)  
+Rendering: [+ ]  (432.4s|243.2s)  
+Rendering: [+ ]  (433.4s|243.8s)  
+Rendering: [+ ]  (434.4s|244.3s)  
+Rendering: [+ ]  (435.4s|244.9s)  
+Rendering: [+ ]  (436.4s|245.5s)  
+Rendering: [+ ]  (437.4s|246.0s)  
+Rendering: [+ ]  (438.4s|246.6s)  [ tid 4816 @   591.496s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 17
+
+Rendering: [+ ]  (439.4s|247.2s)  
+Rendering: [+ ]  (440.4s|247.7s)  
+Rendering: [+ ]  (441.4s|248.3s)  
+Rendering: [+ ]  (442.4s|248.9s)  
+Rendering: [+ ]  (443.5s|208.7s)  
+Rendering: [+ ]  (444.5s|209.2s)  
+Rendering: [+ ]  (445.5s|209.6s)  
+Rendering: [+ ]  (446.5s|210.1s)  
+Rendering: [+ ]  (447.5s|210.6s)  
+Rendering: [+ ]  (448.5s|211.1s)  
+Rendering: [+ ]  (449.5s|211.5s)  
+Rendering: [+ ]  (450.5s|212.0s)  
+Rendering: [+ ]  (451.5s|212.5s)  
+Rendering: [+ ]  (452.5s|213.0s)  
+Rendering: [+ ]  (453.5s|213.4s)  
+Rendering: [+ ]  (454.5s|213.9s)  
+Rendering: [+ ]  (455.5s|214.4s)  
+Rendering: [+ ]  (456.6s|214.8s)  
+Rendering: [+ ]  (457.6s|215.3s)  
+Rendering: [+ ]  (458.6s|215.8s)  
+Rendering: [+ ]  (459.6s|216.3s)  
+Rendering: [+ ]  (460.6s|216.7s)  
+Rendering: [+ ]  (461.6s|217.2s)  
+Rendering: [+ ]  (462.6s|217.7s)  
+Rendering: [+ ]  (463.6s|218.2s)  
+Rendering: [+ ]  (464.6s|218.6s)  [ tid 4816 @   617.049s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 18
+
+Rendering: [+ ]  (465.6s|219.1s)  
+Rendering: [+ ]  (466.6s|219.6s)  
+Rendering: [+ ]  (467.6s|220.1s)  
+Rendering: [+ ]  (468.6s|182.2s)  
+Rendering: [+ ]  (469.6s|182.6s)  
+Rendering: [+ ]  (470.6s|183.0s)  
+Rendering: [+ ]  (471.7s|183.4s)  
+Rendering: [+ ]  (472.7s|183.8s)  
+Rendering: [+ ]  (473.7s|184.2s)  
+Rendering: [+ ]  (474.7s|184.6s)  
+Rendering: [+ ]  (475.7s|185.0s)  
+Rendering: [+ ]  (476.7s|185.4s)  
+Rendering: [+ ]  (477.7s|185.8s)  
+Rendering: [+ ]  (478.7s|186.2s)  
+Rendering: [+ ]  (479.7s|186.6s)  
+Rendering: [+ ]  (480.7s|186.9s)  
+Rendering: [+ ]  (481.7s|187.3s)  
+Rendering: [+ ]  (482.7s|187.7s)  
+Rendering: [+ ]  (483.7s|188.1s)  
+Rendering: [+ ]  (484.7s|188.5s)  
+Rendering: [+ ]  (485.8s|188.9s)  
+Rendering: [+ ]  (486.8s|189.3s)  
+Rendering: [+ ]  (487.8s|189.7s)  
+Rendering: [+ ]  (488.8s|190.1s)  
+Rendering: [+ ]  (489.8s|190.5s)  [ tid 4816 @   642.506s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 19
+
+Rendering: [+ ]  (490.8s|190.9s)  
+Rendering: [+ ]  (491.8s|191.3s)  
+Rendering: [+ ]  (492.8s|191.6s)  
+Rendering: [++]  (493.8s|155.9s)  
+Rendering: [++]  (494.8s|156.3s)  
+Rendering: [++]  (495.8s|156.6s)  
+Rendering: [++]  (496.8s|156.9s)  
+Rendering: [++]  (497.8s|157.2s)  
+Rendering: [++]  (498.9s|157.5s)  
+Rendering: [++]  (499.9s|157.9s)  
+Rendering: [++]  (500.9s|158.2s)  
+Rendering: [++]  (501.9s|158.5s)  
+Rendering: [++]  (502.9s|158.8s)  
+Rendering: [++]  (503.9s|159.1s)  
+Rendering: [++]  (504.9s|159.4s)  
+Rendering: [++]  (505.9s|159.8s)  
+Rendering: [++]  (506.9s|160.1s)  
+Rendering: [++]  (507.9s|160.4s)  
+Rendering: [++]  (509.0s|160.7s)  
+Rendering: [++]  (510.0s|161.0s)  
+Rendering: [++]  (511.0s|161.4s)  
+Rendering: [++]  (512.0s|161.7s)  
+Rendering: [++]  (513.0s|162.0s)  
+Rendering: [++]  (514.0s|162.3s)  
+Rendering: [++]  (515.0s|162.6s)  
+Rendering: [++]  (516.0s|163.0s)  
+Rendering: [++]  (517.0s|163.3s)  [ tid 4816 @   670.231s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 20
+
+Rendering: [++]  (518.0s|163.6s)  
+Rendering: [++]  (519.0s|163.9s)  
+Rendering: [++]  (520.1s|164.2s)  
+Rendering: [++]  (521.1s|164.5s)  
+Rendering: [++]  (522.1s|130.5s)  
+Rendering: [++]  (523.1s|130.8s)  
+Rendering: [++]  (524.1s|131.0s)  
+Rendering: [++]  (525.1s|131.3s)  
+Rendering: [++]  (526.1s|131.5s)  
+Rendering: [++]  (527.1s|131.8s)  
+Rendering: [++]  (528.1s|132.0s)  
+Rendering: [++]  (529.1s|132.3s)  
+Rendering: [++]  (530.1s|132.5s)  
+Rendering: [++]  (531.1s|132.8s)  
+Rendering: [++]  (532.2s|133.0s)  
+Rendering: [++]  (533.2s|133.3s)  
+Rendering: [++]  (534.2s|133.5s)  
+Rendering: [++]  (535.2s|133.8s)  
+Rendering: [++]  (536.2s|134.0s)  
+Rendering: [++]  (537.2s|134.3s)  
+Rendering: [++]  (538.2s|134.6s)  
+Rendering: [++]  (539.2s|134.8s)  
+Rendering: [++]  (540.2s|135.1s)  
+Rendering: [++]  (541.2s|135.3s)  
+Rendering: [++]  (542.2s|135.6s)  
+Rendering: [++]  (543.2s|135.8s)  
+Rendering: [++]  (544.3s|136.1s)  [ tid 4816 @   696.667s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 21
+
+Rendering: [++]  (545.3s|136.3s)  
+Rendering: [++]  (546.3s|136.6s)  
+Rendering: [++]  (547.3s|136.8s)  
+Rendering: [++]  (548.3s|104.4s)  
+Rendering: [++]  (549.3s|104.6s)  
+Rendering: [++]  (550.3s|104.8s)  
+Rendering: [++]  (551.3s|105.0s)  
+Rendering: [++]  (552.3s|105.2s)  
+Rendering: [++]  (553.3s|105.4s)  
+Rendering: [++]  (554.3s|105.6s)  
+Rendering: [++]  (555.4s|105.8s)  
+Rendering: [++]  (556.4s|106.0s)  
+Rendering: [++]  (557.4s|106.2s)  
+Rendering: [++]  (558.4s|106.4s)  
+Rendering: [++]  (559.4s|106.6s)  
+Rendering: [++]  (560.4s|106.7s)  
+Rendering: [++]  (561.4s|106.9s)  
+Rendering: [++]  (562.4s|107.1s)  
+Rendering: [++]  (563.4s|107.3s)  
+Rendering: [++]  (564.4s|107.5s)  
+Rendering: [++]  (565.4s|107.7s)  
+Rendering: [++]  (566.5s|107.9s)  
+Rendering: [++]  (567.5s|108.1s)  
+Rendering: [++]  (568.5s|108.3s)  
+Rendering: [++]  (569.5s|108.5s)  
+Rendering: [++]  (570.5s|108.7s)  [ tid 4816 @   723.002s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 22
+
+Rendering: [++]  (571.5s|108.9s)  
+Rendering: [++]  (572.5s|109.0s)  
+Rendering: [++]  (573.5s|109.2s)  
+Rendering: [++]  (574.5s|78.3s)  
+Rendering: [++]  (575.5s|78.5s)  
+Rendering: [++]  (576.5s|78.6s)  
+Rendering: [++]  (577.5s|78.8s)  
+Rendering: [++]  (578.5s|78.9s)  
+Rendering: [++]  (579.5s|79.0s)  
+Rendering: [++]  (580.5s|79.2s)  
+Rendering: [++]  (581.6s|79.3s)  
+Rendering: [++]  (582.6s|79.4s)  
+Rendering: [++]  (583.6s|79.6s)  
+Rendering: [++]  (584.6s|79.7s)  
+Rendering: [++]  (585.6s|79.9s)  
+Rendering: [++]  (586.6s|80.0s)  
+Rendering: [++]  (587.6s|80.1s)  
+Rendering: [++]  (588.6s|80.3s)  
+Rendering: [++]  (589.6s|80.4s)  
+Rendering: [++]  (590.6s|80.5s)  
+Rendering: [++]  (591.6s|80.7s)  
+Rendering: [++]  (592.7s|80.8s)  
+Rendering: [++]  (593.7s|81.0s)  
+Rendering: [++]  (594.7s|81.1s)  
+Rendering: [++]  (595.7s|81.2s)  [ tid 4816 @   748.822s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 23
+
+Rendering: [++]  (596.7s|81.4s)  
+Rendering: [++]  (597.7s|81.5s)  
+Rendering: [++]  (598.7s|81.6s)  
+Rendering: [++]  (599.7s|81.8s)  
+Rendering: [++]  (600.7s|52.2s)  
+Rendering: [++]  (601.7s|52.3s)  
+Rendering: [++]  (602.7s|52.4s)  
+Rendering: [++]  (603.7s|52.5s)  
+Rendering: [++]  (604.7s|52.6s)  
+Rendering: [++]  (605.8s|52.7s)  
+Rendering: [++]  (606.8s|52.8s)  
+Rendering: [++]  (607.8s|52.8s)  
+Rendering: [++]  (608.8s|52.9s)  
+Rendering: [++]  (609.8s|53.0s)  
+Rendering: [++]  (610.8s|53.1s)  
+Rendering: [++]  (611.8s|53.2s)  
+Rendering: [++]  (612.8s|53.3s)  
+Rendering: [++]  (613.8s|53.4s)  
+Rendering: [++]  (614.8s|53.5s)  
+Rendering: [++]  (615.8s|53.5s)  
+Rendering: [++]  (616.8s|53.6s)  
+Rendering: [++]  (617.8s|53.7s)  
+Rendering: [++]  (618.8s|53.8s)  
+Rendering: [++]  (619.9s|53.9s)  
+Rendering: [++]  (620.9s|54.0s)  
+Rendering: [++]  (621.9s|54.1s)  
+Rendering: [++]  (622.9s|54.2s)  [ tid 4816 @   775.728s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 24
+
+Rendering: [++]  (623.9s|54.3s)  
+Rendering: [++]  (624.9s|54.3s)  
+Rendering: [++]  (625.9s|54.4s)  
+Rendering: [++]  (626.9s|54.5s)  
+Rendering: [++]  (627.9s|26.2s)  
+Rendering: [++]  (628.9s|26.2s)  
+Rendering: [++]  (630.0s|26.2s)  
+Rendering: [++]  (631.0s|26.3s)  
+Rendering: [++]  (632.0s|26.3s)  
+Rendering: [++]  (633.0s|26.4s)  
+Rendering: [++]  (634.0s|26.4s)  
+Rendering: [++]  (635.0s|26.5s)  
+Rendering: [++]  (636.0s|26.5s)  
+Rendering: [++]  (637.0s|26.5s)  
+Rendering: [++]  (638.0s|26.6s)  
+Rendering: [++]  (639.0s|26.6s)  
+Rendering: [++]  (640.1s|26.7s)  
+Rendering: [++]  (641.1s|26.7s)  
+Rendering: [++]  (642.1s|26.8s)  
+Rendering: [++]  (643.1s|26.8s)  
+Rendering: [++]  (644.1s|26.8s)  
+Rendering: [++]  (645.1s|26.9s)  
+Rendering: [++]  (646.1s|26.9s)  
+Rendering: [++]  (647.1s|27.0s)  
+Rendering: [++]  (648.1s|27.0s)  
+Rendering: [++]  (649.1s|27.0s)  
+Rendering: [++]  (650.1s|27.1s)  
+Rendering: [++]  (651.2s|27.1s)  
+Rendering: [++]  (652.2s|27.2s)  
+Rendering: [++]  (653.2s|27.2s)  
+Rendering: [++]  (654.2s)       
+Rendering: [++]  (654.2s)       [ tid 4816 @   806.593s C:\workspace\pbrt-v4\src\pbrt\wavefront\wavefront.cpp:45 ] Total rendering time: 654.181 s
+[ tid 4816 @   806.594s C:\workspace\pbrt-v4\src\pbrt\film.cpp:690 ] Converting image to RGB and computing final weighted pixel values
+[ tid 4816 @   820.002s C:\workspace\pbrt-v4\src\pbrt\film.cpp:684 ] Writing image benchmark-baseline-4070\watercolor\camera-1_4k.exr with bounds [ [ 0, 0 ] - [ 3840, 2160 ] ]
+[ tid 4816 @   820.288s C:\workspace\pbrt-v4\src\pbrt\cmd\pbrt.cpp:290 ] Memory used after post-render cleanup: 7978704896
+[ tid 24604 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 3328 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 12116 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 27920 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 2240 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 25196 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 644 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 29812 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 34216 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 2160 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 32584 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 27732 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 24868 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 33968 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 29140 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 38432 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37964 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 9160 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 36668 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37024 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 23668 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 33912 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 34076 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 33936 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 26732 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 24812 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 26292 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37504 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 27956 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 34640 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37312 @   820.290s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+

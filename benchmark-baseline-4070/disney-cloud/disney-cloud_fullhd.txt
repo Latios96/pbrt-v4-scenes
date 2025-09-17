@@ -1,0 +1,436 @@
+pbrt version 4 (built Sep 17 2025 at 07:55:20)
+Copyright (c)1998-2021 Matt Pharr, Wenzel Jakob, and Greg Humphreys.
+The source code to pbrt (but *not* the book contents) is covered by the Apache 2.0 License.
+See the file LICENSE.txt for the conditions of the license.
+[1m[31mWarning[0m: Both --gpu and --wavefront were specified; --gpu takes precedence.
+[ tid 31136 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 31136 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 30312 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 30312 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 9180 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 9180 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 22152 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 22152 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 32824 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 32824 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 25164 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:41 ] GPU CUDA driver 13.0, CUDA runtime 12.9
+[ tid 33460 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 25164 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:57 ] CUDA device 0 (NVIDIA GeForce RTX 4070 Ti) with 12281.375 MiB, 60 SMs running at 2730 MHz with shader model 8.9
+[ tid 33460 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 25164 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:73 ] Selecting GPU device 0
+[ tid 17712 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 17712 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37632 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37632 @     0.000s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 10916 @     0.000s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 10916 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 19780 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 19780 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37856 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37856 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 10672 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 10672 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 30008 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 30008 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37788 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37788 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37676 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37676 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 25120 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 25120 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 21772 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 21772 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 29872 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 29872 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 8004 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 8004 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 38756 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 38756 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 4896 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 4896 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 34620 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 34620 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 16980 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 16980 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 23376 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 23376 @     0.001s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 20212 @     0.001s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 20212 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37236 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37236 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 37240 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 12956 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 13928 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 37240 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 13928 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 12956 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 11600 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 13752 @     0.002s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:53 ] Started execution in worker thread
+[ tid 11600 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 13752 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:108 ] Selecting GPU device 0
+[ tid 25164 @     0.002s C:\workspace\pbrt-v4\src\pbrt\gpu\util.cpp:89 ] Reset stack size to 8192
+[ tid 25164 @     0.383s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:611 ] Started parsing C:\workspace\pbrt-v4-scenes\disney-cloud\disney-cloud_fullhd.pbrt
+[ tid 25164 @     0.383s C:\workspace\pbrt-v4\src\pbrt\cameras.cpp:50 ] World-space position: [ 648.064, -82.473, -63.856 ]
+[ tid 25164 @     0.383s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:748 ] Starting to create filter and film
+[1m[31mWarning[0m: C:\workspace\pbrt-v4-scenes\disney-cloud\disney-cloud_fullhd.pbrt:5:0: Output filename supplied on command line, "benchmark-baseline-4070\disney-cloud\disney-cloud_fullhd.exr" will override filename provided in scene description file, "disney-cloud-720p.exr".
+[ tid 25164 @     0.384s C:\workspace\pbrt-v4\src\pbrt\util\error.cpp:52 ] [1m[31mWarning[0m: C:\workspace\pbrt-v4-scenes\disney-cloud\disney-cloud_fullhd.pbrt:5:0: Output filename supplied on command line, "benchmark-baseline-4070\disney-cloud\disney-cloud_fullhd.exr" will override filename provided in scene description file, "disney-cloud-720p.exr".
+[ tid 25164 @     0.384s film.h:196 ] Created film with full resolution [ 1920, 1080 ], pixelBounds [ [ 0, 0 ] - [ 1920, 1080 ] ]
+[ tid 25164 @     1.299s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:765 ] Finished creating filter and film
+[ tid 13752 @     1.299s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:769 ] Starting to create sampler
+[ tid 31136 @     1.299s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:778 ] Starting to create camera
+[1m[31mWarning[0m: Non power-of-two sample count 25 will perform suboptimally with the SobolSampler.
+[ tid 13752 @     1.300s C:\workspace\pbrt-v4\src\pbrt\util\error.cpp:52 ] [1m[31mWarning[0m: Non power-of-two sample count 25 will perform suboptimally with the SobolSampler.
+[ tid 31136 @     1.301s C:\workspace\pbrt-v4\src\pbrt\cameras.cpp:197 ] Camera min pos differentials: [ -0, 0, 0 ], [ -0, 0, 0 ]
+[ tid 31136 @     1.301s C:\workspace\pbrt-v4\src\pbrt\cameras.cpp:199 ] Camera min dir differentials: [ 0.0004042387, 0.0000024461187, -5.9604645e-8 ], [ -0.000054180626, 0.0004310564, -5.9604645e-8 ]
+[ tid 31136 @     1.301s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:784 ] Finished creating camera
+[ tid 21772 @     1.301s scene.h:290 ] Retrieved Camera from future
+[ tid 8004 @     1.301s scene.h:290 ] Retrieved Camera from future
+[ tid 25164 @     1.302s C:\workspace\pbrt-v4\src\pbrt\parser.cpp:642 ] Finished parsing C:\workspace\pbrt-v4-scenes\disney-cloud\disney-cloud_fullhd.pbrt
+[ tid 25164 @     1.302s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:839 ] Consume media futures start
+[ tid 13752 @     2.279s C:\workspace\pbrt-v4\src\pbrt\media.cpp:505 ] C:\workspace\pbrt-v4-scenes\disney-cloud\wdas_cloud_quarter.nvdb: found 24063202 "density" voxels
+[ tid 13752 @     2.296s C:\workspace\pbrt-v4\src\pbrt\media.cpp:558 ] Starting nanovdb grid GetMaxDensityGrid()
+[ tid 13752 @     2.342s C:\workspace\pbrt-v4\src\pbrt\media.cpp:618 ] Finished nanovdb grid GetMaxDensityGrid()
+[ tid 25164 @     2.342s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:847 ] Consume media futures finished
+[ tid 25164 @     2.342s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:114 ] Starting to create textures
+[ tid 25164 @     2.342s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1180 ] Starting to consume texture futures
+[ tid 25164 @     2.342s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1192 ] Finished consuming texture futures
+[ tid 25164 @     2.342s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1194 ] Starting to create remaining textures
+[ tid 25164 @     2.342s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1250 ] Done creating textures
+[ tid 25164 @     2.342s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:116 ] Done creating textures
+[ tid 25164 @     2.342s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:118 ] Starting to create lights
+[ tid 25164 @     2.343s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1289 ] Starting area lights
+[ tid 25164 @     2.343s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1341 ] Finished area lights
+[ tid 25164 @     2.343s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1343 ] Starting to consume non-area light futures
+[ tid 25164 @     2.343s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1347 ] Finished consuming non-area light futures
+[ tid 25164 @     2.344s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:131 ] Done creating lights
+[ tid 25164 @     2.344s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:133 ] Starting to create materials
+[ tid 25164 @     2.344s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1113 ] Starting to consume 0 normal map futures
+[ tid 25164 @     2.344s C:\workspace\pbrt-v4\src\pbrt\scene.cpp:1120 ] Finished consuming normal map futures
+[ tid 25164 @     2.344s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:147 ] Finished creating materials
+[ tid 25164 @     2.344s scene.h:290 ] Retrieved Camera from future
+[ tid 25164 @     2.344s scene.h:302 ] Retrieved Sampler from future
+[ tid 25164 @     2.346s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1219 ] Starting OptiX initialization
+[ tid 25164 @     2.448s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1234 ] Optix version 7.6.0 successfully initialized
+[ tid 25164 @     2.470s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1308 ] Warning: use of OPTIX_EXCEPTION_FLAG_DEBUG is deprecated. Use OPTIX_DEVICE_CONTEXT_VALIDATION_MODE_ALL instead.
+Info: Pipeline statistics
+	module(s)                            :     1
+	entry function(s)                    :    19
+	trace call(s)                        :     4
+	continuation callable call(s)        :     0
+	direct callable call(s)              :     0
+	basic block(s) in entry functions    :  3350
+	instruction(s) in entry functions    : 57440
+	non-entry function(s)                :     0
+	basic block(s) in non-entry functions:     0
+	instruction(s) in non-entry functions:     0
+	debug information                    :    no
+
+[ tid 25164 @     2.474s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1364 ] Finished OptiX initialization
+[ tid 25164 @     2.474s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1376 ] Starting to create shapes and acceleration structures
+[ tid 25164 @     2.474s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1384 ] Starting to read PLY meshes
+[ tid 25164 @     2.474s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1387 ] Finished reading PLY meshes
+[ tid 25164 @     2.474s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1435 ] Starting to create IASes for 0 instance definitions
+[ tid 25164 @     2.474s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1493 ] Finished creating IASes for instance definitions
+[ tid 25164 @     2.474s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1497 ] Starting to create 0 OptixInstances
+[ tid 25164 @     2.474s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1537 ] Starting to consume top-level GAS futures
+[ tid 25164 @     2.476s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1548 ] Finished consuming top-level GAS futures
+[ tid 25164 @     2.476s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1614 ] Finished creating OptixInstances
+[ tid 25164 @     2.476s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1618 ] Starting to build top-level IAS
+[ tid 25164 @     2.476s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1628 ] Finished building top-level IAS
+[ tid 25164 @     2.476s C:\workspace\pbrt-v4\src\pbrt\gpu\optix\aggregate.cpp:1630 ] Finished creating shapes and acceleration structures
+[ tid 25164 @     2.476s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:181 ] Starting to create light sampler
+[ tid 25164 @     2.478s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:187 ] Finished creating light sampler
+[ tid 25164 @     2.478s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:275 ] maxQueueSize 1036800
+[ tid 25164 @     2.478s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:277 ] Will render in 2 passes 540 scanlines per pass
+
+[ tid 25164 @     2.769s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:326 ] pathIntegratorBytes 1871446564
+[ tid 25164 @     2.769s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:327 ] bytes per accumulated queue entry is 1805
+[ tid 25164 @     2.769s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 0
+[ tid 25164 @     2.770s gpu/util.h:70 ] [Reset ray queue]: block size 768
+
+Rendering: [  ] 
+Rendering: [  ]  (0.1s|?s)  
+Rendering: [  ]  (0.1s|?s)  [ tid 25164 @     2.917s gpu/util.h:70 ] [Generate camera rays]: block size 512
+[ tid 25164 @     2.917s gpu/util.h:70 ] [Update camera ray stats]: block size 768
+[ tid 25164 @     2.917s gpu/util.h:70 ] [Reset queues before tracing rays]: block size 768
+[ tid 25164 @     2.917s gpu/util.h:70 ] [Generate ray samples - SobolSampler]: block size 768
+[ tid 25164 @     2.918s gpu/util.h:70 ] [Sample medium interaction]: block size 512
+[ tid 25164 @     2.919s gpu/util.h:70 ] [Sample direct/indirect - Henyey-Greenstein]: block size 512
+[ tid 25164 @     2.920s gpu/util.h:70 ] [Handle escaped rays]: block size 512
+[ tid 25164 @     2.920s gpu/util.h:70 ] [Handle emitters hit by indirect rays]: block size 512
+[ tid 25164 @     2.921s gpu/util.h:70 ] [DiffuseMaterial + BxDF eval (Basic tex)]: block size 512
+[ tid 25164 @     2.921s gpu/util.h:70 ] [Reset shadowRayQueue]: block size 768
+[ tid 25164 @     2.921s gpu/util.h:70 ] [Update indirect ray stats]: block size 768
+
+Rendering: [  ]  (0.2s|?s)  
+Rendering: [  ]  (0.2s|?s)  
+Rendering: [  ]  (0.3s|?s)  
+Rendering: [  ]  (0.4s|?s)  
+Rendering: [  ]  (0.4s|?s)  
+Rendering: [  ]  (0.5s|?s)  
+Rendering: [  ]  (0.6s|?s)  [ tid 25164 @     3.342s gpu/util.h:70 ] [Update film]: block size 512
+
+Rendering: [  ]  (0.6s|?s)  
+Rendering: [  ]  (0.7s|?s)  
+Rendering: [  ]  (0.8s|?s)  
+Rendering: [  ]  (0.9s|?s)  
+Rendering: [  ]  (1.1s|?s)  
+Rendering: [  ]  (1.2s|?s)  
+Rendering: [  ]  (1.3s|?s)  
+Rendering: [  ]  (1.4s|?s)  [ tid 25164 @     4.211s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 1
+
+Rendering: [  ]  (1.5s|?s)  
+Rendering: [  ]  (1.6s|38.3s)  
+Rendering: [  ]  (1.7s|40.9s)  
+Rendering: [  ]  (1.8s|43.5s)  
+Rendering: [  ]  (1.9s|46.2s)  
+Rendering: [  ]  (2.0s|48.8s)  
+Rendering: [  ]  (2.1s|51.4s)  
+Rendering: [  ]  (2.3s|54.0s)  
+Rendering: [  ]  (2.4s|56.6s)  
+Rendering: [  ]  (2.5s|59.3s)  
+Rendering: [  ]  (2.6s|61.9s)  
+Rendering: [  ]  (2.7s|64.5s)  
+Rendering: [  ]  (2.8s|67.1s)  [ tid 25164 @     5.659s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 2
+
+Rendering: [  ]  (2.9s|69.7s)  
+Rendering: [  ]  (3.0s|72.3s)  
+Rendering: [  ]  (3.1s|35.9s)  
+Rendering: [  ]  (3.2s|37.1s)  
+Rendering: [  ]  (3.3s|38.4s)  
+Rendering: [  ]  (3.4s|39.6s)  
+Rendering: [  ]  (3.6s|40.9s)  
+Rendering: [  ]  (3.7s|42.1s)  
+Rendering: [  ]  (3.8s|43.4s)  
+Rendering: [  ]  (3.9s|44.6s)  
+Rendering: [  ]  (4.0s|45.9s)  
+Rendering: [  ]  (4.1s|47.2s)  
+Rendering: [  ]  (4.2s|48.4s)  
+Rendering: [  ]  (4.3s|49.6s)  [ tid 25164 @     7.102s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 3
+
+Rendering: [  ]  (4.4s|50.9s)  
+Rendering: [  ]  (4.5s|33.2s)  
+Rendering: [  ]  (4.6s|34.0s)  
+Rendering: [  ]  (4.8s|34.8s)  
+Rendering: [  ]  (4.9s|35.6s)  
+Rendering: [  ]  (5.0s|36.4s)  
+Rendering: [  ]  (5.1s|37.2s)  
+Rendering: [  ]  (5.2s|38.0s)  
+Rendering: [  ]  (5.3s|38.8s)  
+Rendering: [  ]  (5.4s|39.6s)  
+Rendering: [  ]  (5.5s|40.4s)  
+Rendering: [  ]  (5.6s|41.2s)  
+Rendering: [  ]  (5.7s|42.0s)  [ tid 25164 @     8.547s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 4
+
+Rendering: [  ]  (5.8s|42.8s)  
+Rendering: [  ]  (5.9s|31.2s)  
+Rendering: [  ]  (6.1s|31.8s)  
+Rendering: [  ]  (6.2s|32.4s)  
+Rendering: [  ]  (6.3s|32.9s)  
+Rendering: [  ]  (6.4s|33.5s)  
+Rendering: [  ]  (6.5s|34.1s)  
+Rendering: [  ]  (6.6s|34.7s)  
+Rendering: [  ]  (6.7s|35.2s)  
+Rendering: [  ]  (6.8s|35.8s)  
+Rendering: [  ]  (6.9s|36.4s)  
+Rendering: [  ]  (7.0s|37.0s)  
+Rendering: [  ]  (7.1s|37.5s)  [ tid 25164 @     9.995s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 5
+
+Rendering: [  ]  (7.3s|38.6s)  
+Rendering: [  ]  (7.5s|30.2s)  
+Rendering: [  ]  (7.8s|31.0s)  
+Rendering: [  ]  (8.0s|31.8s)  
+Rendering: [  ]  (8.2s|32.6s)  
+Rendering: [  ]  (8.4s|33.4s)  
+Rendering: [  ]  (8.6s|34.2s)  [ tid 25164 @    11.439s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 6
+
+Rendering: [  ]  (8.8s|35.1s)  
+Rendering: [  ]  (9.0s|28.4s)  
+Rendering: [  ]  (9.2s|29.0s)  
+Rendering: [  ]  (9.4s|29.7s)  
+Rendering: [  ]  (9.6s|30.3s)  
+Rendering: [  ]  (9.8s|30.9s)  
+Rendering: [  ]  (10.0s|31.6s)  [ tid 25164 @    12.868s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 7
+
+Rendering: [  ]  (10.2s|32.2s)  
+Rendering: [+ ]  (10.4s|26.7s)  
+Rendering: [+ ]  (10.6s|27.2s)  
+Rendering: [+ ]  (10.8s|27.7s)  
+Rendering: [+ ]  (11.0s|28.2s)  
+Rendering: [+ ]  (11.2s|28.8s)  
+Rendering: [+ ]  (11.4s|29.3s)  [ tid 25164 @    14.310s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 8
+
+Rendering: [+ ]  (11.6s|29.8s)  
+Rendering: [+ ]  (11.8s|25.1s)  
+Rendering: [+ ]  (12.0s|25.5s)  
+Rendering: [+ ]  (12.2s|25.9s)  
+Rendering: [+ ]  (12.4s|26.3s)  
+Rendering: [+ ]  (12.6s|26.8s)  
+Rendering: [+ ]  (12.8s|27.2s)  [ tid 25164 @    15.727s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 9
+
+Rendering: [+ ]  (13.0s|27.6s)  
+Rendering: [+ ]  (13.2s|23.5s)  
+Rendering: [+ ]  (13.4s|23.8s)  
+Rendering: [+ ]  (13.6s|24.2s)  
+Rendering: [+ ]  (13.8s|24.6s)  
+Rendering: [+ ]  (14.0s|24.9s)  
+Rendering: [+ ]  (14.2s|25.3s)  [ tid 25164 @    17.170s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 10
+
+Rendering: [+ ]  (14.4s|25.7s)  
+Rendering: [+ ]  (14.6s|22.0s)  
+Rendering: [+ ]  (14.8s|22.3s)  
+Rendering: [+ ]  (15.1s|22.6s)  
+Rendering: [+ ]  (15.3s|22.9s)  
+Rendering: [+ ]  (15.5s|23.2s)  
+Rendering: [+ ]  (15.7s|23.5s)  [ tid 25164 @    18.603s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 11
+
+Rendering: [+ ]  (15.9s|23.8s)  
+Rendering: [+ ]  (16.1s|20.5s)  
+Rendering: [+ ]  (16.3s|20.7s)  
+Rendering: [+ ]  (16.5s|21.0s)  
+Rendering: [+ ]  (16.7s|21.3s)  
+Rendering: [+ ]  (16.9s|21.5s)  
+Rendering: [+ ]  (17.1s|21.8s)  [ tid 25164 @    20.047s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 12
+
+Rendering: [+ ]  (17.3s|22.0s)  
+Rendering: [+ ]  (17.5s|19.0s)  
+Rendering: [+ ]  (17.7s|19.2s)  
+Rendering: [+ ]  (17.9s|19.4s)  
+Rendering: [+ ]  (18.1s|19.6s)  
+Rendering: [+ ]  (18.3s|19.8s)  
+Rendering: [+ ]  (18.5s|20.1s)  
+Rendering: [+ ]  (18.7s|20.3s)  [ tid 25164 @    21.487s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 13
+
+Rendering: [+ ]  (18.9s|17.5s)  
+Rendering: [+ ]  (19.1s|17.7s)  
+Rendering: [+ ]  (19.3s|17.8s)  
+Rendering: [+ ]  (19.5s|18.0s)  
+Rendering: [+ ]  (19.7s|18.2s)  
+Rendering: [+ ]  (19.9s|18.4s)  
+Rendering: [+ ]  (20.1s|18.6s)  [ tid 25164 @    22.936s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 14
+
+Rendering: [+ ]  (20.3s|16.0s)  
+Rendering: [+ ]  (20.5s|16.1s)  
+Rendering: [+ ]  (20.7s|16.3s)  
+Rendering: [+ ]  (21.0s|16.5s)  
+Rendering: [+ ]  (21.2s|16.6s)  
+Rendering: [+ ]  (21.4s|16.8s)  
+Rendering: [+ ]  (21.6s|16.9s)  [ tid 25164 @    24.376s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 15
+
+Rendering: [+ ]  (21.8s|14.5s)  
+Rendering: [+ ]  (22.0s|14.6s)  
+Rendering: [+ ]  (22.2s|14.8s)  
+Rendering: [+ ]  (22.4s|14.9s)  
+Rendering: [+ ]  (22.6s|15.0s)  
+Rendering: [+ ]  (22.8s|15.2s)  
+Rendering: [+ ]  (23.0s|15.3s)  [ tid 25164 @    25.808s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 16
+
+Rendering: [+ ]  (23.2s|15.5s)  
+Rendering: [+ ]  (23.4s|13.2s)  
+Rendering: [+ ]  (23.6s|13.3s)  
+Rendering: [+ ]  (23.8s|13.4s)  
+Rendering: [+ ]  (24.0s|13.5s)  
+Rendering: [+ ]  (24.2s|13.6s)  
+Rendering: [+ ]  (24.4s|13.7s)  [ tid 25164 @    27.251s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 17
+
+Rendering: [+ ]  (24.6s|13.8s)  
+Rendering: [+ ]  (24.8s|11.7s)  
+Rendering: [+ ]  (25.0s|11.8s)  
+Rendering: [+ ]  (25.2s|11.9s)  
+Rendering: [+ ]  (25.4s|12.0s)  
+Rendering: [+ ]  (25.6s|12.0s)  
+Rendering: [+ ]  (25.8s|12.1s)  [ tid 25164 @    28.683s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 18
+
+Rendering: [+ ]  (26.0s|12.2s)  
+Rendering: [+ ]  (26.2s|10.2s)  
+Rendering: [+ ]  (26.4s|10.3s)  
+Rendering: [+ ]  (26.6s|10.3s)  
+Rendering: [+ ]  (26.8s|10.4s)  
+Rendering: [+ ]  (27.0s|10.5s)  
+Rendering: [+ ]  (27.2s|10.6s)  [ tid 25164 @    30.127s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 19
+
+Rendering: [+ ]  (27.4s|10.7s)  
+Rendering: [++]  (27.6s|8.7s)  
+Rendering: [++]  (27.8s|8.8s)  
+Rendering: [++]  (28.0s|8.9s)  
+Rendering: [++]  (28.2s|8.9s)  
+Rendering: [++]  (28.4s|9.0s)  
+Rendering: [++]  (28.6s|9.0s)  [ tid 25164 @    31.575s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 20
+
+Rendering: [++]  (28.8s|9.1s)  
+Rendering: [++]  (29.0s|7.3s)  
+Rendering: [++]  (29.2s|7.3s)  
+Rendering: [++]  (29.4s|7.4s)  
+Rendering: [++]  (29.6s|7.4s)  
+Rendering: [++]  (29.8s|7.5s)  
+Rendering: [++]  (30.0s|7.5s)  
+Rendering: [++]  (30.3s|7.6s)  [ tid 25164 @    33.022s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 21
+
+Rendering: [++]  (30.5s|5.8s)  
+Rendering: [++]  (30.7s|5.8s)  
+Rendering: [++]  (30.9s|5.9s)  
+Rendering: [++]  (31.1s|5.9s)  
+Rendering: [++]  (31.3s|6.0s)  
+Rendering: [++]  (31.5s|6.0s)  
+Rendering: [++]  (31.7s|6.0s)  [ tid 25164 @    34.447s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 22
+
+Rendering: [++]  (31.9s|4.3s)  
+Rendering: [++]  (32.1s|4.4s)  
+Rendering: [++]  (32.3s|4.4s)  
+Rendering: [++]  (32.5s|4.4s)  
+Rendering: [++]  (32.7s|4.5s)  
+Rendering: [++]  (32.9s|4.5s)  
+Rendering: [++]  (33.1s|4.5s)  [ tid 25164 @    35.886s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 23
+
+Rendering: [++]  (33.3s|2.9s)  
+Rendering: [++]  (33.5s|2.9s)  
+Rendering: [++]  (33.7s|2.9s)  
+Rendering: [++]  (33.9s|3.0s)  
+Rendering: [++]  (34.1s|3.0s)  
+Rendering: [++]  (34.3s|3.0s)  
+Rendering: [++]  (34.5s|3.0s)  [ tid 25164 @    37.327s C:\workspace\pbrt-v4\src\pbrt\wavefront\integrator.cpp:395 ] Starting to submit work for sample 24
+
+Rendering: [++]  (34.7s|1.4s)  
+Rendering: [++]  (34.9s|1.5s)  
+Rendering: [++]  (35.1s|1.5s)  
+Rendering: [++]  (35.3s|1.5s)  
+Rendering: [++]  (35.6s|1.5s)  
+Rendering: [++]  (35.8s|1.5s)  
+Rendering: [++]  (36.0s|1.5s)  
+Rendering: [++]  (36.2s)       
+Rendering: [++]  (36.2s)       [ tid 25164 @    38.954s C:\workspace\pbrt-v4\src\pbrt\wavefront\wavefront.cpp:45 ] Total rendering time: 36.185 s
+[ tid 25164 @    38.955s C:\workspace\pbrt-v4\src\pbrt\film.cpp:535 ] Converting image to RGB and computing final weighted pixel values
+[ tid 25164 @    39.860s C:\workspace\pbrt-v4\src\pbrt\film.cpp:529 ] Writing image benchmark-baseline-4070\disney-cloud\disney-cloud_fullhd.exr with bounds [ [ 0, 0 ] - [ 1920, 1080 ] ]
+[ tid 25164 @    39.878s C:\workspace\pbrt-v4\src\pbrt\cmd\pbrt.cpp:290 ] Memory used after post-render cleanup: 604397568
+[ tid 32824 @    39.879s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37676 @    39.879s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 33460 @    39.879s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 13752 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 23376 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 10672 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 31136 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37240 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 4896 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 11600 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 29872 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37788 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 38756 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 17712 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 19780 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 34620 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 10916 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 25120 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 9180 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 8004 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37856 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 16980 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 21772 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37236 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 30008 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 13928 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 22152 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 30312 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 20212 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 37632 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+[ tid 12956 @    39.880s C:\workspace\pbrt-v4\src\pbrt\util\parallel.cpp:63 ] Exiting worker thread
+
