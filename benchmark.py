@@ -13,10 +13,7 @@ class Scene:
 
 
 scenes: List[Scene] = [
-    Scene(
-        "pbrt-book",
-        "book",
-    ),
+    Scene("pbrt-book", "book"),
     Scene("landscape", "view-0"),
     Scene("watercolor", "camera-1", 256),
     Scene("disney-cloud", "disney-cloud", 256),
