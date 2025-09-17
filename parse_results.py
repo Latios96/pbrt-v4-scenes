@@ -14,7 +14,6 @@ class Result:
     resolution: str
     rendertime_seconds: float
     max_queue_size: int
-    spp: int
     estimated_bytes_of_one_sample_in_all_queues: int
     real_bytes_of_one_sample_in_all_queues: int
     device: str
@@ -85,7 +84,6 @@ def parse_log_file(run_name: str, scene_name: str, log_file: Path):
         run_name=run_name,
         scene_name=scene_name,
         resolution=resolution,
-        spp=16,
         rendertime_seconds=render_time,
         max_queue_size=max_queue_size,
         estimated_bytes_of_one_sample_in_all_queues=estimated_bytes_of_one_sample_in_all_queues,
@@ -133,8 +131,10 @@ class Report:
             "estimated size", "estimated_bytes_of_one_sample_in_all_queues"
         )
         self.append_scalar("real size", "real_bytes_of_one_sample_in_all_queues")
-        self.append_difference("max queue size", "max_queue_size")
-        self.append_difference("render time", "rendertime_seconds")
+        self.append_difference(
+            "max queue size", "max_queue_size", " byte", growing=True
+        )
+        self.append_difference("render time", "rendertime_seconds", "s")
 
     def append_scalar(self, display_name: str, attr_name: str):
         i = 0
@@ -142,32 +142,31 @@ class Report:
         for scene_name in self.scene_names:
             for resolution in self.resolutions:
                 old = getattr(
-                    self.baseline_run.select(scene_name, resolution), attr_name
+                    self.improved_run.select(scene_name, resolution), attr_name
                 )
                 self.rows[i].append(old)
                 i += 1
 
     def append_difference(
-        self,
-        display_name: str,
-        attr_name: str,
+        self, display_name: str, attr_name: str, unit: str, growing: bool = False
     ):
         i = 0
         self.headers.append(f"{display_name} baseline")
         self.headers.append(f"{display_name} improved")
-        self.headers.append(f"improvement %")
+        self.headers.append(f"improvement")
         for scene_name in self.scene_names:
             for resolution in self.resolutions:
                 old = getattr(
                     self.baseline_run.select(scene_name, resolution), attr_name
                 )
-                self.rows[i].append(old)
+                self.rows[i].append(f"{old}{unit}")
                 new = getattr(
                     self.improved_run.select(scene_name, resolution), attr_name
                 )
-                self.rows[i].append(new)
+                self.rows[i].append(f"{new}{unit}")
                 if old is not None and new is not None:
-                    self.rows[i].append(round((old - new) / old * 100, 2))
+                    value = round((new - old if growing else old - new) / old * 100, 2)
+                    self.rows[i].append(f"{value}%")
                 else:
                     self.rows[i].append(None)
                 i += 1
@@ -191,18 +190,24 @@ def collect_resolutions(run_results: List[RunResult]) -> List[str]:
 
 def main():
     root = Path(__file__).parent
-    baseline_folder = Path(root / "benchmark-baseline-3080")
-    improved_folder = Path(root / "benchmark-improved-3080")
 
-    baseline_run_result = parse_folder(baseline_folder)
-    improved_run_result = parse_folder(improved_folder)
+    for card in ["3080", "4070", "A6000"]:
+        baseline_folder = Path(root / f"benchmark-baseline-{card}")
+        improved_folder = Path(root / f"benchmark-improved-{card}")
 
-    scene_names = collect_scene_names([baseline_run_result, improved_run_result])
-    resolutions = collect_resolutions([baseline_run_result, improved_run_result])
+        baseline_run_result = parse_folder(baseline_folder)
+        improved_run_result = parse_folder(improved_folder)
 
-    report = Report(scene_names, resolutions, baseline_run_result, improved_run_result)
-    report.generate()
-    print(tabulate(report.rows, headers=report.headers))
+        print(f"\n{improved_run_result.results[0].device}\n")
+
+        scene_names = collect_scene_names([baseline_run_result, improved_run_result])
+        resolutions = collect_resolutions([baseline_run_result, improved_run_result])
+
+        report = Report(
+            scene_names, resolutions, baseline_run_result, improved_run_result
+        )
+        report.generate()
+        print(tabulate(report.rows, headers=report.headers))
 
 
 if __name__ == "__main__":
